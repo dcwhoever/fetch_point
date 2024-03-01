@@ -122,59 +122,33 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
+  name: 12|美国洛杉矶|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 148.135.47.226
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.79166580.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: '12|美国洛杉矶|Github搜索TrojanLinks #1'
+  network: ws
+  port: '38000'
+  server: 38.48.141.211
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.83429197.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
-  network: ws
-  port: '36000'
-  server: 38.14.121.167
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.19414772.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
-  network: ws
-  port: '37000'
-  server: 38.38.148.235
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.88186618.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
-  network: ws
-  port: '37000'
-  server: 198.2.219.247
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.41912208.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
-  network: ws
-  port: '37000'
-  server: 198.2.203.113
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.43537463.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #4'
   network: ws
   port: '37000'
   server: 142.0.142.125
@@ -190,78 +164,52 @@ proxies:
   name: 12|美国西雅圖|Github搜索TrojanLinks
   network: ws
   port: 443
-  server: 172.111.57.194
+  server: 172.111.57.130
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.88166954.xyz
+      Host: www.88268904.xyz
     path: /path/271624282113
 - alterId: 64
   cipher: auto
-  name: '12|美国西雅圖|Github搜索TrojanLinks #1'
+  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
   network: ws
-  port: 443
-  server: 172.111.57.98
+  port: '38000'
+  server: 142.4.104.162
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.53136553.xyz
+      Host: www.87140386.xyz
     path: /path/271624282113
 - alterId: 64
   cipher: auto
-  name: '12|美国西雅圖|Github搜索TrojanLinks #2'
+  name: '12|美国洛杉矶|Github搜索TrojanLinks #2'
   network: ws
-  port: 443
-  server: 172.111.57.162
+  port: '30000'
+  server: 148.135.9.163
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.11886159.xyz
+      Host: www.69555583.xyz
     path: /path/271624282113
 - alterId: 64
   cipher: auto
-  name: 12|美国庫卡蒙格牧場|Github搜索TrojanLinks
-  network: ws
-  port: 443
-  server: 104.156.141.230
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.53649262.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #5'
+  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
   network: ws
   port: '37000'
-  server: 137.175.5.116
+  server: 198.2.219.247
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.99555130.xyz
-    path: /path/271624282113
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #6'
-  network: ws
-  port: '37000'
-  server: 38.38.181.227
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.60184527.xyz
+      Host: www.41912208.xyz
     path: /path/271624282113
 - alterId: 0
   cipher: auto
@@ -272,7 +220,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
+  uuid: e2c87393-3532-4b79-a907-ce670c3df918
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -282,7 +230,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
+  uuid: e2c87393-3532-4b79-a907-ce670c3df918
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -292,83 +240,106 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
+  uuid: e2c87393-3532-4b79-a907-ce670c3df918
 - alterId: 0
   cipher: auto
-  name: 14,16|加拿大 188
+  name: 14|美国 CloudFlare节点
   network: ws
   port: 80
-  server: 104.21.225.136
+  server: 172.67.253.158
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #3'
+  network: ws
+  port: '80'
+  server: 172.67.253.221
   servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: a.prapt5.ir
-    path: /
+      Host: my1.tooters.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '14|美国 CloudFlare节点 #1'
+  name: '14,16|美国【TG：@ccbaohe】定时更新节点订阅 #1'
   network: ws
   port: '80'
-  server: us65.netfilx.live
+  server: 172.67.253.105
   servername: ''
   tls: false
   type: vmess
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: my1.tooters.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '14,15|github.com/freefq - 美国CloudFla... #1'
+  name: '14|美国 CloudFlare节点 #5'
   network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
+  port: 80
+  server: 172.67.253.31
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
-    path: /
+      Host: my1.tooters.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '14|美国 CloudFlare节点 #3'
+  name: '14|美国 CloudFlare节点 #6'
   network: ws
-  port: '2052'
-  server: 104.21.30.249
+  port: '8080'
+  server: 162.159.136.253
   servername: ''
   tls: false
   type: vmess
-  uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
   ws-opts:
     headers:
-      Host: 237f1c11e3e9e373.Tiderace.gately.info
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|日本2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
-  ws-opts:
-    headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
+      Host: xentain.kmoljklj.top
+    path: /7bFcoRZS?ed=2048
 - alterId: 0
   cipher: auto
   name: '14|美国 CloudFlare节点 #7'
+  network: ws
+  port: '80'
+  server: 172.67.253.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #8'
+  network: ws
+  port: '8080'
+  server: 104.17.123.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  ws-opts:
+    headers:
+      Host: pq.kmoljklj.top
+    path: /qZTtpya?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #9'
   network: ws
   port: 8080
   server: de-01.cloudlion.me
@@ -389,6 +360,20 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14,15|github.com/freefq - 美国CloudFla... #1'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -886,20 +871,6 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: '16|美国【TG：@ccbaohe】定时更新节点订阅 #1'
-  network: ws
-  port: '80'
-  server: 172.67.253.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|🇺🇸|US|美国|@wxgqlfx|119
@@ -2828,7 +2799,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
+  uuid: 3429772d-7090-4804-b448-6ef9a0516219
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -2838,7 +2809,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
+  uuid: 3429772d-7090-4804-b448-6ef9a0516219
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -2848,7 +2819,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
+  uuid: 3429772d-7090-4804-b448-6ef9a0516219
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇺🇸 美国|@ripaojiedian

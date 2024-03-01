@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_8
+  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_8
   network: ws
   port: 80
   server: 104.24.208.37
@@ -28,10 +28,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_6
+  name: 0,3,4,8,9,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_6
   network: ws
   port: 80
   server: 104.21.69.44
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -67,7 +68,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
+  name: 0,3,4,8,9,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
   network: ws
   port: 80
   server: 104.20.231.30
@@ -93,11 +94,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,14,20,24|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
+  name: 0,3,4,8,9,20,24|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
-  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
