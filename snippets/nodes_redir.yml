@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_6_由快嘴科技提供：k...
+  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: 104.22.51.162
@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #4'
+  name: 0,3,4,8,9,14,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_8
   network: ws
   port: 80
   server: 104.24.208.37
@@ -28,7 +28,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #2'
+  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_6
   network: ws
   port: 80
   server: 104.21.69.44
@@ -54,7 +54,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #7'
+  name: 0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_7_23
   network: ws
   port: 80
   server: 104.16.77.74
@@ -67,7 +67,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_4_由快嘴科技提供：k...
   network: ws
   port: 80
   server: 104.20.231.30
@@ -80,7 +80,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_4
+  name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -93,7 +93,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_32
+  name: 0,3,4,8,9,14,20,24|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -107,7 +107,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #8'
+  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_8_24
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
@@ -120,7 +120,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #9'
+  name: 0,3,4,8,9,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_6_20
   network: ws
   port: 80
   server: 172.67.253.230
@@ -817,7 +817,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '16,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #5'
+  name: '16|🇺🇸_US_美国->🇩🇪_DE_德国 #70'
   network: ws
   port: 80
   server: 172.67.253.194
@@ -999,164 +999,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇨🇳_CN_中国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-  network: tcp
-  port: 16009
-  server: bgp1.ktyyun.com
-  tls: false
-  type: vmess
-  uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_2_6
-  network: ws
-  port: 80
-  server: 172.67.253.221
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_4_9
-  network: ws
-  port: 80
-  server: 172.67.253.31
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-  network: tcp
-  port: 53004
-  server: torni-e.svetovy.cloud
-  tls: true
-  type: vmess
-  uuid: e12d68e6-7859-3708-9258-127aabc4d351
-- alterId: 0
-  cipher: auto
   name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_5_由快嘴科技提供：k...
   network: ws
-  port: 80
-  server: 172.67.253.71
+  port: 8080
+  server: de-01.cloudlion.me
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
   ws-opts:
     headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_7_由快嘴科技提供：k...
-  network: ws
-  port: 80
-  server: 172.67.253.158
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 24|🇨🇳_CN_中国->🇬🇧_GB_英国_2_由快嘴科技提供：k...
-  network: tcp
-  port: 43526
-  server: 112.28.208.19
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 2
-  cipher: auto
-  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_2_2由快嘴科技提供：...
-  network: tcp
-  port: 21015
-  server: torni-d.svetovy.cloud
-  tls: true
-  type: vmess
-  uuid: e12d68e6-7859-3708-9258-127aabc4d351
-- alterId: 2
-  cipher: auto
-  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_3_22
-  network: tcp
-  port: 11007
-  server: komeetta-f.uraqpachan.xyz
-  tls: true
-  type: vmess
-  uuid: e12d68e6-7859-3708-9258-127aabc4d351
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_8_23
-  network: ws
-  port: 80
-  server: 104.21.226.251
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
+      Host: de-01.cloudlion.me
     path: /
-- alterId: 2
-  cipher: auto
-  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_4_28
-  network: tcp
-  port: 10802
-  server: torni-b.svetovy.cloud
-  tls: true
-  type: vmess
-  uuid: e12d68e6-7859-3708-9258-127aabc4d351
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_9_3由快嘴科技提供：...
-  network: ws
-  port: 80
-  server: 172.67.253.134
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
-  network: ws
-  port: 80
-  server: 172.67.253.243
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_5_34
-  network: tcp
-  port: 11008
-  server: komeetta-a.uraqpachan.xyz
-  tls: true
-  type: vmess
-  uuid: e12d68e6-7859-3708-9258-127aabc4d351
-- alterId: 2
-  cipher: auto
-  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_6_48
-  network: tcp
-  port: 19501
-  server: torni-c.svetovy.cloud
-  tls: true
-  type: vmess
-  uuid: e12d68e6-7859-3708-9258-127aabc4d351
