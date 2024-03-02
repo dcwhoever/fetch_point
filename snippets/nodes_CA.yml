@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2882a5ef-c366-4ef7-859f-8a285225cd68
+  uuid: 14846c81-eb61-4cf2-b80c-ca5a069603da
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -132,19 +132,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇦 加拿大 005
-  network: ws
-  port: '8080'
-  server: www.ywnouvbale.biz
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|加拿大 022
   network: ws
   port: 80
@@ -169,6 +156,19 @@ proxies:
   ws-opts:
     headers:
       Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🇨🇦 加拿大 003
+  network: ws
+  port: '2052'
+  server: 104.21.30.249
+  tls: false
+  type: vmess
+  uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5
+  ws-opts:
+    headers:
+      Host: 237f1c11e3e9e373.Tiderace.gately.info
     path: /
 - alterId: 0
   cipher: auto
@@ -268,9 +268,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇦 加拿大 041
+  name: 16,24|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com4
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.226.251
   tls: false
   type: vmess
@@ -314,4 +314,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 45e001cf-62b9-48de-81f8-750a072700c3
+  uuid: 97efeccf-59f9-4a9f-a4e1-727df8c97f39
