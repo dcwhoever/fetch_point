@@ -13,6 +13,19 @@ proxies:
     headers:
       Host: ''
     path: /aaaaa
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港1丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 104.18.15.147
+  tls: false
+  type: vmess
+  uuid: 1ab87e92-660a-4fd7-b0ef-ee34675f1e17
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -45,6 +58,19 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇫🇮 芬兰|@ripaojiedian
+  password: 01bf864c-b3e9-4c5c-a0ca-c283225bc0e1
+  port: 17425
+  server: 95.216.158.77
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bd8b1a7-244e-40b1-8686-e262c2cb239f
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
