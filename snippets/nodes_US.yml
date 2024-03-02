@@ -272,7 +272,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 05d15c55-953f-41d3-ad9b-9974024f1543
+  uuid: b551b884-3d10-4d2f-90d9-917aac50805f
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -282,7 +282,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 05d15c55-953f-41d3-ad9b-9974024f1543
+  uuid: b551b884-3d10-4d2f-90d9-917aac50805f
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -292,7 +292,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 05d15c55-953f-41d3-ad9b-9974024f1543
+  uuid: b551b884-3d10-4d2f-90d9-917aac50805f
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -2851,7 +2851,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 59a5f897-4a39-43a8-a680-a2e889f6559f
+  uuid: e33438e0-538d-4115-95d7-64361b5b63a2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -2861,7 +2861,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 59a5f897-4a39-43a8-a680-a2e889f6559f
+  uuid: e33438e0-538d-4115-95d7-64361b5b63a2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -2871,7 +2871,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 59a5f897-4a39-43a8-a680-a2e889f6559f
+  uuid: e33438e0-538d-4115-95d7-64361b5b63a2
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇺🇸 美国|@ripaojiedian
@@ -2935,32 +2935,84 @@ proxies:
   name: 21|baipaovpn美国
   network: ws
   port: '80'
-  server: 165.232.78.169
+  server: 172.64.130.100
   servername: ''
   tls: false
   type: vmess
-  uuid: 22b502a4-0886-4c97-9538-49faa23d2912
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: ca22.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn美国 #1'
   network: ws
   port: '80'
-  server: 129.213.25.87
+  server: 104.18.15.151
   servername: ''
   tls: false
   type: vmess
-  uuid: 491a3df6-e24e-48ba-bcb5-449d1ae1a776
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
   ws-opts:
     headers:
-      Host: ''
-    path: /vmess
+      Host: us3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_18
+  name: '21|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 104.18.15.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: us3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 104.18.154.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: us3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #4'
+  network: ws
+  port: '19344'
+  server: 192.18.135.210
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac9dd407-d053-4c67-e44e-31d6a5833ff4
+  ws-opts:
+    headers:
+      Host: xray.cheeshon.cyou
+    path: /ac9dd407
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #5'
+  network: tcp
+  port: '8880'
+  server: 64.226.69.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7c922edc-eb50-4a26-88f9-1ff3904248fa
+- alterId: 0
+  cipher: auto
+  name: 23|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_18
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
