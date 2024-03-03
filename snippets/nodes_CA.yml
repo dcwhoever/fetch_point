@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 300c28f5-d97b-4bdc-8dc3-f9ddd495d14e
+  uuid: c40def5d-bfe8-4cc2-a734-2bc4f4d9036d
 - alterId: 0
   cipher: auto
   name: 16|加拿大 024
@@ -78,20 +78,6 @@ proxies:
     headers:
       Host: eu3.openxai.link
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 042
-  network: ws
-  port: 8080
-  server: 104.21.46.66
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.ywnouvbale.biz
-    path: /
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -347,4 +333,18 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68f19e0b-bb04-45a1-a73e-d5630c87cfe5
+  uuid: 407fa2c5-0f9d-4a8c-809e-39b2cc7624a9
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn加拿大安大略省多伦多
+  network: ws
+  port: '21859'
+  server: 149.248.3.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa6671a6-ad1b-468f-aa33-2f0faf587ec4
+  ws-opts:
+    headers:
+      Host: www.tmall.com
+    path: /live/UKPZrSI3K7dtNJmn
