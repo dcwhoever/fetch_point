@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b88e04a-0cf8-4787-84de-738edf34e488
+  uuid: 300c28f5-d97b-4bdc-8dc3-f9ddd495d14e
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b88e04a-0cf8-4787-84de-738edf34e488
+  uuid: 300c28f5-d97b-4bdc-8dc3-f9ddd495d14e
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b88e04a-0cf8-4787-84de-738edf34e488
+  uuid: 300c28f5-d97b-4bdc-8dc3-f9ddd495d14e
 - alterId: 0
   cipher: auto
   name: 16|10M  新加坡
@@ -41,20 +41,6 @@ proxies:
   uuid: 1e1a3389-8ef6-411d-dc3c-17bee9fd19e7
 - alterId: 0
   cipher: auto
-  name: 16|新加坡 Amazon数据中心
-  network: ws
-  port: '443'
-  server: hkcft01.xqc.best
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 10625ba4-c22a-4255-9ab3-894a896b8bde
-  ws-opts:
-    headers:
-      Host: d21rv6uz6osjkz.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -62,7 +48,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4019cd6a-64d7-48e8-a59d-850d19f230f9
+  uuid: 68f19e0b-bb04-45a1-a73e-d5630c87cfe5
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -72,7 +58,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4019cd6a-64d7-48e8-a59d-850d19f230f9
+  uuid: 68f19e0b-bb04-45a1-a73e-d5630c87cfe5
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -82,7 +68,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4019cd6a-64d7-48e8-a59d-850d19f230f9
+  uuid: 68f19e0b-bb04-45a1-a73e-d5630c87cfe5
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡2|@ripaojiedian
