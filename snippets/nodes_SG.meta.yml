@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a63d30e9-24fd-446b-8c5d-ba92759b9bb1
+  uuid: ac19e75b-3fe4-43eb-8e29-97e99cf59d39
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a63d30e9-24fd-446b-8c5d-ba92759b9bb1
+  uuid: ac19e75b-3fe4-43eb-8e29-97e99cf59d39
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a63d30e9-24fd-446b-8c5d-ba92759b9bb1
+  uuid: ac19e75b-3fe4-43eb-8e29-97e99cf59d39
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NONE 🇸🇬 SG-146.190.97....
@@ -53,10 +53,11 @@ proxies:
   uuid: ea431b9c-d733-4d6f-e5a6-be000b4a8a33
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-NONE 🇸🇬 SG-47.236.117....
+  name: 16,21|baipaovpn美国
   network: ws
-  port: 41888
+  port: '41888'
   server: 47.236.117.53
+  servername: ''
   tls: false
   type: vmess
   uuid: 5fb66f8d-115a-47df-db42-32a31563cdbb
@@ -66,16 +67,6 @@ proxies:
     path: /sadf
 - alterId: 0
   cipher: auto
-  name: 16,21|baipaovpn中国
-  network: tcp
-  port: '57035'
-  server: 8.222.154.110
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 25ffd892-0ebf-4e29-98c5-dfba88fd714c
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -83,7 +74,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15e87e4d-02b9-4971-8a4c-ab5a5b0db5c8
+  uuid: 098ff49a-d0af-4d14-9f7c-367bb1d69cc4
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -93,7 +84,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15e87e4d-02b9-4971-8a4c-ab5a5b0db5c8
+  uuid: 098ff49a-d0af-4d14-9f7c-367bb1d69cc4
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -103,7 +94,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 15e87e4d-02b9-4971-8a4c-ab5a5b0db5c8
+  uuid: 098ff49a-d0af-4d14-9f7c-367bb1d69cc4
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
