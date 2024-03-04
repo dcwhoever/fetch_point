@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c250541-a21e-48a3-8922-b604de62db2b
+  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c250541-a21e-48a3-8922-b604de62db2b
+  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,20 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c250541-a21e-48a3-8922-b604de62db2b
-- alterId: 0
-  cipher: auto
-  name: 16|SG_youtube@资源分享师_6
-  network: ws
-  port: 80
-  server: sg04.beitai.online
-  tls: false
-  type: vmess
-  uuid: 877c344b-7794-4a1a-92d1-3273581089b1
-  ws-opts:
-    headers:
-      Host: sg04.beitai.online
-    path: /
+  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
@@ -51,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0f73126-fb2b-4603-9bd0-434dd6bff623
+  uuid: 59dcea58-8cf1-403a-9770-deabd1324b8f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -61,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0f73126-fb2b-4603-9bd0-434dd6bff623
+  uuid: 59dcea58-8cf1-403a-9770-deabd1324b8f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -71,7 +58,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0f73126-fb2b-4603-9bd0-434dd6bff623
+  uuid: 59dcea58-8cf1-403a-9770-deabd1324b8f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

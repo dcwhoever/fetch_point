@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c250541-a21e-48a3-8922-b604de62db2b
+  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c250541-a21e-48a3-8922-b604de62db2b
+  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,17 +28,21 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c250541-a21e-48a3-8922-b604de62db2b
-- alterId: 1
+  uuid: fd21fdef-f7fe-4955-bf78-44c8ae6500a2
+- alterId: 0
   cipher: auto
-  name: 16|日本 004
-  network: tcp
-  port: 21583
-  server: 18.183.205.202
+  name: 16|【电报：@ccbaohe|免费机场节点 🇯🇵 日本 - 东京...
+  network: ws
+  port: 80
+  server: jp01.beitai.online
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
+  uuid: 6be9b3a4-3e67-4cf5-98dc-c643e3fa8626
+  ws-opts:
+    headers:
+      Host: jp01.beitai.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
@@ -48,6 +52,20 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 16|日本 002
+  network: ws
+  port: 54752
+  server: japan.pxiz.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
@@ -67,7 +85,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0f73126-fb2b-4603-9bd0-434dd6bff623
+  uuid: 59dcea58-8cf1-403a-9770-deabd1324b8f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -77,7 +95,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0f73126-fb2b-4603-9bd0-434dd6bff623
+  uuid: 59dcea58-8cf1-403a-9770-deabd1324b8f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -87,7 +105,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0f73126-fb2b-4603-9bd0-434dd6bff623
+  uuid: 59dcea58-8cf1-403a-9770-deabd1324b8f
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇯🇵 日本特殊|@ripaojiedian
