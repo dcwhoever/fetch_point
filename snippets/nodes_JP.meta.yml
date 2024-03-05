@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 88a79fa3-276f-4365-94d4-0b8015260b67
+  uuid: 77f01b3f-c1b6-4199-b43a-49f5fbfe9f9e
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 88a79fa3-276f-4365-94d4-0b8015260b67
+  uuid: 77f01b3f-c1b6-4199-b43a-49f5fbfe9f9e
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,21 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 88a79fa3-276f-4365-94d4-0b8015260b67
-- alterId: 0
-  cipher: auto
-  name: 16|【电报：@ccbaohe|免费机场节点 🇯🇵 日本 - 东京...
-  network: ws
-  port: '80'
-  server: jp01.beitai.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6be9b3a4-3e67-4cf5-98dc-c643e3fa8626
-  ws-opts:
-    headers:
-      Host: jp01.beitai.online
-    path: /
+  uuid: 77f01b3f-c1b6-4199-b43a-49f5fbfe9f9e
 - alterId: 0
   cipher: auto
   name: 16|日本 002
@@ -66,7 +52,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ed464ef8-0bb3-47c2-a1d3-b3de4694a990
+  uuid: 08683b56-1ace-4dd4-b1ac-97f15d679ab2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -76,7 +62,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ed464ef8-0bb3-47c2-a1d3-b3de4694a990
+  uuid: 08683b56-1ace-4dd4-b1ac-97f15d679ab2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -86,25 +72,31 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ed464ef8-0bb3-47c2-a1d3-b3de4694a990
+  uuid: 08683b56-1ace-4dd4-b1ac-97f15d679ab2
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇯🇵 日本|@ripaojiedian
+  password: id0jofhmb5
+  port: 56032
+  server: 2a54a289.k3c0d7u0o8-fb-jp02.6pzfwf.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇯🇵 日本2|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 50005
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.112.221.226
+  server: 13.229.129.153
   tfo: false
   type: ss
-- alterId: 1
-  cipher: auto
-  name: 21|baipaovpn日本
-  network: tcp
-  port: '21583'
-  server: 18.179.17.59
-  servername: jp03-alt-vm0.entry.srthdw.art
-  tls: true
-  type: vmess
-  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn日本东京
@@ -117,5 +109,5 @@ proxies:
   uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7
   ws-opts:
     headers:
-      Host: jp-tokyo-oracle-dc8895.ip1.shop
+      Host: ''
     path: /TG:@dns68提供技术支持

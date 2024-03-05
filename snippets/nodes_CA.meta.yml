@@ -8,7 +8,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 88a79fa3-276f-4365-94d4-0b8015260b67
+  uuid: 77f01b3f-c1b6-4199-b43a-49f5fbfe9f9e
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 073
+  network: ws
+  port: 80
+  server: 104.21.94.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c7421a39-020d-4a01-97ed-9eacbce0a7ca
+  ws-opts:
+    headers:
+      Host: de2.xv2ray.net
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 16|加拿大 027
@@ -203,20 +217,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 020
-  network: ws
-  port: 8080
-  server: 172.64.68.208
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  ws-opts:
-    headers:
-      Host: eu3.openxai.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 16|加拿大 022
   network: ws
   port: 80
@@ -282,20 +282,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 023
-  network: ws
-  port: 80
-  server: 104.21.226.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|加拿大 069
   network: ws
   port: 80
@@ -308,6 +294,20 @@ proxies:
     headers:
       Host: se2-vmess.sshmax.xyz
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com1
+  network: ws
+  port: 80
+  server: 104.21.226.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 16|加拿大 071
@@ -331,4 +331,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ed464ef8-0bb3-47c2-a1d3-b3de4694a990
+  uuid: 08683b56-1ace-4dd4-b1ac-97f15d679ab2

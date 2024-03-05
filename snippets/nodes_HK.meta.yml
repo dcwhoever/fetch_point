@@ -41,6 +41,14 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 18|🇸🇬 新加坡|@ripaojiedian
+  password: 113757b8-e48e-4508-9c5f-81e66f700072
+  port: 10833
+  server: tank.19890604.day
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
@@ -56,41 +64,8 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港4|@ripaojiedian
-  password: 95gicti0ob
+  password: id0jofhmb5
   port: 56006
   server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国4|@ripaojiedian
-  password: dc66c305-ed19-462a-8d47-32950b81b4cb
-  port: 35318
-  server: CA.plsback.top
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 6129eda5-99da-4c07-ddb0-0c830ee89bb3
-- alterId: 0
-  cipher: auto
-  name: 19|香港5|@ripaojiedian
-  network: tcp
-  port: '31464'
-  server: 156.251.217.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 403af391-7108-47ef-9239-0236359f010a
-- alterId: 0
-  cipher: auto
-  name: 19|香港6|@ripaojiedian
-  network: tcp
-  port: '36527'
-  server: 103.30.76.155
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd55a0a8-67aa-4175-a734-00883c5b51f5
