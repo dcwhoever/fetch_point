@@ -14,7 +14,7 @@ proxies:
     path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #12'
+  name: '0,3,4,8,9,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #13'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -40,7 +40,7 @@ proxies:
     path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #6'
+  name: '0,3,4,8,9,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #8'
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -57,7 +57,6 @@ proxies:
   network: ws
   port: 80
   server: 104.21.69.44
-  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -94,7 +93,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #7'
+  name: '0,3,4,8,9,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #9'
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -120,7 +119,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,20|🇺🇸_US_美国->🇩🇪_DE_德国 #9'
+  name: '0,3,4,8,9,20|🇺🇸_US_美国->🇩🇪_DE_德国 #10'
   network: ws
   port: 8080
   server: 172.67.169.158
@@ -284,33 +283,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,24|🇪🇸_ES_西班牙->🇭🇰_HK_香港_由快嘴科技提供：kk...
-  network: ws
-  port: 34601
-  server: 185.214.103.156
-  tls: true
-  type: vmess
-  uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
-  ws-opts:
-    headers:
-      Host: cache-hk-2.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 8,24|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
-  network: ws
-  port: 80
-  server: you2.fastiran.info
-  tls: false
-  type: vmess
-  uuid: 9c9d54e5-b213-4e5d-a6fe-4cf40b2b2baf
-  ws-opts:
-    headers:
-      Host: y2.fastiran.info
-    path: /R5ymmhAFAg5fXQOaPOZVq
-- alterId: 0
-  cipher: auto
-  name: 8,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_4
+  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_2_4
   network: ws
   port: 8080
   server: de-01.cloudlion.me
@@ -321,6 +294,19 @@ proxies:
     headers:
       Host: de-01.cloudlion.me
     path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇪🇸_ES_西班牙->🇭🇰_HK_香港_由快嘴科技提供：kk...
+  network: ws
+  port: 34601
+  server: 185.214.103.156
+  tls: true
+  type: vmess
+  uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
 - alterId: 0
   cipher: auto
   name: 24|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_由快嘴科技提供：...
@@ -334,3 +320,16 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 24|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  network: ws
+  port: 80
+  server: you2.fastiran.info
+  tls: false
+  type: vmess
+  uuid: 9c9d54e5-b213-4e5d-a6fe-4cf40b2b2baf
+  ws-opts:
+    headers:
+      Host: y2.fastiran.info
+    path: /R5ymmhAFAg5fXQOaPOZVq
