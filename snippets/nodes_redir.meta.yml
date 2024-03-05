@@ -14,7 +14,7 @@ proxies:
     path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
+  name: '0,3,4,9,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #12'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -40,7 +40,7 @@ proxies:
     path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #4'
+  name: '0,3,4,9,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #6'
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -57,6 +57,7 @@ proxies:
   network: ws
   port: 80
   server: 104.21.69.44
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -66,7 +67,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_9
+  name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_9
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -93,7 +94,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9,16|🇨🇦_CA_加拿大->🇺🇸_US_美国 #6'
+  name: '0,3,4,9,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #7'
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -119,7 +120,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,9|🇺🇸_US_美国->🇩🇪_DE_德国 #7'
+  name: '0,3,4,9,20|🇺🇸_US_美国->🇩🇪_DE_德国 #9'
   network: ws
   port: 8080
   server: 172.67.169.158
@@ -283,7 +284,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,20,24|🇪🇸_ES_西班牙->🇭🇰_HK_香港_由快嘴科技提供：kk...
+  name: 8,24|🇪🇸_ES_西班牙->🇭🇰_HK_香港_由快嘴科技提供：kk...
   network: ws
   port: 34601
   server: 185.214.103.156
@@ -296,7 +297,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: chacha20-poly1305
-  name: 8,20,24|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 8,24|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
   network: ws
   port: 80
   server: you2.fastiran.info
@@ -309,7 +310,7 @@ proxies:
     path: /R5ymmhAFAg5fXQOaPOZVq
 - alterId: 0
   cipher: auto
-  name: 8,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_4
+  name: 8,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_4
   network: ws
   port: 8080
   server: de-01.cloudlion.me
