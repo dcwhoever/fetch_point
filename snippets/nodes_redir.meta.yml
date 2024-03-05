@@ -28,7 +28,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_9
+  name: 0,3,4,8,9,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_9
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -268,3 +268,29 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm
+- alterId: 0
+  cipher: auto
+  name: '16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
+- alterId: 0
+  cipher: auto
+  name: '16|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
+  network: ws
+  port: 8080
+  server: 23.227.39.24
+  tls: false
+  type: vmess
+  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
