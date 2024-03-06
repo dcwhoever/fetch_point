@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇺🇸_US_美国_22
+  name: 0,4,8,9,20,24|🇺🇸_US_美国_22
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -26,6 +26,20 @@ proxies:
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
+- alterId: 0
+  cipher: auto
+  name: 3,16|🇺🇸|US|美国|@wxgqlfx|84
+  network: ws
+  port: '8080'
+  server: 162.159.130.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
 - alterId: 64
   cipher: auto
   name: 12|美国紐約|Github搜索TrojanLinks
@@ -191,7 +205,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 99113213-f1bc-42a7-9632-c81f6f812a95
+  uuid: 73915061-c435-4c49-8aaa-781fe9a2f229
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -201,7 +215,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 99113213-f1bc-42a7-9632-c81f6f812a95
+  uuid: 73915061-c435-4c49-8aaa-781fe9a2f229
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -211,7 +225,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 99113213-f1bc-42a7-9632-c81f6f812a95
+  uuid: 73915061-c435-4c49-8aaa-781fe9a2f229
 - alterId: 0
   cipher: auto
   name: 14,16|🔑25@oneclickvpnkeys
@@ -390,20 +404,6 @@ proxies:
     headers:
       Host: www.23179753.xyz
     path: /path/271624282113
-- alterId: 0
-  cipher: auto
-  name: 16|🇺🇸|US|美国|@wxgqlfx|84
-  network: ws
-  port: '8080'
-  server: 162.159.130.208
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
-  ws-opts:
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
 - alterId: 1
   cipher: auto
   name: '16|美国 CloudFlare节点 #3'
@@ -591,7 +591,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 971d4afd-27ab-466e-bb7d-9889812d5bd8
+  uuid: d8dc5323-b539-4217-8a2b-c98adde5ff8b
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -601,7 +601,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 971d4afd-27ab-466e-bb7d-9889812d5bd8
+  uuid: d8dc5323-b539-4217-8a2b-c98adde5ff8b
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -611,7 +611,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 971d4afd-27ab-466e-bb7d-9889812d5bd8
+  uuid: d8dc5323-b539-4217-8a2b-c98adde5ff8b
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇺🇸 美国1|@ripaojiedian
@@ -658,13 +658,13 @@ proxies:
   cipher: auto
   name: 21|baipaovpn美国
   network: ws
-  port: '54752'
-  server: 64.110.99.67
+  port: '33003'
+  server: 150.230.213.126
   servername: ''
   tls: false
   type: vmess
-  uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c
+  uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7
   ws-opts:
     headers:
-      Host: japan.pxiz.site
-    path: /?ed=2048
+      Host: jp-tokyo-oracle-dc8895.ip1.shop
+    path: /TG:@dns68提供技术支持
