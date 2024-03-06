@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a0e12bab-a16b-4a03-8657-8129d07316d3
+  uuid: ab46cc3e-e884-4e67-b998-d6a97fee1970
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a0e12bab-a16b-4a03-8657-8129d07316d3
+  uuid: ab46cc3e-e884-4e67-b998-d6a97fee1970
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a0e12bab-a16b-4a03-8657-8129d07316d3
+  uuid: ab46cc3e-e884-4e67-b998-d6a97fee1970
 - alterId: 0
   cipher: auto
   name: 14|日本 东京Choopa数据中心
@@ -41,7 +41,7 @@ proxies:
   uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
 - alterId: 0
   cipher: auto
-  name: 14,16|日本 004
+  name: '14|日本 东京Choopa数据中心 #1'
   network: tcp
   port: 443
   server: 45.32.44.202
@@ -68,7 +68,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: db2e6f58-1578-4ba5-b2e2-09e182aff773
+  uuid: 05e4a8fa-9604-42e1-b507-f35066e1c68a
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -78,7 +78,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: db2e6f58-1578-4ba5-b2e2-09e182aff773
+  uuid: 05e4a8fa-9604-42e1-b507-f35066e1c68a
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -88,13 +88,38 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: db2e6f58-1578-4ba5-b2e2-09e182aff773
+  uuid: 05e4a8fa-9604-42e1-b507-f35066e1c68a
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇯🇵 日本|@ripaojiedian
-  password: mai9t5nk91
+  password: 48jteov83q2
   port: 56032
   server: 2a54a289.k3c0d7u0o8-fb-jp02.6pzfwf.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|日本2|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 172.67.143.192
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇯🇵 日本3|@ripaojiedian
+  password: 41f96983-1ab9-4634-a916-98ef1b557cb4
+  port: 33111
+  server: lsgy.lanxingyun.cn
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -102,6 +127,6 @@ proxies:
   name: 18|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.213.70.216
+  server: 54.150.241.170
   tfo: false
   type: ss
