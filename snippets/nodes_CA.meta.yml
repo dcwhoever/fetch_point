@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_由快嘴科技提供：...
+  name: 0,3,4,8,9,14,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_由快嘴科技提供：...
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -35,17 +35,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d0cb3485-6b96-420a-a394-11831bf952c1
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: c73fe3a7-3b4b-4d74-a8c7-6d208a451b49
 - alterId: 0
   cipher: auto
   name: 16|加拿大 016
@@ -76,6 +66,33 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
+  name: 16|🇨🇦 加拿大 021
+  network: ws
+  port: '80'
+  server: 104.16.67.38
+  tls: false
+  type: vmess
+  uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93
+  ws-opts:
+    headers:
+      Host: aq.daozhang.link
+    path: f8c92b3b
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 020
+  network: ws
+  port: 443
+  server: 104.24.0.11
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 16|加拿大 014
   network: ws
   port: 443
@@ -97,4 +114,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f8db0690-45a5-487b-b39d-447237170096
+  uuid: a820e28a-07d5-4136-afbf-904462cbb506
