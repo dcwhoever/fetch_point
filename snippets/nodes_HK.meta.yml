@@ -31,6 +31,14 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 18|🇹🇼 台湾|@ripaojiedian
+  password: f7def183-ec24-4b77-86ee-7b8a2ba8e351
+  port: 13989
+  server: c11.twtc.dynu.net
+  skip-cert-verify: false
+  sni: c11.twtc.dynu.net
+  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian

@@ -18,7 +18,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供：...
+  name: 0,3,4,8,9,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_21
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -44,7 +44,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,14,20|🇺🇸_US_美国 #17'
+  name: '0,3,4,8,20|🇺🇸_US_美国 #17'
   network: ws
   port: 8080
   server: www.velvetmountain.shop
@@ -57,7 +57,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20|🇺🇸_US_美国 #20'
+  name: 0,3,4,8,9,20,24|🇺🇸_US_美国_2_22
   network: ws
   port: 80
   server: cloudflare.cfgo.cc
@@ -140,98 +140,20 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
+  name: 12|美国西雅圖|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 142.4.104.109
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.64102475.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: 12|美国洛杉矶|Github搜索TrojanLinks
-  network: ws
-  port: '36000'
-  server: 38.48.151.197
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.83008320.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #1'
-  network: ws
-  port: 443
-  server: 148.135.31.171
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.72672771.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|美国聖荷西|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 198.2.203.116
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.43537463.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
-  network: ws
-  port: '37000'
-  server: 198.200.56.36
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.98382183.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
-  network: ws
-  port: '38000'
-  server: 142.4.104.166
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.87140386.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #2'
-  network: ws
-  port: '36000'
-  server: 38.11.218.165
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.63181393.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
-  network: ws
-  port: '37000'
-  server: 137.175.5.120
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.99555130.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #3'
   network: ws
   port: 443
   server: 142.171.186.88
@@ -244,16 +166,81 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #4'
+  name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
   port: '37000'
-  server: 38.173.196.12
+  server: 142.0.131.156
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.47643999.xyz
+      Host: www.72594139.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国洛杉矶|Github搜索TrojanLinks #1'
+  network: ws
+  port: 443
+  server: 148.135.12.172
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.15986187.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国西雅圖|Github搜索TrojanLinks #1'
+  network: ws
+  port: '37000'
+  server: 198.2.219.252
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.41912208.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
+  network: ws
+  port: '37000'
+  server: 38.14.100.218
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33799494.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
+  network: ws
+  port: '36000'
+  server: 198.2.215.105
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59977650.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
+  network: ws
+  port: '38000'
+  server: 38.14.102.227
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.54699295.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -264,7 +251,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c73fe3a7-3b4b-4d74-a8c7-6d208a451b49
+  uuid: b4c2f3ae-0194-4be5-89a5-12b00b422b18
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -274,7 +261,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c73fe3a7-3b4b-4d74-a8c7-6d208a451b49
+  uuid: b4c2f3ae-0194-4be5-89a5-12b00b422b18
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -284,12 +271,59 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c73fe3a7-3b4b-4d74-a8c7-6d208a451b49
+  uuid: b4c2f3ae-0194-4be5-89a5-12b00b422b18
 - alterId: 0
   cipher: auto
-  name: 14,16|长期更新节点@mftizi
+  client-fingerprint: chrome
+  name: 14,16,18,19|美国|@ripaojiedian
   network: ws
-  port: '2052'
+  port: '8880'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
+  ws-opts:
+    headers:
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- alterId: 64
+  cipher: auto
+  name: 14|美国加利福尼亚州洛杉矶 PetaExpress
+  network: ws
+  port: '37000'
+  server: 198.2.203.116
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.43537463.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,18,19|美国2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.21.69.44
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,16|不定期抽奖https://t.me/mftizi
+  network: ws
+  port: '2086'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   tls: false
@@ -297,21 +331,49 @@ proxies:
   uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
   ws-opts:
     headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 14,15|github.com/freefq - 美国Fastly全球...
+  name: '14|美国 CloudFlare节点 #3'
   network: ws
-  port: 443
-  server: gov.uk
-  tls: true
+  port: 8080
+  server: 162.159.130.208
+  tls: false
   type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
   ws-opts:
     headers:
-      Host: zheshiscp.com
-    path: /77848824
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
+- alterId: 0
+  cipher: auto
+  name: 14,16|US_youtube@资源分享师_61
+  network: ws
+  port: 8080
+  server: 104.17.123.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  ws-opts:
+    headers:
+      Host: pq.kmoljklj.top
+    path: /qZTtpya?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #5'
+  network: ws
+  port: '8080'
+  server: 104.21.54.252
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -331,17 +393,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '14|美国 CloudFlare节点 #3'
+  name: 14,15|github.com/freefq - 美国CloudFla...
   network: ws
-  port: '8080'
-  server: 162.159.136.253
+  port: 8080
+  server: www.darkroom.lol
   tls: false
   type: vmess
-  uuid: ade73e62-7554-40a8-9314-195a372bae28
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: xentain.kmoljklj.top
-    path: /7bFcoRZS?ed=2048
+      Host: www.darkroom.lol
+    path: /
 - alterId: 0
   cipher: auto
   name: '14,15|github.com/freefq - 美国CloudFla... #1'
@@ -355,64 +417,6 @@ proxies:
   ws-opts:
     headers:
       Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #5'
-  network: ws
-  port: 2052
-  server: 172.67.214.33
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14,16,24|🇺🇸_US_美国_9
-  network: ws
-  port: 2086
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|新加坡3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
-  ws-opts:
-    headers:
-      Host: 7nAi74jJsg1.yofnhkfc.xyz
-    path: /video/c9efxRCi
-- alterId: 0
-  cipher: auto
-  name: 14,15|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
@@ -430,6 +434,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 14,15|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
   name: '14,15|github.com/freefq - 美国CloudFla... #3'
   network: ws
   port: 8880
@@ -442,19 +459,6 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16|US_youtube@资源分享师_61
-  network: ws
-  port: 8080
-  server: 104.17.123.55
-  tls: false
-  type: vmess
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
-  ws-opts:
-    headers:
-      Host: pq.kmoljklj.top
-    path: /qZTtpya?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|US_youtube@资源分享师_4
@@ -566,23 +570,6 @@ proxies:
     headers:
       Host: by.funhub.cc
     path: /by
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,18,19|美国|@ripaojiedian
-  network: ws
-  port: '8880'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
-  ws-opts:
-    headers:
-      Host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
 - alterId: 64
   cipher: auto
   name: 16|美国 038
@@ -661,7 +648,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a820e28a-07d5-4136-afbf-904462cbb506
+  uuid: cd7f0ce7-77c5-4aaf-b94c-339dc1d7fb25
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -671,7 +658,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a820e28a-07d5-4136-afbf-904462cbb506
+  uuid: cd7f0ce7-77c5-4aaf-b94c-339dc1d7fb25
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -681,24 +668,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a820e28a-07d5-4136-afbf-904462cbb506
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|美国2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 104.21.69.44
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt4.ir
-    path: /
+  uuid: cd7f0ce7-77c5-4aaf-b94c-339dc1d7fb25
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn美国
@@ -713,29 +683,3 @@ proxies:
     headers:
       Host: de11.xn--mes53ddysu0o3gl.top
     path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_22
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国_2_24
-  network: ws
-  port: 8080
-  server: 162.159.130.208
-  tls: false
-  type: vmess
-  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
-  ws-opts:
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
