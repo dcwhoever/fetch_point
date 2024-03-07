@@ -68,19 +68,17 @@ proxies:
     path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
 - alterId: 0
   cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-63
+  name: 1|_US__3
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
-  servername: yhnsb3.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
+    headers:
+      host: yhnsb3.shabijichang.com
     path: /
 - alterId: 64
   cipher: auto
@@ -247,7 +245,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 34e08372-6ee2-46c1-aed3-af8b2ffc43fe
+  uuid: 9c7c37cf-6f51-4cbd-8917-27a0a042fe5e
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -257,7 +255,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 34e08372-6ee2-46c1-aed3-af8b2ffc43fe
+  uuid: 9c7c37cf-6f51-4cbd-8917-27a0a042fe5e
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -267,7 +265,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 34e08372-6ee2-46c1-aed3-af8b2ffc43fe
+  uuid: 9c7c37cf-6f51-4cbd-8917-27a0a042fe5e
 - alterId: 64
   cipher: auto
   name: 14|美国加利福尼亚州洛杉矶 PetaExpress
@@ -572,7 +570,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d8a760d-56a7-4c87-9887-0515024896c9
+  uuid: 416eab00-96a6-480d-9190-b43c334d3fdb
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -582,7 +580,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d8a760d-56a7-4c87-9887-0515024896c9
+  uuid: 416eab00-96a6-480d-9190-b43c334d3fdb
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -592,7 +590,21 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d8a760d-56a7-4c87-9887-0515024896c9
+  uuid: 416eab00-96a6-480d-9190-b43c334d3fdb
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 172.64.169.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  ws-opts:
+    headers:
+      Host: de11.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_9
