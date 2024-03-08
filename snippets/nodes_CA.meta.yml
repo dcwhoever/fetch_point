@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,20,24|🇨🇦_CA_加拿大_23
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  tls: false
-  type: vmess
-  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
-- alterId: 0
-  cipher: auto
   name: 1|_CA_
   network: ws
   port: 8080
@@ -28,6 +15,19 @@ proxies:
     path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
 - alterId: 0
   cipher: auto
+  name: 8,20,24|🇨🇦_CA_加拿大_23
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  tls: false
+  type: vmess
+  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
+- alterId: 0
+  cipher: auto
   name: 13|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -35,7 +35,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 16|加拿大 016
@@ -127,7 +127,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 24|🇨🇦_CA_加拿大_3

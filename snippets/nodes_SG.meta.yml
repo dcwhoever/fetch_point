@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 16|新加坡 001
@@ -48,7 +48,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -58,7 +58,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -68,25 +68,43 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 18|🇸🇬 新加坡2|@ripaojiedian
+  name: 18|🇸🇬 新加坡2|@ripaojiedian 2
   password: cfa17a0d-5e7d-4871-976e-f116e0818123
   port: 20009
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 18|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  password: mikuu404
+  port: 23331
+  server: 13.250.127.244
+  skip-cert-verify: false
+  sni: bing.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bing.com
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.34.135
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|新加坡3|@ripaojiedian
+  name: 19|新加坡3|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
@@ -94,11 +112,3 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.179.45.200
-  tfo: false
-  type: ss
