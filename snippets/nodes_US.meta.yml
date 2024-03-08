@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,4,8,16,18,19,20|🇺🇸_US_美国 #20'
+  name: '0,3,4,8,18,19,20|🇺🇸_US_美国 #19'
   network: ws
   port: 8080
   server: 172.67.143.192
@@ -31,7 +31,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,20|🇺🇸_US_美国 #19'
+  name: '0,3,4,8,20|🇺🇸_US_美国 #18'
   network: ws
   port: 2082
   server: us-01.cococloud.online
@@ -44,11 +44,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,16,20|🇺🇸_US_美国 #18'
+  name: '0,3,4,8,20|🇺🇸_US_美国 #17'
   network: ws
   port: 8080
   server: www.velvetmountain.shop
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -278,7 +277,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 29fa78c2-622f-4af8-add5-761f7a8ef740
+  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -288,7 +287,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 29fa78c2-622f-4af8-add5-761f7a8ef740
+  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -298,7 +297,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 29fa78c2-622f-4af8-add5-761f7a8ef740
+  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -375,7 +374,7 @@ proxies:
     path: /qZTtpya?ed=2048
 - alterId: 0
   cipher: auto
-  name: 14,16|关注电报https://t.me/mftizi
+  name: '14|美国 CloudFlare节点 #5'
   network: ws
   port: '8080'
   server: 104.21.54.252
@@ -474,34 +473,6 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 16|🔒 VM-WS-TLS 🇺🇸 US-38.14.107.23...
-  network: ws
-  port: '38100'
-  server: 38.14.107.233
-  servername: www.23179753.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.23179753.xyz
-    path: /path/153428133302
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-WS-TLS 🇺🇸 US-172.67.133.7...
-  network: ws
-  port: '2053'
-  server: 172.67.133.78
-  servername: v2ray.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 5a5aadc2-8834-4e7b-895b-74ad155fbf24
-  ws-opts:
-    headers:
-      Host: v2ray.ibgfw.top
-    path: /vVNUJOgb/
-- alterId: 64
-  cipher: auto
   name: 16|美国 032
   network: ws
   port: 38100
@@ -514,6 +485,60 @@ proxies:
     headers:
       Host: www.23179753.xyz
     path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-NA 🇺🇸 US-172.67.170.10...
+  network: ws
+  port: 2095
+  server: 172.67.170.103
+  tls: false
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: yaghoob55freenodes.repaco69437403.workers.dev
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 16|🇺🇲 美国52_9@5
+  network: ws
+  port: '8080'
+  server: www.nahck.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-NA 🇺🇸 US-172.67.229.25...
+  network: ws
+  port: 2086
+  server: 172.67.229.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ca6.tehme100.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 16|🇺🇸 美国 013
+  network: ws
+  port: '443'
+  server: 172.67.196.110
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kellie.makeup
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 16|【TG：@ccbaohe}定时更新节点订阅  US00940...
@@ -544,31 +569,123 @@ proxies:
     path: /by
 - alterId: 0
   cipher: auto
-  name: '16|美国 CloudFlare节点 #7'
+  name: 16|🔒 VM-TCP-NA 🇺🇸 US-51.81.210.17...
+  network: tcp
+  port: '12350'
+  server: 51.81.210.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe7ad68e-6770-49b3-b0a8-40e694125662
+- alterId: 0
+  cipher: auto
+  name: 16|US_youtube@资源分享师_157
   network: ws
-  port: 80
+  port: 8080
+  server: cf.openxai.link
+  tls: false
+  type: vmess
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+  ws-opts:
+    headers:
+      Host: eu1.openxai.link
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|🔒 VM-WS-TLS 🇺🇸 US-38.14.107.23...
+  network: ws
+  port: '38100'
+  server: 38.14.107.233
+  servername: www.23179753.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 16|美国 038
+  network: ws
+  port: 37000
+  server: 38.14.120.227
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65825524.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 16|🇺🇸 美国 045
+  network: ws
+  port: '80'
+  server: 151.101.193.57
+  tls: false
+  type: vmess
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  ws-opts:
+    headers:
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 16|🇺🇸 US 99 → tg@nicevpn123
+  network: ws
+  port: '8080'
+  server: www.velvetmountain.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|美国(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '80'
   server: us65.netfilx.live
+  servername: ''
   tls: false
   type: vmess
   uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
   ws-opts:
     headers:
-      Host: us65.netfilx.live
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|美国 013
+  name: 16|🔒 VM-WS-TLS 🇺🇸 US-172.67.133.7...
   network: ws
-  port: 443
-  server: 172.67.196.110
-  servername: ''
+  port: '2053'
+  server: 172.67.133.78
+  servername: v2ray.ibgfw.top
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 5a5aadc2-8834-4e7b-895b-74ad155fbf24
   ws-opts:
     headers:
-      Host: kellie.makeup
-    path: /linkvws
+      Host: v2ray.ibgfw.top
+    path: /vVNUJOgb/
+- alterId: 64
+  cipher: auto
+  name: 16|美国 加利福尼亚州圣何塞PEG TECH
+  network: ws
+  port: '36000'
+  server: 142.4.97.65
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.31033708.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 04 | 1x US
@@ -578,7 +695,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d6d8e5b-12b1-4987-9ba8-1a0bc43a00c3
+  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -588,7 +705,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d6d8e5b-12b1-4987-9ba8-1a0bc43a00c3
+  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -598,4 +715,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d6d8e5b-12b1-4987-9ba8-1a0bc43a00c3
+  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
