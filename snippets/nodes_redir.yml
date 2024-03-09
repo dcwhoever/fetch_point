@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,16,20,24|🇦🇪_AE_阿联酋->🇫🇷_FR_法国_由快嘴科技提供：kk...
+  name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇫🇷_FR_法国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -14,11 +14,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,16|加拿大 028
+  name: '0,3,4,9,20|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
   network: ws
   port: 8080
   server: www.visa.co.jp
-  servername: ''
   tls: false
   type: vmess
   uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
@@ -28,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4|🇺🇸_US_美国->🇮🇹_IT_意大利 #1'
+  name: '0,3,4,9,20|🇺🇸_US_美国->🇮🇹_IT_意大利 #3'
   network: ws
   port: 2052
   server: frcc.digicert.pp.ua
@@ -41,7 +40,7 @@ proxies:
     path: /apopsdsssaop
 - alterId: 0
   cipher: auto
-  name: 0,3,4,14,16|加拿大 027
+  name: '0,3,4,9,14,20|🇺🇸_US_美国->🇮🇳_IN_印度 #7'
   network: ws
   port: 80
   server: www.visa.com.hk
@@ -55,7 +54,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4|🇺🇸_US_美国->🇦🇪_AE_阿联酋 #1'
+  name: '0,3,4,20|🇺🇸_US_美国->🇦🇪_AE_阿联酋 #2'
   network: ws
   port: 2052
   server: asdad.cxzntq.tech
@@ -160,7 +159,7 @@ proxies:
     path: /apopop
 - alterId: 0
   cipher: auto
-  name: 8,9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_2由快嘴科技提供：...
+  name: 8,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_2由快嘴科技提供：...
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -173,7 +172,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_20
   network: ws
   port: 8080
   server: fbi.gov
