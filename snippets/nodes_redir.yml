@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,4|🇺🇸_US_美国->🇩🇪_DE_德国
+  name: '0,3,4,20|🇺🇸_US_美国->🇩🇪_DE_德国 #5'
   network: ws
   port: 8080
   server: 172.67.169.158
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,4|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '0,3,4,9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -40,9 +40,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,14|美国 CloudFlare节点 #11'
+  name: '0,3,4,9,14,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
   network: ws
-  port: '8080'
+  port: 8080
   server: yh2.freeh1.xyz
   servername: ''
   tls: false
@@ -54,7 +54,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '0,4|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: '0,3,4,9,20|🇺🇸_US_美国->🇩🇪_DE_德国 #6'
   network: ws
   port: 8080
   server: de-01.cloudlion.me
@@ -159,20 +159,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,8,9,20,24|🇺🇸_US_美国->🇮🇹_IT_意大利_30
-  network: ws
-  port: 2052
-  server: frcc.digicert.pp.ua
-  tls: false
-  type: vmess
-  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
-  ws-opts:
-    headers:
-      Host: asdfas.qkhbyf.tech
-    path: /apopsdsssaop
-- alterId: 0
-  cipher: auto
-  name: '3,8,9,20,24|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz... #1'
+  name: '8,24|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz... #1'
   network: ws
   port: 8080
   server: www.visa.co.jp
@@ -185,20 +172,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,8,20|🇺🇸_US_美国->🇦🇪_AE_阿联酋 #2'
+  name: 8,24|🇺🇸_US_美国->🇮🇹_IT_意大利_30
   network: ws
   port: 2052
-  server: asdad.cxzntq.tech
+  server: frcc.digicert.pp.ua
   tls: false
   type: vmess
   uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
   ws-opts:
     headers:
-      Host: dibanqd.cxzntq.tech
-    path: /apopop
+      Host: asdfas.qkhbyf.tech
+    path: /apopsdsssaop
 - alterId: 0
   cipher: auto
-  name: 3,8,9,20,24|🇺🇸_US_美国->🇮🇳_IN_印度_2_35
+  name: 8,24|🇺🇸_US_美国->🇮🇳_IN_印度_2_35
   network: ws
   port: 80
   server: www.visa.com.hk
@@ -209,3 +196,16 @@ proxies:
     headers:
       Host: ydmmamd2.mac2win.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 8|🇺🇸_US_美国->🇦🇪_AE_阿联酋
+  network: ws
+  port: 2052
+  server: asdad.cxzntq.tech
+  tls: false
+  type: vmess
+  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
+  ws-opts:
+    headers:
+      Host: dibanqd.cxzntq.tech
+    path: /apopop
