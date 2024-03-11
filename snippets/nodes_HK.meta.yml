@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港 001
+  name: 16|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
   network: ws
-  port: 4431
+  port: '4431'
   server: 152.32.190.239
   servername: cfhk.393930.xyz
   tls: true
@@ -13,6 +13,19 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰|HK|香港|@wxgqlfx|37
+  network: ws
+  port: 20759
+  server: hkt.littleqqq.co
+  tls: false
+  type: vmess
+  uuid: 2f9de2a7-9134-4dcd-b16d-2ec3c919e633
+  ws-opts:
+    headers:
+      Host: hkt.littleqqq.co
+    path: /hls/cctv5phd.m3u8
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -45,17 +58,6 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国3|@ripaojiedian
-  port: 50003
-  server: 50003.baidu-cdn.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港2|@ripaojiedian
