@@ -65,3 +65,17 @@ proxies:
   server: hk05.jjjjjj.icu
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: ws
+  port: '36801'
+  server: 20.239.28.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  ws-opts:
+    headers:
+      Host: annie50.ceoiii.com
+    path: /hls/cctv5phd.m3u8
