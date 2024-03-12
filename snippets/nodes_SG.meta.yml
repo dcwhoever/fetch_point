@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bb5af45d-b07a-4410-97c5-2fd622ce1379
+  uuid: f7a5ae30-fe1c-4d40-b35a-a9eb25676a32
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bb5af45d-b07a-4410-97c5-2fd622ce1379
+  uuid: f7a5ae30-fe1c-4d40-b35a-a9eb25676a32
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bb5af45d-b07a-4410-97c5-2fd622ce1379
+  uuid: f7a5ae30-fe1c-4d40-b35a-a9eb25676a32
 - alterId: 0
   cipher: auto
   name: 16|新加坡 003
@@ -62,7 +62,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f14fc67f-5702-46c3-86b9-fbacbcd6259a
+  uuid: 5bee3283-1186-47f4-be8b-7ffa6ba8f51f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -72,7 +72,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f14fc67f-5702-46c3-86b9-fbacbcd6259a
+  uuid: 5bee3283-1186-47f4-be8b-7ffa6ba8f51f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -82,13 +82,13 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f14fc67f-5702-46c3-86b9-fbacbcd6259a
-- cipher: chacha20-ietf-poly1305
+  uuid: 5bee3283-1186-47f4-be8b-7ffa6ba8f51f
+- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡2|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 20009
-  server: ddns.olucloud.subapi.cc
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  server: 103.172.116.103
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -96,6 +96,16 @@ proxies:
   name: 18|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.125.56.153
+  server: 13.215.206.16
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|新加坡3|@ripaojiedian
+  network: tcp
+  port: '50014'
+  server: 50014.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd

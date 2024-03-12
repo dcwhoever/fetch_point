@@ -1,40 +1,30 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国南京|Github搜索TrojanLinks
+  name: 12|中国哈尔滨市|Github搜索TrojanLinks
   network: ws
-  port: '38000'
-  server: 142.4.97.72
+  port: '36000'
+  server: 137.175.26.21
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.31033708.xyz
+      Host: www.70173865.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国泉州市|Github搜索TrojanLinks
+  name: 12|中国新山村|Github搜索TrojanLinks
   network: ws
-  port: '36000'
-  server: 142.4.108.209
+  port: '37000'
+  server: 137.175.40.21
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.17383957.xyz
+      Host: www.75596620.xyz
     path: /path/153428133302
-- alterId: 0
-  cipher: auto
-  name: 14,19|新加坡3|@ripaojiedian
-  network: tcp
-  port: '50014'
-  server: 50014.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
   name: 14,19|香港|@ripaojiedian
