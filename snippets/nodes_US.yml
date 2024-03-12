@@ -427,7 +427,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4bcfca6b-4cc1-4f1c-a256-55a2d535c1d0
+  uuid: bb5af45d-b07a-4410-97c5-2fd622ce1379
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -437,7 +437,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4bcfca6b-4cc1-4f1c-a256-55a2d535c1d0
+  uuid: bb5af45d-b07a-4410-97c5-2fd622ce1379
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -447,7 +447,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4bcfca6b-4cc1-4f1c-a256-55a2d535c1d0
+  uuid: bb5af45d-b07a-4410-97c5-2fd622ce1379
 - alterId: 0
   cipher: auto
   name: 14,16|US_youtube@资源分享师_60
@@ -2974,7 +2974,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e35b58a7-37ff-4b57-b692-e40fa6e85d9e
+  uuid: f14fc67f-5702-46c3-86b9-fbacbcd6259a
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -2984,7 +2984,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e35b58a7-37ff-4b57-b692-e40fa6e85d9e
+  uuid: f14fc67f-5702-46c3-86b9-fbacbcd6259a
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -2994,23 +2994,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e35b58a7-37ff-4b57-b692-e40fa6e85d9e
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国|@ripaojiedian
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: series-a2.samanehha.co
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国1|@ripaojiedian
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: series-a1.samanehha.co
-  tfo: false
-  type: ss
+  uuid: f14fc67f-5702-46c3-86b9-fbacbcd6259a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3038,6 +3022,20 @@ proxies:
   tls: false
   type: vmess
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 172.64.198.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  ws-opts:
+    headers:
+      Host: newru1.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com3
