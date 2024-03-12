@@ -29,22 +29,6 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.115.231
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -93,10 +77,20 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
+  name: 19|香港3|@ripaojiedian
+  network: tcp
+  port: '25469'
+  server: 103.30.76.87
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
+- alterId: 0
+  cipher: auto
   name: 21|baipaovpn香港
   network: ws
   port: '36801'
-  server: 20.6.149.238
+  server: 4.144.47.92
   servername: ''
   tls: false
   type: vmess

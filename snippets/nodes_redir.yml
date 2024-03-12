@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,16,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+  name: 0,3,4,8,9,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -103,7 +103,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #19'
+  name: '0,3,4,8,9,16,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #19'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -144,7 +144,7 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-22
+  name: 1,6|-https://t.me/MrXbin-30
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -265,3 +265,12 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_2_由快嘴科技提供：k...
+  network: tcp
+  port: 50003
+  server: 183.232.159.163
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
