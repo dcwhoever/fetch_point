@@ -1,6 +1,19 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 12|中国Changning|Github搜索TrojanLink...
+  network: ws
+  port: '36000'
+  server: 137.175.15.199
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87365591.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: 12|中国哈尔滨市|Github搜索TrojanLinks
   network: ws
   port: '36000'
@@ -14,27 +27,17 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国南京|Github搜索TrojanLinks
+  name: 12|中国济南市|Github搜索TrojanLinks
   network: ws
-  port: '38000'
-  server: 142.4.97.73
+  port: '37000'
+  server: 137.175.12.73
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.31033708.xyz
+      Host: www.86052077.xyz
     path: /path/153428133302
-- alterId: 0
-  cipher: auto
-  name: 14,19|香港|@ripaojiedian
-  network: tcp
-  port: '50022'
-  server: 50022.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
@@ -61,9 +64,9 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省深圳市
+  name: 21,24|🇨🇳_CN_中国->🇺🇸_US_美国_2_由快嘴科技提供：k...
   network: tcp
-  port: '50003'
+  port: 50003
   server: 183.232.159.163
   servername: ''
   tls: false

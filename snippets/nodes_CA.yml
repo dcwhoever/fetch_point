@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0d3122a1-e24a-41b9-8cd2-56261c64879f
+  uuid: 736c18dd-c009-45ac-b78b-8b3cd13ed3a0
 - alterId: 0
   cipher: auto
   name: 16|加拿大 031
@@ -36,6 +36,20 @@ proxies:
     headers:
       Host: nelly.homes
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 006
+  network: ws
+  port: 8080
+  server: 104.21.54.252
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
 - alterId: 0
   cipher: auto
   name: 16|加拿大 033
@@ -171,4 +185,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f98dc2a6-f20b-425d-b52d-e1beb2b653fb
+  uuid: 81439b1d-9902-443a-bccf-7aeeab04a29f
