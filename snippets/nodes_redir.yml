@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #19'
+  name: '0,3,4,8,9,16,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #20'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -103,7 +103,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #18'
+  name: '0,3,4,8,9,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #19'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -208,17 +208,18 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_ZA_
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-89
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
   ws-opts:
-    headers:
-      host: yhnsb3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -236,21 +237,17 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-67
+  name: 1|_US_->_CA__4
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
-  servername: nest-emily-healing-h.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
   ws-opts:
     headers:
-      HOST: nest-emily-healing-h.trycloudflare.com
+      host: nest-emily-healing-h.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
