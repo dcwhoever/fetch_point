@@ -1,17 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|YouTube面具人哈乐_香港_4
-  network: ws
-  port: 80
-  server: 8.218.158.94
+  name: 12|🇭🇰香港B09|奈飞-优化
+  network: tcp
+  port: '30113'
+  server: 183.232.170.22
+  servername: ''
   tls: false
   type: vmess
-  uuid: f898582b-33de-4bea-aee1-d83e9a369c7d
-  ws-opts:
-    headers:
-      Host: 8187541099772.tw.chisi.link
-    path: /mls.html
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰香港A08|奈飞-优化
+  network: tcp
+  port: '30112'
+  server: 183.232.170.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -28,17 +35,22 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 18|🇺🇸 美国3|@ripaojiedian
-  port: 50003
-  server: 50003.baidu-cdn.top
-  skip-cert-verify: false
+  name: 18|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.2.115.231
   tfo: false
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -74,3 +86,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: ws
+  port: '36801'
+  server: 4.144.45.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec
+  ws-opts:
+    headers:
+      Host: annie50.ceoiii.com
+    path: /hls/cctv5phd.m3u8

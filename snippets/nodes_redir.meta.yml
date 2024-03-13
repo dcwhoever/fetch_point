@@ -69,7 +69,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,9,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_5
+  name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_5
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -173,21 +173,17 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-62
+  name: 1|_AE_->_GB_
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      HOST: food.zhaal.ir
+      host: food.zhaal.ir
     path: /
 - alterId: 0
   cipher: auto
