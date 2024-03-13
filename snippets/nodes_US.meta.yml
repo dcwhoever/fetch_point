@@ -249,17 +249,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US__9
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-93
   network: ws
   port: 2095
   server: russia.com
+  servername: ssrsub.v03.ssrsub.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
   ws-opts:
     headers:
-      host: ssrsub.v03.ssrsub.com
+      HOST: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
@@ -388,7 +392,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b26704b-a726-4132-9eb2-cf2793a2e7ef
+  uuid: 73812365-8d4a-4949-9f68-f6922256ceac
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -398,7 +402,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b26704b-a726-4132-9eb2-cf2793a2e7ef
+  uuid: 73812365-8d4a-4949-9f68-f6922256ceac
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -408,7 +412,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b26704b-a726-4132-9eb2-cf2793a2e7ef
+  uuid: 73812365-8d4a-4949-9f68-f6922256ceac
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -648,7 +652,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14,16,18,19|美国2|@ripaojiedian
+  name: 14,16,18,19,21|baipaovpn美国
   network: ws
   port: '80'
   server: 104.21.69.44
@@ -3027,7 +3031,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 28fd2afe-96ce-4d87-9005-100839c3ab16
+  uuid: 68246932-ee8b-48aa-a591-0a1f6796f303
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -3037,7 +3041,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 28fd2afe-96ce-4d87-9005-100839c3ab16
+  uuid: 68246932-ee8b-48aa-a591-0a1f6796f303
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -3047,7 +3051,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 28fd2afe-96ce-4d87-9005-100839c3ab16
+  uuid: 68246932-ee8b-48aa-a591-0a1f6796f303
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇺🇸 美国|@ripaojiedian
@@ -3083,7 +3087,7 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn美国
+  name: '21|baipaovpn美国 #1'
   network: ws
   port: '25314'
   server: 129.146.31.240
@@ -3093,8 +3097,18 @@ proxies:
   uuid: bffbeb1e-b2ec-4b87-bd19-11f609fc4ec4
   ws-opts:
     headers:
-      Host: ''
+      Host: us-n1.speedyyun.com
     path: /victorias
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #2'
+  network: tcp
+  port: '3389'
+  server: 134.122.41.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_3_20
