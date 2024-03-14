@@ -478,7 +478,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f31d5b5d-8755-4fbf-a3d7-ce6933a645af
+  uuid: 000986dd-d0ff-412f-8a82-ddfc678081cc
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -488,7 +488,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f31d5b5d-8755-4fbf-a3d7-ce6933a645af
+  uuid: 000986dd-d0ff-412f-8a82-ddfc678081cc
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -498,7 +498,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f31d5b5d-8755-4fbf-a3d7-ce6933a645af
+  uuid: 000986dd-d0ff-412f-8a82-ddfc678081cc
 - alterId: 0
   cipher: auto
   name: 14,16|加拿大 019
@@ -2859,7 +2859,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d4c2518-922f-4dd3-94ba-40f5e66737e1
+  uuid: 75198ff5-353c-45fa-89ae-b82e3a2b6a87
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -2869,7 +2869,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d4c2518-922f-4dd3-94ba-40f5e66737e1
+  uuid: 75198ff5-353c-45fa-89ae-b82e3a2b6a87
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -2879,7 +2879,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d4c2518-922f-4dd3-94ba-40f5e66737e1
+  uuid: 75198ff5-353c-45fa-89ae-b82e3a2b6a87
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -2925,14 +2925,24 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn美国
-  network: ws
-  port: '2052'
-  server: 104.19.70.19
+  network: tcp
+  port: '3389'
+  server: 134.122.41.160
   servername: ''
   tls: false
   type: vmess
-  uuid: 8e0fc6e0-1313-4767-b51c-5506680d534e
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 65.20.113.203
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 251780c1-1501-43b3-be2a-d144a20d479a
   ws-opts:
     headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      Host: internet.life.com.by
+    path: /Nbs2DSTSkFW6MrrFQHeSDQ7

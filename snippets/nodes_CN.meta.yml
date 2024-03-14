@@ -54,15 +54,41 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省
-  network: ws
-  port: '16627'
-  server: 183.240.220.84
+  name: 21|baipaovpn广东省佛山市
+  network: tcp
+  port: '30117'
+  server: 183.232.170.22
   servername: ''
   tls: false
   type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /niuniu
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省佛山市 #1'
+  network: tcp
+  port: '30031'
+  server: 183.232.170.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省佛山市 #2'
+  network: tcp
+  port: '30039'
+  server: 183.232.170.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省佛山市 #3'
+  network: tcp
+  port: '30057'
+  server: 183.232.170.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
