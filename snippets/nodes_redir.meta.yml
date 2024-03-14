@@ -348,39 +348,31 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-109
+  name: 1|_CH_->_HK__2
   network: ws
   port: 21203
   server: 64.110.78.246
-  servername: data-hk-3.cn-db.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   ws-opts:
     headers:
-      HOST: data-hk-3.cn-db.top
+      host: data-hk-3.cn-db.top
     path: /db00
 - alterId: 0
   cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-108
+  name: 1|_KR_->_HK__2
   network: ws
   port: 32453
   server: 130.162.151.122
-  servername: cache-hk-2.cn-db.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   ws-opts:
     headers:
-      HOST: cache-hk-2.cn-db.top
+      host: cache-hk-2.cn-db.top
     path: /db00
 - grpc-opts:
     grpc-service-name: 443trojan
@@ -395,17 +387,21 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|_AE_->_GB_
+  country: AE
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-51
   network: ws
   port: 8880
   server: 94.140.0.110
+  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      host: food.zhaal.ir
+      HOST: food.zhaal.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -423,39 +419,31 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-110
+  name: 1|_CH_->_HK__4
   network: ws
   port: 21205
   server: 64.110.78.246
-  servername: cache-hk-2.cn-db.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   ws-opts:
     headers:
-      HOST: cache-hk-2.cn-db.top
+      host: cache-hk-2.cn-db.top
     path: /db00
 - alterId: 0
   cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-107
+  name: 1|_CH_->_HK__5
   network: ws
   port: 45703
   server: 64.110.78.246
-  servername: data-hk-1.cn-db.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   ws-opts:
     headers:
-      HOST: data-hk-1.cn-db.top
+      host: data-hk-1.cn-db.top
     path: /db00
 - alterId: 0
   cipher: auto
