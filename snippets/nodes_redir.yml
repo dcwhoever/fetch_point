@@ -37,7 +37,7 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
+  name: '0,3,4,8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #12'
   network: ws
   port: 8080
   server: yh1.freeh1.xyz
@@ -60,7 +60,7 @@ proxies:
   uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
 - alterId: 0
   cipher: auto
-  name: 0,3,4,8,20,24|🇨🇦_CA_加拿大_2_26
+  name: 0,3,4,8,16,20,24|🇨🇦_CA_加拿大_2_26
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -84,7 +84,7 @@ proxies:
   uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #12'
+  name: '0,3,4,8,9,16,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #13'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -348,31 +348,39 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: 1|_CH_->_HK__2
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-109
   network: ws
   port: 21203
   server: 64.110.78.246
+  servername: data-hk-3.cn-db.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   ws-opts:
     headers:
-      host: data-hk-3.cn-db.top
+      HOST: data-hk-3.cn-db.top
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 1|_KR_->_HK__2
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-108
   network: ws
   port: 32453
   server: 130.162.151.122
+  servername: cache-hk-2.cn-db.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   ws-opts:
     headers:
-      host: cache-hk-2.cn-db.top
+      HOST: cache-hk-2.cn-db.top
     path: /db00
 - grpc-opts:
     grpc-service-name: 443trojan
@@ -415,31 +423,39 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 1|_CH_->_HK__4
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-110
   network: ws
   port: 21205
   server: 64.110.78.246
+  servername: cache-hk-2.cn-db.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   ws-opts:
     headers:
-      host: cache-hk-2.cn-db.top
+      HOST: cache-hk-2.cn-db.top
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 1|_CH_->_HK__5
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-107
   network: ws
   port: 45703
   server: 64.110.78.246
+  servername: data-hk-1.cn-db.top
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 414365d6-12fb-3530-8135-ad14b8ad7726
   ws-opts:
     headers:
-      host: data-hk-1.cn-db.top
+      HOST: data-hk-1.cn-db.top
     path: /db00
 - alterId: 0
   cipher: auto
@@ -468,9 +484,9 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '9,16|🇺🇸 美国 CloudFlare节点 #1'
   network: ws
-  port: 8080
+  port: '8080'
   server: yh2.freeh1.xyz
   tls: false
   type: vmess
@@ -517,10 +533,11 @@ proxies:
   uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
 - alterId: 0
   cipher: auto
-  name: '9,16|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: 9,16|加拿大 019
   network: ws
   port: 80
   server: 104.21.20.19
+  servername: ''
   tls: false
   type: vmess
   uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8
