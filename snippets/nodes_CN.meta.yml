@@ -28,6 +28,19 @@ proxies:
     path: /db00
 - alterId: 64
   cipher: auto
+  name: 12|中国哈尔滨市|Github搜索TrojanLinks
+  network: ws
+  port: '36000'
+  server: 137.175.26.24
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70173865.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: 12|中国成都|Github搜索TrojanLinks
   network: ws
   port: '37000'
@@ -41,14 +54,14 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国济南市|Github搜索TrojanLinks
+  name: 12|中国Guoyang Chengguanzhen|Github...
   network: ws
-  port: '37000'
-  server: 137.175.12.74
+  port: '36000'
+  server: 142.4.115.245
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.86052077.xyz
+      Host: www.36310394.xyz
     path: /path/153428133302
