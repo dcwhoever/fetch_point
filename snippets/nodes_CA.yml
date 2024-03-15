@@ -9,7 +9,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '0,1,3,4,6,8,9,20|🇨🇦_CA_加拿大 #8'
+  name: 0,1,3,4,6,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_28
   network: http
   port: 3389
   server: 134.122.41.160
@@ -20,7 +20,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20|🇨🇦_CA_加拿大 #9'
+  name: 0,3,4,8,9,14,20,24|🇨🇦_CA_加拿大_2_36
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -54,7 +54,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cb74545f-5e5d-4c21-959d-6ccdae39747a
+  uuid: 1532b035-9c22-4af1-ae64-80fac78c1de9
 - alterId: 0
   cipher: auto
   name: 16|加拿大 010
@@ -85,17 +85,18 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇦 加拿大 057
+  name: 16|加拿大 033
   network: ws
-  port: '443'
-  server: www.qdjljy.com
-  tls: true
+  port: 80
+  server: 104.21.221.16
+  servername: ''
+  tls: false
   type: vmess
-  uuid: da8954a5-9c03-4fe5-be6a-d90f3f01b881
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: h161-fr2.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
+      Host: a.prapt1.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|加拿大 029
@@ -209,19 +210,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇦 加拿大 038
-  network: ws
-  port: '80'
-  server: 104.21.221.169
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 16|加拿大 027
   network: ws
   port: 80
@@ -240,6 +228,20 @@ proxies:
   network: ws
   port: 80
   server: 104.21.221.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 037
+  network: ws
+  port: 80
+  server: 104.21.221.219
   servername: ''
   tls: false
   type: vmess
@@ -313,31 +315,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7a243af3-8a14-4897-8601-afb994e3bf17
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn加拿大安大略省多伦多
-  network: ws
-  port: '21859'
-  server: 149.248.3.130
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f654c428-dc1d-47b9-b9ba-7c5fac15eeed
-  ws-opts:
-    headers:
-      Host: www.tmall.com
-    path: /live/UKPZrSI3K7dtNJmn
-- alterId: 0
-  cipher: auto
-  name: 24|🇨🇦_CA_加拿大_2_26
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+  uuid: 6df0f571-d9ca-48ff-84a5-7672b2d4f363
