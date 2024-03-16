@@ -27,9 +27,9 @@ proxies:
     path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 14,15,24|🇨🇳_CN_中国->🇨🇦_CA_加拿大_45
+  name: 14,15|github.com/freefq - 广东省移动 7
   network: ws
-  port: 20401
+  port: '20401'
   server: data-us-v1.shwjfkw.cn
   servername: ''
   tls: false
@@ -53,25 +53,3 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: '24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz... #1'
-  network: tcp
-  port: 30145
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-- alterId: 0
-  cipher: auto
-  name: 24|🇨🇳_CN_中国_30
-  network: ws
-  port: 58080
-  server: 223.113.130.55
-  tls: false
-  type: vmess
-  uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
-  ws-opts:
-    headers:
-      Host: data-hk-2.cn-db.top
-    path: /db00

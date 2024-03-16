@@ -13,19 +13,6 @@ proxies:
     headers:
       Host: hk01.cao.gay
     path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 16|YouTube面具人哈乐_香港_44
-  network: ws
-  port: 80
-  server: 8.217.147.230
-  tls: false
-  type: vmess
-  uuid: f898582b-33de-4bea-aee1-d83e9a369c7d
-  ws-opts:
-    headers:
-      Host: 90104413082607.tw.chisi.link
-    path: /mls.html
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -58,6 +45,17 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇮🇳 印度|@ripaojiedian
+  port: 3389
+  server: 139.59.24.215
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
