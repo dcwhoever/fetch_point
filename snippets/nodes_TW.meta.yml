@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|台湾2|@ripaojiedian
+  name: 18,19,21|baipaovpn台湾省
   network: ws
   port: '44332'
   server: 118.163.101.44
@@ -16,6 +16,17 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国3|@ripaojiedian
+  port: 3389
+  server: 139.59.24.215
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 19|台湾3|@ripaojiedian

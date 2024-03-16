@@ -1,13 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,3,4,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_28
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 0,1,3,4,6,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_28
   network: http
   port: 3389
   server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
@@ -45,7 +54,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 157317fa-6b2d-491e-a85f-d9b39af83117
+  uuid: 0f473ae9-564a-4df7-929c-2c46ab8340ca
 - alterId: 0
   cipher: auto
   name: 16|加拿大 014
@@ -244,4 +253,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 270f1eb6-2b3a-4d6c-92b5-bd5a3fcdb649
+  uuid: 5e74f8cd-410e-4a51-a336-7f547f594e3c
