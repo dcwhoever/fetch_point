@@ -24,17 +24,21 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 1|_CA__1
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-87
   network: ws
   port: 8080
   server: 23.227.38.23
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
+      HOST: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
@@ -453,4 +457,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1dc1cb9f-5588-4087-83aa-0194caab56b3
+  uuid: 4272a180-93bd-437a-b2a4-663fea6767d5
