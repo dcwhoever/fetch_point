@@ -1,21 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_CN_
-  network: ws
-  port: 58080
-  server: 223.113.130.55
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
-  ws-opts:
-    headers:
-      host: data-hk-2.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 4,8,20,24|🇨🇳_CN_中国_30
+  name: 8,24|🇨🇳_CN_中国_30
   network: ws
   port: 58080
   server: 223.113.130.55
@@ -28,16 +14,29 @@ proxies:
     path: /db00
 - alterId: 64
   cipher: auto
-  name: 12|中国自贡|Github搜索TrojanLinks
+  name: 12|中国重庆市|Github搜索TrojanLinks
   network: ws
   port: '38000'
-  server: 137.175.41.75
+  server: 198.2.196.186
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.39281349.xyz
+      Host: www.53062560.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国鞍山市|Github搜索TrojanLinks
+  network: ws
+  port: '38000'
+  server: 137.175.32.82
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.94152251.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
@@ -54,42 +53,16 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国十堰|Github搜索TrojanLinks
+  name: 12|中国自贡|Github搜索TrojanLinks
   network: ws
   port: '38000'
-  server: 137.175.29.66
+  server: 137.175.41.75
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.46074906.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国成都|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 192.74.230.35
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.99555130.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国济南市|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 137.175.12.74
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.86052077.xyz
+      Host: www.39281349.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -105,6 +78,16 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 16,19|香港2|@ripaojiedian
+  network: tcp
+  port: '51702'
+  server: 183.236.51.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn广东省佛山市
