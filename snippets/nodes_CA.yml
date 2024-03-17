@@ -20,12 +20,16 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '0,3,8,20|🇨🇦_CA_加拿大 #6'
+  h2-opts: {}
+  http-opts: {}
+  name: '0,3,6,8,20|🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 108.181.23.161
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
@@ -40,7 +44,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 85cad6c9-f529-4145-8a41-9926acfc51d4
+  uuid: d4ef5c5e-104f-431d-8f61-096e6fc7bd6e
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
@@ -518,4 +522,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1bfd38f9-ede9-4d74-9db1-80a85c3ea74e
+  uuid: 755bac3e-e14d-4154-a012-d554ca056dff
