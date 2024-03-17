@@ -28,7 +28,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,8,9,14,24|🇨🇦_CA_加拿大_2_28
+  name: 0,9,14,24|🇨🇦_CA_加拿大_2_28
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -52,47 +52,17 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-39
+  name: 1|_AE_->_FR_
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      HOST: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8|🇨🇦_CA_加拿大->🇺🇸_US_美国
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: 8,24|🇹🇼_TW_台湾_5
-  network: ws
-  port: 44332
-  server: 118.163.101.44
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
+      host: food.zhaal.ir
     path: /
 - alterId: 0
   cipher: auto
