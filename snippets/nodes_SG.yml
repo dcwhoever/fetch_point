@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f1e517b2-efad-42d2-bc7e-72e8a3c1d5a4
+  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f1e517b2-efad-42d2-bc7e-72e8a3c1d5a4
+  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,20 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f1e517b2-efad-42d2-bc7e-72e8a3c1d5a4
-- alterId: 0
-  cipher: auto
-  name: 16|🇸🇬新加坡 02
-  network: ws
-  port: '443'
-  server: wap.appleid.bf
-  tls: false
-  type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /CAT
+  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
