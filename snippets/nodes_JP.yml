@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0f3fa7ca-dd42-4615-9e3f-89fbc0ef0da8
+  uuid: 08469a9c-efc8-49f1-aca5-49031cf460e4
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0f3fa7ca-dd42-4615-9e3f-89fbc0ef0da8
+  uuid: 08469a9c-efc8-49f1-aca5-49031cf460e4
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,20 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0f3fa7ca-dd42-4615-9e3f-89fbc0ef0da8
-- alterId: 0
-  cipher: auto
-  name: 16|日本(yudou66.com 玉豆免费节点)_2
-  network: ws
-  port: 80
-  server: 104.21.232.61
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048&Telegram🇨🇳
+  uuid: 08469a9c-efc8-49f1-aca5-49031cf460e4
 - alterId: 0
   cipher: auto
   name: 16|🇯🇵日本 01
@@ -55,6 +42,16 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
+- alterId: 64
+  cipher: auto
+  name: 16|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
+  network: tcp
+  port: '20081'
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 04  | 1x JP
@@ -64,7 +61,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6ea821c0-ecf2-4db0-a7ff-ab6f801b285c
+  uuid: 1f309b7d-a18c-4ce9-a44d-1fc957dfa9ec
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -74,7 +71,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6ea821c0-ecf2-4db0-a7ff-ab6f801b285c
+  uuid: 1f309b7d-a18c-4ce9-a44d-1fc957dfa9ec
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -84,7 +81,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6ea821c0-ecf2-4db0-a7ff-ab6f801b285c
+  uuid: 1f309b7d-a18c-4ce9-a44d-1fc957dfa9ec
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇯🇵 日本|@ripaojiedian
