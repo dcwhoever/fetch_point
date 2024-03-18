@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '2082'
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,9,14,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+  name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -27,23 +14,49 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,9,24|🇨🇦_CA_加拿大_2_27
+  name: 1|_US_->_CA__1
   network: ws
   port: 8080
-  server: 23.227.38.23
+  server: 162.159.1.33
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
   ws-opts:
     headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- grpc-opts:
+    grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
+  name: 1|_US_->_RU_
+  network: grpc
+  password: 4db45bb4-dcca-4d37-a639-cb55213ee406
+  port: 2096
+  server: 172.67.132.6
+  skip-cert-verify: true
+  sni: channel.v2bamdad.tech
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_CA__2
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
   country: AE
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-91
+  name: 1,6|-https://t.me/MrXbin-93
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -69,7 +82,82 @@ proxies:
     path: /argox-tr
 - alterId: 0
   cipher: auto
-  name: 9,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
+  name: 1|_US_->_CA__3
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_CA__4
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- name: 1|_GB_->_KZ_
+  network: tcp
+  password: c2c76420-257f-492a-b20f-6560f3bfa78d
+  port: 443
+  server: kz.mjt000.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3,4,8,14,20,24|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com6
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 3,4,9,14,16,24|🇺🇸_US_美国_7_23
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: '3,4,9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 80
   server: 104.21.20.19
@@ -82,20 +170,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
-  network: ws
-  port: 8080
-  server: fbi.gov
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
-  name: 9,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_24
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_24
   network: ws
   port: 8080
   server: yh1.freeh1.xyz
