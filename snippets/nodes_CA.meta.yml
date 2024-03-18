@@ -43,22 +43,13 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts:
-    headers:
-      Host:
-      - internet.life.com.by
-    method: GET
-    path:
-    - /
-  name: 1,3,4,6,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_12
+  name: 1,3,4,8,9,20,24|🇨🇦_CA_加拿大_2_由快嘴科技提供：kkzui.com2
   network: http
   port: 3389
   server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
@@ -89,7 +80,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: 3,4,8,9,16,20,24|🇨🇦_CA_加拿大_2_27
+  name: 3,4,8,9,14,16,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_23
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -102,7 +93,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '3,4,8,20|🇨🇦_CA_加拿大 #22'
+  name: '3,4,8,14,20|🇨🇦_CA_加拿大 #22'
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -115,7 +106,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '3,4,8,9,20|🇨🇦_CA_加拿大 #23'
+  name: 3,4,8,9,20,24|🇨🇦_CA_加拿大_3_28
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -135,7 +126,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 08469a9c-efc8-49f1-aca5-49031cf460e4
+  uuid: f1e517b2-efad-42d2-bc7e-72e8a3c1d5a4
 - alterId: 0
   cipher: auto
   name: 16|🇨🇦CA | vmess | @ROMAX_VPN | 1
@@ -195,20 +186,6 @@ proxies:
     headers:
       Host: us65.netfilx.live
     path: /
-- alterId: 0
-  cipher: auto
-  name: '16|%F0%9F%87%A8%F0%9F%87%A6%20Can... #2'
-  network: ws
-  port: 80
-  server: 104.16.67.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93
-  ws-opts:
-    headers:
-      Host: aq.daozhang.link
-    path: f8c92b3b
 - alterId: 0
   cipher: auto
   name: '16|%F0%9F%87%A8%F0%9F%87%A6%20Can... #3'
@@ -475,6 +452,20 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 16,24|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com5
+  network: ws
+  port: 8080
+  server: 104.21.54.252
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -482,4 +473,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1f309b7d-a18c-4ce9-a44d-1fc957dfa9ec
+  uuid: d8ee70a2-08b5-422e-b2c7-8d0cdbea9a7c
