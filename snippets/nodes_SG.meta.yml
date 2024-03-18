@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
+  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
+  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
+  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
@@ -86,11 +86,3 @@ proxies:
   protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.69.81.42
-  tfo: false
-  type: ss

@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
+  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
+  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f999ee78-3c77-47f5-87a4-fdd268e186af
+  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
 - alterId: 0
   cipher: auto
   name: 14|日本 东京Fastly节点
@@ -115,13 +115,5 @@ proxies:
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20014
   server: jp2.mhw7e2.online
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.206.237.42
   tfo: false
   type: ss
