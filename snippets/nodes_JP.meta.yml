@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5a1857dc-e5b2-4e5e-95f2-38b87eecd079
+  uuid: 484e2e0f-acea-4505-850c-dffc8c8d4bcf
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5a1857dc-e5b2-4e5e-95f2-38b87eecd079
+  uuid: 484e2e0f-acea-4505-850c-dffc8c8d4bcf
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,7 +28,20 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5a1857dc-e5b2-4e5e-95f2-38b87eecd079
+  uuid: 484e2e0f-acea-4505-850c-dffc8c8d4bcf
+- alterId: 0
+  cipher: auto
+  name: 16|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
+  network: ws
+  port: '443'
+  server: jp-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: e333c411-3cb5-4fa0-99f8-0cdb719b77b5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 04  | 1x JP
