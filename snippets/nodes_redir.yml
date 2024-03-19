@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,9,20|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #5'
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_CA__1
   network: ws
   port: 8080
@@ -53,21 +40,17 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-55
+  name: 1|_AE_->_GB_
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      HOST: food.zhaal.ir
+      host: food.zhaal.ir
     path: /
 - name: 1|_CA_->_US_
   network: ws
@@ -129,6 +112,19 @@ proxies:
     headers:
       Host: nest-emily-healing-h.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: '3,4,8,9,20|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #4'
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 3,4,8,9,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_32
