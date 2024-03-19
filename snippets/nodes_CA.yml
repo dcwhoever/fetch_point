@@ -115,16 +115,12 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3,4,6,8,9,20,24|🇨🇦_CA_加拿大_3_28
+  name: 3,4,8,9,20,24|🇨🇦_CA_加拿大_3_28
   network: ws
   port: 8080
   server: 108.181.23.161
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
@@ -139,7 +135,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
+  uuid: 49c72f8e-5bb3-436c-8325-a3fa74593faf
 - alterId: 0
   cipher: auto
   name: 16|加拿大 015

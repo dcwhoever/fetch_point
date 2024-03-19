@@ -40,17 +40,21 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 1|_US__1
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-134
   network: ws
   port: 2052
   server: 172.67.152.170
+  servername: mahilu.site
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      host: mahilu.site
+      HOST: mahilu.site
     path: /
 - alterId: 0
   cipher: auto
@@ -274,12 +278,16 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: 3,4,8,9,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_19
+  h2-opts: {}
+  http-opts: {}
+  name: 3,4,6,8,9,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_19
   network: ws
   port: 2052
   server: mahilu.site
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
@@ -528,7 +536,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
+  uuid: 49c72f8e-5bb3-436c-8325-a3fa74593faf
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -538,7 +546,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
+  uuid: 49c72f8e-5bb3-436c-8325-a3fa74593faf
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -548,7 +556,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 53ef596a-3061-4801-8a1b-4ddb76643a6f
+  uuid: 49c72f8e-5bb3-436c-8325-a3fa74593faf
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -3805,6 +3813,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 172.64.134.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  ws-opts:
+    headers:
+      Host: newde11.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: tcp
+  port: '47212'
+  server: 147.135.26.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c46ec369-6de2-4f4c-a788-001703eefdd8
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_6_由快嘴科技提供：kkzui.com5
