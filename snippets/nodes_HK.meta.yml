@@ -1,6 +1,22 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
+  name: 18|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 47.76.185.99
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
   name: 18|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -53,7 +69,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19,21|baipaovpn美国华盛顿
+  name: 19|香港2|@ripaojiedian
   network: tcp
   port: '43605'
   server: 38.147.189.98

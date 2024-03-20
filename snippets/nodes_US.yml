@@ -2001,6 +2001,16 @@ proxies:
     path: '/?ed=2048&Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
+  name: 16|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: '52408'
+  server: 129.146.46.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- alterId: 0
+  cipher: auto
   name: 16|美国 - 波特蘭 - Hetzner Online GmbH...
   network: ws
   port: 80
@@ -2748,6 +2758,16 @@ proxies:
   network: tcp
   port: '3389'
   server: 139.59.24.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn美国
+  network: tcp
+  port: '3389'
+  server: 134.122.41.160
   servername: ''
   tls: false
   type: vmess

@@ -4,7 +4,7 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-50
+  name: 1,6|-https://t.me/MrXbin-46
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -66,21 +66,17 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-48
+  name: 1|_CA__5
   network: ws
   port: 8080
   server: 23.227.38.23
-  servername: uh-lawyers-instruments-kernel.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      HOST: uh-lawyers-instruments-kernel.trycloudflare.com
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
