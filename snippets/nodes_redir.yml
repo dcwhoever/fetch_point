@@ -43,7 +43,7 @@ proxies:
   country: AE
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-80
+  name: 1,6|-https://t.me/MrXbin-83
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -105,7 +105,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3,4,8,14,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
+  name: 3,8,14,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -119,7 +119,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_5
+  name: 3,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_5
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -132,7 +132,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,4,8,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_32
+  name: 3,8,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_32
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -171,7 +171,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,8,9|🇺🇸_US_美国 #32'
+  name: '8,9|🇺🇸_US_美国 #21'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -184,14 +184,14 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇮🇷_IR_伊朗_由快嘴科技提供：kkz...
+  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_8
   network: ws
-  port: 8880
-  server: 172.67.72.2
+  port: 80
+  server: 104.21.228.43
   tls: false
   type: vmess
-  uuid: edbf317d-7671-4089-87ef-89dbc055f428
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: eV2raysadErrrgVxu3pweMTmras.dalidom.com
-    path: /github
+      Host: a.prapt4.ir
+    path: /
