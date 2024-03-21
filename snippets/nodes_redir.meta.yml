@@ -40,21 +40,17 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-67
+  name: 1|_AE_->_GB_
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      HOST: food.zhaal.ir
+      host: food.zhaal.ir
     path: /
 - name: 1|_CA_->_US_
   network: ws
@@ -105,11 +101,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3,8,14,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
+  name: 3,8,16,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   network: ws
   port: 8080
   server: 162.159.137.249
-  servername: ''
   tls: false
   type: vmess
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
@@ -119,7 +114,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_5
+  name: 3,8,9,14,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_5
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -132,10 +127,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,8,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_32
+  name: 3,8,16,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_3_32
   network: ws
   port: 8080
   server: 23.227.38.22
+  servername: ''
   tls: false
   type: vmess
   uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
