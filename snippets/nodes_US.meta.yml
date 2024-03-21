@@ -4,7 +4,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-149
+  name: 1,6|-https://t.me/MrXbin-137
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -1122,6 +1122,16 @@ proxies:
     path: /path/1710840982803
 - alterId: 0
   cipher: auto
+  name: 16|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: '52408'
+  server: 129.146.46.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- alterId: 0
+  cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇺🇸 #3'
   network: ws
   port: '443'
@@ -1234,6 +1244,30 @@ proxies:
   tls: true
   type: vmess
   uuid: d8ee70a2-08b5-422e-b2c7-8d0cdbea9a7c
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn美国
+  network: tcp
+  port: '3389'
+  server: 134.122.41.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn北美地区
+  network: ws
+  port: '443'
+  server: 104.248.128.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8b79d3f9-7b49-46f5-d243-e4cedc7102f4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com0
