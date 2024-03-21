@@ -43,22 +43,6 @@ proxies:
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 47.76.185.99
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
   name: 18|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -119,17 +103,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn香港
-  network: ws
-  port: '8443'
-  server: 20.2.218.142
-  servername: hk.pdda.me
-  tls: true
-  type: vmess
-  uuid: 934e000a-0dec-4c0a-8ea9-4ffaccc28272
-  ws-opts:
-    headers:
-      Host: hk.pdda.me
-    path: /pdd?ed=2048
