@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54dcc963-a872-4d88-bc47-41d6f9f5e9af
+  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54dcc963-a872-4d88-bc47-41d6f9f5e9af
+  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54dcc963-a872-4d88-bc47-41d6f9f5e9af
+  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
@@ -39,6 +39,16 @@ proxies:
   tls: false
   type: vmess
   uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 64
+  cipher: auto
+  name: 16|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
+  network: tcp
+  port: '20081'
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 04  | 1x JP
@@ -48,7 +58,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bde16bc1-3d2a-49be-8cf3-f9a673dd43f0
+  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -58,7 +68,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bde16bc1-3d2a-49be-8cf3-f9a673dd43f0
+  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -68,7 +78,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bde16bc1-3d2a-49be-8cf3-f9a673dd43f0
+  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 18|🇯🇵 日本3|@ripaojiedian
@@ -86,13 +96,5 @@ proxies:
   password: 66e030b0-e51c-11ee-b858-086e190000d9
   port: 20013
   server: jp1.mhw7e2.online
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.34.200.94
   tfo: false
   type: ss

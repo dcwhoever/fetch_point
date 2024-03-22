@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54dcc963-a872-4d88-bc47-41d6f9f5e9af
+  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54dcc963-a872-4d88-bc47-41d6f9f5e9af
+  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54dcc963-a872-4d88-bc47-41d6f9f5e9af
+  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
@@ -45,20 +45,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|新加坡 002
-  network: ws
-  port: 80
-  server: sgb.sinhvien4g.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 926ffb58-04d7-4100-b5d5-d09f869c788f
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -66,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bde16bc1-3d2a-49be-8cf3-f9a673dd43f0
+  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -76,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bde16bc1-3d2a-49be-8cf3-f9a673dd43f0
+  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -86,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bde16bc1-3d2a-49be-8cf3-f9a673dd43f0
+  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡|@ripaojiedian
@@ -114,3 +100,11 @@ proxies:
   protocol-param: 9890:cqtnFi
   server: 183.240.220.84
   type: ssr
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 57.181.36.85
+  tfo: false
+  type: ss
