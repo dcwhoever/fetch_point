@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9d67cded-f2b9-4c1d-8ab3-cc02f11e4114
+  uuid: ed5d2a32-3546-44c6-89fa-843a9892d090
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9d67cded-f2b9-4c1d-8ab3-cc02f11e4114
+  uuid: ed5d2a32-3546-44c6-89fa-843a9892d090
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9d67cded-f2b9-4c1d-8ab3-cc02f11e4114
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡 002
-  network: ws
-  port: 80
-  server: sgb.sinhvien4g.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 926ffb58-04d7-4100-b5d5-d09f869c788f
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /
+  uuid: ed5d2a32-3546-44c6-89fa-843a9892d090
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
@@ -59,6 +45,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16|新加坡 002
+  network: ws
+  port: 80
+  server: sgb.sinhvien4g.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 926ffb58-04d7-4100-b5d5-d09f869c788f
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -66,7 +66,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 82de24c4-3be1-4518-8faa-a36428995035
+  uuid: 62cb9823-0f30-4a0a-83a4-10172d8aea6a
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -76,7 +76,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 82de24c4-3be1-4518-8faa-a36428995035
+  uuid: 62cb9823-0f30-4a0a-83a4-10172d8aea6a
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -86,7 +86,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 82de24c4-3be1-4518-8faa-a36428995035
+  uuid: 62cb9823-0f30-4a0a-83a4-10172d8aea6a
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡|@ripaojiedian
