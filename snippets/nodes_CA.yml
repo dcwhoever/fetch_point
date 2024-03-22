@@ -67,7 +67,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '8,14|美国 CloudFlare公司CDN节点(shopify) #1'
+  name: '8|🇨🇦_CA_加拿大 #1'
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -93,11 +93,10 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 8,9,14,24|🇨🇦_CA_加拿大_2_33
+  name: 8,9,24|🇨🇦_CA_加拿大_2_33
   network: ws
   port: 8080
   server: 23.227.38.23
-  servername: ''
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
@@ -114,7 +113,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ed5d2a32-3546-44c6-89fa-843a9892d090
+  uuid: 54dcc963-a872-4d88-bc47-41d6f9f5e9af
 - alterId: 0
   cipher: auto
   name: 16|加拿大 183
@@ -157,20 +156,6 @@ proxies:
     headers:
       Host: kristin.makeup
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 015
-  network: ws
-  port: 80
-  server: 104.21.224.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇨🇦 CA-23.26.239.147...
@@ -274,4 +259,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 62cb9823-0f30-4a0a-83a4-10172d8aea6a
+  uuid: bde16bc1-3d2a-49be-8cf3-f9a673dd43f0

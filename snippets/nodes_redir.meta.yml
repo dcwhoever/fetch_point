@@ -101,7 +101,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '3,8,14,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -127,7 +127,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,8,14,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_32
+  name: 3,8,20,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_32
   network: ws
   port: 8080
   server: 23.227.38.22
