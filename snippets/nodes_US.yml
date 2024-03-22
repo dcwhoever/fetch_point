@@ -4,7 +4,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-153
+  name: 1,6|-https://t.me/MrXbin-130
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -87,17 +87,21 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 1|_US__7
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-137
   network: ws
   port: 2086
   server: cfcdn1.sanfencdn9.com
+  servername: us77SmSk86j.fzbqfrse.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
+  uuid: ba4e86e7-d4f7-4c4e-aa8f-a91b8cd9de8a
   ws-opts:
     headers:
-      host: us77SmSk86j.fzbqfrse.xyz
+      HOST: us77SmSk86j.fzbqfrse.xyz
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
@@ -265,6 +269,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 8,9,24|🇺🇸_US_美国_4_8
+  network: ws
+  port: 2052
+  server: mahilu.site
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 8,14,16,18,19|美国2|@ripaojiedian
   network: ws
@@ -332,6 +349,19 @@ proxies:
     headers:
       Host: wap.hostmjj.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 9,24|🇺🇸_US_美国_5_22
+  network: ws
+  port: 8080
+  server: yh1.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
   name: '9|🇺🇸_US_美国 #23'
@@ -579,7 +609,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c9b008de-2110-4dd7-855b-f9e438e07e5c
+  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -589,7 +619,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c9b008de-2110-4dd7-855b-f9e438e07e5c
+  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -599,7 +629,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c9b008de-2110-4dd7-855b-f9e438e07e5c
+  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -2041,7 +2071,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c81431d7-4dcb-46e8-a435-82ff14ed139e
+  uuid: e5de61ab-f9c1-44d9-901b-e30982eaaaf6
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -2051,7 +2081,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c81431d7-4dcb-46e8-a435-82ff14ed139e
+  uuid: e5de61ab-f9c1-44d9-901b-e30982eaaaf6
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -2061,13 +2091,37 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c81431d7-4dcb-46e8-a435-82ff14ed139e
+  uuid: e5de61ab-f9c1-44d9-901b-e30982eaaaf6
 - alterId: 0
   cipher: auto
   name: 19|美国3|@ripaojiedian
   network: tcp
   port: '3389'
   server: 139.59.24.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 172.67.170.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us4e-20240111.v2freevpn.com
+    path: /v149-dskds65
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: tcp
+  port: '3389'
+  server: 134.122.41.160
   servername: ''
   tls: false
   type: vmess
