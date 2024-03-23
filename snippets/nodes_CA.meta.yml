@@ -43,22 +43,13 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts:
-    headers:
-      Host:
-      - internet.life.com.by
-    method: GET
-    path:
-    - /
-  name: 1,3,6,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_21
+  name: 1,3,8,9,20,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_21
   network: http
   port: 3389
   server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
@@ -89,7 +80,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '8,16|🇨🇦_CA_加拿大 #7'
+  name: '8|🇨🇦_CA_加拿大 #3'
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -122,91 +113,31 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7bc64e45-0420-44af-96fd-4b51220981ea
+  uuid: 0840f43e-e592-4f76-8013-c38fc30dc466
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
   port: '443'
-  server: linde06.indiavideo.sbs
-  servername: linde06.indiavideo.sbs
+  server: inna.cfd
+  servername: inna.cfd
   tls: true
   type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 021
-  network: ws
-  port: 80
-  server: 104.21.230.54
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt4.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #1'
-  network: ws
-  port: '80'
-  server: 104.21.225.6
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt4.ir
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 183
-  network: ws
-  port: 2083
-  server: http.cdn-tgju.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 7453a796-159d-43a9-ddc9-20cead7886a8
-  ws-opts:
-    headers:
-      Host: http.cdn-tgju.org
-    path: /twos
-- alterId: 0
-  cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #2'
-  network: ws
-  port: '2086'
-  server: 104.21.90.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: index.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 014
-  network: ws
-  port: 80
-  server: 104.21.224.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: '/?ed=2048&amp;Telegram🇨🇳 '
+      Host: inna.cfd
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 16|加拿大 006
@@ -223,111 +154,74 @@ proxies:
     path: /v149-dskds65
 - alterId: 0
   cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #3'
+  name: 16|加拿大 025
   network: ws
-  port: '80'
-  server: 104.21.224.101
+  port: 2086
+  server: admin.arzonhost.ir
   servername: ''
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+      Host: admin.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 110
+  name: '16|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
-  port: 443
-  server: 104.21.66.23
+  port: '443'
+  server: linde06.indiavideo.sbs
+  servername: linde06.indiavideo.sbs
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '16|Channel id: @ShadowProxy66 🇨🇦 #2'
+  network: ws
+  port: '2096'
+  server: 104.21.69.44
+  servername: eu4.nlist.eu.org
+  tls: true
+  type: vmess
+  uuid: 98b879fc-ed38-4537-f02f-e88e4892d48c
+  ws-opts:
+    headers:
+      Host: eu4.nlist.eu.org
+    path: /liu
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 183
+  network: ws
+  port: 2083
+  server: http.cdn-tgju.org
   servername: ''
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 7453a796-159d-43a9-ddc9-20cead7886a8
   ws-opts:
     headers:
-      Host: kristin.makeup
-    path: /linkvws
+      Host: http.cdn-tgju.org
+    path: /twos
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  name: '16|Channel id: @ShadowProxy66 🇨🇦 #3'
+  network: ws
+  port: '2086'
+  server: 104.21.90.218
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 007
-  network: ws
-  port: 80
-  server: 104.21.233.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
   ws-opts:
     headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #5'
-  network: ws
-  port: '80'
-  server: 104.21.227.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #6'
-  network: ws
-  port: '80'
-  server: 104.21.226.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt4.ir
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #7'
-  network: ws
-  port: '80'
-  server: 104.21.224.5
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 16|🇨🇦 加拿大 013
-  network: ws
-  port: '80'
-  server: 104.21.236.82
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048&Telegram🇨🇳
+      Host: index.zhaal.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
@@ -337,4 +231,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7fdc6197-7fc5-4202-b494-0c4ffcfe8b5e
+  uuid: 9b0f259d-efa4-425e-a1fc-887d3945835e
