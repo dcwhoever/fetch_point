@@ -4,7 +4,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-153
+  name: 1,6|-https://t.me/MrXbin-143
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -19,17 +19,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US__2
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-142
   network: ws
   port: 2095
   server: russia.com
+  servername: ssrsub.v03.ssrsub.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
   ws-opts:
     headers:
-      host: ssrsub.v03.ssrsub.com
+      HOST: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
@@ -252,6 +256,19 @@ proxies:
   network: ws
   port: 2052
   server: 104.21.82.39
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8,9,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_30
+  network: ws
+  port: 2052
+  server: mahilu.site
   tls: false
   type: vmess
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
@@ -536,7 +553,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e42e6db-e526-476d-bbc2-b4efb32e7567
+  uuid: 7bc64e45-0420-44af-96fd-4b51220981ea
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -546,7 +563,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e42e6db-e526-476d-bbc2-b4efb32e7567
+  uuid: 7bc64e45-0420-44af-96fd-4b51220981ea
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -556,7 +573,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e42e6db-e526-476d-bbc2-b4efb32e7567
+  uuid: 7bc64e45-0420-44af-96fd-4b51220981ea
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -1723,7 +1740,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c136460-82f0-4077-bf4a-8c434267e128
+  uuid: 7fdc6197-7fc5-4202-b494-0c4ffcfe8b5e
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -1733,7 +1750,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c136460-82f0-4077-bf4a-8c434267e128
+  uuid: 7fdc6197-7fc5-4202-b494-0c4ffcfe8b5e
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -1743,7 +1760,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c136460-82f0-4077-bf4a-8c434267e128
+  uuid: 7fdc6197-7fc5-4202-b494-0c4ffcfe8b5e
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1771,11 +1788,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: tcp
-  port: '3389'
-  server: 134.122.41.160
+  name: 21|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 172.64.160.210
   servername: ''
   tls: false
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  ws-opts:
+    headers:
+      Host: de321.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl

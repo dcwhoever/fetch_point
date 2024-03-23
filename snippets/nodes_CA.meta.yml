@@ -1,21 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-70
+  name: 1|_CA__1
   network: ws
   port: 8080
   server: 23.227.39.24
-  servername: per-essex-patterns-bowling.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   ws-opts:
     headers:
-      HOST: per-essex-patterns-bowling.trycloudflare.com
+      host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
@@ -66,21 +62,17 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-71
+  name: 1|_CA__5
   network: ws
   port: 8080
   server: 23.227.38.23
-  servername: uh-lawyers-instruments-kernel.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      HOST: uh-lawyers-instruments-kernel.trycloudflare.com
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
@@ -130,7 +122,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e42e6db-e526-476d-bbc2-b4efb32e7567
+  uuid: 7bc64e45-0420-44af-96fd-4b51220981ea
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
@@ -217,9 +209,9 @@ proxies:
     path: '/?ed=2048&amp;Telegram🇨🇳 '
 - alterId: 0
   cipher: auto
-  name: 16,21|baipaovpn美国
+  name: 16|加拿大 006
   network: ws
-  port: '80'
+  port: 80
   server: 172.67.170.75
   servername: ''
   tls: false
@@ -345,4 +337,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0c136460-82f0-4077-bf4a-8c434267e128
+  uuid: 7fdc6197-7fc5-4202-b494-0c4ffcfe8b5e
