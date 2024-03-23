@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7c316bab-b481-4334-ab45-95cad9f79f92
+  uuid: 66536275-b8cc-4ce2-8935-8fcda522bf88
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7c316bab-b481-4334-ab45-95cad9f79f92
+  uuid: 66536275-b8cc-4ce2-8935-8fcda522bf88
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7c316bab-b481-4334-ab45-95cad9f79f92
+  uuid: 66536275-b8cc-4ce2-8935-8fcda522bf88
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
+  network: ws
+  port: '32128'
+  server: 128.199.193.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cc7e743-f9c9-492a-954b-7333df7ad7ae
+  ws-opts:
+    headers:
+      Host: m.instagram.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
@@ -38,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a2b5503-e1f7-46f7-81f0-7d21427b78e5
+  uuid: f2de2a10-9e92-4a12-8ca6-abab32228b24
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -48,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a2b5503-e1f7-46f7-81f0-7d21427b78e5
+  uuid: f2de2a10-9e92-4a12-8ca6-abab32228b24
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -58,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a2b5503-e1f7-46f7-81f0-7d21427b78e5
+  uuid: f2de2a10-9e92-4a12-8ca6-abab32228b24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡|@ripaojiedian
