@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-TLS 🇭🇰 HK-38.207.174.2...
+  network: ws
+  port: '10000'
+  server: 38.207.174.231
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -27,6 +41,22 @@ proxies:
     tls: false
   port: 443
   server: 42.2.205.100
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.82.85
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -88,6 +118,23 @@ proxies:
     headers:
       Host: data-hk-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|香港6|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 43.154.96.33
+  servername: cfhk.393930.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
 - alterId: 64
   cipher: auto
   name: 19|香港2|@ripaojiedian
