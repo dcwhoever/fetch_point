@@ -40,21 +40,17 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  country: AE
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-126
+  name: 1|_AE_->_GB_
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: food.zhaal.ir
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      HOST: food.zhaal.ir
+      host: food.zhaal.ir
     path: /
 - name: 1|_CA_->_US_
   network: ws
@@ -105,7 +101,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,8,20,24|🇺🇸_US_美国 #44'
+  name: '3,8,20,24|🇺🇸_US_美国 #43'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -144,7 +140,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '3,9,20,24|🇺🇸_US_美国 #47'
+  name: '3,9,20,24|🇺🇸_US_美国 #46'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -181,19 +177,6 @@ proxies:
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: 16|🇺🇸_US_美国->🇪🇸_ES_西班牙
-  network: ws
-  port: 8080
-  server: us2.laobideng.xyz
-  tls: false
-  type: vmess
-  uuid: f9c92e9c-5f92-4ff7-99a1-91a973b6ec57
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇲🇾_MY_马来西亚
