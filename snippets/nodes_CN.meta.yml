@@ -4,26 +4,13 @@ proxies:
   name: 12|中国景德镇市|Github搜索TrojanLinks
   network: ws
   port: '37000'
-  server: 137.175.12.65
+  server: 137.175.12.66
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: www.86052077.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国新山村|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 137.175.40.23
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.75596620.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
