@@ -1,21 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-102
+  name: 1|_CA__1
   network: ws
   port: 8080
   server: 23.227.39.24
-  servername: per-essex-patterns-bowling.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   ws-opts:
     headers:
-      HOST: per-essex-patterns-bowling.trycloudflare.com
+      host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
@@ -67,17 +63,21 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 1|_CA__5
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-92
   network: ws
   port: 8080
   server: 23.227.38.23
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
+      HOST: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
@@ -127,7 +127,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9b0d8428-1f10-447f-8d90-43d19d7d7ca2
+  uuid: 7876dac2-e550-44bd-a97c-2b9331fc1c03
 - alterId: 0
   cipher: auto
   name: 16|加拿大 100
@@ -274,4 +274,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09a89366-6dc1-491f-8e5b-29e1ec5ac727
+  uuid: ffeb2627-cc91-421a-b244-4739a7ff2ba4
