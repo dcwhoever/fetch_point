@@ -1,19 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国泉州市|Github搜索TrojanLinks
-  network: ws
-  port: '36000'
-  server: 142.4.108.218
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.17383957.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 12|中国十堰|Github搜索TrojanLinks
   network: ws
   port: '38000'
@@ -52,16 +39,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 16,19|香港|@ripaojiedian
-  network: tcp
-  port: '40002'
-  server: 120.238.122.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
