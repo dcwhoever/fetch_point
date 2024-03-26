@@ -43,13 +43,22 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '1,3,8,9,20|🇨🇦_CA_加拿大 #8'
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: '1,3,6,8,9,20|🇨🇦_CA_加拿大 #8'
   network: http
   port: 3389
   server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
@@ -93,11 +102,10 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 8,9,14|美国 CloudFlare公司CDN节点(shopify)
+  name: '8,9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
   network: ws
-  port: '8080'
+  port: 8080
   server: 23.227.38.23
-  servername: ''
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
@@ -114,7 +122,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fa994140-d413-4a0c-87a7-49ae443b9c8c
+  uuid: 745731ec-98b7-440d-830d-0776199aec98
 - alterId: 0
   cipher: auto
   name: 16|加拿大 122
@@ -263,4 +271,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ba6e5721-2373-4b1a-a710-7a14cf681224
+  uuid: cc524bc9-fff4-40c1-8bc0-fa5d61f2f0cc

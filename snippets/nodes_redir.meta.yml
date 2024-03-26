@@ -114,11 +114,10 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,14,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+  name: 3,8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
-  servername: ''
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
@@ -128,7 +127,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,8,14,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #2'
+  name: '3,8,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #2'
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -167,7 +166,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #21'
+  name: '8,9,14|美国 CloudFlare节点 #20'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -178,6 +177,19 @@ proxies:
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_32
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 16,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_24
@@ -193,19 +205,6 @@ proxies:
   network: ws
   port: 80
   server: 104.21.235.6
-  tls: false
-  type: vmess
-  uuid: f4c98b50-e614-11ee-b430-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: m4p9q.cnbete.life
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_9
-  network: ws
-  port: 80
-  server: 104.21.235.170
   tls: false
   type: vmess
   uuid: f4c98b50-e614-11ee-b430-205c6d5f5d78
@@ -238,4 +237,17 @@ proxies:
   ws-opts:
     headers:
       Host: yhnsb3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_4_38
+  network: ws
+  port: 2086
+  server: admin.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
     path: /
