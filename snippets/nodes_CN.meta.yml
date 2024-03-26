@@ -1,6 +1,19 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 12|中国景德镇市|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 137.175.12.66
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86052077.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: 12|中国鞍山市|Github搜索TrojanLinks
   network: ws
   port: '38000'
@@ -14,21 +27,10 @@ proxies:
     path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 14,21,24|🇨🇳_CN_中国->🇺🇸_US_美国_5
-  network: tcp
-  port: 50004
-  server: 14.18.91.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
-- alterId: 0
-  cipher: auto
   name: 14|中国 阿里云
   network: ws
   port: '2082'
   server: 8.222.174.108
-  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -50,3 +52,13 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇳_CN_中国->🇺🇸_US_美国_5
+  network: tcp
+  port: 50004
+  server: 14.18.91.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
