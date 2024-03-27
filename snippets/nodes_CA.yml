@@ -1,17 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_CA__1
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-76
   network: ws
   port: 8080
   server: 23.227.39.24
+  servername: per-essex-patterns-bowling.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   ws-opts:
     headers:
-      host: per-essex-patterns-bowling.trycloudflare.com
+      HOST: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
@@ -68,7 +72,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '8|🇨🇦_CA_加拿大 #1'
+  name: 8,14|美国 CloudFlare公司CDN节点(shopify)
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -114,21 +118,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4456ec80-bd51-4d13-ae19-4eb4bd0ba362
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 多伦多Oracle云计算数据中心
-  network: ws
-  port: '37302'
-  server: 132.145.100.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1a968778-72c9-4dce-be1b-65de17b05a6c
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed=2048
+  uuid: c2a4f6a0-42e3-4c91-b059-58f060998702
 - alterId: 0
   cipher: auto
   name: 16|加拿大 037
@@ -159,7 +149,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_38
+  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_4由快嘴科技提供：...
   network: ws
   port: 2086
   server: admin.arzonhost.ir
@@ -265,4 +255,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 78506f46-5612-4cc1-80e6-2a7bd72d6de6
+  uuid: 790b9e8b-266b-4c09-8813-b817e8358039
