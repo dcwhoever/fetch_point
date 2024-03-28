@@ -154,7 +154,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_29
+  name: 3,9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_29
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -167,9 +167,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,14|美国 CloudFlare节点 #21'
+  name: '8,9|🇺🇸_US_美国 #21'
   network: ws
-  port: '8080'
+  port: 8080
   server: 162.159.5.6
   tls: false
   type: vmess
@@ -222,19 +222,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇿🇦_ZA_南非_42
-  network: ws
-  port: 80
-  server: yhnsb3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
-  ws-opts:
-    headers:
-      Host: yhnsb3.shabijichang.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇪🇸_ES_西班牙_43
