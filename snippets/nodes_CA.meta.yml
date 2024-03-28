@@ -43,27 +43,40 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '1,3,8,9,20|🇨🇦_CA_加拿大 #7'
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: '1,3,6,8,9,20|🇨🇦_CA_加拿大 #7'
   network: http
   port: 3389
   server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 1|_CA__5
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-102
   network: ws
   port: 8080
   server: 23.227.38.23
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
+      HOST: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
@@ -113,7 +126,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f0e02855-ddbd-41a4-baad-880b5e07a9c7
+  uuid: 44d2a034-0ced-488a-9e4f-e5271be6522d
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
@@ -288,4 +301,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d8940d6-4a23-499d-be80-a5858051d99d
+  uuid: d5c9c62d-68c2-44c9-b8ec-7f87d2d26edb
