@@ -339,6 +339,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '9|🇺🇸_US_美国 #20'
+  network: ws
+  port: 8080
+  server: yh1.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
   name: '9|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
@@ -502,7 +515,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 745138e1-9f8b-4122-bea7-a3696e33fbca
+  uuid: f0f34644-ae55-46b8-984f-65f5ccd8918c
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -512,7 +525,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 745138e1-9f8b-4122-bea7-a3696e33fbca
+  uuid: f0f34644-ae55-46b8-984f-65f5ccd8918c
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -522,7 +535,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 745138e1-9f8b-4122-bea7-a3696e33fbca
+  uuid: f0f34644-ae55-46b8-984f-65f5ccd8918c
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -1765,7 +1778,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1408e852-39c7-4a18-98eb-afc46d56598e
+  uuid: 8f326b8c-43c2-4edf-bee3-aaf26ffff266
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -1775,7 +1788,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1408e852-39c7-4a18-98eb-afc46d56598e
+  uuid: 8f326b8c-43c2-4edf-bee3-aaf26ffff266
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -1785,7 +1798,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1408e852-39c7-4a18-98eb-afc46d56598e
+  uuid: 8f326b8c-43c2-4edf-bee3-aaf26ffff266
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
