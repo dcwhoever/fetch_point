@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8df58a43-683d-4bb9-9b5c-d3f37438cb4f
+  uuid: 613cb5b7-a692-4de5-a396-1cd2cf0196b2
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8df58a43-683d-4bb9-9b5c-d3f37438cb4f
+  uuid: 613cb5b7-a692-4de5-a396-1cd2cf0196b2
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,32 +28,20 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8df58a43-683d-4bb9-9b5c-d3f37438cb4f
+  uuid: 613cb5b7-a692-4de5-a396-1cd2cf0196b2
 - alterId: 0
   cipher: auto
-  name: 16| 🇯🇵 日本 JP03
+  name: 16,21|baipaovpn日本
   network: ws
   port: '80'
-  server: jp03.xpoti.online
+  server: 54.250.147.208
+  servername: ''
   tls: false
   type: vmess
   uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16| 🇯🇵 日本 JP04
-  network: ws
-  port: '80'
-  server: jp04.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: ''
+      Host: jp02.xpoti.online
     path: /
 - alterId: 0
   cipher: auto
@@ -67,32 +55,6 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 16| 🇯🇵 日本 JP02
-  network: ws
-  port: '80'
-  server: jp02.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16| 🇯🇵 日本 JP01
-  network: ws
-  port: '80'
-  server: jp01.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -100,7 +62,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 794010ef-65fe-4aef-a91a-07829ea76a1e
+  uuid: bf0f4b2e-2852-485b-9399-aaaa97e63377
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -110,7 +72,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 794010ef-65fe-4aef-a91a-07829ea76a1e
+  uuid: bf0f4b2e-2852-485b-9399-aaaa97e63377
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -120,7 +82,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 794010ef-65fe-4aef-a91a-07829ea76a1e
+  uuid: bf0f4b2e-2852-485b-9399-aaaa97e63377
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -163,45 +125,3 @@ proxies:
   server: 54.186.125.168
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn日本东京
-  network: ws
-  port: '80'
-  server: 3.112.30.16
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: jp03.xpoti.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 54.250.147.208
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: jp02.xpoti.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn日本 #1'
-  network: ws
-  port: '80'
-  server: 43.203.179.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: kr01.xpoti.online
-    path: /
