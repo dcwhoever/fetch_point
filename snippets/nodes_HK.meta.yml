@@ -34,38 +34,27 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|香港|@ripaojiedian
+  name: 18,19|香港1|@ripaojiedian
   network: ws
-  port: '8080'
-  server: 185.14.47.99
-  servername: hk-6.trollfunny.net
+  port: '50080'
+  server: 223.113.130.58
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  uuid: 842bca7e-7fae-3e92-ba62-8c5e010c24cf
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港2|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: e0e3524.microsoft.com
-  password: Fhbe0z
-  port: 11810
-  protocol: auth_aes128_sha1
-  protocol-param: 24:ZxbF8f
-  server: 183.240.220.84
-  type: ssr
-- alterId: 0
+      Host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 64
   cipher: auto
-  name: 19,21|baipaovpn南非
+  name: 19|香港|@ripaojiedian
   network: tcp
-  port: '57310'
-  server: 156.251.217.24
+  port: '40259'
+  server: 120.238.122.148
   servername: ''
   tls: false
   type: vmess
-  uuid: b080b33d-c598-4cb0-8381-1ac467540a89
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
