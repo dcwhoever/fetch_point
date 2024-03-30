@@ -43,7 +43,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 1,3,8,9,20,24|🇨🇦_CA_加拿大_2
+  name: '1,3,8,9,20|🇨🇦_CA_加拿大 #7'
   network: http
   port: 3389
   server: 134.122.41.160
@@ -93,7 +93,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 8,9,24|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_30
+  name: '8,9|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -113,7 +113,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 83ced7c0-c34e-4086-94ac-aa5641acc6b3
+  uuid: 87ae0de3-f9d3-4a6b-af8e-61d6559927f3
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
@@ -171,20 +171,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 024
-  network: ws
-  port: 80
-  server: beijing.mfa.ee
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  ws-opts:
-    headers:
-      Host: open.alipay.ovh
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
   name: 16|加拿大 027
   network: ws
   port: 443
@@ -234,4 +220,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 247dab2c-a9a9-4802-981c-48da21798d69
+  uuid: c09dcb2f-61f8-4fe9-ab15-9ce70ee3d0eb
