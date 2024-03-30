@@ -43,7 +43,7 @@ proxies:
   country: AE
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-104
+  name: 1,6|-https://t.me/MrXbin-100
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -118,7 +118,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 3,8,9,14,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
+  name: 3,8,9,14,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供：kk...
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -184,17 +184,6 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
-  network: ws
-  port: 443
-  server: cdn2_de.majutsu.top
-  tls: true
-  type: vmess
-  uuid: 61abbe9b-ac90-4dcc-99de-35e17f0ce847
-  ws-opts:
-    path: /acc
-- alterId: 0
-  cipher: auto
   name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
   port: 2086
@@ -232,6 +221,17 @@ proxies:
     headers:
       Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
     path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
+  network: ws
+  port: 443
+  server: cdn2_de.majutsu.top
+  tls: true
+  type: vmess
+  uuid: 61abbe9b-ac90-4dcc-99de-35e17f0ce847
+  ws-opts:
+    path: /acc
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_4_28
