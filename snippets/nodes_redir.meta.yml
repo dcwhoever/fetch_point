@@ -706,7 +706,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '3,9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '3,9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -719,7 +719,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: '3,9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #7'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -758,7 +758,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_2_由快嘴科技提供：k...
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
   network: ws
   port: 8880
   server: cdn.vds-server.ir
