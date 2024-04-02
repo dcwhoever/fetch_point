@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: be44d2a5-bc31-47c4-871d-31166e49d837
+  uuid: 724bb43d-7ece-4be6-a4e0-c8313d496932
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: be44d2a5-bc31-47c4-871d-31166e49d837
+  uuid: 724bb43d-7ece-4be6-a4e0-c8313d496932
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: be44d2a5-bc31-47c4-871d-31166e49d837
+  uuid: 724bb43d-7ece-4be6-a4e0-c8313d496932
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
@@ -39,6 +39,36 @@ proxies:
   tls: false
   type: vmess
   uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
+  name: 17|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.m3c5wy.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8b908526-062e-45fc-9672-df2a3bf9aa85
+- alterId: 0
+  cipher: auto
+  name: 17|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.m3c5wy.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8b908526-062e-45fc-9672-df2a3bf9aa85
+- alterId: 0
+  cipher: auto
+  name: 17|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.m3c5wy.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8b908526-062e-45fc-9672-df2a3bf9aa85
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -71,11 +101,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.169.147.64
-  tfo: false
-  type: ss
