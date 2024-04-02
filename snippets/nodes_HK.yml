@@ -45,6 +45,23 @@ proxies:
   server: 8.210.33.152
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19,24|🇨🇳_CN_中国->🇩🇪_DE_德国_42
+  network: ws
+  port: 46038
+  server: mf838f.micloud.buzz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4a7929d8-f59e-4f37-9708-22027f210a07
+  ws-opts:
+    headers:
+      Host: mf838f.micloud.buzz
+    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡2|@ripaojiedian
