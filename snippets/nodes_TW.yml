@@ -1,1 +1,44 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  name: 18,19|台湾3|@ripaojiedian
+  network: grpc
+  port: '3443'
+  server: 47.75.101.0
+  servername: itw.node.now.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 61f7a2a6-e699-40fd-bf63-5000aa4cbdeb
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn台湾省高雄市
+  network: ws
+  port: '443'
+  server: 61.227.197.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
+  ws-opts:
+    headers:
+      Host: tw1g.xn--vhq70hxyat50h6wk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn台湾省高雄市 #1'
+  network: ws
+  port: '80'
+  server: 61.227.197.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
+  ws-opts:
+    headers:
+      Host: tw1g.xn--vhq70hxyat50h6wk.com
+    path: /
