@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4c02574a-dc31-4610-b684-4be5f31c5642
+  uuid: 6cf845a6-3320-4fb1-af39-0097defc61ff
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4c02574a-dc31-4610-b684-4be5f31c5642
+  uuid: 6cf845a6-3320-4fb1-af39-0097defc61ff
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4c02574a-dc31-4610-b684-4be5f31c5642
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
-  network: ws
-  port: '26012'
-  server: 146.190.84.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
-  ws-opts:
-    headers:
-      Host: tiktok.com
-    path: /
+  uuid: 6cf845a6-3320-4fb1-af39-0097defc61ff
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
@@ -66,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7c13c9f4-d4c8-4a9e-97c9-684b41741585
+  uuid: 8c4fd1c8-02bc-4af7-b5b2-d9e4a962d41a
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -76,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7c13c9f4-d4c8-4a9e-97c9-684b41741585
+  uuid: 8c4fd1c8-02bc-4af7-b5b2-d9e4a962d41a
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -86,20 +72,12 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7c13c9f4-d4c8-4a9e-97c9-684b41741585
+  uuid: 8c4fd1c8-02bc-4af7-b5b2-d9e4a962d41a
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡|@ripaojiedian
   password: 22212159-1be2-4c81-afbb-6203b6a51739
   port: 37998
   server: 789rmi3z.chytenciz-jgufv-sg02.my777999.top
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.231.229.48
   tfo: false
   type: ss

@@ -29,6 +29,22 @@ proxies:
   server: 1.65.218.192
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.82.85
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡2|@ripaojiedian
@@ -89,9 +105,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|香港6|@ripaojiedian
+  name: 18|🇭🇰 香港6|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: 107.148.4.60
   servername: www.50250108.xyz
   skip-cert-verify: false
