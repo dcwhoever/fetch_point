@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 02aaea58-5e31-42cc-8e31-f4451b4fe1a8
+  uuid: 7139fea9-b8f7-4bd2-96a3-691636344601
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 02aaea58-5e31-42cc-8e31-f4451b4fe1a8
+  uuid: 7139fea9-b8f7-4bd2-96a3-691636344601
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 02aaea58-5e31-42cc-8e31-f4451b4fe1a8
+  uuid: 7139fea9-b8f7-4bd2-96a3-691636344601
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
+  network: ws
+  port: '52419'
+  server: 128.199.193.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 250014f0-1f89-43a5-bbe0-127ab48b66a0
+  ws-opts:
+    headers:
+      Host: whatsapp.net
+    path: /
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
@@ -38,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d7c73d7-f181-4285-a1a9-da2c822159ab
+  uuid: ee43c0c1-3ebf-4a01-85ca-0bd2228b6a50
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -48,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d7c73d7-f181-4285-a1a9-da2c822159ab
+  uuid: ee43c0c1-3ebf-4a01-85ca-0bd2228b6a50
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -58,4 +72,20 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d7c73d7-f181-4285-a1a9-da2c822159ab
+  uuid: ee43c0c1-3ebf-4a01-85ca-0bd2228b6a50
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇸🇬 新加坡|@ripaojiedian
+  password: 22212159-1be2-4c81-afbb-6203b6a51739
+  port: 37998
+  server: 789rmi3z.chytenciz-jgufv-sg02.my777999.top
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.231.229.48
+  tfo: false
+  type: ss
