@@ -680,7 +680,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 8,20,24|🇺🇸_US_美国_5_32
+  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -693,7 +693,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 8,9,14,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_由快嘴科技提供;kk...
+  name: 8,9,14,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_8
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -707,7 +707,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,9,20,24|🇺🇸_US_美国_由快嘴科技提供;kkzui.com2_44
+  name: '8,9,20|🇺🇸_US_美国 #24'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -746,7 +746,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_3_26
+  name: '9,14,20|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -773,7 +773,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_2_45
+  name: '16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
@@ -786,10 +786,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供;...
+  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
   port: 2086
-  server: 104.21.4.14
+  server: 172.67.223.242
   tls: false
   type: vmess
   uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
@@ -799,7 +799,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供;kkz... #1'
+  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_20
   network: ws
   port: 8880
   server: cdn.vds-server.ir
@@ -812,20 +812,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇸🇬_SG_新加坡->🇫🇷_FR_法国_由快嘴科技提供;kk...
+  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
   network: ws
-  port: 2082
-  server: 8.222.174.108
+  port: 2086
+  server: 104.21.4.14
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_22
+  name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_由快嘴科技提供：kk...
   network: ws
   port: 2095
   server: tu.mahilu.site
@@ -838,26 +838,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇭🇰_HK_香港_2_39
-  network: ws
-  port: 2095
-  server: 104.21.23.231
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇨🇳_CN_中国->🇩🇪_DE_德国_42
+  name: 24|🇨🇳_CN_中国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 46038
   server: mf838f.micloud.buzz
   tls: false
   type: vmess
   uuid: 4a7929d8-f59e-4f37-9708-22027f210a07
+  ws-opts:
+    headers:
+      Host: mf838f.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 24|🇨🇳_CN_中国->🇩🇪_DE_德国_2_30
+  network: ws
+  port: 46038
+  server: 120.232.159.92
+  tls: false
+  type: vmess
+  uuid: b9fa74bc-3559-4ff7-942d-6c6cd5770dc3
   ws-opts:
     headers:
       Host: mf838f.micloud.buzz
