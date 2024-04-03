@@ -69,7 +69,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3587635a-993b-4011-9609-e4d56833d8c8
+  uuid: 4c02574a-dc31-4610-b684-4be5f31c5642
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇹🇷_TR_土耳其_22
+  network: ws
+  port: 2095
+  server: tu.mahilu.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: tu.mahilu.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -82,10 +96,11 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇦 加拿大 013
+  name: 16|加拿大 013
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.220.117
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -95,20 +110,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-NA 🇨🇦 CA-104.234.69.24...
-  network: ws
-  port: 53259
-  server: 104.234.69.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4dd6c192-8284-4504-9dee-5ca7da27069b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -116,4 +117,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ed95cd0d-363b-4f2e-8264-ab0c34b38a5a
+  uuid: 7c13c9f4-d4c8-4a9e-97c9-684b41741585
