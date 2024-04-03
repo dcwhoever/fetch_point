@@ -1,42 +1,29 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 12|中国Changning|Github搜索TrojanLink...
+  network: ws
+  port: '38001'
+  server: 137.175.15.138
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86222404.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: 12|中国自贡|Github搜索TrojanLinks
   network: ws
-  port: '38000'
-  server: 137.175.41.117
+  port: '38001'
+  server: 137.175.41.77
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.47643999.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国廊坊市|Github搜索TrojanLinks
-  network: ws
-  port: '38000'
-  server: 142.4.106.214
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.94152251.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国四平市|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 137.175.4.58
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.54790250.xyz
+      Host: www.39281349.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -57,7 +44,7 @@ proxies:
   name: 21|baipaovpn广东省
   network: tcp
   port: '29299'
-  server: 183.240.220.57
+  server: 183.240.232.65
   servername: ''
   tls: false
   type: vmess
