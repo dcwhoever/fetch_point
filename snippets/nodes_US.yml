@@ -171,19 +171,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,24|🇺🇸_US_美国_3_30
-  network: ws
-  port: 8080
-  server: yh1.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
   name: '9|🇺🇸_US_美国 #17'
   network: ws
   port: 8080
@@ -335,7 +322,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 724bb43d-7ece-4be6-a4e0-c8313d496932
+  uuid: 02aaea58-5e31-42cc-8e31-f4451b4fe1a8
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -345,7 +332,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 724bb43d-7ece-4be6-a4e0-c8313d496932
+  uuid: 02aaea58-5e31-42cc-8e31-f4451b4fe1a8
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -355,7 +342,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 724bb43d-7ece-4be6-a4e0-c8313d496932
+  uuid: 02aaea58-5e31-42cc-8e31-f4451b4fe1a8
 - alterId: 0
   cipher: auto
   name: 14|美国 新泽西州皮斯卡特维Choopa数据中心
@@ -1318,7 +1305,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8b908526-062e-45fc-9672-df2a3bf9aa85
+  uuid: 2d7c73d7-f181-4285-a1a9-da2c822159ab
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -1328,7 +1315,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8b908526-062e-45fc-9672-df2a3bf9aa85
+  uuid: 2d7c73d7-f181-4285-a1a9-da2c822159ab
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -1338,32 +1325,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8b908526-062e-45fc-9672-df2a3bf9aa85
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|美国2|@ripaojiedian
-  network: ws
-  port: '2082'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d4a530d5-9755-4ff9-a9ed-5a058cf0038b
-  ws-opts:
-    headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国3|@ripaojiedian
-  password: 9c709e3d-f733-4b08-853d-2c81c4f393b5
-  port: 25519
-  server: gz.quanstring.top
-  tfo: false
-  type: ss
+  uuid: 2d7c73d7-f181-4285-a1a9-da2c822159ab
 - alterId: 0
   cipher: auto
   name: '20|🇺🇸_US_美国 #29'

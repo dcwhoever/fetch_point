@@ -1,36 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|台湾2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
+  name: 19|台湾|@ripaojiedian
+  network: tcp
+  port: '34998'
+  server: 879xhl1.hsspr5bu1-tw02.my777999.top
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: d4a530d5-9755-4ff9-a9ed-5a058cf0038b
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  name: 18,19|台湾3|@ripaojiedian
-  network: grpc
-  port: '3443'
-  server: 47.75.101.0
-  servername: itw.node.now.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 61f7a2a6-e699-40fd-bf63-5000aa4cbdeb
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn台湾省高雄市
