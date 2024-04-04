@@ -1,29 +1,55 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国Changning|Github搜索TrojanLink...
+  name: 12|中国Tai'an|Github搜索TrojanLinks
   network: ws
-  port: '38001'
-  server: 137.175.15.145
+  port: '37001'
+  server: 142.4.108.44
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.86222404.xyz
+      Host: www.20234339.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国南京|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 142.4.103.186
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.84675006.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
   name: 12|中国开封市|Github搜索TrojanLinks
   network: ws
   port: '38000'
-  server: 192.74.241.44
+  server: 192.74.241.48
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: www.12630069.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国重庆市|Github搜索TrojanLinks
+  network: ws
+  port: '37001'
+  server: 198.2.196.161
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.54701745.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
