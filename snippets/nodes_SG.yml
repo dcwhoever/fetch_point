@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c8b19279-0ae1-4d06-b603-a5067d3165a5
+  uuid: 86c8f023-e535-4380-9f83-7652a371de4a
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c8b19279-0ae1-4d06-b603-a5067d3165a5
+  uuid: 86c8f023-e535-4380-9f83-7652a371de4a
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c8b19279-0ae1-4d06-b603-a5067d3165a5
+  uuid: 86c8f023-e535-4380-9f83-7652a371de4a
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
@@ -45,6 +45,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16|🔒 VM-WS-NONE 🇸🇬 SG-146.190.87....
+  network: ws
+  port: 19193
+  server: 146.190.87.238
+  tls: false
+  type: vmess
+  uuid: 0f94fdae-5653-4314-9c92-e57e5ec55513
+  ws-opts:
+    path: /ow
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
+  network: ws
+  port: '52419'
+  server: 128.199.193.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 250014f0-1f89-43a5-bbe0-127ab48b66a0
+  ws-opts:
+    headers:
+      Host: whatsapp.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -52,7 +77,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 13ffc487-0033-4bae-b89d-052766f9d7cb
+  uuid: b070bc0e-b2e7-4749-a7f6-42f2256bde73
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -62,7 +87,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 13ffc487-0033-4bae-b89d-052766f9d7cb
+  uuid: b070bc0e-b2e7-4749-a7f6-42f2256bde73
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -72,4 +97,20 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 13ffc487-0033-4bae-b89d-052766f9d7cb
+  uuid: b070bc0e-b2e7-4749-a7f6-42f2256bde73
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇸🇬 新加坡|@ripaojiedian
+  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
+  port: 20109
+  server: ddns.olucloud.subapi.cc
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.215.156.208
+  tfo: false
+  type: ss
