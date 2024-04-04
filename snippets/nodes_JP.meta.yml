@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c96142bb-1d88-4989-a50b-8c1d1ac55b99
+  uuid: 1cb4b82b-27f5-458f-9139-0d1e8fd2c568
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c96142bb-1d88-4989-a50b-8c1d1ac55b99
+  uuid: 1cb4b82b-27f5-458f-9139-0d1e8fd2c568
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,7 +28,21 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c96142bb-1d88-4989-a50b-8c1d1ac55b99
+  uuid: 1cb4b82b-27f5-458f-9139-0d1e8fd2c568
+- alterId: 0
+  cipher: auto
+  name: 16,21|baipaovpn日本
+  network: ws
+  port: '2052'
+  server: 47.74.6.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  ws-opts:
+    headers:
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
 - alterId: 0
   cipher: auto
   name: 16|日本 002
@@ -45,16 +59,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -62,7 +66,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 78c8de3a-1d4e-41c7-8783-65e997a3245e
+  uuid: 7022c070-7304-4b1d-a38e-bcc4a08b9364
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -72,7 +76,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 78c8de3a-1d4e-41c7-8783-65e997a3245e
+  uuid: 7022c070-7304-4b1d-a38e-bcc4a08b9364
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -82,7 +86,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 78c8de3a-1d4e-41c7-8783-65e997a3245e
+  uuid: 7022c070-7304-4b1d-a38e-bcc4a08b9364
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -138,13 +142,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 1
-  cipher: auto
-  name: 21|baipaovpn日本东京
-  network: tcp
-  port: '28786'
-  server: 13.115.208.96
-  servername: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: e147ce52-2598-31b0-950d-6b12c306b360
