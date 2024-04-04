@@ -1,4 +1,30 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 12|中国Changning|Github搜索TrojanLink...
+  network: ws
+  port: '38001'
+  server: 137.175.15.145
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86222404.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国开封市|Github搜索TrojanLinks
+  network: ws
+  port: '38000'
+  server: 192.74.241.44
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.12630069.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
