@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 16|SG_youtube@资源分享师_217
@@ -51,7 +51,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -61,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -71,32 +71,12 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn新加坡
-  network: ws
-  port: '80'
-  server: 128.199.149.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
-  ws-opts:
-    headers:
-      Host: sg03.oliviapretty.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn新加坡 #1'
-  network: ws
-  port: '80'
-  server: 128.199.149.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.214.212.171
+  tfo: false
+  type: ss

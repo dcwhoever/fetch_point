@@ -156,9 +156,9 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9,14|美国 CloudFlare节点 #6'
+  name: 9,14,24|🇺🇸_US_美国_3
   network: ws
-  port: '80'
+  port: 80
   server: 172.67.116.48
   servername: ''
   tls: false
@@ -223,16 +223,42 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 12|美国聖荷西|Github搜索TrojanLinks
+  name: 12|美国紐約|Github搜索TrojanLinks
   network: ws
-  port: '37000'
-  server: 107.148.206.124
+  port: '31000'
+  server: 172.111.57.14
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.98382183.xyz
+      Host: www.21463847.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|美国聖荷西|Github搜索TrojanLinks
+  network: ws
+  port: '38001'
+  server: 38.174.190.89
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.31033708.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|美国洛杉矶|Github搜索TrojanLinks
+  network: ws
+  port: '37000'
+  server: 38.54.247.118
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.99555130.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -243,7 +269,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -253,7 +279,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -263,7 +289,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -320,7 +346,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '14,24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz... #1'
+  name: 14,24|🇺🇸_US_美国->🇫🇷_FR_法国_2
   network: ws
   port: 2086
   server: admin.arzonhost.ir
@@ -583,9 +609,9 @@ proxies:
   uuid: 9800f2fa-6a43-456a-837f-61f7da433011
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com0_28
+  name: 16|🔒 VM-TCP-NA 🇺🇸 US-207.148.10.2...
   network: tcp
-  port: 47918
+  port: '47918'
   server: 207.148.10.248
   servername: ''
   tls: false
@@ -812,7 +838,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -822,7 +848,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -832,7 +858,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -852,16 +878,16 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19,24|🇺🇸_US_美国_9_27
+  name: 18,19|美国2|@ripaojiedian
   network: ws
-  port: 2082
+  port: '2082'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 203cea12-57fe-49c6-9e5b-906d2260ef12
+  uuid: 1b06158a-ea35-4e54-885d-d1eb61f34278
   ws-opts:
     headers:
       Host: us4Bb5oSgJA.fzbqfrse.xyz
@@ -898,7 +924,7 @@ proxies:
   name: 21|baipaovpn美国
   network: ws
   port: '80'
-  server: 52.194.221.38
+  server: 3.38.179.117
   servername: ''
   tls: false
   type: vmess
@@ -912,18 +938,31 @@ proxies:
   name: '21|baipaovpn美国 #1'
   network: ws
   port: '80'
-  server: 52.194.221.38
+  server: 3.38.179.117
   servername: ''
   tls: false
   type: vmess
   uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
   ws-opts:
     headers:
-      Host: ''
+      Host: kr04.hajimihajimihajimi.online
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国_5_22
+  name: 24|🇺🇸_US_美国_1
+  network: ws
+  port: 2052
+  server: lol.ps
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国_2
   network: ws
   port: 8880
   server: cdn.vds-server.ir
@@ -934,16 +973,3 @@ proxies:
     headers:
       Host: cdn.vds-server.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国_8_26
-  network: ws
-  port: 8080
-  server: 162.159.7.226
-  tls: false
-  type: vmess
-  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
-  ws-opts:
-    headers:
-      Host: technological-mel-fill-decide.trycloudflare.com
-    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
