@@ -14,19 +14,6 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国Changning|Github搜索TrojanLink...
-  network: ws
-  port: '38001'
-  server: 137.175.15.148
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.86222404.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 12|中国开封市|Github搜索TrojanLinks
   network: ws
   port: '38000'
@@ -52,3 +39,17 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn浙江省宁波市
+  network: ws
+  port: '21004'
+  server: 183.249.109.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 10e2ec07-a8bf-4bc7-b1b2-51507c5b6818
+  ws-opts:
+    headers:
+      Host: hinet.luodi.xyz
+    path: /hinet

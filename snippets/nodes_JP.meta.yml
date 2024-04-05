@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c708b6ac-584b-4178-8f69-c1f56f8f68d0
+  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c708b6ac-584b-4178-8f69-c1f56f8f68d0
+  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c708b6ac-584b-4178-8f69-c1f56f8f68d0
+  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇯🇵 JP-47.74.6.16:20...
@@ -90,7 +90,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 29b50d88-445b-4ec4-a76a-992f1e51fd35
+  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -100,7 +100,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 29b50d88-445b-4ec4-a76a-992f1e51fd35
+  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -110,13 +110,13 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 29b50d88-445b-4ec4-a76a-992f1e51fd35
+  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 18|🇯🇵 日本|@ripaojiedian
   network: ws
-  port: 46012
+  port: 46001
   server: mf411f.micloud.buzz
   skip-cert-verify: false
   tfo: false
@@ -127,22 +127,14 @@ proxies:
     headers:
       Host: mf411f.micloud.buzz
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇯🇵 日本2|@ripaojiedian
-  password: 4f2fdda5-9fb0-4c0c-8ec7-77fe7ae15a3d
-  port: 43505
-  server: rk2.izoizoizo.top
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 18,19|日本3|@ripaojiedian
   network: ws
   port: '8080'
-  server: 87.120.204.126
-  servername: jp-14.trollfunny.net
+  server: 87.120.204.161
+  servername: jp-4.trollfunny.net
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -152,11 +144,19 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.254.167.160
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19|日本|@ripaojiedian
   network: ws
-  port: '46012'
+  port: '46001'
   server: mf411f.micloud.buzz
   servername: ''
   tls: false
