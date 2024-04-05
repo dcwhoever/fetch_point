@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 50b9ab20-e78f-4efe-8dbd-64ff61d5c642
+  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 50b9ab20-e78f-4efe-8dbd-64ff61d5c642
+  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,7 +28,20 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 50b9ab20-e78f-4efe-8dbd-64ff61d5c642
+  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
+- alterId: 0
+  cipher: auto
+  name: 16|JP_youtube@资源分享师_32
+  network: ws
+  port: 80
+  server: jp03.victorialouisa.online
+  tls: false
+  type: vmess
+  uuid: f6125b2b-1c0d-4cb9-9c39-d00b437fc342
+  ws-opts:
+    headers:
+      Host: jp03.victorialouisa.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 16|RU_分享日记_15
@@ -39,6 +52,20 @@ proxies:
   type: vmess
   uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f
   ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|日本 002
+  network: ws
+  port: 8080
+  server: 87.120.204.64
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: 87.120.204.64
     path: /
 - alterId: 0
   cipher: auto
@@ -56,39 +83,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|RU_分享日记_8
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  name: 16|日本 002
-  network: ws
-  port: 8080
-  server: 87.120.204.64
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: 87.120.204.64
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
   name: 16|KZ_分享日记_4
   network: tcp
   port: 16179
@@ -98,13 +92,13 @@ proxies:
   uuid: d95078fa-9968-49fb-f505-78ccd01faa92
 - alterId: 0
   cipher: auto
-  name: 16|CH_分享日记
+  name: 16|RU_分享日记_8
   network: tcp
-  port: 41441
-  server: 136.0.8.222
+  port: 47555
+  server: 46.29.166.237
   tls: false
   type: vmess
-  uuid: d74ab79f-8547-464b-a5d0-d0256593c245
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇯🇵 JP-47.74.6.16:20...
@@ -128,7 +122,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7135c510-576f-499f-bc09-76c5d26bed04
+  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -138,7 +132,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7135c510-576f-499f-bc09-76c5d26bed04
+  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -148,7 +142,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7135c510-576f-499f-bc09-76c5d26bed04
+  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -198,7 +192,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn日本
+  name: '21|baipaovpn日本 #1'
   network: ws
   port: '80'
   server: 54.249.134.209
@@ -209,18 +203,4 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn日本 #1'
-  network: ws
-  port: '80'
-  server: 18.181.197.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6125b2b-1c0d-4cb9-9c39-d00b437fc342
-  ws-opts:
-    headers:
-      Host: jp03.victorialouisa.online
     path: /
