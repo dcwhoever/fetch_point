@@ -28,3 +28,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 60df4ec6-7506-407e-998e-b1539fc0630f
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn法国
+  network: ws
+  port: '88'
+  server: 57.181.145.223
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6c1f641-651f-4781-b9e2-c4e4858a619a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /name
