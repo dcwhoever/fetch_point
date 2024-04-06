@@ -137,10 +137,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn香港 #1'
+  name: '21|baipaovpn香港 #3'
   network: ws
   port: '2083'
   server: 47.243.86.79
+  servername: jp.pddf.buzz
+  tls: true
+  type: vmess
+  uuid: 0b732cff-36f4-43e4-a921-7925c78afc92
+  ws-opts:
+    headers:
+      Host: jp.pddf.buzz
+    path: /pdd?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn香港 #5'
+  network: ws
+  port: '12306'
+  server: 103.135.248.76
   servername: jp.pddf.buzz
   tls: true
   type: vmess
