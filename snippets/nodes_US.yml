@@ -346,7 +346,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2045953b-1d72-4da6-8ef1-348ee76dbf49
+  uuid: 9dcadd32-c97c-4db8-bc80-12dd72980caf
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -356,7 +356,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2045953b-1d72-4da6-8ef1-348ee76dbf49
+  uuid: 9dcadd32-c97c-4db8-bc80-12dd72980caf
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -366,7 +366,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2045953b-1d72-4da6-8ef1-348ee76dbf49
+  uuid: 9dcadd32-c97c-4db8-bc80-12dd72980caf
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -870,7 +870,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 14be9825-6679-41d9-832b-e0cc2e5ed31b
+  uuid: 39f0107b-1e6e-4663-a7d9-a6bf7592a935
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -880,7 +880,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 14be9825-6679-41d9-832b-e0cc2e5ed31b
+  uuid: 39f0107b-1e6e-4663-a7d9-a6bf7592a935
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -890,7 +890,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 14be9825-6679-41d9-832b-e0cc2e5ed31b
+  uuid: 39f0107b-1e6e-4663-a7d9-a6bf7592a935
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -953,7 +953,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn美国 #2'
+  name: 21|baipaovpn美国
   network: ws
   port: '2087'
   server: 47.236.150.13
@@ -965,16 +965,6 @@ proxies:
     headers:
       Host: jp.pddf.buzz
     path: /pdd?ed=2048
-- alterId: 1
-  cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: tcp
-  port: '449'
-  server: 52.195.19.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_1

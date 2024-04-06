@@ -52,3 +52,31 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省广州市
+  network: ws
+  port: '46001'
+  server: 120.232.159.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 62477f7a-783b-4f00-93cb-ce1f62155776
+  ws-opts:
+    headers:
+      Host: mf411f.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省广州市 #2'
+  network: ws
+  port: '46036'
+  server: 120.232.159.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 62477f7a-783b-4f00-93cb-ce1f62155776
+  ws-opts:
+    headers:
+      Host: mf836f.micloud.buzz
+    path: /zh-cn
