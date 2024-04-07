@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: deac581f-ad6d-4b64-9fbb-ca13188f853a
+  uuid: e970c444-d65f-44e3-bf94-0f1ff6a3c401
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: deac581f-ad6d-4b64-9fbb-ca13188f853a
+  uuid: e970c444-d65f-44e3-bf94-0f1ff6a3c401
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: deac581f-ad6d-4b64-9fbb-ca13188f853a
+  uuid: e970c444-d65f-44e3-bf94-0f1ff6a3c401
 - alterId: 0
   cipher: auto
   name: 16|新加坡 001
@@ -52,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0a9e5d-d418-46fa-a036-49e330d42bf7
+  uuid: 0ac0cb93-0400-4510-ab96-d8e6467795e2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -62,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0a9e5d-d418-46fa-a036-49e330d42bf7
+  uuid: 0ac0cb93-0400-4510-ab96-d8e6467795e2
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -72,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6b0a9e5d-d418-46fa-a036-49e330d42bf7
+  uuid: 0ac0cb93-0400-4510-ab96-d8e6467795e2
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -98,31 +98,3 @@ proxies:
   server: 13.229.182.149
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn新加坡
-  network: ws
-  port: '80'
-  server: 175.41.177.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b363045d-0589-4cf3-8d02-209e406853c5
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn新加坡 #2'
-  network: ws
-  port: '80'
-  server: 175.41.177.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b363045d-0589-4cf3-8d02-209e406853c5
-  ws-opts:
-    headers:
-      Host: sg02.handsomequinlan.online
-    path: /
