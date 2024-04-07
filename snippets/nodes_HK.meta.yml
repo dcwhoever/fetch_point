@@ -67,6 +67,23 @@ proxies:
   server: 121.43.117.216
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|香港5|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 185.244.208.61
+  servername: hk-17.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港6|@ripaojiedian

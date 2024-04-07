@@ -198,14 +198,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.34.246
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 19|日本|@ripaojiedian
@@ -220,17 +212,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn日本东京
-  network: ws
-  port: '3389'
-  server: 154.16.248.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b00c57f5-3f8f-38e7-b269-6ca1dea41096
-  ws-opts:
-    headers:
-      Host: 154.16.248.177
-    path: /db00
