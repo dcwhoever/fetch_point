@@ -773,19 +773,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
   network: ws
   port: 2086
@@ -810,6 +797,19 @@ proxies:
     headers:
       Host: ru327.xn--mes53ddysu0o3gl.top
     path: /xn--mes53ddysu0o3gl
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_22
