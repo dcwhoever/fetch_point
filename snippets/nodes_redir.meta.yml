@@ -680,7 +680,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 8,20,24|🇺🇸_US_美国_5_32
+  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -707,7 +707,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,9,20,24|🇺🇸_US_美国_2_2由快嘴科技提供：kkzui.com
+  name: 8,9,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_26
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -733,7 +733,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_5_30
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -746,7 +746,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,14,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  name: 9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_24
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -757,6 +757,19 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
+  network: ws
+  port: 2086
+  server: 104.21.4.14
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -773,33 +786,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2086
-  server: 104.21.4.14
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
-  network: ws
-  port: 80
-  server: 172.64.141.219
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: ru327.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  name: '16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
@@ -812,7 +799,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_22
+  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_4
   network: ws
   port: 8880
   server: cdn.vds-server.ir
@@ -825,7 +812,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_28
+  name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_20
   network: ws
   port: 2095
   server: tu.mahilu.site
