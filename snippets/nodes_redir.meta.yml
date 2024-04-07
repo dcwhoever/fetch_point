@@ -746,7 +746,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,14,20|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
+  name: '9,14,20|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -757,6 +757,19 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2086
+  server: 104.21.4.14
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -773,10 +786,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
   network: ws
   port: 2086
-  server: 104.21.4.14
+  server: 172.67.223.242
   tls: false
   type: vmess
   uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
@@ -797,19 +810,6 @@ proxies:
     headers:
       Host: ru327.xn--mes53ddysu0o3gl.top
     path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
-  network: ws
-  port: 2086
-  server: 172.67.223.242
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_22
