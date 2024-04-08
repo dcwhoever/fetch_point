@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 66e8586b-4a15-4355-968b-31d885abf268
+  uuid: b83033e5-d9c1-497d-9adb-32e34e480745
 - alterId: 0
   cipher: auto
   name: 16|加拿大 009
@@ -86,7 +86,21 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
+  name: 16|加拿大 010
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: 158.51.123.111
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_2由快嘴科技提供：...
   network: ws
   port: 2086
   server: 104.21.4.14
@@ -107,4 +121,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1cbd62ed-b96c-4844-b277-d2b1c5730c04
+  uuid: 6ebb4dfd-1df0-4cbf-bfb4-7a14e409ce0f
