@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|YouTube面具人哈乐_香港_25
+  network: ws
+  port: 2052
+  server: hk.wish.ml
+  tls: false
+  type: vmess
+  uuid: d396f102-c26b-4f1a-b7bc-f66e5b16bb75
+  ws-opts:
+    headers:
+      Host: us7.wish.ml
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -51,17 +64,6 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港3|@ripaojiedian
-  port: 41492
-  server: 120.232.242.117
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
   name: 18,19|香港4|@ripaojiedian
   network: ws
   port: '443'
@@ -103,7 +105,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 19,21|baipaovpn广东省广州市
+  name: 19|香港3|@ripaojiedian
   network: tcp
   port: '41492'
   server: 120.232.242.117
@@ -113,7 +115,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn香港 #2'
+  name: 21|baipaovpn香港
   network: tcp
   port: '80'
   server: 42.3.121.109
