@@ -667,7 +667,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #25'
+  name: '8,20|🇺🇸_US_美国 #26'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -760,19 +760,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
   network: ws
   port: 2086
@@ -783,6 +770,19 @@ proxies:
   ws-opts:
     headers:
       Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
