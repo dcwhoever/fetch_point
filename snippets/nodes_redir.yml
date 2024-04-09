@@ -1291,7 +1291,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 8,9,14,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_7
+  name: 8,9,14,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_7
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -1358,6 +1358,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇹🇷_TR_土耳其_4
+  network: ws
+  port: 2095
+  server: tu.mahilu.site
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: tu.mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
   name: '16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 2086
@@ -1368,19 +1381,6 @@ proxies:
   ws-opts:
     headers:
       Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_4
-  network: ws
-  port: 2095
-  server: tu.mahilu.site
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: tu.mahilu.site
     path: /
 - alterId: 0
   cipher: auto
