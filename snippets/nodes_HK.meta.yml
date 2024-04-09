@@ -116,7 +116,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '19,21|baipaovpn广东省广州市 #1'
+  name: 19|香港3|@ripaojiedian
   network: tcp
   port: '41492'
   server: 120.232.242.117
@@ -124,3 +124,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: tcp
+  port: '443'
+  server: 220.246.94.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
