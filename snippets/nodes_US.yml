@@ -236,59 +236,20 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 12|美国洛杉矶|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 148.135.31.36
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.72801237.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #1'
-  network: ws
-  port: 443
-  server: 148.135.12.174
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.15986187.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 12|美国紐約|Github搜索TrojanLinks
   network: ws
-  port: '31000'
-  server: 172.111.57.17
+  port: '30000'
+  server: 172.111.57.74
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.21463847.xyz
+      Host: www.75116565.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国紐約|Github搜索TrojanLinks #1'
-  network: ws
-  port: '31001'
-  server: 172.111.57.140
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.88268904.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #2'
+  name: 12|美国洛杉矶|Github搜索TrojanLinks
   network: ws
   port: 443
   server: 148.135.33.228
@@ -301,7 +262,33 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #3'
+  name: 12|美国西雅圖|Github搜索TrojanLinks
+  network: ws
+  port: '38001'
+  server: 142.4.116.161
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33586067.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国紐約|Github搜索TrojanLinks #1'
+  network: ws
+  port: '31000'
+  server: 172.111.57.17
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.21463847.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国洛杉矶|Github搜索TrojanLinks #1'
   network: ws
   port: '31000'
   server: 148.135.9.66
@@ -314,42 +301,29 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国紐約|Github搜索TrojanLinks #2'
+  name: '12|美国西雅圖|Github搜索TrojanLinks #1'
   network: ws
-  port: '31000'
-  server: 172.111.57.37
+  port: '37001'
+  server: 142.4.108.77
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.13861936.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #4'
-  network: ws
-  port: '31001'
-  server: 148.135.75.59
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.32497476.xyz
+      Host: www.63181393.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
-  port: '38000'
-  server: 142.4.113.104
+  port: '37001'
+  server: 192.74.247.219
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.94152251.xyz
+      Host: www.98382183.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -360,7 +334,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6b7ac064-4229-43df-b6f7-2540a2c4c218
+  uuid: df320161-fde8-46fc-a2e3-65f84e39e19a
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -370,7 +344,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6b7ac064-4229-43df-b6f7-2540a2c4c218
+  uuid: df320161-fde8-46fc-a2e3-65f84e39e19a
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -380,10 +354,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6b7ac064-4229-43df-b6f7-2540a2c4c218
+  uuid: df320161-fde8-46fc-a2e3-65f84e39e19a
 - alterId: 0
   cipher: auto
-  name: 14|美国 CloudFlare节点
+  name: 14,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
   network: ws
   port: 2095
   server: onea.flha.ru
@@ -396,7 +370,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14,24|🇺🇸_US_美国->🇫🇷_FR_法国_5_36
+  name: 14,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_由快嘴科技提供：k...
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -424,7 +398,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 14,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_8
+  name: 14,24|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
   network: ws
   port: 2086
   server: admin.arzonhost.ir
@@ -946,7 +920,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6b0ce99-dda1-452b-ba8c-5cf698f3ea84
+  uuid: 89ecac4a-ae34-4af7-ba7e-1bbc3279b93e
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -956,7 +930,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6b0ce99-dda1-452b-ba8c-5cf698f3ea84
+  uuid: 89ecac4a-ae34-4af7-ba7e-1bbc3279b93e
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -966,11 +940,11 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6b0ce99-dda1-452b-ba8c-5cf698f3ea84
+  uuid: 89ecac4a-ae34-4af7-ba7e-1bbc3279b93e
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19,24|🇺🇸_US_美国_4
+  name: 18,19,24|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com2
   network: ws
   port: 2095
   server: cfcdn1.sanfencdn9.com
@@ -984,6 +958,14 @@ proxies:
     headers:
       Host: us82pRzxDMb.fzbqfrse.xyz
     path: /video/qYZue4zaWS
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国3|@ripaojiedian
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.91.100.122
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19|美国5|@ripaojiedian
@@ -1013,239 +995,25 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn美国
+  name: 24|🇺🇸_US_美国_3_23
   network: ws
-  port: '80'
-  server: 172.64.104.182
-  servername: ''
+  port: 2095
+  server: 104.18.135.91
   tls: false
   type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
   ws-opts:
     headers:
-      Host: fr.grpc.gay
-    path: /rongseven?ed=2048
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_8_由快嘴科技提供：...
+  name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_11
   network: ws
-  port: 8080
-  server: 104.21.234.156
-  servername: ''
-  tls: false
+  port: 2087
+  server: api.cdn-tgju.org
+  tls: true
   type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
+  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
   ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_4_9
-  network: ws
-  port: 8080
-  server: 104.21.234.215
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk...
-  network: ws
-  port: 8080
-  server: 104.21.238.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #1'
-  network: ws
-  port: 8080
-  server: 104.21.234.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_9_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: 104.21.234.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #4'
-  network: ws
-  port: 8080
-  server: 104.21.234.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_6_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: 104.21.234.161
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_2_3
-  network: ws
-  port: 8080
-  server: 104.21.234.164
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #9'
-  network: ws
-  port: '8080'
-  server: 104.21.234.73
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_5_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: 104.21.238.62
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #3'
-  network: ws
-  port: 8080
-  server: 104.21.238.86
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6ab43a80-7eb1-448d-9342-796ddf47216d
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #2'
-  network: ws
-  port: 8080
-  server: 104.21.234.50
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_3_7
-  network: ws
-  port: 8080
-  server: 104.21.234.94
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_由快嘴科技提供：kk... #5'
-  network: ws
-  port: 8080
-  server: 104.21.234.106
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇪🇸_ES_西班牙_7_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: 104.21.234.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 272733cb-3310-4eba-bb9f-8a39982c554e
-  ws-opts:
-    headers:
-      Host: us2.laobideng.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #16'
-  network: ws
-  port: '55210'
-  server: 130.162.134.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03b4cf2f-ee21-40f4-9df5-24146f88be7a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /huaxia
+    path: /ows

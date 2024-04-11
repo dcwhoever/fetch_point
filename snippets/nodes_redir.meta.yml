@@ -1291,7 +1291,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 8,9,14,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_25
+  name: 8,9,14,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_9
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -1331,7 +1331,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  name: 9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_6_由快嘴科技提供：k...
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -1344,7 +1344,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_35
+  name: 9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_5_由快嘴科技提供：k...
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -1371,20 +1371,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_3_2由快嘴科技提供：...
-  network: ws
-  port: 2086
-  server: 104.21.4.14
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_20
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
@@ -1397,20 +1384,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_32
+  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_2_7
   network: ws
-  port: 2095
-  server: tu.mahilu.site
+  port: 2086
+  server: 104.21.4.14
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      Host: tu.mahilu.site
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_33
+  name: '24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 8880
   server: cdn.vds-server.ir
@@ -1421,3 +1408,16 @@ proxies:
     headers:
       Host: cdn.vds-server.ir
     path: /
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 24|🇪🇸_ES_西班牙->🇺🇸_US_美国_由快嘴科技提供：kk...
+  network: ws
+  port: 8002
+  server: 185.214.103.249
+  tls: false
+  type: vmess
+  uuid: b00c57f5-3f8f-38e7-b269-6ca1dea41096
+  ws-opts:
+    headers:
+      Host: cache-2.cn-db.top
+    path: /db00
