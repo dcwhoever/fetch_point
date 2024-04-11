@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|⚡️@DeamNet 🇭🇰Hong Kong
-  network: ws
-  port: 24101
-  server: 47.76.35.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
   network: ws
   port: 26639
@@ -43,36 +29,6 @@ proxies:
   server: 42.98.119.98
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇯🇵 日本4|@ripaojiedian
-  password: ZCqpeNxYA8Z3YDCX83743lBS9IwaynuFDTjKRlp0e2a3RDxzC6cEgFSySOAaO5
-  port: 28333
-  server: claydol.superpokemon.com
-  skip-cert-verify: false
-  sni: claydol.superpokemon.com
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 8a082903-6e40-4307-b73b-d0d26791c771
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|香港5|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 91.199.84.136
-  servername: hk-3.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港7|@ripaojiedian
