@@ -1,29 +1,16 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国枣庄市|Github搜索TrojanLinks
+  name: 12|中国Changning|Github搜索TrojanLink...
   network: ws
-  port: '37002'
-  server: 137.175.58.43
+  port: '37001'
+  server: 137.175.15.252
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.86222404.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国新山村|Github搜索TrojanLinks
-  network: ws
-  port: '38001'
-  server: 137.175.40.11
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.75596620.xyz
+      Host: www.88016387.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -39,3 +26,31 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 16|CN_粉爱福利线路_4
+  network: ws
+  port: 80
+  server: hk5g.xn--vhq70hxyat50h6wk.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a925a88e-3ad8-4a85-95de-6eba61b6abd4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn浙江省宁波市
+  network: ws
+  port: '21021'
+  server: 183.249.109.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 44ceed0a-7421-4da0-b968-c30cb933a89d
+  ws-opts:
+    headers:
+      Host: sg1.luodi.xyz
+    path: /singapore
