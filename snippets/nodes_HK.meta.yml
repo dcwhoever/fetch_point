@@ -1,29 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
-  network: ws
-  port: 24101
-  server: 47.76.35.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港3|@ripaojiedian
-  port: 41492
-  server: 120.232.242.117
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港4|@ripaojiedian
