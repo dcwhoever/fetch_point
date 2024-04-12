@@ -145,19 +145,6 @@ proxies:
       Host: tu.mahilu.site
     path: /
 - alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_20
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
   cipher: chacha20-poly1305
   name: 24|🇪🇸_ES_西班牙->🇺🇸_US_美国_由快嘴科技提供：kk...
   network: ws

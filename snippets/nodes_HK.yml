@@ -15,18 +15,10 @@ proxies:
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港KT|@ripaojiedian
+  name: 18|🇭🇰 香港4|@ripaojiedian
   password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.98.119.98
+  port: 81
+  server: 8.210.201.82
   tfo: false
   type: ss
 - alterId: 0
@@ -46,17 +38,34 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|香港6|@ripaojiedian
+  network: ws
+  port: '47931'
+  server: zf.lalayun.cyou
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc
+  ws-opts:
+    headers:
+      Host: hk.lalayunssl.xyz
+    path: /v2ray
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港7|@ripaojiedian
   password: a-wym4ovY4Yw
   port: 80
-  server: 1.65.197.10
+  server: 1.36.223.86
   tfo: false
   type: ss
 - alterId: 64
   cipher: auto
-  name: 19,21|baipaovpn广东省广州市
+  name: 19|香港|@ripaojiedian
   network: tcp
   port: '54437'
   server: 183.236.51.59
@@ -84,13 +93,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19|香港4|@ripaojiedian
-  network: tcp
-  port: '45861'
-  server: xctransfer1st.cokecloud.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8a082903-6e40-4307-b73b-d0d26791c771
