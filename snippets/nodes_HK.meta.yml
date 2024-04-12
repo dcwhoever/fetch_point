@@ -13,6 +13,17 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港3|@ripaojiedian
+  port: 41492
+  server: 120.232.242.117
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港4|@ripaojiedian
