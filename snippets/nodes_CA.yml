@@ -69,26 +69,14 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b751edca-2d03-4079-9b55-73a9d6afea7a
+  uuid: 50d04298-2953-4fb3-876e-81af97365f34
 - alterId: 0
   cipher: auto
-  name: 16|رایگان | VMESS | @eliya_chiter...
+  name: 16|加拿大 044
   network: ws
   port: 443
-  server: 104.21.12.173
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: meroiy.icu
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 16|رایگان | VMESS | @ROMAX_VPN | ...
-  network: ws
-  port: 443
-  server: auth.speedtest.net
+  server: zula.ir
+  servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -98,29 +86,31 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16|رایگان | VMESS | @customv2ray ...
+  name: 16|加拿大 024
   network: ws
   port: 443
-  server: maggiy.shop
+  server: gur.gov.ua
+  servername: ru.sxmzkfyy.com
+  tls: true
+  type: vmess
+  uuid: fa2ad4c5-63ba-45f0-8926-12fcce49ded1
+  ws-opts:
+    headers:
+      Host: ru.sxmzkfyy.com
+    path: /VK4yTEQZ/
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 023
+  network: ws
+  port: 443
+  server: 104.21.58.68
+  servername: maggiy.shop
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: maggiy.shop
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '16|رایگان | VMESS | @ROMAX_VPN | ... #1'
-  network: ws
-  port: 443
-  server: 198.41.202.5
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kittiy.sbs
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -138,101 +128,29 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16|رایگان | VMESS | @nofiltering2...
+  name: 16|رایگان | VMESS | @ROMAX_VPN | ...
   network: ws
   port: 443
-  server: 104.21.15.212
-  tls: true
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: glweidf.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 16|رایگان | VMESS | @ShadowProxy6...
-  network: ws
-  port: 443
-  server: 104.21.4.6
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: glweidf.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 025
-  network: ws
-  port: 443
-  server: 104.26.10.60
-  servername: meroiy.icu
+  server: iran-011-join.outline-vpn.cloud
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: meroiy.icu
+      Host: kittiy.sbs
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 003
-  network: ws
-  port: 8880
-  server: 104.16.60.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 8eh-band-d994.gijica5932.workers.dev
-    path: /kellie.makeup/linkvws
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 024
+  name: 16|رایگان | VMESS | @kingofilter ...
   network: ws
   port: 443
-  server: gur.gov.ua
-  servername: ru.sxmzkfyy.com
-  tls: true
-  type: vmess
-  uuid: fa2ad4c5-63ba-45f0-8926-12fcce49ded1
-  ws-opts:
-    headers:
-      Host: ru.sxmzkfyy.com
-    path: /VK4yTEQZ/
-- alterId: 0
-  cipher: auto
-  name: 16|🇨🇦 加拿大 044
-  network: ws
-  port: '443'
-  server: zula.ir
+  server: 172.67.179.151
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: nelly.homes
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,18,19,21|baipaovpn加拿大
-  network: ws
-  port: '443'
-  server: 158.51.123.111
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
+      Host: kittiy.sbs
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -249,33 +167,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: 172.67.155.66
-  servername: melisa.lol
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: melisa.lol
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '16|رایگان | VMESS | @eliya_chiter... #1'
-  network: ws
-  port: 443
-  server: 172.67.71.160
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
   name: 16|加拿大 006
   network: ws
   port: 443
@@ -290,17 +181,56 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '16|رایگان | VMESS | @ROMAX_VPN | ... #3'
+  name: '16|رایگان | VMESS | @ROMAX_VPN | ... #1'
   network: ws
   port: 443
-  server: iran-011-join.outline-vpn.cloud
+  server: 172.67.196.110
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: kittiy.sbs
+      Host: kellie.makeup
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 025
+  network: ws
+  port: 443
+  server: 104.26.10.60
+  servername: meroiy.icu
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: meroiy.icu
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '16|Channel id: @ShadowProxy66 🇨🇦'
+  network: ws
+  port: '443'
+  server: 172.67.155.66
+  servername: melisa.lol
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: melisa.lol
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '16|رایگان | VMESS | @DeamNet_Prox... #4'
+  network: ws
+  port: 80
+  server: 193.203.203.63
+  tls: false
+  type: vmess
+  uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d
+  ws-opts:
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 16|رایگان | VMESS | @DailyV2RY | ...
@@ -316,81 +246,16 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 012
-  network: ws
-  port: 2052
-  server: 104.18.25.92
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: '16|رایگان | VMESS | @customv2ray ... #1'
+  name: '16|رایگان | VMESS | @ROMAX_VPN | ... #2'
   network: ws
   port: 443
-  server: hms02opi.fxiaomi.sbs
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: 16|🇨🇦 加拿大 002
-  network: ws
-  port: '8880'
-  server: speed.cloudflare.com
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: nd-truth-210a8hwjhs.bonar11011.workers.dev
-    path: /nina.bond/linkvws
-- alterId: 0
-  cipher: auto
-  name: '16|رایگان | VMESS | @DeamNet_Prox... #4'
-  network: ws
-  port: 80
-  server: 193.203.203.63
-  tls: false
-  type: vmess
-  uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '16|رایگان | VMESS | @kingofilter ... #1'
-  network: ws
-  port: 443
-  server: 172.67.179.151
+  server: 198.41.202.5
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: kittiy.sbs
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 023
-  network: ws
-  port: 443
-  server: 104.21.58.68
-  servername: maggiy.shop
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: maggiy.shop
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -401,4 +266,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4b900b01-81aa-4729-b3aa-d42c3743e732
+  uuid: dac3ef40-5a35-45b2-8f29-7cacc7f3e492
