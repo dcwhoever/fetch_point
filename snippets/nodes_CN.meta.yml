@@ -4,7 +4,7 @@ proxies:
   name: 12|中国南京|Github搜索TrojanLinks
   network: ws
   port: '38001'
-  server: 142.4.97.67
+  server: 142.4.97.69
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -14,30 +14,27 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国新山村|Github搜索TrojanLinks
+  name: 12|中国开封市|Github搜索TrojanLinks
   network: ws
   port: '38001'
-  server: 137.175.40.16
+  server: 192.74.241.37
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.75596620.xyz
+      Host: www.12630069.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国东营市|Github搜索TrojanLinks
-  network: ws
-  port: '37002'
-  server: 137.175.20.92
-  tls: true
+  name: 14,19|香港|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.78310250.xyz
-    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
