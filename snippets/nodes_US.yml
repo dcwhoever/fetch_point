@@ -372,7 +372,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 35528708-e2cf-4f89-b7ff-f52f187383cf
+  uuid: 02159988-bc94-4f96-8728-e100539e1572
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -382,7 +382,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 35528708-e2cf-4f89-b7ff-f52f187383cf
+  uuid: 02159988-bc94-4f96-8728-e100539e1572
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -392,7 +392,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 35528708-e2cf-4f89-b7ff-f52f187383cf
+  uuid: 02159988-bc94-4f96-8728-e100539e1572
 - alterId: 0
   cipher: auto
   name: 14,24|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com8
@@ -1007,7 +1007,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a69c25eb-acdc-4877-ac8c-0be840c446cb
+  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -1017,7 +1017,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a69c25eb-acdc-4877-ac8c-0be840c446cb
+  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -1027,7 +1027,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a69c25eb-acdc-4877-ac8c-0be840c446cb
+  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1087,6 +1087,14 @@ proxies:
     headers:
       Host: fcdn.flha.ru
     path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国6|@ripaojiedian
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 167.88.61.159
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19|美国5|@ripaojiedian
