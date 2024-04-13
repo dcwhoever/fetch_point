@@ -12,45 +12,6 @@ proxies:
     headers:
       Host: www.31033708.xyz
     path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国东营市|Github搜索TrojanLinks
-  network: ws
-  port: '37002'
-  server: 137.175.20.91
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.78310250.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国泉州市|Github搜索TrojanLinks
-  network: ws
-  port: '37001'
-  server: 142.4.112.130
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.18469970.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国Fangchenggang|Github搜索Trojan...
-  network: ws
-  port: '37001'
-  server: 137.175.11.53
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.20234339.xyz
-    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
@@ -65,3 +26,13 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn浙江省
+  network: tcp
+  port: '41999'
+  server: 112.16.228.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
