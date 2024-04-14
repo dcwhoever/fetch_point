@@ -1,18 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
+  name: 16|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
   network: ws
-  port: 26639
-  server: 91.149.236.44
+  port: '24101'
+  server: 47.76.35.246
   servername: ''
   tls: false
   type: vmess
-  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
   ws-opts:
     headers:
       Host: ''
-    path: /cctv13/hd.m3u8/
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -29,6 +29,17 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇬🇧 英国2|@ripaojiedian
+  port: 41999
+  server: 7569erzy.of08zo0-et55lpt-uk01.my777999.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
