@@ -29,17 +29,6 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇬🇧 英国2|@ripaojiedian
-  port: 41999
-  server: 7569erzy.of08zo0-et55lpt-uk01.my777999.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
@@ -76,17 +65,3 @@ proxies:
   tls: false
   type: vmess
   uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn香港
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
