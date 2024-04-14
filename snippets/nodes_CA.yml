@@ -27,6 +27,19 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
+  name: '8|🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: 8080
+  server: 108.181.23.161
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
   name: '8,9,20|🇨🇦_CA_加拿大 #6'
   network: http
   port: 3389
@@ -56,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fc0c60c-a226-4aec-ac75-96566edb185a
+  uuid: 705a7d4f-9b8d-40dd-b97f-a73292b6527c
 - alterId: 0
   cipher: auto
   name: 16|加拿大 040
@@ -250,6 +263,20 @@ proxies:
     headers:
       Host: cache-2.cn-db.top
     path: /db00
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 005
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: 158.51.123.111
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 16|🇨🇦 加拿大 038
@@ -508,4 +535,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3a0ce373-d944-4b17-8681-84a863e14602
+  uuid: 22c111b8-4f2a-40e9-b80a-d850c000e9bc

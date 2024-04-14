@@ -332,7 +332,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fc0c60c-a226-4aec-ac75-96566edb185a
+  uuid: 705a7d4f-9b8d-40dd-b97f-a73292b6527c
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -342,7 +342,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fc0c60c-a226-4aec-ac75-96566edb185a
+  uuid: 705a7d4f-9b8d-40dd-b97f-a73292b6527c
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -352,7 +352,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fc0c60c-a226-4aec-ac75-96566edb185a
+  uuid: 705a7d4f-9b8d-40dd-b97f-a73292b6527c
 - alterId: 0
   cipher: auto
   name: 14,16|🔒 VM-TCP-NA 🇺🇸 US-104.249.173....
@@ -664,7 +664,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3a0ce373-d944-4b17-8681-84a863e14602
+  uuid: 22c111b8-4f2a-40e9-b80a-d850c000e9bc
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -674,7 +674,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3a0ce373-d944-4b17-8681-84a863e14602
+  uuid: 22c111b8-4f2a-40e9-b80a-d850c000e9bc
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -684,24 +684,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3a0ce373-d944-4b17-8681-84a863e14602
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|美国3|@ripaojiedian
-  network: ws
-  port: '8880'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
-  ws-opts:
-    headers:
-      Host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
+  uuid: 22c111b8-4f2a-40e9-b80a-d850c000e9bc
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 18|🇺🇸 美国6|@ripaojiedian
@@ -710,16 +693,6 @@ proxies:
   server: 167.88.61.159
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|美国2|@ripaojiedian
-  network: tcp
-  port: '13820'
-  server: c76s3.portablesubmarines.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f094f632-5113-4f1c-8398-25077be216b0
 - alterId: 0
   cipher: auto
   name: 19|美国5|@ripaojiedian
