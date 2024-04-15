@@ -4,7 +4,7 @@ proxies:
   name: 12|中国自贡|Github搜索TrojanLinks
   network: ws
   port: '38001'
-  server: 137.175.41.67
+  server: 137.175.41.69
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -14,16 +14,55 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国Naqu|Github搜索TrojanLinks
+  name: 12|中国南京|Github搜索TrojanLinks
   network: ws
-  port: '38001'
-  server: 137.175.5.203
+  port: '37001'
+  server: 142.4.103.195
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.36310394.xyz
+      Host: www.88016387.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国开封市|Github搜索TrojanLinks
+  network: ws
+  port: '38001'
+  server: 192.74.241.41
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.12630069.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|中国南京|Github搜索TrojanLinks #1'
+  network: ws
+  port: '37001'
+  server: 142.4.103.189
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.84675006.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国丽江市|Github搜索TrojanLinks
+  network: ws
+  port: '38001'
+  server: 137.175.8.148
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70672263.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -59,17 +98,3 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn中国
-  network: ws
-  port: '80'
-  server: 8.217.147.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
-  ws-opts:
-    headers:
-      Host: mix.tgdns68.vps666.onflashdrive.app
-    path: /TG@dns68公益节点
