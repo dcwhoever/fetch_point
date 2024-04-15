@@ -15,6 +15,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 14|香港 阿里云
+  network: ws
+  port: 28681
+  server: 47.242.22.171
+  tls: false
+  type: vmess
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
   name: 14|香港 电讯盈科有限公司
   network: tcp
   port: 443
@@ -69,6 +79,14 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港5|@ripaojiedian
+  password: SBM7R883jBmnqe6C
+  port: 9053
+  server: 103.172.116.79
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港7|@ripaojiedian
