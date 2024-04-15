@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|香港 UCloud
+  name: 14,16|Hong Kong_Hong Kong_vmess_1067
   network: ws
   port: 4431
   server: 152.32.190.239
@@ -34,7 +34,7 @@ proxies:
   uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
+  name: 16|Hong Kong_Hong Kong_vmess_1010...
   network: ws
   port: 26639
   server: 91.149.236.44
@@ -46,6 +46,20 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8/
+- alterId: 0
+  cipher: auto
+  name: 16|Hong Kong_Hong Kong_vmess_1068
+  network: ws
+  port: 28681
+  server: 47.242.22.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -65,6 +79,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 18|🇺🇸 美国2|@ripaojiedian
+  port: 30063
+  server: 183.232.170.21
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 18,19|香港4|@ripaojiedian
   network: ws
   port: '28681'
@@ -79,14 +104,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港5|@ripaojiedian
-  password: SBM7R883jBmnqe6C
-  port: 9053
-  server: 103.172.116.79
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港7|@ripaojiedian
