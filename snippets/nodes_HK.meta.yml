@@ -99,16 +99,6 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 19|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 19|香港2|@ripaojiedian
   network: tcp
   port: '41242'
@@ -129,9 +119,9 @@ proxies:
   uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 0
   cipher: auto
-  name: 19|香港7|@ripaojiedian
+  name: 19,24|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_2_2
   network: tcp
-  port: '35996'
+  port: 35996
   server: 786huix-ee.dc-zix4ssc1-hk03.my777999.top
   servername: ''
   tls: false
