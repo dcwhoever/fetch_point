@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #29'
+  name: '8,20|🇺🇸_US_美国 #26'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,20|🇺🇸_US_美国 #28'
+  name: '8,9,20|🇺🇸_US_美国 #25'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -66,7 +66,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -92,23 +92,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_3_35
+  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_3_35
   network: ws
   port: 2086
   server: admin.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_34
-  network: ws
-  port: 2086
-  server: 104.21.4.14
   tls: false
   type: vmess
   uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
@@ -202,6 +189,19 @@ proxies:
   ws-opts:
     headers:
       Host: booty-pensions-scheduling-blogging.trycloudflare.com
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_2_34
+  network: ws
+  port: 2086
+  server: 104.21.4.14
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_6_3由快嘴科技提供...
