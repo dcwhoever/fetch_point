@@ -14,36 +14,40 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国乌鲁木齐市|Github搜索TrojanLinks
+  name: 12|中国新兴|Github搜索TrojanLinks
   network: ws
-  port: '37001'
-  server: 108.186.254.103
+  port: '37002'
+  server: 137.175.21.164
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.84675006.xyz
+      Host: www.86052077.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国丽江市|Github搜索TrojanLinks
+  network: ws
+  port: '38001'
+  server: 137.175.8.151
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70672263.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 14,24|🇨🇳_CN_中国->🇹🇼_TW_台湾_2由快嘴科技提供：kk...
+  name: 14,19|日本2|@ripaojiedian
   network: tcp
-  port: 30112
+  port: '30039'
   server: 183.240.179.207
-  tls: false
-  type: vmess
-  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
-- alterId: 64
-  cipher: auto
-  name: 14,19|香港2|@ripaojiedian
-  network: tcp
-  port: '41242'
-  server: 183.237.20.158
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
@@ -58,3 +62,22 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: '14|广东省汕头市 移动 #1'
+  network: tcp
+  port: 30055
+  server: 183.240.179.207
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
+- alterId: 0
+  cipher: auto
+  name: 14,19|美国2|@ripaojiedian
+  network: tcp
+  port: '30063'
+  server: 183.232.170.21
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
