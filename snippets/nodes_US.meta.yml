@@ -318,7 +318,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c4a7f721-327b-4398-824d-239d99150c61
+  uuid: bd5f9855-a4b3-475a-97ea-c5276e63db00
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -328,7 +328,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c4a7f721-327b-4398-824d-239d99150c61
+  uuid: bd5f9855-a4b3-475a-97ea-c5276e63db00
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -338,7 +338,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c4a7f721-327b-4398-824d-239d99150c61
+  uuid: bd5f9855-a4b3-475a-97ea-c5276e63db00
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 美国CloudFla...
@@ -755,6 +755,20 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
+  name: 16|🇺🇸 美国 - 波德 - Majestic Hosting ...
+  network: ws
+  port: '52918'
+  server: 103.182.97.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 897db123-653c-4e6e-f072-9ab5e90b6f83
+  ws-opts:
+    headers:
+      Host: ''
+    path: /sd
+- alterId: 0
+  cipher: auto
   name: 16|🔒 VM-TCP-NA 🇺🇸 US-135.148.62.1...
   network: tcp
   port: '59988'
@@ -947,7 +961,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 12f979e1-3581-4529-b645-43b31ab7c144
+  uuid: 42efcdf7-b776-4d7e-a845-2280e4098f93
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -957,7 +971,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 12f979e1-3581-4529-b645-43b31ab7c144
+  uuid: 42efcdf7-b776-4d7e-a845-2280e4098f93
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -967,7 +981,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 12f979e1-3581-4529-b645-43b31ab7c144
+  uuid: 42efcdf7-b776-4d7e-a845-2280e4098f93
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
