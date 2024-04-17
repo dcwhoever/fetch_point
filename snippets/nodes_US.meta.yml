@@ -358,7 +358,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: faec1f04-2a80-47da-bee8-4898bddcc1b5
+  uuid: ea6bdc4a-ad0d-43f8-9341-312073cb10c5
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -368,7 +368,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: faec1f04-2a80-47da-bee8-4898bddcc1b5
+  uuid: ea6bdc4a-ad0d-43f8-9341-312073cb10c5
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -378,7 +378,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: faec1f04-2a80-47da-bee8-4898bddcc1b5
+  uuid: ea6bdc4a-ad0d-43f8-9341-312073cb10c5
 - alterId: 0
   cipher: auto
   name: 14,24|🇺🇸_US_美国->🇹🇷_TR_土耳其_45
@@ -1200,6 +1200,20 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: auto
+  name: 16|United States_None_vmess_1155
+  network: ws
+  port: 8443
+  server: v014.583181.xyz
+  servername: v014.583181.xyz
+  tls: true
+  type: vmess
+  uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16|US_youtube@资源分享师_211
   network: ws
   port: 8880
@@ -1528,7 +1542,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 645af04a-c80b-4747-abbf-46f5dd40d58d
+  uuid: 63e231e7-e6ec-4096-8f7a-e9fbceace41c
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -1538,7 +1552,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 645af04a-c80b-4747-abbf-46f5dd40d58d
+  uuid: 63e231e7-e6ec-4096-8f7a-e9fbceace41c
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -1548,7 +1562,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 645af04a-c80b-4747-abbf-46f5dd40d58d
+  uuid: 63e231e7-e6ec-4096-8f7a-e9fbceace41c
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇺🇸 美国3|@ripaojiedian
