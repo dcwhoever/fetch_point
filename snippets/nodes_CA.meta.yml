@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d7923ab9-8609-4c46-b643-a4b03aabfaa5
+  uuid: e5f5cf50-3add-4061-abf6-3654a07919a7
 - alterId: 0
   cipher: auto
   name: 16|加拿大 051
@@ -111,20 +111,6 @@ proxies:
     headers:
       Host: 100.100.17.132.cn-db.top
     path: /db00
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大_多伦多_25
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 16|加拿大 064
@@ -547,4 +533,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0ba6f586-d648-45d9-a8d2-a2c662f64104
+  uuid: 26c9ba5f-d573-445e-b254-7bb5c93ec40f
