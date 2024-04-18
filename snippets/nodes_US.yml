@@ -27,6 +27,17 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
+  name: '8|🇺🇸_US_美国 #2'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
   name: '8,9|🇺🇸_US_美国 #18'
   network: ws
   port: 2052
@@ -333,7 +344,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 45f592f8-8caa-43b6-8f49-3b233eee6689
+  uuid: 73b293cc-affd-4640-88e2-975074d93e64
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -343,7 +354,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 45f592f8-8caa-43b6-8f49-3b233eee6689
+  uuid: 73b293cc-affd-4640-88e2-975074d93e64
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -353,7 +364,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 45f592f8-8caa-43b6-8f49-3b233eee6689
+  uuid: 73b293cc-affd-4640-88e2-975074d93e64
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -749,7 +760,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b1959c5e-7cab-4362-930a-fc2bf541ad14
+  uuid: 8b28644e-2240-4c0f-a337-537f1279d282
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -759,7 +770,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b1959c5e-7cab-4362-930a-fc2bf541ad14
+  uuid: 8b28644e-2240-4c0f-a337-537f1279d282
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -769,7 +780,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b1959c5e-7cab-4362-930a-fc2bf541ad14
+  uuid: 8b28644e-2240-4c0f-a337-537f1279d282
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
