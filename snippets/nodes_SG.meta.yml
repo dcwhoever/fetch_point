@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
@@ -51,7 +51,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8b28644e-2240-4c0f-a337-537f1279d282
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -61,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8b28644e-2240-4c0f-a337-537f1279d282
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -71,38 +71,42 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8b28644e-2240-4c0f-a337-537f1279d282
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|新加坡|@ripaojiedian
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
+- client-fingerprint: chrome
+  name: 18|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
+  sni: sg01.520s.pro
+  type: trojan
   ws-opts:
     headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
+      Host: sg01.520s.pro
+    path: /520JICHANG
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 18,19|新加坡2|@ripaojiedian
   network: ws
-  port: '443'
-  server: 43b8d.cnbete.xyz
-  servername: 43b8d.cnbete.xyz
+  port: '80'
+  server: vps789.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 8ac4cc04-b1fa-419f-b436-270456fcff86
+  uuid: c3f3c04a-dc99-4bca-9853-be30de9085e5
   ws-opts:
     headers:
-      Host: 43b8d.cnbete.xyz
-    path: /vmess
+      Host: six.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.218.182
+  tfo: false
+  type: ss
