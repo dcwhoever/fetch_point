@@ -1,7 +1,20 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 12|中国Changning|Github搜索TrojanLink...
+  network: ws
+  port: '37002'
+  server: 137.175.15.129
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86222404.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 14,15,24|🇨🇳_CN_中国_由快嘴科技提供：kkzui.com4
+  name: 14,15,24|🇨🇳_CN_中国_40
   network: ws
   port: 20401
   server: data-us-v1.shwjfkw.cn
