@@ -357,7 +357,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e5f5cf50-3add-4061-abf6-3654a07919a7
+  uuid: 9da082c5-242c-4b0e-9156-d18247562a6e
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -367,7 +367,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e5f5cf50-3add-4061-abf6-3654a07919a7
+  uuid: 9da082c5-242c-4b0e-9156-d18247562a6e
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -377,7 +377,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e5f5cf50-3add-4061-abf6-3654a07919a7
+  uuid: 9da082c5-242c-4b0e-9156-d18247562a6e
 - alterId: 0
   cipher: auto
   name: '14,15|github.com/freefq - 美国CloudFla... #2'
@@ -656,20 +656,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸 美国 CloudFlare节点_13
-  network: ws
-  port: 2095
-  server: tu.mahilu.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
   network: tcp
   port: '52408'
@@ -922,7 +908,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26c9ba5f-d573-445e-b254-7bb5c93ec40f
+  uuid: f07d493c-c09f-4d1b-b719-29baaaccce53
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -932,7 +918,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26c9ba5f-d573-445e-b254-7bb5c93ec40f
+  uuid: f07d493c-c09f-4d1b-b719-29baaaccce53
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -942,7 +928,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26c9ba5f-d573-445e-b254-7bb5c93ec40f
+  uuid: f07d493c-c09f-4d1b-b719-29baaaccce53
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
