@@ -27,7 +27,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 8,9,14,16,20,24|🇦🇪_AE_阿联酋_23
+  name: 8,9,14,20,24|🇦🇪_AE_阿联酋_23
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -66,7 +66,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -89,45 +89,6 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16,24|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2086
-  server: 188.114.98.0
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
-  network: ws
-  port: 2086
-  server: 104.21.4.14
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_3_由快嘴科技提供：k...
-  network: ws
-  port: 2086
-  server: admin.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -144,16 +105,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_3_36
+  name: 16,24|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
-  port: 8880
-  server: 104.21.19.202
+  port: 2086
+  server: 188.114.98.0
   tls: false
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      Host: cdn.vds-server.ir
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -178,6 +139,19 @@ proxies:
   type: vmess
   uuid: b60fadc2-cb72-4de2-c65d-dfa662a81664
   ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
+  network: ws
+  port: 2086
+  server: 104.21.4.14
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -231,3 +205,16 @@ proxies:
     headers:
       Host: booty-pensions-scheduling-blogging.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_3_36
+  network: ws
+  port: 8880
+  server: 104.21.19.202
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: cdn.vds-server.ir
+    path: /

@@ -1,30 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港1-优选 0.1X
+  name: 16|香港【TG：@ccbaohe】定时更新节点订阅 14
   network: ws
-  port: '8080'
-  server: cfzl1.freeapp.buzz
-  tls: false
+  port: 2053
+  server: 47.242.155.183
+  servername: ''
+  tls: true
   type: vmess
-  uuid: db6ba805-b96b-4364-becc-6df3805ffc65
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
   ws-opts:
     headers:
-      Host: duo.freeapp.buzz
-    path: /gd3245vd2S32cr
-- alterId: 0
-  cipher: auto
-  name: 16|香港优选-要经常刷新
-  network: ws
-  port: '13080'
-  server: 159.138.139.236
-  tls: false
-  type: vmess
-  uuid: db6ba805-b96b-4364-becc-6df3805ffc65
-  ws-opts:
-    headers:
-      Host: ww1.kcjs.me
-    path: /fdsffgfdgdfgdf
+      Host: cfhk.393930.xyz
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -90,3 +78,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 9d9d01a5-1e0c-432e-818a-d26cd04314b5
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: tcp
+  port: '50001'
+  server: 18.163.3.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
