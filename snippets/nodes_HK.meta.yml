@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|香港【TG：@ccbaohe】定时更新节点订阅 14
-  network: ws
-  port: 2053
-  server: 47.242.155.183
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -78,13 +64,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9d9d01a5-1e0c-432e-818a-d26cd04314b5
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn香港
-  network: tcp
-  port: '50001'
-  server: 18.163.3.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c

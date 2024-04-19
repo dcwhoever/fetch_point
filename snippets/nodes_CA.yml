@@ -69,7 +69,35 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0a004f9c-d9bf-44f6-adac-6e281811a0a8
+  uuid: dde0b4f8-16be-49e5-9d73-33695d31699d
+- alterId: 0
+  cipher: auto
+  name: 14,16|🇨🇦 加拿大 2
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 034
+  network: ws
+  port: 8080
+  server: 172.67.169.90
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
@@ -100,17 +128,17 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: 16||加拿大_1{TG：@ccbaohe}免费节点分享
+  name: 16|加拿大 002
   network: ws
   port: 443
-  server: 158.51.123.111
-  servername: ''
+  server: 158.51.121.36
+  servername: 158.51.121.36
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 158.51.123.111
+      Host: ''
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -135,4 +163,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ce1a9c6a-bf09-4eb0-980a-63ec63b8c93f
+  uuid: 6dc0c93a-c079-4e7a-b876-f83bc31bbaaa
