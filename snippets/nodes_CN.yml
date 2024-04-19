@@ -1,16 +1,29 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国泉州市|Github搜索TrojanLinks
+  name: 12|中国石家庄市|Github搜索TrojanLinks
   network: ws
-  port: '38001'
-  server: 137.175.18.86
+  port: '38002'
+  server: 142.0.134.135
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.36310394.xyz
+      Host: www.32307443.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国哈尔滨市|Github搜索TrojanLinks
+  network: ws
+  port: '37001'
+  server: 137.175.26.20
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70173865.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -59,6 +72,20 @@ proxies:
   servername: ''
   skip-cert-verify: false
   tfo: false
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省
+  network: ws
+  port: '20206'
+  server: 120.233.42.83
+  servername: ''
   tls: false
   type: vmess
   uuid: b1478e24-4916-3abe-8f17-15931012ecbe

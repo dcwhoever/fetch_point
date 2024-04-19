@@ -207,98 +207,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 12|美国聖荷西|Github搜索TrojanLinks
-  network: ws
-  port: '37002'
-  server: 38.38.153.198
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.78310250.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|美国西雅圖|Github搜索TrojanLinks
-  network: ws
-  port: '38001'
-  server: 198.2.219.253
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.41912208.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 12|美国洛杉矶|Github搜索TrojanLinks
-  network: ws
-  port: '30000'
-  server: 148.135.14.109
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.71338766.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
-  network: ws
-  port: '38001'
-  server: 38.38.151.7
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.72649000.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
-  network: ws
-  port: '38002'
-  server: 108.186.222.182
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.77755604.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
-  network: ws
-  port: '38001'
-  server: 38.12.71.233
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.70672263.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #1'
-  network: ws
-  port: '37001'
-  server: 38.48.172.120
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.34154597.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #2'
   network: ws
   port: 443
   server: 148.135.33.228
@@ -311,10 +220,88 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #3'
+  name: 12|美国聖荷西|Github搜索TrojanLinks
+  network: ws
+  port: '37002'
+  server: 38.38.153.200
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.78310250.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
+  network: ws
+  port: '38002'
+  server: 38.173.196.13
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.47643999.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
+  network: ws
+  port: '38002'
+  server: 38.14.102.244
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.54699295.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国洛杉矶|Github搜索TrojanLinks #1'
+  network: ws
+  port: '37001'
+  server: 38.54.247.100
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.99555130.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
+  network: ws
+  port: '37002'
+  server: 108.186.238.5
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.20234339.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #4'
+  network: ws
+  port: '38001'
+  server: 38.14.101.226
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.41912208.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国洛杉矶|Github搜索TrojanLinks #2'
   network: ws
   port: '36001'
-  server: 74.48.38.6
+  server: 74.48.38.7
   tls: true
   type: vmess
   uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583
@@ -324,42 +311,55 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
+  name: '12|美国洛杉矶|Github搜索TrojanLinks #3'
+  network: ws
+  port: '38002'
+  server: 38.48.141.195
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.83429197.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #5'
+  network: ws
+  port: '37001'
+  server: 38.38.165.124
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.84056064.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: '12|美国洛杉矶|Github搜索TrojanLinks #4'
   network: ws
-  port: '38001'
-  server: 38.48.182.225
+  port: '37001'
+  server: 38.11.218.186
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.87140386.xyz
+      Host: www.63181393.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国西雅圖|Github搜索TrojanLinks #1'
+  name: '12|美国聖荷西|Github搜索TrojanLinks #6'
   network: ws
   port: '37002'
-  server: 198.2.222.115
+  server: 38.165.73.236
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.54790250.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #5'
-  network: ws
-  port: '36000'
-  server: 148.135.9.146
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.73059090.xyz
+      Host: www.18469970.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -370,7 +370,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d0cbedf9-949a-48ef-b0c8-4ff0ed37765e
+  uuid: 8e4f1b68-2b17-45cd-8cea-5e27525a6ccf
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -380,7 +380,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d0cbedf9-949a-48ef-b0c8-4ff0ed37765e
+  uuid: 8e4f1b68-2b17-45cd-8cea-5e27525a6ccf
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -390,7 +390,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d0cbedf9-949a-48ef-b0c8-4ff0ed37765e
+  uuid: 8e4f1b68-2b17-45cd-8cea-5e27525a6ccf
 - alterId: 0
   cipher: auto
   name: 14,16|US_分享日记_325
@@ -819,6 +819,17 @@ proxies:
     path: /fsdafa
 - alterId: 0
   cipher: auto
+  name: 16|🇺🇸|US|美国|@wxgqlfx|150
+  network: ws
+  port: 8880
+  server: cdn.vds-server.ir
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16|🔒 VM-TCP-NA 🇺🇸 US-205.234.231....
   network: tcp
   port: '35000'
@@ -864,7 +875,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c4189767-7a12-420b-99c7-899320478f52
+  uuid: 8ae6594e-c470-4c29-ae0d-ab7d7f749be0
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -874,7 +885,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c4189767-7a12-420b-99c7-899320478f52
+  uuid: 8ae6594e-c470-4c29-ae0d-ab7d7f749be0
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -884,7 +895,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c4189767-7a12-420b-99c7-899320478f52
+  uuid: 8ae6594e-c470-4c29-ae0d-ab7d7f749be0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
