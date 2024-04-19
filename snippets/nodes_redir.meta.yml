@@ -92,6 +92,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16,24|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2086
+  server: 188.114.98.0
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
   network: ws
   port: 2086
@@ -118,16 +131,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  name: '16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 2086
-  server: 188.114.98.0
+  server: mizban.arzonhost.ir
   tls: false
   type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
   ws-opts:
     headers:
-      Host: admin.arzonhost.ir
+      Host: mizban.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -144,30 +157,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '16|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   network: ws
-  port: 8880
-  server: 172.67.188.156
+  port: 80
+  server: speed.cloudflare.com
   tls: false
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
     headers:
-      Host: cdn.vds-server.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: mizban.arzonhost.ir
-    path: /
+      Host: range-shape-b3fuegu.bananok182.workers.dev
+    path: /hms02.fxiaomi.sbs/link
 - alterId: 0
   cipher: auto
   name: 24|🇪🇸_ES_西班牙->🇲🇾_MY_马来西亚_5
@@ -179,6 +179,32 @@ proxies:
   uuid: b60fadc2-cb72-4de2-c65d-dfa662a81664
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_22
+  network: ws
+  port: 2095
+  server: tu.mahilu.site
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: tu.mahilu.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  network: ws
+  port: 8080
+  server: 104.19.58.60
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: concentrations-taxi-about-recognised.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_3由快嘴科技提供...

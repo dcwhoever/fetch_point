@@ -1,21 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16,21|baipaovpn香港
-  network: ws
-  port: '13080'
-  server: 159.138.139.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db6ba805-b96b-4364-becc-6df3805ffc65
-  ws-opts:
-    headers:
-      Host: ww1.kcjs.me
-    path: /fdsffgfdgdfgdf
-- alterId: 0
-  cipher: auto
-  name: '16|香港1-优选 0.1X #1'
+  name: 16|香港1-优选 0.1X
   network: ws
   port: '8080'
   server: cfzl1.freeapp.buzz
@@ -28,18 +14,17 @@ proxies:
     path: /gd3245vd2S32cr
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
+  name: 16|香港优选-要经常刷新
   network: ws
-  port: 26639
-  server: 91.149.236.44
-  servername: ''
+  port: '13080'
+  server: 159.138.139.236
   tls: false
   type: vmess
-  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
+  uuid: db6ba805-b96b-4364-becc-6df3805ffc65
   ws-opts:
     headers:
-      Host: ''
-    path: /cctv13/hd.m3u8/
+      Host: ww1.kcjs.me
+    path: /fdsffgfdgdfgdf
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -105,17 +90,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9d9d01a5-1e0c-432e-818a-d26cd04314b5
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn香港 #1'
-  network: ws
-  port: '2053'
-  server: 47.242.155.183
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
