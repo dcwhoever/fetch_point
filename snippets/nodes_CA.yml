@@ -69,7 +69,19 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e519c9fb-edd9-4b58-90bc-ef74dac56c0b
+  uuid: bb1308ed-8168-4e9b-beab-90ff27bad5f1
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇨🇦_CA_加拿大_2_20
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: 23.162.200.227
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
@@ -89,39 +101,15 @@ proxies:
   name: '16|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
   port: '443'
-  server: 104.21.15.36
-  servername: linde06.indiavideo.sbs
+  server: 104.21.83.108
+  servername: hms02.fxiaomi.sbs
   tls: true
   type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
     headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 16,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 16,24|🇨🇦_CA_加拿大_2_20
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
+      Host: hms02.fxiaomi.sbs
+    path: /link
 - alterId: 0
   cipher: auto
   name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_3_7
@@ -141,15 +129,29 @@ proxies:
   name: '16|Channel id: @ShadowProxy66 🇨🇦 #2'
   network: ws
   port: '443'
-  server: 104.21.83.108
-  servername: hms02.fxiaomi.sbs
+  server: 104.21.15.36
+  servername: linde06.indiavideo.sbs
   tls: true
   type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: hms02.fxiaomi.sbs
-    path: /link
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '16|Channel id: @ShadowProxy66 🇨🇦 #3'
+  network: ws
+  port: '443'
+  server: 172.67.170.13
+  servername: glweidf.sbs
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: glweidf.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
@@ -159,4 +161,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9f4251e3-ee59-4969-83ad-d3f171fea40c
+  uuid: cbcafd98-a2a0-4356-bd4b-bf63b10dac25
