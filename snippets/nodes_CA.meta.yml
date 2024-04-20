@@ -69,21 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b69e9d19-e708-47ba-83ca-38828b9d546b
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 003
-  network: ws
-  port: 8080
-  server: 172.67.199.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
+  uuid: b08419de-cdd8-4190-b440-b1e67fba9def
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
@@ -100,11 +86,25 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: '16|Channel id: @ShadowProxy66 🇨🇦 #1'
+  network: ws
+  port: '443'
+  server: 172.67.170.13
+  servername: glweidf.sbs
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: glweidf.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
   name: 16,24|🇨🇦_CA_加拿大_2_20
   network: ws
   port: 443
   server: 23.162.200.227
-  servername: 23.162.200.227
+  servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -112,30 +112,32 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16|-1374-CA【ccbaohe.com〗 永久免费节点机场
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  name: 16,24|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_19
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: 158.51.123.111
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇦 加拿大 006
+  name: 16|🇨🇦 加拿大 003
   network: ws
-  port: '2095'
-  server: 104.16.67.38
+  port: '8080'
+  server: 172.67.199.185
   tls: false
   type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: uare-truth-7033.rijiwex893.workers.dev
-    path: /ming2.kiwireich.com/ray
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #1'
+  name: '16|Channel id: @ShadowProxy66 🇨🇦 #2'
   network: ws
   port: '443'
   server: jahfkjha.cfd
@@ -149,18 +151,18 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #2'
+  name: 16|加拿大 002
   network: ws
-  port: '443'
-  server: 172.67.170.13
-  servername: glweidf.sbs
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
   tls: true
   type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: glweidf.sbs
-    path: /linkws
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 16|🇨🇦 加拿大 034
@@ -183,4 +185,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dce85ae1-b554-42ef-9e54-0a68a8a6098b
+  uuid: 2409787d-38f1-4d8a-bbb0-cfcdccfd0e67

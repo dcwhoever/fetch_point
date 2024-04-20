@@ -4,7 +4,7 @@ proxies:
   name: 12|中国哈尔滨市|Github搜索TrojanLinks
   network: ws
   port: '37001'
-  server: 137.175.26.20
+  server: 137.175.26.22
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -17,26 +17,13 @@ proxies:
   name: '12|中国哈尔滨市|Github搜索TrojanLinks #1'
   network: ws
   port: '37001'
-  server: 137.175.23.57
+  server: 137.175.23.58
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: www.23602249.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国石家庄市|Github搜索TrojanLinks
-  network: ws
-  port: '38002'
-  server: 142.0.134.135
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.32307443.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
