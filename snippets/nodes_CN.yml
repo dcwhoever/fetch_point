@@ -1,71 +1,64 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国Naqu|Github搜索TrojanLinks
+  name: 12|中国文城|Github搜索TrojanLinks
   network: ws
-  port: '38002'
-  server: 137.175.5.196
+  port: '37002'
+  server: 108.186.164.87
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.36310394.xyz
+      Host: www.98382183.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国重庆市|Github搜索TrojanLinks
+  name: 12|中国济南市|Github搜索TrojanLinks
   network: ws
-  port: '38002'
-  server: 198.2.196.177
+  port: '37002'
+  server: 137.175.12.76
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.53062560.xyz
+      Host: www.86052077.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国石家庄市|Github搜索TrojanLinks
+  name: 12|中国五指山市|Github搜索TrojanLinks
   network: ws
-  port: '38002'
-  server: 142.0.134.139
+  port: '37002'
+  server: 108.186.196.173
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.32307443.xyz
+      Host: www.86222404.xyz
     path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国哈尔滨市|Github搜索TrojanLinks
-  network: ws
-  port: '37001'
-  server: 137.175.23.60
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.23602249.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 14|广东省 移动
-  network: tcp
-  port: '41242'
-  server: 183.237.20.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14,15|github.com/freefq - 广东省移动 7
+  client-fingerprint: chrome
+  name: 14,18|🇺🇸 美国|@ripaojiedian
   network: ws
-  port: '20401'
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 92e7a057-88aa-4101-9cbd-18b8c90a2b1b
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 14,15,24|🇨🇳_CN_中国_43
+  network: ws
+  port: 20401
   server: data-us-v1.shwjfkw.cn
   servername: ''
   tls: false
@@ -74,21 +67,4 @@ proxies:
   ws-opts:
     headers:
       Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|香港7|@ripaojiedian
-  network: ws
-  port: '20206'
-  server: data-hk-v1.usabooks.com.cn
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-hk-v1.usabooks.com.cn
     path: /debian
