@@ -69,24 +69,50 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5dd510f0-9f2d-4717-8c20-596ea23a97f0
+  uuid: 9c52128d-a452-4844-9123-16d28ff4f8ea
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 003
+  network: ws
+  port: 8080
+  server: 172.67.199.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇨🇦_CA_加拿大_2_由快嘴科技提供：kkzui。com6
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 16|CA_speednode_0004
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: 104.21.83.108
-  servername: hms02.fxiaomi.sbs
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
   port: '443'
   server: jahfkjha.cfd
@@ -98,20 +124,6 @@ proxies:
     headers:
       Host: jahfkjha.cfd
     path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 16|-1015-CA【ccbaohe.com〗 永久免费节点机场
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 158.51.121.36
-    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 16|🇨🇦 加拿大 006
@@ -134,4 +146,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d2755d7-7271-43b5-b461-6273ac79a4ed
+  uuid: 8e887eb0-bf92-4808-93b2-3dd00a0de26c
