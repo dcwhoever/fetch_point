@@ -69,20 +69,49 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 83bb1807-a1a7-483f-a81d-b5606ba5137a
+  uuid: e3e78536-f6d0-4f95-b7e1-7e4833d55d0a
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇦 加拿大 015
+  name: '16|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
-  port: '2052'
-  server: 104.19.250.15
-  tls: false
+  port: '443'
+  server: 104.21.15.36
+  servername: linde06.indiavideo.sbs
+  tls: true
   type: vmess
-  uuid: 9fdd16d7-dcb7-45d7-fd62-23d702c71ea0
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: ttt.inekokkk.top
-    path: /
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '16|Channel id: @ShadowProxy66 🇨🇦 #1'
+  network: ws
+  port: '443'
+  server: 104.21.83.108
+  servername: hms02.fxiaomi.sbs
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大-1.94MB/s
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.162.200.227
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 16|加拿大 021
@@ -96,6 +125,19 @@ proxies:
   ws-opts:
     headers:
       Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🇨🇦 加拿大 012
+  network: ws
+  port: '8080'
+  server: 172.67.169.90
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
     path: /
 - alterId: 0
   cipher: auto
@@ -113,32 +155,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|CA_speednode_0002
+  name: 16|加拿大 015
   network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: 23.162.200.227
-  tls: true
+  port: 2052
+  server: 104.19.250.15
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 9fdd16d7-dcb7-45d7-fd62-23d702c71ea0
   ws-opts:
     headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: 104.21.83.108
-  servername: hms02.fxiaomi.sbs
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /link
+      Host: ttt.inekokkk.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
@@ -148,4 +176,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bb1e5f60-e0b4-467b-b2d3-e78dd6128ae5
+  uuid: 6a293b61-fcba-4649-884c-d2b9573fb02d
