@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
+  uuid: 5b155503-3413-4a0e-9ac3-783902c6ca77
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
+  uuid: 5b155503-3413-4a0e-9ac3-783902c6ca77
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -28,7 +28,44 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
+  uuid: 5b155503-3413-4a0e-9ac3-783902c6ca77
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-TCP-NA 🇸🇬 SG-152.42.218.5...
+  network: tcp
+  port: '80'
+  server: 152.42.218.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48a16dc9-40e7-4270-925e-b7fcef9bc4c6
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡 01 三网优化 1x
+  network: ws
+  port: '80'
+  server: 13.212.19.111
+  tls: false
+  type: vmess
+  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: 26012
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -48,20 +85,6 @@ proxies:
     path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
-  network: ws
-  port: 26012
-  server: 146.190.84.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -69,7 +92,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
+  uuid: 0f5be811-e8af-4608-b1e0-0ca90b8b8dff
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -79,7 +102,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
+  uuid: 0f5be811-e8af-4608-b1e0-0ca90b8b8dff
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -89,7 +112,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
+  uuid: 0f5be811-e8af-4608-b1e0-0ca90b8b8dff
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

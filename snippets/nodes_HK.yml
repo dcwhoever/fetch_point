@@ -1,58 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港 03 三网优化 1x
-  network: ws
-  port: '80'
-  server: freejc.test.freecarriertraffic.hongkong.133141.xyz
-  tls: false
-  type: vmess
-  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 16|香港迪士尼樂園⚡️1X
-  network: ws
-  port: '80'
-  server: 47.245.58.175
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 16|香港蘭桂坊⚡️1X
-  network: ws
-  port: '80'
-  server: 47.245.9.99
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 16|香港海洋世界⚡️1X
-  network: ws
-  port: '80'
-  server: 47.245.56.50
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
   name: 16|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
   network: ws
   port: 28681
@@ -65,45 +13,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港銅鑼灣⚡️1X
-  network: ws
-  port: '80'
-  server: 47.245.56.29
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 16|香港維多利亞港⚡️1X
-  network: ws
-  port: '80'
-  server: 47.245.10.164
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '16|香港蘭桂坊⚡️1X #1'
-  network: ws
-  port: '80'
-  server: 47.245.7.212
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -120,6 +29,23 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|香港3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 47.74.23.99
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港4|@ripaojiedian
