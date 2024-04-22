@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #27'
+  name: '8,20|🇺🇸_US_美国 #28'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -14,7 +14,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -27,7 +27,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_46
+  name: 8,9,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_46
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,20|🇺🇸_US_美国 #26'
+  name: '8,9,20|🇺🇸_US_美国 #27'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -92,6 +92,69 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇧🇷_BR_巴西_4_33
+  network: ws
+  port: 2082
+  server: p1.v2raybrasil.cloud
+  tls: false
+  type: vmess
+  uuid: 3d2944ae-a11c-46d8-9553-b9e83004d2dd
+  ws-opts:
+    headers:
+      Host: s2.redbullplus.xyz
+    path: /t.me/xraybr
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_4_38
+  network: ws
+  port: 8880
+  server: 172.67.188.156
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: cdn.vds-server.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇧🇷_BR_巴西_3_32
+  network: ws
+  port: 2082
+  server: c2.v2raybrasil.cloud
+  tls: false
+  type: vmess
+  uuid: 3d2944ae-a11c-46d8-9553-b9e83004d2dd
+  ws-opts:
+    headers:
+      Host: s2.redbullplus.xyz
+    path: /t.me/xraybr
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供：kkz...
+  network: ws
+  port: 2082
+  server: c3.v2raybrasil.cloud
+  tls: false
+  type: vmess
+  uuid: 3d2944ae-a11c-46d8-9553-b9e83004d2dd
+  ws-opts:
+    headers:
+      Host: s2.redbullplus.xyz
+    path: /t.me/xraybr
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_52
+  network: ws
+  port: 80
+  server: 23.162.168.211
+  tls: false
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
   name: 16,24|🇳🇱_NL_荷兰->🇫🇷_FR_法国_2
   network: ws
   port: 2086
@@ -105,20 +168,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国_2_39
-  network: ws
-  port: 8080
-  server: yh7.dtku41.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
   name: 24|🇨🇳_CN_中国->🇩🇪_DE_德国_8
   network: ws
   port: 46085
@@ -130,19 +179,6 @@ proxies:
     headers:
       Host: mmfi85.micloud.buzz
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_4_38
-  network: ws
-  port: 8880
-  server: 172.67.188.156
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: cdn.vds-server.ir
-    path: /
 - alterId: 0
   cipher: auto
   name: '24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
@@ -210,56 +246,17 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供：kkz...
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
   network: ws
-  port: 2082
-  server: c3.v2raybrasil.cloud
+  port: 8080
+  server: 104.19.58.60
   tls: false
   type: vmess
-  uuid: 3d2944ae-a11c-46d8-9553-b9e83004d2dd
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
   ws-opts:
     headers:
-      Host: s2.redbullplus.xyz
-    path: /t.me/xraybr
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇧🇷_BR_巴西_2_3由快嘴科技提供：...
-  network: ws
-  port: 2082
-  server: p2.v2raybrasil.cloud
-  tls: false
-  type: vmess
-  uuid: 3d2944ae-a11c-46d8-9553-b9e83004d2dd
-  ws-opts:
-    headers:
-      Host: s2.redbullplus.xyz
-    path: /t.me/xraybr
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇧🇷_BR_巴西_3_32
-  network: ws
-  port: 2082
-  server: c2.v2raybrasil.cloud
-  tls: false
-  type: vmess
-  uuid: 3d2944ae-a11c-46d8-9553-b9e83004d2dd
-  ws-opts:
-    headers:
-      Host: s2.redbullplus.xyz
-    path: /t.me/xraybr
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇧🇷_BR_巴西_4_33
-  network: ws
-  port: 2082
-  server: p1.v2raybrasil.cloud
-  tls: false
-  type: vmess
-  uuid: 3d2944ae-a11c-46d8-9553-b9e83004d2dd
-  ws-opts:
-    headers:
-      Host: s2.redbullplus.xyz
-    path: /t.me/xraybr
+      Host: concentrations-taxi-about-recognised.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_40
@@ -286,17 +283,6 @@ proxies:
     headers:
       Host: cdn.vds-server.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_52
-  network: ws
-  port: 80
-  server: 23.162.168.211
-  tls: false
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    path: /eisasqa
 - alterId: 0
   cipher: auto
   name: 24|🇫🇮_FI_芬兰->🇩🇪_DE_德国_56
