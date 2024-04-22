@@ -14,7 +14,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
+  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -92,43 +92,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_2_27
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
-  network: ws
-  port: 80
-  server: 23.162.168.211
-  tls: false
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    path: /eisasqa
-- alterId: 0
-  cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_3_53
-  network: ws
-  port: 8880
-  server: cdn.vds-server.ir
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: cdn.vds-server.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 2052
@@ -139,6 +102,19 @@ proxies:
   ws-opts:
     headers:
       Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2086
+  server: 188.114.98.0
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -166,6 +142,19 @@ proxies:
     headers:
       Host: at1-vmess.sshmax.xyz
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_3_53
+  network: ws
+  port: 8880
+  server: cdn.vds-server.ir
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: cdn.vds-server.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: '24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz... #1'
@@ -242,10 +231,10 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_55
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_57
   network: ws
   port: 8080
-  server: yh7.dtku41.xyz
+  server: yh4.dtku41.xyz
   tls: false
   type: vmess
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
