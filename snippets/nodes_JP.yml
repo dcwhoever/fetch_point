@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e3e78536-f6d0-4f95-b7e1-7e4833d55d0a
+  uuid: 48a9f5b3-d0bb-4b70-8ba9-587a70dabe38
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e3e78536-f6d0-4f95-b7e1-7e4833d55d0a
+  uuid: 48a9f5b3-d0bb-4b70-8ba9-587a70dabe38
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -28,21 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e3e78536-f6d0-4f95-b7e1-7e4833d55d0a
-- alterId: 0
-  cipher: auto
-  name: 14|日本 东京Fastly节点
-  network: ws
-  port: '80'
-  server: fastly.alipay.ovh
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d39a347a-00c9-4f91-9255-7f536c07c5a8
-  ws-opts:
-    headers:
-      Host: nmsl.kp
-    path: /aries?ed=2560
+  uuid: 48a9f5b3-d0bb-4b70-8ba9-587a70dabe38
 - alterId: 0
   cipher: auto
   name: 16|NL_分享日记_4
@@ -210,7 +196,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6a293b61-fcba-4649-884c-d2b9573fb02d
+  uuid: ccd5fd04-fce8-46f2-9e85-422aebdcb682
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -220,7 +206,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6a293b61-fcba-4649-884c-d2b9573fb02d
+  uuid: ccd5fd04-fce8-46f2-9e85-422aebdcb682
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -230,7 +216,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6a293b61-fcba-4649-884c-d2b9573fb02d
+  uuid: ccd5fd04-fce8-46f2-9e85-422aebdcb682
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇯🇵 日本特殊|@ripaojiedian
