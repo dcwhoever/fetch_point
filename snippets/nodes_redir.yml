@@ -27,10 +27,11 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 8,9,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_23
+  name: 8,9,14,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_23
   network: ws
   port: 8880
   server: 94.140.0.110
+  servername: ''
   tls: false
   type: vmess
   uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
@@ -157,6 +158,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16,24|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
   port: 2086
@@ -180,19 +194,6 @@ proxies:
   ws-opts:
     headers:
       Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_27
-  network: ws
-  port: 2052
-  server: 104.18.36.119
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
     path: /
 - alterId: 0
   cipher: auto
@@ -220,19 +221,6 @@ proxies:
     headers:
       Host: booty-pensions-scheduling-blogging.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_3_32
-  network: ws
-  port: 2095
-  server: 104.21.82.39
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: tu.mahilu.site
-    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_35
