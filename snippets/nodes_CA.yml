@@ -69,105 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3a901daf-ae9b-4129-8b6c-3b78e9e2c75a
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 015
-  network: ws
-  port: 2086
-  server: 104.17.159.26
-  servername: cache-5.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 82c3f0a2-fb48-352c-9ab9-3fc93d8887f1
-  ws-opts:
-    headers:
-      Host: 100.100.17.159.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 012
-  network: ws
-  port: 80
-  server: 104.16.100.75
-  servername: cache-5.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 82c3f0a2-fb48-352c-9ab9-3fc93d8887f1
-  ws-opts:
-    headers:
-      Host: 100.100.17.100.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 013
-  network: ws
-  port: 2052
-  server: 104.18.206.206
-  servername: data-5.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 82c3f0a2-fb48-352c-9ab9-3fc93d8887f1
-  ws-opts:
-    headers:
-      Host: 100.100.17.206.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: 104.21.13.125
-  servername: pl1-vmess.sshmax.xyz
-  tls: true
-  type: vmess
-  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
-  ws-opts:
-    headers:
-      Host: pl1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 014
-  network: ws
-  port: 2095
-  server: 104.17.136.250
-  servername: cache-5.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 82c3f0a2-fb48-352c-9ab9-3fc93d8887f1
-  ws-opts:
-    headers:
-      Host: 100.100.17.136.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 019
-  network: ws
-  port: 2095
-  server: 104.16.231.103
-  servername: data-4.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 82c3f0a2-fb48-352c-9ab9-3fc93d8887f1
-  ws-opts:
-    headers:
-      Host: 100.100.17.231.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 018
-  network: ws
-  port: 8080
-  server: 104.17.67.156
-  servername: cache-4.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 82c3f0a2-fb48-352c-9ab9-3fc93d8887f1
-  ws-opts:
-    headers:
-      Host: 100.100.17.67.cn-db.top
-    path: /db00
+  uuid: 4ec94fb7-d907-4a1c-8b07-55b8b8ced92a
 - alterId: 0
   cipher: auto
   name: 16|CA_speednode_0002
@@ -184,46 +86,45 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '16|Channel id: @ShadowProxy66 🇨🇦 #1'
+  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供：...
   network: ws
-  port: '443'
-  server: upload.ir
-  servername: pl1-vmess.sshmax.xyz
+  port: 2086
+  server: 104.21.4.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 002
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
   tls: true
   type: vmess
-  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: pl1-vmess.sshmax.xyz
-    path: /vmess
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 016
+  name: 16|🇨🇦 加拿大 010
   network: ws
-  port: 8080
-  server: 104.16.105.194
-  servername: data-5.cn-db.top
+  port: '8080'
+  server: 172.67.185.64
   tls: false
   type: vmess
-  uuid: 82c3f0a2-fb48-352c-9ab9-3fc93d8887f1
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: 100.100.17.105.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 017
-  network: ws
-  port: 8880
-  server: 104.18.219.2
-  servername: cache-5.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 82c3f0a2-fb48-352c-9ab9-3fc93d8887f1
-  ws-opts:
-    headers:
-      Host: 100.100.17.219.cn-db.top
-    path: /db00
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
@@ -233,4 +134,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fc2aeff5-5ac9-4bf8-a803-715451679fe1
+  uuid: 4d03943e-f083-4622-86c1-b19c6be7e76f

@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
+  name: 16|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
   network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
+  port: 28681
+  server: 47.242.22.171
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
     headers:
-      Host: cfhk.393930.xyz
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -29,69 +29,17 @@ proxies:
     path: /TG@dns68公益节点
 - alterId: 0
   cipher: auto
-  name: 16|🇭🇰 香港 - 2
+  name: 16|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
   network: ws
-  port: '80'
-  server: hk02.beautifulprimavera.online
-  tls: false
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
   type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🇭🇰 香港 - 4
-  network: ws
-  port: '80'
-  server: hk04.beautifulprimavera.online
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🇭🇰 香港 - 3
-  network: ws
-  port: '80'
-  server: hk03.beautifulprimavera.online
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🇭🇰 香港 - 1
-  network: ws
-  port: '80'
-  server: hk01.beautifulprimavera.online
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
+      Host: cfhk.393930.xyz
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -136,3 +84,13 @@ proxies:
   tls: false
   type: vmess
   uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: tcp
+  port: '39996'
+  server: 119.236.193.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 324aa1c5-7504-4893-82b4-1365596331e2

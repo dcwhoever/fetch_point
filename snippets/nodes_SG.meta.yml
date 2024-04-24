@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
+  network: ws
+  port: 47390
+  server: 146.190.84.34
+  tls: false
+  type: vmess
+  uuid: 7c99b0a1-3fe6-40b6-95a6-40f33fe00bce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16|🔒 VM-WS-NONE 🇸🇬 SG-146.190.86....
   network: ws
   port: 35010
@@ -19,45 +32,6 @@ proxies:
   tls: false
   type: vmess
   uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🇸🇬 新加坡 - 4
-  network: ws
-  port: '80'
-  server: sg04.beautifulprimavera.online
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
-  network: ws
-  port: 47390
-  server: 146.190.84.34
-  tls: false
-  type: vmess
-  uuid: 7c99b0a1-3fe6-40b6-95a6-40f33fe00bce
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🇸🇬 新加坡 - 3
-  network: ws
-  port: '80'
-  server: sg03.beautifulprimavera.online
-  tls: false
-  type: vmess
-  uuid: 592d16a7-a8da-482c-9fe4-e807de37130a
   ws-opts:
     headers:
       Host: ''

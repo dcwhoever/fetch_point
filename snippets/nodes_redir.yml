@@ -27,7 +27,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 8,9,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_23
+  name: 8,9,16,20,24|🇦🇪_AE_阿联酋->🇬🇧_GB_英国_23
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -66,7 +66,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -92,10 +92,49 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_2由快嘴科技提供：...
+  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_3_由快嘴科技提供：k...
+  network: ws
+  port: 8880
+  server: 104.21.19.202
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: cdn.vds-server.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_43
+  network: ws
+  port: 2052
+  server: 104.18.19.191
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2052
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_24
   network: ws
   port: 2086
-  server: 104.21.4.14
+  server: admin.arzonhost.ir
   tls: false
   type: vmess
   uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
@@ -105,10 +144,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国->🇫🇷_FR_法国_4_24
+  name: 16,24|🇺🇸_US_美国->🇬🇧_GB_英国_4_由快嘴科技提供：k...
+  network: ws
+  port: 8880
+  server: 172.67.188.156
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: cdn.vds-server.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
   port: 2086
-  server: admin.arzonhost.ir
+  server: 188.114.98.0
   tls: false
   type: vmess
   uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
@@ -131,6 +183,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_27
+  network: ws
+  port: 2052
+  server: 104.18.36.119
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 24|🇺🇸_US_美国->🇹🇷_TR_土耳其_2_25
   network: ws
   port: 2095
@@ -141,71 +206,6 @@ proxies:
   ws-opts:
     headers:
       Host: tu.mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_2_9
-  network: ws
-  port: 8880
-  server: cdn.vds-server.ir
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: cdn.vds-server.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_3_由快嘴科技提供：k...
-  network: ws
-  port: 8880
-  server: 104.21.19.202
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: cdn.vds-server.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_4_由快嘴科技提供：k...
-  network: ws
-  port: 8880
-  server: 172.67.188.156
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: cdn.vds-server.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2052
-  server: 104.19.250.15
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_2_27
-  network: ws
-  port: 2052
-  server: 104.18.36.119
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
     path: /
 - alterId: 0
   cipher: auto
@@ -246,19 +246,6 @@ proxies:
     headers:
       Host: fantastic-doe-bids-ended.trycloudflare.com
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_3_43
-  network: ws
-  port: 2052
-  server: 104.18.19.191
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_45
