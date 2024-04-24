@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-NONE 🇭🇰 HK-45.144.3.20...
-  network: ws
-  port: 18356
-  server: 45.144.3.204
-  tls: false
-  type: vmess
-  uuid: f36b128b-99b2-4e58-bd96-7a075cdb2b0a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
   network: ws
   port: '4431'
