@@ -1,17 +1,85 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港 02 三网优化 1x
-  network: ws
-  port: '80'
-  server: freejc.test.freecarriertraffic.hongkong.133141.xyz
+  name: 16|🇭🇰香港06|1x
+  network: tcp
+  port: '48892'
+  server: gg.youaremygod.top
   tls: false
   type: vmess
-  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed=2048
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港04|1x
+  network: tcp
+  port: '48894'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港01|1x
+  network: tcp
+  port: '48888'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港02|1x
+  network: tcp
+  port: '48889'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港07|1x
+  network: tcp
+  port: '48893'
+  server: gg.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港03|1x
+  network: tcp
+  port: '48890'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港08|1x
+  network: tcp
+  port: '48895'
+  server: gg.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港♾️|1x
+  network: tcp
+  port: '30935'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港05|1x
+  network: tcp
+  port: '48891'
+  server: gg.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -67,7 +135,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn香港 #3'
+  name: 21|baipaovpn香港
   network: ws
   port: '80'
   server: 47.243.70.197
@@ -82,20 +150,14 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn香港 #1'
-  network: tcp
-  port: '19901'
-  server: 163.53.18.154
+  network: ws
+  port: '80'
+  server: 8.210.192.93
   servername: ''
   tls: false
   type: vmess
-  uuid: 8d9c437a-de03-44b6-9fe4-3f93a67fa5b2
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn香港 #2'
-  network: tcp
-  port: '10010'
-  server: 163.53.18.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7642aa50-5e70-488c-b90e-d4ba65773966
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
