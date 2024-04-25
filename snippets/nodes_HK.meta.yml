@@ -1,31 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
+  name: 16|香港 02 三网优化 1x
   network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🇭🇰[直连]香港|BGP|广播|VMESS
-  network: ws
-  port: '8081'
-  server: 141.11.75.68
+  port: '80'
+  server: freejc.test.freecarriertraffic.hongkong.133141.xyz
   tls: false
   type: vmess
-  uuid: 538444e7-453e-4e5d-a5eb-749c5dbbeeb2
+  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: baidu.com
+    path: /?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -81,10 +67,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn香港 #7'
+  name: '21|baipaovpn香港 #3'
   network: ws
   port: '80'
-  server: 47.242.171.94
+  server: 47.243.70.197
   servername: ''
   tls: false
   type: vmess
@@ -95,57 +81,21 @@ proxies:
     path: /needay?ed=2048
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn香港 #8'
-  network: ws
-  port: '80'
-  server: 47.243.27.217
+  name: '21|baipaovpn香港 #1'
+  network: tcp
+  port: '19901'
+  server: 163.53.18.154
   servername: ''
   tls: false
   type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
+  uuid: 8d9c437a-de03-44b6-9fe4-3f93a67fa5b2
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn香港 #4'
-  network: ws
-  port: '80'
-  server: 47.243.183.127
+  name: '21|baipaovpn香港 #2'
+  network: tcp
+  port: '10010'
+  server: 163.53.18.219
   servername: ''
   tls: false
   type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn香港 #5'
-  network: ws
-  port: '80'
-  server: 47.243.107.148
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn香港 #6'
-  network: ws
-  port: '80'
-  server: 47.242.234.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
+  uuid: 7642aa50-5e70-488c-b90e-d4ba65773966
