@@ -1,47 +1,17 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国乌鲁木齐市|Github搜索TrojanLinks
+  name: 12|中国泉州市|Github搜索TrojanLinks
   network: ws
-  port: '37001'
-  server: 137.175.21.41
+  port: '37002'
+  server: 142.4.112.139
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.33799494.xyz
+      Host: www.18469970.xyz
     path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 14|广东省 移动
-  network: tcp
-  port: '41242'
-  server: 183.237.20.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 14,19|香港2|@ripaojiedian
-  network: tcp
-  port: '40259'
-  server: 120.238.122.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 14,19|美国2|@ripaojiedian
-  network: tcp
-  port: '11029'
-  server: dotu-usv1.03ezhg0qsa.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
@@ -56,3 +26,87 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn中国
+  network: ws
+  port: '80'
+  server: 8.218.18.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #1'
+  network: ws
+  port: '80'
+  server: 8.217.91.121
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #2'
+  network: ws
+  port: '80'
+  server: 8.218.243.95
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #3'
+  network: ws
+  port: '80'
+  server: 8.218.136.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #4'
+  network: ws
+  port: '80'
+  server: 8.218.22.210
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #5'
+  network: ws
+  port: '80'
+  server: 8.218.11.90
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
