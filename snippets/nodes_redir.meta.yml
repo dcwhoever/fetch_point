@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #29'
+  name: '8,20|🇺🇸_US_美国 #28'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -14,7 +14,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,20|🇺🇸_US_美国 #28'
+  name: '8,9,20|🇺🇸_US_美国 #27'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -66,7 +66,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  name: '9,16,20|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -89,6 +89,32 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  network: ws
+  port: 2052
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '16,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
+  network: ws
+  port: 2052
+  server: 104.18.36.119
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
     path: /
 - alterId: 0
   cipher: auto
@@ -122,19 +148,6 @@ proxies:
   network: ws
   port: 2052
   server: 104.18.19.191
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
-  network: ws
-  port: 2052
-  server: 104.18.36.119
   tls: false
   type: vmess
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
@@ -219,19 +232,6 @@ proxies:
   ws-opts:
     headers:
       Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
-  network: ws
-  port: 2052
-  server: 104.19.250.15
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
     path: /
 - alterId: 0
   cipher: auto

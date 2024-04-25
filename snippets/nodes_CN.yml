@@ -28,53 +28,10 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn中国 #1'
-  network: ws
-  port: '80'
-  server: 8.217.91.121
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn中国 #2'
-  network: ws
-  port: '80'
-  server: 8.218.204.128
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn中国 #3'
-  network: ws
-  port: '80'
-  server: 8.218.22.210
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn中国 #4'
+  name: 16|🇨🇳 中国 阿里云
   network: ws
   port: '80'
   server: 8.218.126.53
-  servername: ''
   tls: false
   type: vmess
   uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57

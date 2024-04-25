@@ -1,27 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🇭🇰香港06|1x
+  name: 16|🇭🇰香港♾️|1x
   network: tcp
-  port: '48892'
-  server: gg.youaremygod.top
-  tls: false
-  type: vmess
-  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
-- alterId: 0
-  cipher: auto
-  name: 16|🇭🇰香港04|1x
-  network: tcp
-  port: '48894'
-  server: gy.youaremygod.top
-  tls: false
-  type: vmess
-  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
-- alterId: 0
-  cipher: auto
-  name: 16|🇭🇰香港01|1x
-  network: tcp
-  port: '48888'
+  port: '30935'
   server: gy.youaremygod.top
   tls: false
   type: vmess
@@ -37,6 +19,38 @@ proxies:
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: auto
+  name: 16|🇭🇰香港03|1x
+  network: tcp
+  port: '48890'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰香港05|1x
+  network: tcp
+  port: '48891'
+  server: gg.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
   name: 16|🇭🇰香港07|1x
   network: tcp
   port: '48893'
@@ -46,9 +60,9 @@ proxies:
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: auto
-  name: 16|🇭🇰香港03|1x
+  name: 16|🇭🇰香港01|1x
   network: tcp
-  port: '48890'
+  port: '48888'
   server: gy.youaremygod.top
   tls: false
   type: vmess
@@ -64,19 +78,19 @@ proxies:
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: auto
-  name: 16|🇭🇰香港♾️|1x
+  name: 16|🇭🇰香港06|1x
   network: tcp
-  port: '30935'
-  server: gy.youaremygod.top
+  port: '48892'
+  server: gg.youaremygod.top
   tls: false
   type: vmess
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: auto
-  name: 16|🇭🇰香港05|1x
+  name: 16|🇭🇰香港04|1x
   network: tcp
-  port: '48891'
-  server: gg.youaremygod.top
+  port: '48894'
+  server: gy.youaremygod.top
   tls: false
   type: vmess
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
@@ -138,21 +152,7 @@ proxies:
   name: 21|baipaovpn香港
   network: ws
   port: '80'
-  server: 47.243.70.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn香港 #1'
-  network: ws
-  port: '80'
-  server: 8.210.192.93
+  server: 8.210.3.24
   servername: ''
   tls: false
   type: vmess
