@@ -1,19 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国郴州|Github搜索TrojanLinks
-  network: ws
-  port: '37001'
-  server: 137.175.2.248
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.88016387.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 12|中国重庆市|Github搜索TrojanLinks
   network: ws
   port: '37001'
@@ -24,6 +11,58 @@ proxies:
   ws-opts:
     headers:
       Host: www.99555130.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国泉州市|Github搜索TrojanLinks
+  network: ws
+  port: '37002'
+  server: 142.4.112.141
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.18469970.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国Fangchenggang|Github搜索Trojan...
+  network: ws
+  port: '37002'
+  server: 137.175.11.56
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.20234339.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国自贡|Github搜索TrojanLinks
+  network: ws
+  port: '38002'
+  server: 137.175.41.66
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.39281349.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国北京|Github搜索TrojanLinks
+  network: ws
+  port: '38001'
+  server: 198.2.195.197
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.12630069.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
@@ -88,11 +127,10 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 16|中国 阿里云（ccbaohe.com）免费机场节点
+  name: 16|🇨🇳 中国 阿里云
   network: ws
   port: '80'
-  server: 8.222.221.197
-  servername: ''
+  server: 8.218.126.53
   tls: false
   type: vmess
   uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
@@ -102,10 +140,11 @@ proxies:
     path: /needay?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇳 中国 阿里云
+  name: 16|中国 阿里云（ccbaohe.com）免费机场节点
   network: ws
   port: '80'
-  server: 8.218.126.53
+  server: 8.222.221.197
+  servername: ''
   tls: false
   type: vmess
   uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
