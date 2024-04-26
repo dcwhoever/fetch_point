@@ -1,6 +1,32 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 12|中国南京|Github搜索TrojanLinks
+  network: ws
+  port: '38002'
+  server: 137.175.18.91
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.36310394.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|中国重庆市|Github搜索TrojanLinks
+  network: ws
+  port: '38002'
+  server: 198.2.196.182
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.53062560.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: 12|中国乌鲁木齐市|Github搜索TrojanLinks
   network: ws
   port: '37001'
@@ -12,41 +38,30 @@ proxies:
     headers:
       Host: www.33799494.xyz
     path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|中国重庆市|Github搜索TrojanLinks
-  network: ws
-  port: '37001'
-  server: 192.74.235.34
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.99555130.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|中国重庆市|Github搜索TrojanLinks #1'
-  network: ws
-  port: '38002'
-  server: 198.2.196.182
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.53062560.xyz
-    path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 14|广东省东莞市 移动
+  name: 14|广东省 移动
   network: tcp
-  port: 47762
-  server: gy.youaremygod.top
+  port: '11029'
+  server: dotu-usv1.03ezhg0qsa.download
+  servername: ''
   tls: false
   type: vmess
-  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
+  name: 14|广东省深圳市 移动
+  network: ws
+  port: '20301'
+  server: data-jp-v1.usabooks.com.cn
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-jp-v1.usabooks.com.cn
+    path: /debian
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
@@ -79,7 +94,105 @@ proxies:
   name: 21|baipaovpn中国
   network: ws
   port: '80'
-  server: 8.222.221.197
+  server: 8.222.208.83
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #1'
+  network: ws
+  port: '80'
+  server: 8.222.191.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #2'
+  network: ws
+  port: '80'
+  server: 8.222.169.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #3'
+  network: ws
+  port: '80'
+  server: 8.222.255.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #4'
+  network: ws
+  port: '80'
+  server: 8.219.170.223
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #5'
+  network: ws
+  port: '80'
+  server: 8.219.51.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #6'
+  network: ws
+  port: '80'
+  server: 8.219.86.200
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn中国 #7'
+  network: ws
+  port: '80'
+  server: 8.222.168.24
   servername: ''
   tls: false
   type: vmess
