@@ -210,53 +210,27 @@ proxies:
   cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
-  port: '31000'
-  server: 38.38.169.114
+  port: '37002'
+  server: 38.38.165.106
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.87044255.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|美国庫卡蒙格牧場|Github搜索TrojanLinks
-  network: ws
-  port: '32002'
-  server: 69.80.226.203
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.29520152.xyz
+      Host: www.84056064.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
   name: '12|美国聖荷西|Github搜索TrojanLinks #1'
   network: ws
-  port: '38001'
-  server: 142.4.113.121
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.94152251.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
-  network: ws
   port: '38002'
-  server: 107.148.202.185
+  server: 38.14.102.232
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.32307443.xyz
+      Host: www.54699295.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
@@ -273,29 +247,42 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
+  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
   network: ws
-  port: '38002'
-  server: 38.38.145.42
+  port: '37002'
+  server: 198.200.56.46
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.47643999.xyz
+      Host: www.98382183.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #4'
+  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
   network: ws
   port: '37002'
-  server: 142.4.99.29
+  server: 38.38.181.252
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.35688874.xyz
+      Host: www.60184527.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|美国庫卡蒙格牧場|Github搜索TrojanLinks
+  network: ws
+  port: '32002'
+  server: 69.80.226.203
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.29520152.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -340,14 +327,14 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: '14,21|baipaovpn美国 #1'
+  name: 14,21|baipaovpn美国
   network: ws
   port: '443'
   server: 162.159.133.160
   servername: v2ray.ryin.vip
   tls: true
   type: vmess
-  uuid: ca8b40d2-3cfa-41da-9731-932f825c8aef
+  uuid: cf949603-c8b1-44f8-bb6c-3dc9cabe95d0
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
@@ -738,48 +725,6 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn美国
-  network: ws
-  port: '443'
-  server: 162.159.128.17
-  servername: v2ray.ryin.vip
-  tls: true
-  type: vmess
-  uuid: 0b983f83-c544-4b9e-95ba-cecf3f10485b
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 162.159.58.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: newjp1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #3'
-  network: ws
-  port: '80'
-  server: 162.159.58.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: newjp1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
