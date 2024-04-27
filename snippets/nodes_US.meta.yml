@@ -327,11 +327,14 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 14,21|baipaovpn美国
+  client-fingerprint: chrome
+  name: 14,18,19|美国2|@ripaojiedian
   network: ws
   port: '443'
   server: 162.159.133.160
   servername: v2ray.ryin.vip
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: cf949603-c8b1-44f8-bb6c-3dc9cabe95d0
@@ -714,6 +717,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|美国3|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a1285794-a9fd-4423-83f5-aeecc84dd76d
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
   name: '20|🇺🇸_US_美国 #29'
   network: ws
   port: 2095
@@ -725,6 +745,20 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 172.64.229.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  ws-opts:
+    headers:
+      Host: hk01.xfxnet.shop
+    path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
