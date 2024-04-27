@@ -4,7 +4,7 @@ proxies:
   name: 12|中国石家庄市|Github搜索TrojanLinks
   network: ws
   port: '38002'
-  server: 142.0.134.136
+  server: 142.0.134.139
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -14,16 +14,16 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|中国新山村|Github搜索TrojanLinks
+  name: 12|中国广州市|Github搜索TrojanLinks
   network: ws
   port: '38002'
-  server: 137.175.40.1
+  server: 137.175.14.165
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.75596620.xyz
+      Host: www.46074906.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
@@ -61,14 +61,15 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇳 中国 阿里云
+  name: 21|baipaovpn中国
   network: ws
   port: '80'
-  server: 8.218.126.53
+  server: 8.219.112.75
+  servername: ''
   tls: false
   type: vmess
   uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
   ws-opts:
     headers:
-      Host: needayhk1.renwox.xyz
+      Host: tw1.renwox.xyz
     path: /needay?ed=2048
