@@ -66,7 +66,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_9
+  name: 9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -79,10 +79,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,20,24|🇺🇸_US_美国_8_由快嘴科技提供：kkzui.com8
+  name: 9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
   port: 2082
   server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -92,7 +93,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '16|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  name: '16,24|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -105,51 +106,26 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 16|🇨🇾_CY_塞浦路斯->🇨🇦_CA_加拿大
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 8080
-  server: yh9.dtku41.xyz
+  server: yh1.dtku41.xyz
   tls: false
   type: vmess
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
       Host: hang-broke-john-neither.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 24|🇬🇧_GB_英国->🇺🇸_US_美国_2
+  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   network: ws
-  port: 57053
-  server: 89.213.164.193
+  port: 80
+  server: 162.159.200.4
   tls: false
   type: vmess
-  uuid: de72fd1a-69a3-4f8c-b0ce-827159362294
-  ws-opts:
-    path: /de72fd1a
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
-  network: ws
-  port: 2095
-  server: 172.67.214.33
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 14f364ef-251b-449f-afc0-426ab19bf513
   ws-opts:
     headers:
-      Host: fcdn.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_由快嘴科技提供：...
-  network: ws
-  port: 8080
-  server: yh7.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+      Host: ca3.889611.com
+    path: /?ed=2048
