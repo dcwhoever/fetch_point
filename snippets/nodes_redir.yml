@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #25'
+  name: '8,20|🇺🇸_US_美国 #31'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -14,7 +14,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  name: '8,20|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,20|🇺🇸_US_美国 #24'
+  name: '8,9,20|🇺🇸_US_美国 #30'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -92,18 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇬🇧_GB_英国->🇺🇸_US_美国_2
-  network: ws
-  port: 57053
-  server: 89.213.164.193
-  tls: false
-  type: vmess
-  uuid: de72fd1a-69a3-4f8c-b0ce-827159362294
-  ws-opts:
-    path: /de72fd1a
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  name: 16,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
   network: ws
   port: 2095
   server: 172.67.214.33
@@ -114,6 +103,17 @@ proxies:
     headers:
       Host: fcdn.flha.ru
     path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇬🇧_GB_英国->🇺🇸_US_美国_2
+  network: ws
+  port: 57053
+  server: 89.213.164.193
+  tls: false
+  type: vmess
+  uuid: de72fd1a-69a3-4f8c-b0ce-827159362294
+  ws-opts:
+    path: /de72fd1a
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_20
