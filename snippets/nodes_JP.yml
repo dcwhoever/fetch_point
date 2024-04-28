@@ -12,19 +12,6 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 16|CZ_分享日记
-  network: ws
-  port: 2082
-  server: 77.75.230.125
-  tls: false
-  type: vmess
-  uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c
-  ws-opts:
-    headers:
-      Host: 77.75.230.125
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: 16|IR_分享日记_2
   network: tcp
   port: 80
@@ -159,7 +146,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d7b9614-d33f-4cbd-b1ca-18faeb1b45d0
+  uuid: f28f47b1-3189-4718-b7c9-3582fba8920c
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -169,7 +156,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d7b9614-d33f-4cbd-b1ca-18faeb1b45d0
+  uuid: f28f47b1-3189-4718-b7c9-3582fba8920c
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -179,7 +166,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d7b9614-d33f-4cbd-b1ca-18faeb1b45d0
+  uuid: f28f47b1-3189-4718-b7c9-3582fba8920c
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

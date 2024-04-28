@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b026434a-c8c3-4801-913c-d211b53dc990
+  uuid: 9ebdfdd4-d6fa-4c79-86e5-2b3315041042
 - alterId: 0
   cipher: auto
   name: 16|加拿大 010
@@ -209,6 +209,20 @@ proxies:
     headers:
       Host: 100.100.17.236.cn-db.top
     path: /db00
+- alterId: 0
+  cipher: auto
+  name: 16|加拿大 100
+  network: ws
+  port: 2095
+  server: onea.flha.ru
+  servername: onea.flha.ru
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 16|加拿大 096
@@ -671,4 +685,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d7b9614-d33f-4cbd-b1ca-18faeb1b45d0
+  uuid: f28f47b1-3189-4718-b7c9-3582fba8920c
