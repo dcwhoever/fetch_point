@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc9c022b-2da4-41aa-ba2c-1e90cec77c8f
+  uuid: 7b34ea75-f15d-4b8d-8528-b68745f2f7db
 - alterId: 0
   cipher: auto
   name: 14|加拿大 v2rayfree.eu.org
@@ -83,30 +83,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大【TG：@ccbaohe】定时更新节点订阅
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 158.51.123.111
-    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 16|CA_08 |14.88Mb
@@ -123,20 +99,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 16|加拿大 136
-  network: ws
-  port: 80
-  server: 172.64.229.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: hk01.xfxnet.shop
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -144,4 +106,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c979daa9-e181-4070-8395-36470349f6ac
+  uuid: 929e2c7e-1d09-4fde-b62a-c15e31b4f5bb
