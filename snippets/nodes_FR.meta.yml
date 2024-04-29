@@ -10,6 +10,16 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
+  name: 16|🔒 VM-TCP-NA 🇫🇷 FR-146.59.17.58...
+  network: tcp
+  port: '12960'
+  server: 146.59.17.58
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48a86563-63c5-4218-e887-d752f801ae82
+- alterId: 0
+  cipher: auto
   name: 16|🔒 VM-TCP-NA 🇫🇷 FR-162.19.25.20...
   network: tcp
   port: '44513'
@@ -30,11 +40,11 @@ proxies:
   uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: QWQ
+    path: /
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn法国 #1'
+  name: '21|baipaovpn法国 #2'
   network: tcp
   port: '23234'
   server: 57.180.33.43
@@ -42,3 +52,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn法国 #3'
+  network: ws
+  port: '45123'
+  server: 57.180.33.43
+  servername: QWQ
+  tls: true
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
