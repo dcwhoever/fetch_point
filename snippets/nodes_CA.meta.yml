@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9ed3519e-2e79-42fb-894b-9ddcb5bd5fe6
+  uuid: f3755fea-3490-481d-b169-604db830935e
 - alterId: 0
   cipher: auto
   name: '16|Channel id: @ShadowProxy66 🇨🇦'
@@ -149,4 +149,42 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 811dc803-4cd1-40fa-b27b-eaa2ae71b615
+  uuid: 854d3b88-f92d-40a5-a6f5-624b459cfa35
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn加拿大
+  network: tcp
+  port: '54126'
+  server: 47.129.56.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn加拿大 #1'
+  network: ws
+  port: '15638'
+  server: 47.129.56.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn加拿大 #2'
+  network: ws
+  port: '15638'
+  server: 47.129.56.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
