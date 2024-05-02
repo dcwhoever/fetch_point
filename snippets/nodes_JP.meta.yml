@@ -43,17 +43,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|NL_分享日记_8
-  network: ws
-  port: 443
-  server: nl2-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: b7a0cf39-99fa-47a4-8d9f-5263806e8cce
-  ws-opts:
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
   name: 16|GB_分享日记_20
   network: ws
   port: 443
@@ -187,7 +176,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4232e224-0ee6-42bf-aa3a-9c30f0a60669
+  uuid: 39ab0086-0e04-4806-a860-0201864a2928
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -197,7 +186,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4232e224-0ee6-42bf-aa3a-9c30f0a60669
+  uuid: 39ab0086-0e04-4806-a860-0201864a2928
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -207,7 +196,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4232e224-0ee6-42bf-aa3a-9c30f0a60669
+  uuid: 39ab0086-0e04-4806-a860-0201864a2928
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -235,21 +224,135 @@ proxies:
   type: ss
 - alterId: 1
   cipher: auto
-  name: 21|baipaovpn日本东京
+  name: '21|baipaovpn日本东京 #2'
+  network: tcp
+  port: '449'
+  server: 35.77.7.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
+- alterId: 1
+  cipher: auto
+  name: '21|baipaovpn日本东京 #3'
+  network: tcp
+  port: '46487'
+  server: 35.76.149.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 54.199.148.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8842bea-ec04-4039-b03a-aac6c42fe2c5
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本 #1'
+  network: ws
+  port: '80'
+  server: 54.199.148.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8842bea-ec04-4039-b03a-aac6c42fe2c5
+  ws-opts:
+    headers:
+      Host: jp02.beitai.online
+    path: /
+- alterId: 1
+  cipher: auto
+  name: '21|baipaovpn日本 #2'
   network: tcp
   port: '21586'
-  server: 13.231.39.53
-  servername: tech5-g06.jp03-7d22-vm0.entry.fr0307a.art
+  server: 18.183.156.225
+  servername: f43pa-g06.jp01-0986-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本东京 #4'
+  network: ws
+  port: '80'
+  server: 13.230.225.221
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8842bea-ec04-4039-b03a-aac6c42fe2c5
+  ws-opts:
+    headers:
+      Host: jp01.beitai.online
+    path: /
+- alterId: 1
+  cipher: auto
+  name: '21|baipaovpn日本 #5'
+  network: tcp
+  port: '21586'
+  server: 52.69.33.252
+  servername: l0l04-g06.jp03-7d22-vm0.entry.fr0307a.art
   tls: true
   type: vmess
   uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
 - alterId: 1
   cipher: auto
-  name: '21|baipaovpn日本东京 #1'
+  name: '21|baipaovpn日本 #4'
   network: tcp
-  port: '46487'
-  server: 35.74.1.245
+  port: '11778'
+  server: 18.181.179.229
   servername: ''
   tls: false
   type: vmess
   uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本 #6'
+  network: ws
+  port: '80'
+  server: 151.248.68.5
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本 #7'
+  network: ws
+  port: '80'
+  server: 43.203.234.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4400260c-f088-4748-af5c-cacce1156de0
+  ws-opts:
+    headers:
+      Host: kr04.trixieseymour.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本 #8'
+  network: ws
+  port: '80'
+  server: 151.248.68.5
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /

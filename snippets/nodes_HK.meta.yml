@@ -230,8 +230,36 @@ proxies:
   cipher: auto
   name: 21|baipaovpn香港
   network: ws
+  port: '80'
+  server: 101.36.125.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn香港 #1'
+  network: ws
   port: '26489'
   server: 210.17.255.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn香港 #2'
+  network: ws
+  port: '80'
+  server: 101.36.125.250
   servername: ''
   tls: false
   type: vmess
