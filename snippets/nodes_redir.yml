@@ -57,7 +57,7 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: auto
-  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_1
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_1_7
   network: ws
   port: 2052
   server: 104.19.250.15
@@ -70,7 +70,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_2
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_3
   network: ws
   port: 2052
   server: 104.18.36.119
@@ -83,7 +83,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_3
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_8
   network: ws
   port: 2052
   server: 104.18.19.191
@@ -96,9 +96,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,14|美国 CloudFlare节点 #8'
+  name: 3|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
-  port: '8880'
+  port: 8880
   server: 104.19.40.84
   tls: false
   type: vmess
@@ -174,7 +174,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -187,7 +187,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_1
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -198,3 +198,29 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_4_10
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国->🇬🇧_GB_英国_11
+  network: ws
+  port: 8880
+  server: 104.19.40.222
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: uk.moss.network
+    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
