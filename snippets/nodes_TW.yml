@@ -16,3 +16,17 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn台湾省桃园市
+  network: ws
+  port: '20112'
+  server: 1.162.137.121
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''

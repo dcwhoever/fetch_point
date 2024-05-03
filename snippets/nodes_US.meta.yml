@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-256-gcm
   country: US
-  name: 1,6|-https://t.me/MrXbin-249
+  name: 1,6|-https://t.me/MrXbin-159
   password: N0k6tSWblI
   port: 34017
   server: 129.146.102.22
@@ -29,7 +29,7 @@ proxies:
       host: us82pRzxDMb.fzbqfrse.xyz
     path: /video/qYZue4zaWS
 - cipher: aes-128-cfb
-  name: 1|_US__4
+  name: 1,6|-https://t.me/MrXbin-1
   password: shadowsocks
   port: 443
   server: 156.146.38.163
@@ -1131,6 +1131,16 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 1
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: tcp
+  port: '21586'
+  server: 52.194.236.142
+  servername: ubmzd-g06.jp01-0986-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
 - alterId: 64
   cipher: auto
   name: 24|美国(由快嘴科技提供：kkzui.com)_12
