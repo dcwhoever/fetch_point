@@ -56,6 +56,17 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
+  name: 16|NL_分享日记_8
+  network: ws
+  port: 443
+  server: nl2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: b7a0cf39-99fa-47a4-8d9f-5263806e8cce
+  ws-opts:
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
   name: 16|JP_分享日记_12
   network: ws
   port: 41597
@@ -155,7 +166,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9403da9d-ff9b-4646-8a42-17d56f729250
+  uuid: a3481c70-c691-409e-9ee6-df3a716682c9
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -165,7 +176,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9403da9d-ff9b-4646-8a42-17d56f729250
+  uuid: a3481c70-c691-409e-9ee6-df3a716682c9
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -175,7 +186,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9403da9d-ff9b-4646-8a42-17d56f729250
+  uuid: a3481c70-c691-409e-9ee6-df3a716682c9
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇯🇵 日本特殊|@ripaojiedian
@@ -196,25 +207,21 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 1
   cipher: auto
-  name: 21|baipaovpn日本东京
+  name: '21|baipaovpn日本东京 #4'
   network: tcp
   port: '21586'
   server: 52.192.17.97
-  servername: 1afmr-g06.jp03-7d22-vm0.entry.fr0307a.art
+  servername: e0mc1-g06.jp03-7d22-vm0.entry.fr0307a.art
   tls: true
   type: vmess
   uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: '21|baipaovpn日本东京 #1'
-  network: ws
-  port: '80'
-  server: 13.230.171.213
+  name: '21|baipaovpn日本东京 #3'
+  network: tcp
+  port: '11778'
+  server: 13.231.225.183
   servername: ''
   tls: false
   type: vmess
-  uuid: f8842bea-ec04-4039-b03a-aac6c42fe2c5
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 72673ae2-46ed-378e-9a59-810ea245f70d
