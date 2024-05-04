@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|_CA_
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 23.162.200.215
-  type: ss
 - alterId: 0
   cipher: auto
   name: 8|🇨🇦_CA_加拿大
@@ -75,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0fc7f86e-0741-488e-b5a1-4ec0d100c93b
+  uuid: d0e1d447-3d63-4dd8-9fde-1f67d4d8aeaa
 - alterId: 0
   cipher: auto
   name: 16|رایگان | VMESS | @prrofile_pur...
@@ -385,4 +379,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 951df9f6-f8d4-41d4-93f8-e5e884d355ce
+  uuid: 6da8e6c6-f11f-4fe3-8da0-bf42386cbae7

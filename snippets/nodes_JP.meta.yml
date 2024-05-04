@@ -156,7 +156,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 951df9f6-f8d4-41d4-93f8-e5e884d355ce
+  uuid: 6da8e6c6-f11f-4fe3-8da0-bf42386cbae7
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -166,7 +166,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 951df9f6-f8d4-41d4-93f8-e5e884d355ce
+  uuid: 6da8e6c6-f11f-4fe3-8da0-bf42386cbae7
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -176,7 +176,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 951df9f6-f8d4-41d4-93f8-e5e884d355ce
+  uuid: 6da8e6c6-f11f-4fe3-8da0-bf42386cbae7
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇯🇵 日本3|@ripaojiedian
@@ -203,3 +203,31 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn日本东京
+  network: ws
+  port: '80'
+  server: 52.192.97.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: jp02.fredericamelody.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 54.249.182.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: jp01.fredericamelody.online
+    path: /
