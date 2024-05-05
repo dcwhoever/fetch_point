@@ -1241,3 +1241,17 @@ proxies:
     headers:
       Host: hk07.hy-2.one
     path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: ws
+  port: '2052'
+  server: 104.20.18.203
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5edafe88-b558-4129-a86d-58fd84be79f0
+  ws-opts:
+    headers:
+      Host: hk07.hy-2.one
+    path: /
