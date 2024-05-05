@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,3,16|美国 V2CROSS.COM
+  name: 1,3,14,16,24|🇨🇦_CA_加拿大_5
   network: ws
   port: 443
   server: 23.162.200.227
@@ -11,8 +11,6 @@ proxies:
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      Host: ''
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -84,7 +82,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 44a48ebb-7807-4bb9-ad4f-0dde97bbf8f1
+  uuid: d2276836-d2ff-4b3c-b651-f195590b0ed5
 - alterId: 0
   cipher: auto
   name: 16|@DeamNet - Canada 6
@@ -226,6 +224,20 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
+  name: 16|13|🇨🇦 加拿大
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 16|⚡️@DeamNet 🇨🇦Canada 6
   network: ws
   port: 443
@@ -303,4 +315,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7c301634-e065-4c24-aba4-891f57ae7e3d
+  uuid: eb7b57df-b968-4758-b511-256e3b1f777b
