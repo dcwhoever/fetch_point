@@ -43,21 +43,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: ' KR'
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-134
+  name: 1|_KR_->_RU_
   network: ws
   port: 60999
   server: 210.87.195.254
-  servername: tg.dns68.9669.link
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e8c6eb94-0c48-49de-c3eb-e305a26d1074
   ws-opts:
     headers:
-      HOST: tg.dns68.9669.link
+      host: tg.dns68.9669.link
     path: /TG@dns68
 - alterId: 0
   cipher: auto
