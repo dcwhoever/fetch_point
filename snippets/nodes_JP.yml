@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|日本 东京Amazon数据中心
-  network: ws
-  port: '80'
-  server: 54.199.172.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 16|IN_分享日记_3
   network: ws
   port: 60222
@@ -182,7 +168,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2f101bb9-226b-42a6-9852-91c1cb5d7230
+  uuid: f882e796-19b4-4076-9948-eab187797d86
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -192,7 +178,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2f101bb9-226b-42a6-9852-91c1cb5d7230
+  uuid: f882e796-19b4-4076-9948-eab187797d86
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -202,58 +188,12 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2f101bb9-226b-42a6-9852-91c1cb5d7230
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇯🇵 日本3|@ripaojiedian
-  password: c440808b-a8ad-484a-90c2-4399d5a26dbe
-  port: 38025
-  server: mb2.aand.site
-  tfo: false
-  type: ss
+  uuid: f882e796-19b4-4076-9948-eab187797d86
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.128.15
+  server: 13.214.214.197
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 54.238.232.168
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn日本 #1'
-  network: ws
-  port: '80'
-  server: 54.238.232.168
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn日本 #2'
-  network: tcp
-  port: '50001'
-  server: 18.179.26.12
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
