@@ -1,6 +1,19 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 12|中国五指山市|Github搜索TrojanLinks
+  network: ws
+  port: '37004'
+  server: 108.186.196.164
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86222404.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: 14,19|香港2|@ripaojiedian
   network: tcp
   port: '40259'

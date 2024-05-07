@@ -108,7 +108,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 71ad893c-22ea-4acb-876b-c2cb1521ae85
+  uuid: 4aa270bf-1d80-4846-a216-2efac26bcf41
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -118,7 +118,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 71ad893c-22ea-4acb-876b-c2cb1521ae85
+  uuid: 4aa270bf-1d80-4846-a216-2efac26bcf41
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -128,7 +128,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 71ad893c-22ea-4acb-876b-c2cb1521ae85
+  uuid: 4aa270bf-1d80-4846-a216-2efac26bcf41
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇯🇵 日本特殊|@ripaojiedian
@@ -149,7 +149,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn日本
+  name: '21|baipaovpn日本 #1'
   network: ws
   port: '25363'
   server: 146.56.128.194
@@ -161,3 +161,59 @@ proxies:
     headers:
       Host: kr-seoul-oracle-4fccf5.ip1.shop
     path: /gd3245vd2S32cr
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn日本东京
+  network: ws
+  port: '80'
+  server: 3.112.30.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: jp01.fredericamelody.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本东京 #1'
+  network: ws
+  port: '80'
+  server: 3.112.30.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本 #2'
+  network: ws
+  port: '80'
+  server: 54.95.7.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本 #3'
+  network: ws
+  port: '80'
+  server: 54.95.7.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
+  ws-opts:
+    headers:
+      Host: jp02.fredericamelody.online
+    path: /
