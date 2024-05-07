@@ -369,66 +369,40 @@ proxies:
   cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
-  port: '37004'
-  server: 38.38.181.243
+  port: '37003'
+  server: 108.186.246.238
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.60184527.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
-  network: ws
-  port: '38003'
-  server: 107.149.115.122
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.39281349.xyz
+      Host: www.54790250.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
   name: 12|美国洛杉矶|Github搜索TrojanLinks
   network: ws
-  port: '38003'
-  server: 38.48.141.195
+  port: '37003'
+  server: 38.48.191.119
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.83429197.xyz
+      Host: www.96128725.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|美国西雅圖|Github搜索TrojanLinks
+  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
   network: ws
-  port: '37002'
-  server: 192.74.232.117
+  port: '37004'
+  server: 107.149.130.241
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.63181393.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
-  network: ws
-  port: '38003'
-  server: 38.14.102.236
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.54699295.xyz
+      Host: www.80150658.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -1450,34 +1424,6 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn美国
-  network: ws
-  port: '443'
-  server: 162.159.128.17
-  servername: v2ray.ryin.vip
-  tls: true
-  type: vmess
-  uuid: 3aee4f5f-30de-4c4c-874d-3206718ae8a7
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: ws
-  port: '443'
-  server: 162.159.133.160
-  servername: v2ray.ryin.vip
-  tls: true
-  type: vmess
-  uuid: 3aee4f5f-30de-4c4c-874d-3206718ae8a7
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_2_5
