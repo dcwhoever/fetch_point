@@ -15,7 +15,7 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: '1,3|🇺🇸_US_美国 #1'
+  name: 1,3,24|🇺🇸_US_美国_3_9
   network: http
   port: 80
   server: 46.3.82.198
@@ -53,7 +53,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: '1,3|🇺🇸_US_美国 #4'
+  name: 1,3,24|🇺🇸_US_美国_8_2由快嘴科技提供：kkzui.com
   network: http
   port: 443
   server: 46.3.82.198
@@ -91,7 +91,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: '3,14|美国 CloudFlare节点 #3'
+  name: 3,24|🇺🇸_US_美国_9_24
   network: ws
   port: 80
   server: 172.67.164.78
@@ -104,7 +104,7 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 3,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_16
+  name: 3,24|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com0
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -117,7 +117,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 3,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
+  name: 3,24|🇺🇸_US_美国_2_8
   network: ws
   port: 2082
   server: 104.19.138.73
@@ -131,9 +131,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,18,19|台湾2|@ripaojiedian
+  name: 3,18,19,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -147,7 +147,7 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: '3|🇺🇸_US_美国 #6'
+  name: 3,24|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com1
   network: ws
   port: 2082
   server: 162.159.33.117
@@ -369,8 +369,21 @@ proxies:
   cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
+  port: '37002'
+  server: 199.180.103.203
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.35688874.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
+  network: ws
   port: '38003'
-  server: 192.74.252.25
+  server: 192.74.252.27
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -380,31 +393,239 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
+  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
   network: ws
-  port: '37002'
-  server: 38.38.153.207
+  port: '37004'
+  server: 38.38.181.239
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.78310250.xyz
+      Host: www.60184527.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|美国庫卡蒙格牧場|Github搜索TrojanLinks
+  network: ws
+  port: '31005'
+  server: 69.80.226.185
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32410592.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
+  network: ws
+  port: '38003'
+  server: 38.12.71.245
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70672263.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 14|美国 CloudFlare节点
+  name: '14|美国 CloudFlare节点 #1'
   network: ws
-  port: '80'
-  server: acjp2.cloudflarest.link
+  port: 80
+  server: 104.19.43.89
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,16|US_youtube@资源分享师_99
+  network: ws
+  port: 80
+  server: 104.19.43.240
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #3'
+  network: ws
+  port: 80
+  server: 104.19.43.197
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,16|US_youtube@资源分享师_25
+  network: ws
+  port: 80
+  server: 104.19.43.112
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #6'
+  network: ws
+  port: 80
+  server: 104.19.43.28
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,16|US_youtube@资源分享师_188
+  network: ws
+  port: 80
+  server: 104.19.43.170
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,16|US_youtube@资源分享师_220
+  network: ws
+  port: 80
+  server: 104.19.43.162
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #9'
+  network: ws
+  port: '8880'
+  server: 104.19.40.211
   servername: ''
   tls: false
   type: vmess
-  uuid: 42507d7c-bc67-4534-8ffc-6b9234b74018
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
   ws-opts:
     headers:
-      Host: mai.nekoneko.buzz
-    path: /cctv13/hd.m3u8
+      Host: uk.moss.network
+    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #10'
+  network: ws
+  port: 80
+  server: 104.19.43.220
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,16|US_youtube@资源分享师_266
+  network: ws
+  port: 80
+  server: 104.19.43.231
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,16|US_youtube@资源分享师_129
+  network: ws
+  port: 80
+  server: 104.19.43.29
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #13'
+  network: ws
+  port: '8880'
+  server: 104.19.40.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: uk.moss.network
+    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- alterId: 0
+  cipher: auto
+  name: 14,16|US_youtube@资源分享师_104
+  network: ws
+  port: 80
+  server: 104.19.43.61
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: ''
+  name: '14|美国 CloudFlare节点 #15'
+  network: grpc
+  port: '2087'
+  server: 104.25.107.8
+  servername: oc4.serverdmgl.org
+  tls: true
+  type: vmess
+  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #16'
+  network: ws
+  port: 80
+  server: 104.19.43.93
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: osaka.xlb8.eu.org
+    path: /
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 美国CloudFla...
@@ -432,60 +653,6 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #6'
-  network: ws
-  port: 8080
-  server: 172.67.199.185
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #7'
-  network: ws
-  port: '8080'
-  server: 172.67.185.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #8'
-  network: ws
-  port: '8080'
-  server: 172.67.172.67
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|美国 v2rayfree.eu.org
-  network: ws
-  port: '443'
-  server: in-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 69a83c73-f255-44e5-a8f4-eb145f0bba48
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
 - alterId: 0
   cipher: auto
   name: '14,15|github.com/freefq - 美国CloudFla... #2'
@@ -686,19 +853,6 @@ proxies:
   network: ws
   port: 80
   server: 104.19.43.10
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|US_youtube@资源分享师_188
-  network: ws
-  port: 80
-  server: 104.19.43.170
   tls: false
   type: vmess
   uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
@@ -1055,19 +1209,6 @@ proxies:
     headers:
       Host: qin17.rong1104.uk
     path: /qin17
-- alterId: 0
-  cipher: auto
-  name: 16|US_youtube@资源分享师_99
-  network: ws
-  port: 80
-  server: 104.19.43.240
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
 - alterId: 1
   cipher: auto
   name: 16|🔒🇺🇸 US 66.228.37.43 ◈ ws:443 ◈...
@@ -1233,19 +1374,6 @@ proxies:
     path: /glweidf.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 16|US_youtube@资源分享师_266
-  network: ws
-  port: 80
-  server: 104.19.43.231
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|🇺🇸 US 18.208.146.195 ◈ ws:80 ◈...
   network: ws
   port: 80
@@ -1289,19 +1417,6 @@ proxies:
   network: ws
   port: 80
   server: 104.19.43.208
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|US_youtube@资源分享师_104
-  network: ws
-  port: 80
-  server: 104.19.43.61
   tls: false
   type: vmess
   uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
@@ -1544,19 +1659,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|US_youtube@资源分享师_25
-  network: ws
-  port: 80
-  server: 104.19.43.112
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|[🇺🇸]t.me/ConfigsHub_1
   network: ws
   port: 35694
@@ -1630,19 +1732,6 @@ proxies:
     headers:
       Host: bolder-metal-comma.glitch.me
     path: /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess
-- alterId: 0
-  cipher: auto
-  name: 16|US_youtube@资源分享师_129
-  network: ws
-  port: 80
-  server: 104.19.43.29
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
 - alterId: 0
   cipher: auto
   name: 16|US_youtube@资源分享师_257
@@ -1768,19 +1857,6 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /dwax
-- alterId: 0
-  cipher: auto
-  name: 16|US_youtube@资源分享师_220
-  network: ws
-  port: 80
-  server: 104.19.43.162
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
 - alterId: 0
   cipher: auto
   name: 16|💰💥🇺🇸 US 18.208.146.195 ◈ ws:44...
@@ -2033,40 +2109,14 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com0
+  name: 24|🇺🇸_US_美国_2_5
   network: ws
-  port: 80
-  server: 162.159.133.42
+  port: 2052
+  server: 104.17.229.133
   tls: false
   type: vmess
-  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
   ws-opts:
     headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com2
-  network: ws
-  port: 80
-  server: 104.18.15.150
-  tls: false
-  type: vmess
-  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
-  ws-opts:
-    headers:
-      Host: us3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com4
-  network: ws
-  port: 80
-  server: 104.19.173.68
-  tls: false
-  type: vmess
-  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
+      Host: usxm.inekokkk.top
     path: /
