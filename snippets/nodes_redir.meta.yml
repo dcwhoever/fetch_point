@@ -43,7 +43,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_26
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_22
   network: ws
   port: 2052
   server: 104.18.36.119
@@ -56,7 +56,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_2由快嘴科技提供：...
   network: ws
   port: 2052
   server: 104.19.250.15
@@ -69,7 +69,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_27
+  name: '3,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 2052
   server: 104.18.19.191
@@ -147,7 +147,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 9,14,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  name: '9,14,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -161,7 +161,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,20,24|🇺🇸_US_美国->🇫🇷_FR_法国_2_由快嘴科技提供：k...
+  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -214,10 +214,27 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 24|🇬🇧_GB_英国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-  network: http
-  port: 443
-  server: 89.213.164.154
+  name: 24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
   tls: false
   type: vmess
-  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
