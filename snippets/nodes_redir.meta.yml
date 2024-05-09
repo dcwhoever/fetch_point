@@ -85,7 +85,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸_US_美国->🇩🇪_DE_德国
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_2由快嘴科技提供：...
   network: ws
   port: 2052
   server: 104.19.250.15
@@ -111,7 +111,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: 3,24|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -137,9 +137,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,14|美国 CloudFlare节点
+  name: 3,14,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_22
   network: ws
-  port: '2052'
+  port: 2052
   server: 104.18.36.119
   tls: false
   type: vmess
@@ -150,7 +150,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3|🇺🇸_US_美国->🇩🇪_DE_德国 #3'
+  name: '3,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 2052
   server: 104.18.19.191
@@ -279,3 +279,25 @@ proxies:
     headers:
       Host: pl2-vmess.sshmax.xyz
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 24|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
+  network: tcp
+  port: 44001
+  server: 183.232.199.28
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 24|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
