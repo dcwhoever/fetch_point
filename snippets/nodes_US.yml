@@ -211,7 +211,7 @@ proxies:
   name: 12|美国洛杉矶|Github搜索TrojanLinks
   network: ws
   port: '37003'
-  server: 38.54.247.104
+  server: 38.54.247.109
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -221,29 +221,16 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国洛杉矶|Github搜索TrojanLinks #1'
-  network: ws
-  port: '37002'
-  server: 38.63.220.168
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.64102475.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
-  port: '38001'
-  server: 142.4.113.107
+  port: '37004'
+  server: 38.38.181.250
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.94152251.xyz
+      Host: www.60184527.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -332,6 +319,17 @@ proxies:
     headers:
       Host: uk.moss.network
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- alterId: 0
+  cipher: auto
+  name: 14|北美地区 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 23.158.56.50
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 美国CloudFla...
@@ -815,7 +813,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 16,24|🇺🇸_US_美国_3_6
+  name: '16|🇺🇸_US_美国 #23'
   network: ws
   port: 2052
   server: 104.19.138.73
@@ -1163,6 +1161,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇺🇸 美国2|@ripaojiedian
@@ -1203,20 +1209,6 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn美国俄勒冈州波特兰
-  network: ws
-  port: '80'
-  server: 34.217.76.0
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 21|baipaovpn美国
   network: ws
   port: '80'
@@ -1227,114 +1219,19 @@ proxies:
   uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: gw.alicdn.com
-    path: /
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn美国 #1'
+  name: 21|baipaovpn美国俄勒冈州波特兰
   network: ws
   port: '80'
-  server: 24.144.83.126
+  server: 34.219.36.68
   servername: ''
   tls: false
   type: vmess
   uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn美国加利福尼亚州费里蒙
-  network: ws
-  port: '80'
-  server: 173.255.240.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 3.75.179.180
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #3'
-  network: ws
-  port: '80'
-  server: 13.214.162.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #4'
-  network: ws
-  port: '25363'
-  server: 64.110.89.101
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eedfc125-cc91-4f47-bc7b-41157c200283
-  ws-opts:
-    headers:
-      Host: kr-seoul-oracle-4fccf5.ip1.shop
-    path: /gd3245vd2S32cr
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_2
-  network: ws
-  port: 2052
-  server: 104.18.131.224
-  tls: false
-  type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_10
-  network: ws
-  port: 2052
-  server: 104.17.229.133
-  tls: false
-  type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      Host: usxm.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国_5_由快嘴科技提供：kkzui.com4
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      Host: usxm.inekokkk.top
-    path: /
+      Host: ''
+    path: ''

@@ -26,40 +26,12 @@ proxies:
   name: 21|baipaovpn新加坡
   network: ws
   port: '80'
-  server: 139.162.63.44
+  server: 68.183.184.197
   servername: ''
   tls: false
   type: vmess
   uuid: ece6750e-df24-48c9-8007-34451285f57e
   ws-opts:
     headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn新加坡 #1'
-  network: ws
-  port: '80'
-  server: 178.128.56.69
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn新加坡 #2'
-  network: ws
-  port: '80'
-  server: 13.250.51.68
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ece6750e-df24-48c9-8007-34451285f57e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
+      Host: ''
+    path: ''
