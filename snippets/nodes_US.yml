@@ -299,53 +299,66 @@ proxies:
   cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
-  port: '38003'
-  server: 137.175.18.68
+  port: '37002'
+  server: 38.38.153.217
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.36310394.xyz
+      Host: www.78310250.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
   name: '12|美国聖荷西|Github搜索TrojanLinks #1'
   network: ws
-  port: '38002'
-  server: 192.74.237.53
+  port: '37002'
+  server: 107.148.198.120
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.51291807.xyz
+      Host: www.84206290.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|美国西雅圖|Github搜索TrojanLinks
+  network: ws
+  port: '38001'
+  server: 142.4.113.120
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.94152251.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 12|美国洛杉矶|Github搜索TrojanLinks
+  network: ws
+  port: '31006'
+  server: 142.171.79.134
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32410592.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
   name: '12|美国聖荷西|Github搜索TrojanLinks #2'
   network: ws
-  port: '37003'
-  server: 198.2.215.101
+  port: '38003'
+  server: 38.38.151.21
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.59977650.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
-  network: ws
-  port: '37004'
-  server: 38.38.181.251
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.60184527.xyz
+      Host: www.72649000.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -1282,6 +1295,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇺🇸 美国2|@ripaojiedian
