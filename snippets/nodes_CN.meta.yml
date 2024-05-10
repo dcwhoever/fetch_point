@@ -1,14 +1,17 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 14|广东省广州市 移动
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
+  name: 12|中国广州市|Github搜索TrojanLinks
+  network: ws
+  port: '38004'
+  server: 137.175.14.179
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.46074906.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
@@ -23,3 +26,13 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 14,19|香港3|@ripaojiedian
+  network: tcp
+  port: '8443'
+  server: 120.232.240.38
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
