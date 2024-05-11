@@ -80,26 +80,26 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 19|香港6|@ripaojiedian
+  name: 19|香港2|@ripaojiedian
   network: tcp
-  port: '15601'
-  server: 183.240.179.195
+  port: '40259'
+  server: 120.238.122.243
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn香港 #3'
+  name: 21|baipaovpn香港
   network: ws
-  port: '12909'
-  server: 210.3.159.224
+  port: '80'
+  server: 18.163.37.206
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
   ws-opts:
     headers:
       Host: ''
@@ -109,11 +109,11 @@ proxies:
   name: '21|baipaovpn香港 #1'
   network: ws
   port: '80'
-  server: 18.163.74.78
+  server: 18.163.37.206
   servername: ''
   tls: false
   type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
   ws-opts:
     headers:
       Host: ''
@@ -122,12 +122,12 @@ proxies:
   cipher: auto
   name: '21|baipaovpn香港 #2'
   network: ws
-  port: '12909'
-  server: 210.3.159.224
+  port: '80'
+  server: 18.166.30.7
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
   ws-opts:
     headers:
       Host: ''
