@@ -928,23 +928,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 16,18,19|台湾2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c5da6e6b-7918-4d29-a05c-450f4eeecb19
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
   name: 16|💰💥🇺🇸 US 34.239.121.90 ◈ ws:443...
   network: ws
   port: 443
@@ -1256,6 +1239,20 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 161.35.212.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
