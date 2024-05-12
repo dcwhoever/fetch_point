@@ -123,13 +123,27 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn香港 #1'
   network: ws
   port: '80'
-  server: 18.163.184.247
+  server: 18.166.62.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn香港 #2'
+  network: ws
+  port: '80'
+  server: 18.166.75.89
   servername: ''
   tls: false
   type: vmess
