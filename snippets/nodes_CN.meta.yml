@@ -1,16 +1,16 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国重庆市|Github搜索TrojanLinks
+  name: 12|中国新山村|Github搜索TrojanLinks
   network: ws
   port: '38003'
-  server: 198.2.196.182
+  server: 137.175.40.1
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.53062560.xyz
+      Host: www.75596620.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -79,3 +79,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省
+  network: ws
+  port: '16627'
+  server: 183.240.220.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu
