@@ -1238,12 +1238,12 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- cipher: aes-128-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 18|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
+  name: 18|🇺🇸 美国2|@ripaojiedian
+  password: 5cp9Z3iWnJZ2
   port: 443
-  server: 212.102.47.198
+  server: 205.134.180.151
   tfo: false
   type: ss
 - alterId: 0
@@ -1289,13 +1289,13 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn美国 #1'
   network: ws
   port: '80'
-  server: 158.247.240.219
+  server: 16.163.129.220
   servername: ''
   tls: false
   type: vmess
@@ -1307,23 +1307,19 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 16.162.22.32
+  network: tcp
+  port: '41001'
+  server: 3.38.219.115
   servername: ''
   tls: false
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn美国 #3'
   network: ws
   port: '80'
-  server: 158.247.240.219
+  server: 161.35.212.34
   servername: ''
   tls: false
   type: vmess
@@ -1341,36 +1337,8 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #5'
-  network: ws
-  port: '80'
-  server: 161.35.212.34
-  servername: ''
-  tls: false
-  type: vmess
   uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
   ws-opts:
     headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn美国纽约市
-  network: ws
-  port: '80'
-  server: 207.154.230.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
-  ws-opts:
-    headers:
-      Host: ''
+      Host: de01.nathaniatheodora.cloud
     path: /
