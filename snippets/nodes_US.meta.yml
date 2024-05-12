@@ -1,59 +1,40 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|_US__1
-  network: ws
-  port: 8880
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
-  ws-opts:
-    headers:
-      host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
+- name: 1|_US__1
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.189.103.46
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1|_US__2
   network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
+  port: 2095
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
   ws-opts:
     headers:
-      host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 1|_US__3
+  name: 3|🇺🇸_US_美国
   network: ws
-  port: 2052
-  server: 104.18.242.177
-  skip-cert-verify: true
+  port: 2095
+  server: russia.com
   tls: false
   type: vmess
-  uuid: 2eec45db-dfcd-43d6-8514-b141aff651be
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
   ws-opts:
     headers:
-      host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 3,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
-  network: ws
-  port: 8880
-  server: cdn.bethebest.eu.org
-  tls: false
-  type: vmess
-  uuid: 86a0a07a-d0ed-480a-aa2a-f1a96592747e
-  ws-opts:
-    headers:
-      Host: us.bethebest.eu.org
-    path: /
+      Host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: '8,9|🇺🇸_US_美国 #14'
@@ -263,36 +244,10 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 12|美国洛杉矶|Github搜索TrojanLinks
-  network: ws
-  port: '37000'
-  server: 142.171.134.117
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.27006254.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 12|美国西雅圖|Github搜索TrojanLinks
-  network: ws
-  port: '37004'
-  server: 142.4.99.42
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.86222404.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
   port: '37002'
-  server: 142.0.128.168
+  server: 142.0.128.171
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -304,21 +259,8 @@ proxies:
   cipher: auto
   name: '12|美国聖荷西|Github搜索TrojanLinks #1'
   network: ws
-  port: '37002'
-  server: 38.33.52.3
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.63181393.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
-  network: ws
   port: '37004'
-  server: 38.14.100.164
+  server: 38.14.100.166
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -328,23 +270,10 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
-  network: ws
-  port: '37002'
-  server: 107.148.207.241
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.50979398.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #4'
+  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
   network: ws
   port: '38004'
-  server: 142.4.108.147
+  server: 142.4.108.151
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -354,30 +283,17 @@ proxies:
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #5'
+  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
   network: ws
-  port: '37003'
-  server: 198.2.222.122
+  port: '37002'
+  server: 38.33.52.5
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.54790250.xyz
+      Host: www.63181393.xyz
     path: /path/153428133302
-- alterId: 0
-  cipher: auto
-  name: 14|美国 CloudFlare节点
-  network: ws
-  port: 2082
-  server: 172.67.204.84
-  tls: false
-  type: vmess
-  uuid: 7b39e430-e14d-4920-979b-aa7aa2f5010c
-  ws-opts:
-    headers:
-      Host: impr0.impr0.impr0.impr0.99-100uxprjy9vbpushl-djnbtbw28yf9ss2m.impr0sub.com
-    path: /telegram-impr0vpn,impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,hosv2rayng,-V2raynggggg-?ed=2056
 - alterId: 0
   cipher: auto
   name: '14|美国 CloudFlare节点 #1'
@@ -1366,3 +1282,16 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
+  network: ws
+  port: 8880
+  server: cdn.bethebest.eu.org
+  tls: false
+  type: vmess
+  uuid: 86a0a07a-d0ed-480a-aa2a-f1a96592747e
+  ws-opts:
+    headers:
+      Host: us.bethebest.eu.org
+    path: /
