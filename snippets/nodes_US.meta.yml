@@ -856,18 +856,21 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 16|11,13|美国 002
+  client-fingerprint: chrome
+  name: 16,18,19|台湾2|@ripaojiedian
   network: ws
-  port: 443
-  server: 23.154.136.2
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
   servername: ''
-  tls: true
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: c5da6e6b-7918-4d29-a05c-450f4eeecb19
   ws-opts:
     headers:
-      Host: ''
-    path: /linkvws
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
   name: 16|💰💥🇺🇸 US 34.239.121.90 ◈ ws:443...
@@ -1135,6 +1138,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇺🇸 美国2|@ripaojiedian
@@ -1178,7 +1189,7 @@ proxies:
   name: 21|baipaovpn美国
   network: ws
   port: '80'
-  server: 16.162.45.195
+  server: 206.189.50.150
   servername: ''
   tls: false
   type: vmess
@@ -1192,7 +1203,7 @@ proxies:
   name: '21|baipaovpn美国 #1'
   network: ws
   port: '80'
-  server: 16.162.45.195
+  server: 206.189.50.150
   servername: ''
   tls: false
   type: vmess
@@ -1204,31 +1215,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 209.38.218.216
-  servername: ''
-  tls: false
+  network: tcp
+  port: '8080'
+  server: 172.233.84.25
+  servername: jp-dj-gy-1.skyorg.me
+  tls: true
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #3'
-  network: ws
-  port: '80'
-  server: 206.189.50.150
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 98e3e6ae-239e-48f7-a5fc-4a6307bf071c
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1
