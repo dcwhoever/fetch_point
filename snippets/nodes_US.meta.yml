@@ -289,23 +289,10 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 12|美国洛杉矶|Github搜索TrojanLinks
-  network: ws
-  port: '38003'
-  server: 38.48.141.221
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.83429197.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
   port: '37002'
-  server: 38.33.52.11
+  server: 38.33.52.17
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -318,7 +305,7 @@ proxies:
   name: '12|美国聖荷西|Github搜索TrojanLinks #1'
   network: ws
   port: '37003'
-  server: 38.14.120.232
+  server: 38.14.120.237
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -331,7 +318,7 @@ proxies:
   name: '12|美国聖荷西|Github搜索TrojanLinks #2'
   network: ws
   port: '37004'
-  server: 38.14.100.176
+  server: 38.14.100.179
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -344,7 +331,7 @@ proxies:
   name: '12|美国聖荷西|Github搜索TrojanLinks #3'
   network: ws
   port: '38003'
-  server: 142.4.98.7
+  server: 142.4.98.13
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -967,6 +954,23 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 16,18,19|台湾2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c5da6e6b-7918-4d29-a05c-450f4eeecb19
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
   name: 16|💰💥🇺🇸 US 34.239.121.90 ◈ ws:443...
   network: ws
   port: 443
@@ -1222,6 +1226,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1254,42 +1266,32 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: tcp
-  port: '8080'
-  server: 172.233.84.25
-  servername: jp-dj-gy-1.skyorg.me
-  tls: true
-  type: vmess
-  uuid: 98e3e6ae-239e-48f7-a5fc-4a6307bf071c
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #2'
-  network: ws
-  port: '2052'
-  server: 206.238.236.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #3'
+  name: 21|baipaovpn美国
   network: ws
   port: '80'
-  server: 138.2.106.103
+  server: 104.16.45.193
   servername: ''
   tls: false
   type: vmess
-  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 104.16.45.144
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1
