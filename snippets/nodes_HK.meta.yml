@@ -13,22 +13,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: h14.podds.store
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 8.210.229.184
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港|@ripaojiedian
@@ -90,21 +74,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|香港3|@ripaojiedian
+  name: 19|香港6|@ripaojiedian
   network: tcp
-  port: '8443'
-  server: 120.232.240.38
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
-- alterId: 0
-  cipher: auto
-  name: 19|香港8|@ripaojiedian
-  network: tcp
-  port: '15603'
-  server: 183.232.199.61
+  port: '15601'
+  server: 183.240.179.195
   servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: ws
+  port: '80'
+  server: 18.162.168.125
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
