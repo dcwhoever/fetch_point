@@ -291,27 +291,66 @@ proxies:
   cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
-  port: '38003'
-  server: 192.74.231.15
+  port: '37003'
+  server: 38.38.184.112
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.36310394.xyz
+      Host: www.59977650.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|美国帕羅奧圖|Github搜索TrojanLinks
+  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
   network: ws
   port: '38004'
-  server: 198.2.223.42
+  server: 137.175.49.40
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.87140386.xyz
+      Host: www.53062560.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #2'
+  network: ws
+  port: '37002'
+  server: 198.200.56.44
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.98382183.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #3'
+  network: ws
+  port: '37002'
+  server: 198.200.56.45
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.98382183.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: '12|美国聖荷西|Github搜索TrojanLinks #4'
+  network: ws
+  port: '37004'
+  server: 38.28.151.13
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33756710.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -1228,25 +1267,11 @@ proxies:
   name: 21|baipaovpn美国
   network: ws
   port: '80'
-  server: 64.227.126.91
+  server: 16.162.119.193
   servername: ''
   tls: false
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 206.81.28.176
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
   ws-opts:
     headers:
       Host: ''
