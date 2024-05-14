@@ -98,7 +98,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a4230705-8176-4fc6-a0fd-244519e8600b
+  uuid: d65c707a-01de-41d2-bdf0-eb1a78199dca
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -108,7 +108,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a4230705-8176-4fc6-a0fd-244519e8600b
+  uuid: d65c707a-01de-41d2-bdf0-eb1a78199dca
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -118,7 +118,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a4230705-8176-4fc6-a0fd-244519e8600b
+  uuid: d65c707a-01de-41d2-bdf0-eb1a78199dca
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇯🇵 日本3|@ripaojiedian
@@ -135,3 +135,39 @@ proxies:
   server: 61.172.229.17
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.182.6.181
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 54.178.229.170
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本 #1'
+  network: ws
+  port: '80'
+  server: 18.181.200.152
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

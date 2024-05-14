@@ -1,21 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-178
+  name: 1|_US_
   network: ws
   port: 443
   server: channel.hopev2ray.link
-  servername: no1-vmess.sshmax.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 9aaceca0-bc5b-49e6-a83f-088e14d94434
   ws-opts:
     headers:
-      HOST: no1-vmess.sshmax.xyz
+      host: no1-vmess.sshmax.xyz
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -239,42 +235,42 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
+  name: 12|美国庫卡蒙格牧場|Github搜索TrojanLinks
+  network: ws
+  port: '32004'
+  server: 69.80.226.200
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.29520152.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
   name: 12|美国聖荷西|Github搜索TrojanLinks
   network: ws
-  port: '37004'
-  server: 192.74.231.244
+  port: '37003'
+  server: 38.38.184.124
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.80150658.xyz
+      Host: www.59977650.xyz
     path: /path/153428133302
 - alterId: 64
   cipher: auto
-  name: 12|美国帕羅奧圖|Github搜索TrojanLinks
+  name: 12|美国洛杉矶|Github搜索TrojanLinks
   network: ws
-  port: '38003'
-  server: 198.2.219.247
+  port: '37002'
+  server: 74.48.38.8
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583
   ws-opts:
     headers:
-      Host: www.41912208.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '12|美国聖荷西|Github搜索TrojanLinks #1'
-  network: ws
-  port: '37004'
-  server: 38.11.9.177
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.34154597.xyz
+      Host: www.52057409.xyz
     path: /path/153428133302
 - alterId: 0
   cipher: auto
@@ -359,20 +355,6 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 14,16|11,13|美国 002
-  network: ws
-  port: 443
-  server: 23.154.136.2
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '14|美国 CloudFlare节点 #10'
@@ -1238,7 +1220,49 @@ proxies:
   name: 21|baipaovpn美国
   network: ws
   port: '80'
-  server: 161.35.217.92
+  server: 104.16.45.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 104.16.45.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 104.16.45.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn北美地区
+  network: ws
+  port: '80'
+  server: 104.248.250.17
   servername: ''
   tls: false
   type: vmess
@@ -1246,7 +1270,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn美国纽约市
@@ -1261,6 +1285,160 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn北美地区 #1'
+  network: ws
+  port: '80'
+  server: 104.248.250.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 104.16.45.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #4'
+  network: ws
+  port: '80'
+  server: 104.16.45.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #5'
+  network: ws
+  port: '80'
+  server: 104.16.45.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #6'
+  network: ws
+  port: '80'
+  server: 104.16.45.1
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #7'
+  network: ws
+  port: '80'
+  server: 104.16.45.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #8'
+  network: ws
+  port: '80'
+  server: 104.16.45.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #9'
+  network: ws
+  port: '80'
+  server: 104.16.45.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #10'
+  network: ws
+  port: '80'
+  server: 104.16.45.226
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #11'
+  network: ws
+  port: '80'
+  server: 104.16.45.131
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国纽约市 #1'
+  network: ws
+  port: '80'
+  server: 207.154.247.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_22
