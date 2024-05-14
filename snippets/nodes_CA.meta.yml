@@ -1,13 +1,4 @@
 proxies:
-- name: 1|_CA_
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 52.60.247.149
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 8|🇨🇦_CA_加拿大
@@ -78,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7c84972c-7df2-4f8a-8083-8364956db977
+  uuid: 66aaec99-2365-434b-a394-891a1f69db76
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
@@ -300,4 +291,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 42c04513-2ecd-421d-bd5b-06de7803fde8
+  uuid: a4230705-8176-4fc6-a0fd-244519e8600b
