@@ -32,7 +32,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn台湾省嘉义市 #1'
@@ -45,5 +45,5 @@ proxies:
   uuid: 70c6c253-0bf7-4c96-9770-e8ae9679fb8a
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
+      Host: ''
+    path: ''
