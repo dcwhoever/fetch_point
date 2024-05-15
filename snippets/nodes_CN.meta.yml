@@ -4,7 +4,7 @@ proxies:
   name: 12|中国景德镇市|Github搜索TrojanLinks
   network: ws
   port: '37004'
-  server: 137.175.12.66
+  server: 137.175.12.68
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -17,7 +17,7 @@ proxies:
   name: 12|中国郴州|Github搜索TrojanLinks
   network: ws
   port: '37004'
-  server: 137.175.2.251
+  server: 137.175.2.253
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -39,20 +39,6 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn广东省
-  network: ws
-  port: '16627'
-  server: 183.240.220.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /niuniu
 - alterId: 64
   cipher: auto
   name: 21|baipaovpn广东省广州市
@@ -63,23 +49,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn广东省佛山市
-  network: tcp
-  port: '30063'
-  server: 183.232.170.21
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn广东省佛山市 #1'
-  network: tcp
-  port: '30031'
-  server: 183.232.170.21
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
