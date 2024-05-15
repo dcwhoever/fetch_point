@@ -1,19 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12|中国景德镇市|Github搜索TrojanLinks
-  network: ws
-  port: '37004'
-  server: 137.175.12.71
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.86052077.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
   name: 14|广东省广州市 移动
   network: tcp
   port: '54437'
@@ -66,3 +53,13 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 64
+  cipher: auto
+  name: 21|baipaovpn广东省广州市
+  network: tcp
+  port: '54100'
+  server: 183.236.51.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
