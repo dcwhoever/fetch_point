@@ -38,3 +38,17 @@ proxies:
   server: 54.212.53.164
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn新加坡
+  network: ws
+  port: '80'
+  server: 13.213.18.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
