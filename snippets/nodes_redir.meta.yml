@@ -51,11 +51,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,14,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #2'
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
   port: 2052
   server: 104.18.19.191
-  servername: ''
   tls: false
   type: vmess
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
@@ -65,7 +64,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k... #1'
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 2052
   server: 104.18.36.119
@@ -78,7 +77,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_2由快嘴科技提供：...
+  name: 3,24|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
   network: ws
   port: 2052
   server: 104.19.250.15
@@ -220,3 +219,16 @@ proxies:
     headers:
       Host: pl2-vmess.sshmax.xyz
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 24|🇨🇳_CN_中国->🇱🇺_LU_卢森堡_由快嘴科技提供：kk...
+  network: ws
+  port: 16627
+  server: 183.240.220.84
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu
