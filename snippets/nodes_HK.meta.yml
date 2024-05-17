@@ -32,6 +32,18 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 18|🇺🇸 美国4|@ripaojiedian
+  password: TNDSJfNv
+  port: 16127
+  server: 36.151.195.48
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: f956a5d9-1f30-4f89-adc8-4286f4a3eb16
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 18,19|香港2|@ripaojiedian
   network: ws
   port: '2052'
@@ -127,17 +139,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn香港
-  network: ws
-  port: '12909'
-  server: 210.3.159.224
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
