@@ -1,32 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|台湾|@ripaojiedian
-  network: ws
-  port: '21004'
-  server: tw.lianjianode.cc
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e472a610-a7de-4fce-befc-5c11c31a9246
-  ws-opts:
-    headers:
-      Host: hinet.luodi.xyz
-    path: /hinet
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn台湾省彰化县
-  network: ws
-  port: '30002'
-  server: 35.201.135.187
+  name: 19|台湾|@ripaojiedian
+  network: tcp
+  port: '34998'
+  server: 879xhl1.hsspr5bu1-tw02.my777999.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 9ebbd423-2172-4827-beb4-d63ba19671f5
-  ws-opts:
-    headers:
-      Host: free-node-tw.yunyiyi.top
-    path: /akljhgdf
+  uuid: dffc697a-2535-470c-bb6a-8157b6c157a7

@@ -33,23 +33,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|香港5|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 18,19|香港7|@ripaojiedian
   network: ws
   port: '16632'
@@ -63,6 +46,23 @@ proxies:
   ws-opts:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|香港9|@ripaojiedian
+  network: ws
+  port: '21949'
+  server: sui.forlive.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f71e9cfc-ada7-46b9-bc87-3281644f6dce
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto
@@ -109,7 +109,63 @@ proxies:
   name: '21|baipaovpn香港 #1'
   network: ws
   port: '80'
+  server: 182.16.1.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: ''
+    path: /opt/video/images
+- alterId: 32
+  cipher: auto
+  name: '21|baipaovpn香港 #2'
+  network: ws
+  port: '80'
+  server: 182.16.1.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn香港 #3'
+  network: ws
+  port: '80'
+  server: 18.166.64.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn香港 #4'
+  network: ws
+  port: '80'
   server: 18.162.49.79
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn香港 #5'
+  network: ws
+  port: '80'
+  server: 18.166.64.40
   servername: ''
   tls: false
   type: vmess
