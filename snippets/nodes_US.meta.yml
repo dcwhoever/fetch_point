@@ -1048,6 +1048,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '20|🇺🇸_US_美国 #30'
@@ -1063,24 +1071,38 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn美国得克萨斯州
-  network: ws
-  port: '30002'
-  server: 34.146.144.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9ebbd423-2172-4827-beb4-d63ba19671f5
-  ws-opts:
-    headers:
-      Host: free-node-jp.yunyiyi.top
-    path: /akljhgdf
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn美国
+  name: '21|baipaovpn美国 #3'
   network: ws
   port: '80'
   server: 16.162.109.247
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: ws
+  port: '443'
+  server: 47.236.117.48
+  servername: sg.baijia.cfd
+  tls: true
+  type: vmess
+  uuid: 2ae29dc5-a3a3-4f6e-a013-4d9000b85f42
+  ws-opts:
+    headers:
+      Host: sg.baijia.cfd
+    path: /fdsffgfdgdfgdf
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 16.163.148.45
   servername: ''
   tls: false
   type: vmess
