@@ -37,7 +37,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸_US_美国->🇺🇦_UA_乌克兰
+  name: 3,24|🇺🇸_US_美国->🇺🇦_UA_乌克兰_24
   network: ws
   port: 80
   server: 172.67.166.192
@@ -51,7 +51,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,18,19,24|🇺🇸_US_美国->🇮🇳_IN_印度_2
+  name: 3,18,19,24|🇺🇸_US_美国->🇮🇳_IN_印度_3
   network: ws
   port: 2052
   server: hk.wish.ml
@@ -199,7 +199,20 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供：k...
+  network: ws
+  port: 2052
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz... #1'
   network: ws
   port: 2052
   server: 104.18.19.191
@@ -212,23 +225,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_2_20
+  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 2052
   server: 104.18.36.119
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|🇺🇸_US_美国->🇩🇪_DE_德国_3_2由快嘴科技提供：...
-  network: ws
-  port: 2052
-  server: 104.19.250.15
   tls: false
   type: vmess
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
