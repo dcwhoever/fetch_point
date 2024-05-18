@@ -29,6 +29,18 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国4|@ripaojiedian
+  password: TNDSJfNv
+  port: 16127
+  server: 36.151.195.48
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港1|@ripaojiedian
@@ -91,7 +103,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 19,21|baipaovpn广东省广州市
+  name: 19|香港3|@ripaojiedian
   network: tcp
   port: '8443'
   server: 120.232.240.38
