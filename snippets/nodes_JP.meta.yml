@@ -98,7 +98,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 53ceb319-a14d-471e-bc4c-6b82978b33dd
+  uuid: 475d7920-c562-4363-909a-c9718396f1af
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -108,7 +108,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 53ceb319-a14d-471e-bc4c-6b82978b33dd
+  uuid: 475d7920-c562-4363-909a-c9718396f1af
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -118,7 +118,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 53ceb319-a14d-471e-bc4c-6b82978b33dd
+  uuid: 475d7920-c562-4363-909a-c9718396f1af
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -160,6 +160,20 @@ proxies:
   network: ws
   port: '80'
   server: 43.199.63.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 25ea21e2-8455-4fca-85bf-4bfbc62646fc
+  ws-opts:
+    headers:
+      Host: hk03.beautifuloctavia.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn日本 #1'
+  network: ws
+  port: '80'
+  server: 43.199.69.251
   servername: ''
   tls: false
   type: vmess
