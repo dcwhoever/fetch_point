@@ -1162,6 +1162,20 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
+  name: 21|baipaovpn美国
+  network: ws
+  port: '44314'
+  server: 168.138.53.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0962143a-f5ad-4565-b84e-89d9fb00324f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /skysinternet
+- alterId: 0
+  cipher: auto
   name: 24|🇺🇸_US_美国_8_53
   network: ws
   port: 2095
