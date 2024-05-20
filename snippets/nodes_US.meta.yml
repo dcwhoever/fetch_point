@@ -1369,31 +1369,17 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 15.152.87.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f216adb5-0839-4e59-a493-48e8c0bb0d6a
-  ws-opts:
-    headers:
-      Host: ''
     path: ''
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn美国 #2'
   network: ws
   port: '80'
-  server: 15.168.20.80
+  server: 16.162.192.119
   servername: ''
   tls: false
   type: vmess
-  uuid: 2fd3c154-312b-4e37-b133-df9326022c98
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
   ws-opts:
     headers:
       Host: ''
@@ -1411,18 +1397,18 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn美国 #4'
   network: ws
-  port: '80'
-  server: 15.168.20.80
+  port: '27954'
+  server: 157.245.193.92
   servername: ''
   tls: false
   type: vmess
-  uuid: f216adb5-0839-4e59-a493-48e8c0bb0d6a
+  uuid: f27276c5-92d6-48ba-931f-2844c2bd97cb
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: aka.ms
+    path: /
