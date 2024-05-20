@@ -98,7 +98,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d342c09f-f5d1-4296-9083-17c2e9ed2eb1
+  uuid: 3bd2c23f-61cb-429d-af38-e65123b1c046
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -108,7 +108,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d342c09f-f5d1-4296-9083-17c2e9ed2eb1
+  uuid: 3bd2c23f-61cb-429d-af38-e65123b1c046
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -118,7 +118,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d342c09f-f5d1-4296-9083-17c2e9ed2eb1
+  uuid: 3bd2c23f-61cb-429d-af38-e65123b1c046
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -157,20 +157,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 18.181.190.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7c26c01-186a-479e-9218-4952353d97f1
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn日本 #1'
   network: ws
   port: '80'
   server: 18.181.190.41
