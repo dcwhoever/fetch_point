@@ -1361,7 +1361,49 @@ proxies:
   name: 21|baipaovpn美国
   network: ws
   port: '80'
-  server: 16.162.192.119
+  server: 158.247.240.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 15.152.87.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f216adb5-0839-4e59-a493-48e8c0bb0d6a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #2'
+  network: ws
+  port: '80'
+  server: 15.168.20.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fd3c154-312b-4e37-b133-df9326022c98
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn美国 #3'
+  network: ws
+  port: '80'
+  server: 158.247.240.219
   servername: ''
   tls: false
   type: vmess
@@ -1372,113 +1414,15 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: ws
-  port: '80'
-  server: 104.16.45.193
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 104.16.45.144
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #3'
-  network: ws
-  port: '80'
-  server: 104.16.45.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
   name: '21|baipaovpn美国 #4'
   network: ws
   port: '80'
-  server: 104.16.45.133
+  server: 15.168.20.80
   servername: ''
   tls: false
   type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  uuid: f216adb5-0839-4e59-a493-48e8c0bb0d6a
   ws-opts:
     headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #5'
-  network: ws
-  port: '80'
-  server: 104.16.45.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #6'
-  network: ws
-  port: '80'
-  server: 104.16.45.134
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #7'
-  network: ws
-  port: '80'
-  server: 104.16.45.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #8'
-  network: ws
-  port: '80'
-  server: 104.16.45.140
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: jp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+      Host: ''
+    path: ''
