@@ -92,7 +92,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 19,21|baipaovpn广东省广州市
+  name: 19|香港3|@ripaojiedian
   network: tcp
   port: '8443'
   server: 120.232.240.38
@@ -120,3 +120,13 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn香港
+  network: tcp
+  port: '41001'
+  server: 18.163.111.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
