@@ -40,7 +40,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,3,16,24|🇺🇸_US_美国_5_35
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,3,6,16,24|🇺🇸_US_美国_5_35
   network: ws
   port: 443
   server: 23.154.136.2
