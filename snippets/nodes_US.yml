@@ -40,7 +40,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,3,16|11,13|美国 002
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,3,6,16|11,13|美国 002
   network: ws
   port: 443
   server: 23.154.136.2
@@ -377,6 +380,17 @@ proxies:
   ws-opts:
     headers:
       Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|美国 CloudFlare节点
+  network: ws
+  port: 2095
+  server: fcdn.flha.ru
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
