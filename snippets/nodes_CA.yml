@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9c5fe153-28e1-43e8-86c0-7414b59d88fd
+  uuid: ea841801-3736-4351-a6cf-d03b79e8a1fe
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
@@ -277,4 +277,42 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d50c3162-be61-42fd-a473-2658baaba406
+  uuid: a16feed3-1f4a-41b7-b74e-08ef1b34fed8
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn加拿大 #3'
+  network: tcp
+  port: '54126'
+  server: 47.129.49.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn加拿大 #1'
+  network: ws
+  port: '15638'
+  server: 47.129.49.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn加拿大 #2'
+  network: ws
+  port: '15638'
+  server: 47.129.49.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
