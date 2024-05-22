@@ -98,7 +98,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d3f3fc8-2bb7-4326-b8be-22c9b80dfe5e
+  uuid: 90b7eba8-2e49-4ba4-9442-6709c8fc75f5
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -108,7 +108,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d3f3fc8-2bb7-4326-b8be-22c9b80dfe5e
+  uuid: 90b7eba8-2e49-4ba4-9442-6709c8fc75f5
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -118,10 +118,35 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d3f3fc8-2bb7-4326-b8be-22c9b80dfe5e
+  uuid: 90b7eba8-2e49-4ba4-9442-6709c8fc75f5
 - alterId: 0
   cipher: auto
-  name: 19|日本2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 18,19|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.143.159.186
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '19,21|baipaovpn广东省汕头市 #1'
   network: tcp
   port: '30038'
   server: 183.240.179.207
