@@ -57,53 +57,29 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省深圳市
-  network: tcp
-  port: '15600'
-  server: 183.232.142.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn广东省
-  network: ws
-  port: '16632'
-  server: 120.233.204.126
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d9a9d508-67e1-4929-8bea-8733d5a30c93
-  ws-opts:
-    headers:
-      Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com
-    path: /
-- alterId: 64
-  cipher: auto
   name: 21|baipaovpn广东省广州市
   network: tcp
-  port: '51707'
-  server: 183.236.51.59
+  port: '50004'
+  server: 14.18.76.37
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
+- alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省江门市
+  name: 21|baipaovpn广东省佛山市
   network: tcp
-  port: '35601'
-  server: 120.238.122.243
+  port: '34998'
+  server: 183.232.170.150
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: dffc697a-2535-470c-bb6a-8157b6c157a7
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn广东省汕头市 #1'
   network: tcp
-  port: '30112'
+  port: '30058'
   server: 183.240.179.207
   servername: ''
   tls: false
