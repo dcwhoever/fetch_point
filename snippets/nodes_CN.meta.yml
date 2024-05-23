@@ -46,27 +46,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn广东省
-  network: ws
-  port: '16627'
-  server: 183.240.220.72
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /niuniu
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn广东省汕头市
   network: tcp
-  port: '30127'
-  server: 183.240.179.207
+  port: '35019'
+  server: 120.233.204.107
   servername: ''
   tls: false
   type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn广东省 #1'
@@ -83,21 +69,25 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省江门市
+  name: '21|baipaovpn广东省佛山市 #1'
   network: tcp
-  port: '35068'
-  server: 120.238.122.151
+  port: '61001'
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
-  uuid: 74901202-f9e0-3b4a-b406-8ea38150689f
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn广东省 #2'
-  network: tcp
-  port: '15073'
-  server: 183.240.253.134
+  network: ws
+  port: '20206'
+  server: 120.233.42.83
   servername: ''
   tls: false
   type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian

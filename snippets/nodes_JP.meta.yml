@@ -98,7 +98,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a16feed3-1f4a-41b7-b74e-08ef1b34fed8
+  uuid: e522fd3c-1149-4da0-890a-63f5578bc7bd
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -108,7 +108,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a16feed3-1f4a-41b7-b74e-08ef1b34fed8
+  uuid: e522fd3c-1149-4da0-890a-63f5578bc7bd
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -118,7 +118,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a16feed3-1f4a-41b7-b74e-08ef1b34fed8
+  uuid: e522fd3c-1149-4da0-890a-63f5578bc7bd
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -154,27 +154,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn日本东京
-  network: ws
-  port: '45123'
-  server: 13.114.230.183
-  servername: QWQ
-  tls: true
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn日本东京 #2'
-  network: tcp
-  port: '23234'
-  server: 13.114.230.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
