@@ -1208,6 +1208,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '20|🇺🇸_US_美国 #34'
@@ -1240,12 +1248,12 @@ proxies:
   name: '21|baipaovpn美国 #1'
   network: ws
   port: '80'
-  server: 50.19.184.239
+  server: 54.172.154.126
   servername: ''
   tls: false
   type: vmess
-  uuid: dac61bb8-461c-4a4a-b14b-5a5ff6991fee
+  uuid: 1d5fb496-19fb-48fb-9880-a147326dee62
   ws-opts:
     headers:
-      Host: bolder-metal-comma.glitch.me
-    path: /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess
+      Host: best-charm-pediatrician.glitch.me
+    path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess
