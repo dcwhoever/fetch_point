@@ -24,7 +24,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: 14|广东省广州市 移动
+  name: '14,21|baipaovpn广东省广州市 #1'
   network: tcp
   port: '51707'
   server: 183.236.51.59
@@ -49,3 +49,131 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省佛山市
+  network: tcp
+  port: '61001'
+  server: 183.232.199.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省汕头市
+  network: tcp
+  port: '30112'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省汕头市 #1'
+  network: tcp
+  port: '30127'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省佛山市 #1'
+  network: tcp
+  port: '21006'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省
+  network: ws
+  port: '20207'
+  server: 120.233.42.83
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.shwjfkw.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省 #1'
+  network: ws
+  port: '20206'
+  server: 120.233.42.83
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省汕头市 #3'
+  network: tcp
+  port: '30131'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省佛山市 #2'
+  network: tcp
+  port: '15601'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省深圳市
+  network: tcp
+  port: '15600'
+  server: 183.232.142.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省佛山市 #4'
+  network: tcp
+  port: '15603'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 64
+  cipher: auto
+  name: 21|baipaovpn广东省广州市
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省汕头市 #4'
+  network: tcp
+  port: '30053'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
