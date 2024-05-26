@@ -342,20 +342,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '14|美国 CloudFlare节点 #2'
-  network: ws
-  port: '2095'
-  server: onea.flha.ru
-  servername: onea.flha.ru
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: '14|美国 CloudFlare节点 #4'
   network: ws
   port: '80'
@@ -1253,6 +1239,14 @@ proxies:
   tls: false
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.198
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '20|🇺🇸_US_美国 #34'
