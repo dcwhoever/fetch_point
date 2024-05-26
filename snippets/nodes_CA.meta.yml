@@ -1,10 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 1,3,6,14,16|🇨🇦 加拿大
+  name: 1,3,14,16|🇨🇦 加拿大
   network: ws
   port: 443
   server: 158.51.121.36
@@ -87,7 +84,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0d4626f6-9dd6-4195-89af-6fb1fb30800a
+  uuid: 48db737d-825b-4b06-8947-40976356b7cc
 - alterId: 0
   cipher: auto
   name: 14|加拿大 魁北克省博阿努瓦OVH数据中心
@@ -305,4 +302,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2b3cfb7e-1d09-486b-865d-b08b564b89f2
+  uuid: 6e2e7618-91e6-437a-86cb-70389f15fbd3
