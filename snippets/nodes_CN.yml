@@ -59,15 +59,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省广州市
-  network: ws
-  port: '40396'
-  server: 183.232.166.137
+  name: 21|baipaovpn广东省深圳市
+  network: tcp
+  port: '15600'
+  server: 183.232.142.179
   servername: ''
   tls: false
   type: vmess
-  uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
