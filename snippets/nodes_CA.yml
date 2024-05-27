@@ -4,7 +4,7 @@ proxies:
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 1,3,6,16|🇨🇦 加拿大
+  name: 1,6,16|🇨🇦 加拿大
   network: ws
   port: 443
   server: 158.51.121.36
@@ -19,7 +19,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '8|🇨🇦_CA_加拿大 #1'
+  name: 8|🇨🇦_CA_加拿大
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -45,7 +45,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '8|🇨🇦_CA_加拿大 #3'
+  name: '8|🇨🇦_CA_加拿大 #2'
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -58,7 +58,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '8,9,20|🇨🇦_CA_加拿大 #7'
+  name: '8,9,20|🇨🇦_CA_加拿大 #6'
   network: http
   port: 3389
   server: 134.122.41.160
@@ -87,7 +87,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 42260cfd-cc0a-432c-86ac-d12b27d27f70
+  uuid: 481421af-465b-4946-ae60-8db6181cac0b
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
@@ -295,4 +295,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 553d1132-2b06-46b8-9897-b5e2736d9225
+  uuid: ce684ae1-b253-45cb-baff-51a891bd16be
