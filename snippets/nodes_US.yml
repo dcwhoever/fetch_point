@@ -1262,31 +1262,3 @@ proxies:
     headers:
       Host: fr.grpc.gay
     path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: ws
-  port: '46515'
-  server: 130.162.143.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: ''
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #2'
-  network: ws
-  port: '80'
-  server: 162.159.9.55
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
-  ws-opts:
-    headers:
-      Host: hinet.alipay.ovh
-    path: /?ed=2048

@@ -70,3 +70,27 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 21|baipaovpn广东省江门市
+  network: tcp
+  port: '35601'
+  server: 120.238.122.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省
+  network: ws
+  port: '16632'
+  server: 120.233.204.126
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9a9d508-67e1-4929-8bea-8733d5a30c93
+  ws-opts:
+    headers:
+      Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com
+    path: /

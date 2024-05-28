@@ -29,19 +29,6 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国5|@ripaojiedian
-  password: TNDSJfNv
-  port: 20344
-  server: 36.151.195.48
-  skip-cert-verify: true
-  sni: payment.freetrade.link
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -61,7 +48,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|香港|@ripaojiedian
+  name: 19,21|baipaovpn广东省佛山市
   network: tcp
   port: '15605'
   server: 183.232.199.28
