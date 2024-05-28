@@ -15,10 +15,20 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省佛山市
+  name: 21|baipaovpn广东省深圳市
   network: tcp
-  port: '61001'
-  server: 183.232.199.61
+  port: '61002'
+  server: 183.232.142.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省深圳市 #1'
+  network: tcp
+  port: '21003'
+  server: 183.232.142.179
   servername: ''
   tls: false
   type: vmess
