@@ -34,7 +34,7 @@ proxies:
   uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
 - alterId: 0
   cipher: auto
-  name: '14,19,21|baipaovpn广东省佛山市 #1'
+  name: 14,19|韩国3|@ripaojiedian
   network: tcp
   port: '42001'
   server: 183.232.199.28
@@ -70,21 +70,11 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 21|baipaovpn广东省广州市
-  network: tcp
-  port: '54100'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn广东省汕头市
   network: tcp
-  port: '30112'
+  port: '30131'
   server: 183.240.179.207
   servername: ''
   tls: false
@@ -93,10 +83,24 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn广东省深圳市
-  network: tcp
-  port: '15600'
-  server: 183.232.142.179
+  network: ws
+  port: '16632'
+  server: 183.232.142.47
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: d9a9d508-67e1-4929-8bea-8733d5a30c93
+  ws-opts:
+    headers:
+      Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省汕头市 #1'
+  network: tcp
+  port: '30053'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4

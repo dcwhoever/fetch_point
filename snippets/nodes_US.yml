@@ -116,17 +116,6 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #5'
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
   name: '8,9|🇺🇸_US_美国 #21'
   network: ws
   port: 2052
@@ -1251,13 +1240,17 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 21|baipaovpn美国
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
+  network: ws
+  port: '80'
+  server: 162.159.9.55
   servername: ''
   tls: false
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  ws-opts:
+    headers:
+      Host: hinet.alipay.ovh
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '21|baipaovpn美国 #1'
