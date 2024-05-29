@@ -116,6 +116,17 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
+  name: '8|🇺🇸_US_美国 #5'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
   name: '8,9|🇺🇸_US_美国 #21'
   network: ws
   port: 2052
@@ -1154,20 +1165,6 @@ proxies:
   name: 21|baipaovpn美国
   network: ws
   port: '80'
-  server: 172.64.104.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: fr.grpc.gay
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn美国 #1'
-  network: ws
-  port: '80'
   server: 162.159.9.55
   servername: ''
   tls: false
@@ -1179,15 +1176,15 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '21|baipaovpn美国 #2'
+  name: '21|baipaovpn美国 #1'
   network: ws
   port: '80'
-  server: 104.26.0.250
+  server: 172.64.104.182
   servername: ''
   tls: false
   type: vmess
-  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
   ws-opts:
     headers:
-      Host: hinet.alipay.ovh
-    path: /?ed=2048
+      Host: fr.grpc.gay
+    path: /rongseven?ed=2048
