@@ -1,25 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14,15|github.com/freefq - 广东省移动 7
-  network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn广东省
+  client-fingerprint: chrome
+  name: 14,18,19|香港5|@ripaojiedian
   network: ws
   port: '16632'
-  server: 120.233.204.126
+  server: m.cnmjin.net
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
@@ -29,88 +18,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|baipaovpn广东省佛山市
+  name: 14|广东省佛山市 移动
   network: tcp
-  port: '42001'
+  port: '61001'
   server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 21|baipaovpn广东省汕头市
-  network: tcp
-  port: '30112'
-  server: 183.240.179.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
 - alterId: 64
   cipher: auto
-  name: 21|baipaovpn广东省广州市
+  name: 14|广东省江门市 移动
   network: tcp
-  port: '51707'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn广东省 #1'
-  network: ws
-  port: '20207'
-  server: 120.233.42.83
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-hk-v1.shwjfkw.cn
-    path: /debian
-- alterId: 64
-  cipher: auto
-  name: '21|baipaovpn广东省广州市 #1'
-  network: tcp
-  port: '54100'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn广东省汕头市 #1'
-  network: tcp
-  port: '30131'
-  server: 183.240.179.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- alterId: 0
-  cipher: auto
-  name: '21|baipaovpn广东省 #2'
-  network: ws
-  port: '20206'
-  server: 120.233.42.83
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-hk-v1.usabooks.com.cn
-    path: /debian
-- alterId: 64
-  cipher: auto
-  name: '21|baipaovpn广东省广州市 #2'
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
+  port: '40259'
+  server: 120.238.122.243
   servername: ''
   tls: false
   type: vmess
