@@ -48,10 +48,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3|🇨🇳_CN_中国->🇺🇸_US_美国
+  name: 3,21|baipaovpn亚太地区
   network: ws
-  port: 2095
+  port: '2095'
   server: 103.184.45.191
+  servername: ''
   tls: false
   type: vmess
   uuid: b3c76f0e-f2c6-4518-9ddc-b21b3339d550
