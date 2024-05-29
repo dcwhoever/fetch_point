@@ -1,1 +1,65 @@
-proxies: []
+proxies:
+- alterId: 64
+  cipher: auto
+  name: 21|baipaovpn广东省江门市
+  network: tcp
+  port: '35601'
+  server: 120.238.122.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省佛山市
+  network: tcp
+  port: '42001'
+  server: 183.232.199.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省
+  network: ws
+  port: '16627'
+  server: 183.240.220.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu
+- alterId: 0
+  cipher: auto
+  name: 21|baipaovpn广东省深圳市
+  network: tcp
+  port: '15600'
+  server: 183.232.142.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省佛山市 #2'
+  network: tcp
+  port: '21006'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: '21|baipaovpn广东省佛山市 #4'
+  network: tcp
+  port: '45001'
+  server: 183.232.199.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
