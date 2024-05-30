@@ -32,19 +32,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇲🇾 马来西亚|@ripaojiedian
-  password: TNDSJfNv
-  port: 62001
-  server: 183.232.199.28
-  skip-cert-verify: false
-  sni: nagoya.meijireform.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 18,19|香港5|@ripaojiedian
   network: ws
   port: '16632'
@@ -78,7 +65,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|香港|@ripaojiedian
+  name: 19,21|baipaovpn广东省佛山市
   network: tcp
   port: '15605'
   server: 183.232.199.28
@@ -88,7 +75,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 19|香港2|@ripaojiedian
+  name: '19,21|baipaovpn广东省佛山市 #2'
   network: tcp
   port: '15601'
   server: 183.232.199.61
