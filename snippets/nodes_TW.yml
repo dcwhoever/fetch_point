@@ -2,11 +2,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|台湾|@ripaojiedian
+  name: 18|🇹🇼 台湾|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: tw1g.forlive.live
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -18,7 +17,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 21|baipaovpn台湾省台北市
+  name: '21|baipaovpn台湾省台北市 #2'
   network: ws
   port: '30000'
   server: 103.123.132.27
