@@ -29,6 +29,19 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国4|@ripaojiedian
+  password: TNDSJfNv
+  port: 4603
+  server: 36.151.195.48
+  skip-cert-verify: true
+  sni: nagoya.meijireform.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -54,23 +67,6 @@ proxies:
   server: hk2.gauss.life
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|香港7|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: yes.cnmjcn.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 19|香港|@ripaojiedian
