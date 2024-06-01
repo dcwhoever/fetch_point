@@ -1,4 +1,15 @@
 proxies:
+- grpc-opts:
+    grpc-service-name: u9L2z2BtBOlpLASniKKXBXf3Hv
+  name: 1|_HK_
+  network: grpc
+  password: ca3d2d6a-f7ea-4a52-ba12-37bd8fcea8d2
+  port: 443
+  server: 45.156.24.4
+  skip-cert-verify: false
+  sni: minn2.viraticket.ir
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
@@ -31,31 +42,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|香港5|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港6|@ripaojiedian
-  password: 45b9ba11-5d0c-4154-ad92-bb0920bade75
-  port: 58494
-  server: hk2.gauss.life
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 19|香港|@ripaojiedian
   network: tcp
   port: '15605'
@@ -74,3 +60,33 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 19|香港3|@ripaojiedian
+  network: tcp
+  port: '15603'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 19|香港5|@ripaojiedian
+  network: tcp
+  port: '15606'
+  server: 183.232.170.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 19|香港7|@ripaojiedian
+  network: tcp
+  port: '35996'
+  server: 786huix-ee.dc-zix4ssc1-hk03.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
