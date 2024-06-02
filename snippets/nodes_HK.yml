@@ -1,15 +1,4 @@
 proxies:
-- grpc-opts:
-    grpc-service-name: u9L2z2BtBOlpLASniKKXBXf3Hv
-  name: 1|_HK_
-  network: grpc
-  password: ca3d2d6a-f7ea-4a52-ba12-37bd8fcea8d2
-  port: 443
-  server: 45.156.24.4
-  skip-cert-verify: false
-  sni: minn2.viraticket.ir
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 16|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
@@ -40,6 +29,40 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|香港6|@ripaojiedian
+  network: ws
+  port: '16632'
+  server: yes.cnmjcn.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|香港8|@ripaojiedian
+  network: ws
+  port: '16632'
+  server: m.cnmjin.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|香港|@ripaojiedian
