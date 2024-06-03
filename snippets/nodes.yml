@@ -281,47 +281,211 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: 6|-https://t.me/MrXbin-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 118.163.179.161
+  type: ss
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-2
   password: amazonskr05
   port: 443
-  server: 47.129.9.69
+  server: 54.180.9.46
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c68b799:50307
+    mode: tls
+  port: 2377
+  server: 118.163.179.159
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c68b799:50307
+    mode: tls
+  port: 2377
+  server: 118.163.179.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c68b799:50307
+    mode: tls
+  port: 2377
+  server: 118.163.179.158
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 118.163.179.162
+  type: ss
 - alterId: 0
   cipher: auto
-  country: CA
   h2-opts: {}
   http-opts: {}
-  name: 6,16|🇨🇦 加拿大
+  name: 6|-https://t.me/MrXbin-36
   network: ws
-  port: 443
-  server: 158.51.121.36
+  port: 50000
+  server: cdn2.twitter.now.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cab438c4-9c5a-43fd-a623-ce81cb93085c
+  ws-opts:
+    headers:
+      Host: hkv6.linyuch3.eu.org
+    path: /ikun
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-38
+  network: tcp
+  port: 41001
+  server: bgroup.node3.v.nodelist-gfwairport2.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+- alterId: 0
+  cipher: auto
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 6,14|香港 环球全域电讯
+  network: ws
+  port: 12909
+  server: 210.3.159.224
   servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
       Host: ''
-    path: /linkvws
+    path: /
 - alterId: 0
   cipher: auto
-  country: SE
+  country: MO
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-82
+  name: 6|-https://t.me/MrXbin-84
   network: ws
-  port: 80
-  server: 185.146.173.92
-  servername: Nl2.vmess.site.
+  port: 50000
+  server: 202.86.138.58
+  servername: hkv6.linyuch3.eu.org
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 3a71b42c-66d2-44ad-8a80-668d4f4339ea
+  uuid: cab438c4-9c5a-43fd-a623-ce81cb93085c
   ws-opts:
     headers:
-      HOST: Nl2.vmess.site.
+      HOST: hkv6.linyuch3.eu.org
+    path: /ikun
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-86
+  network: ws
+  port: 8080
+  server: 172.67.172.176
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-87
+  network: ws
+  port: 8080
+  server: 172.67.185.218
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-88
+  network: ws
+  port: 8080
+  server: 172.67.172.50
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-89
+  network: ws
+  port: 8080
+  server: 172.67.199.216
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-91
+  network: ws
+  port: 80
+  server: 172.67.171.49
+  servername: No1.vmess.site.
+  skip-cert-verify: true
+  type: vmess
+  uuid: 10c580e4-f83b-42f1-8e6a-25fc8add4da7
+  ws-opts:
+    headers:
+      HOST: No1.vmess.site.
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
@@ -862,20 +1026,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|香港 环球全域电讯
-  network: ws
-  port: 12909
-  server: 210.3.159.224
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|土耳其 v2rayfree.eu.org
   network: tcp
   port: '41858'
@@ -1249,6 +1399,20 @@ proxies:
     headers:
       Host: linde06.indiavideo.sbs
     path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 16|🇨🇦 加拿大
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - cipher: aes-256-cfb
   name: 16|IHwzMC4zOE1i
   obfs: plain
