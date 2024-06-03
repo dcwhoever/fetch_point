@@ -281,37 +281,13 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)feec8af:29306
-    mode: tls
-  port: 2377
-  server: 118.163.179.162
-  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-3
+  name: 6|-https://t.me/MrXbin-1
   password: amazonskr05
   port: 443
   server: 47.129.9.69
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,18|🇺🇸 美国5|@ripaojiedian
-  password: TNDSJfNv
-  port: 4787
-  server: 36.151.195.48
-  skip-cert-verify: true
-  sni: prispy.koreanbbq.link
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 33aefd89-3285-4347-9083-6249711f02e9
 - alterId: 0
   cipher: auto
   country: CA
@@ -332,102 +308,21 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  country: NL
+  country: SE
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-83
+  name: 6|-https://t.me/MrXbin-82
   network: ws
   port: 80
-  server: 188.114.97.3
-  servername: De1.vmess.site.
+  server: 185.146.173.92
+  servername: Nl2.vmess.site.
   skip-cert-verify: true
   type: vmess
-  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
+  uuid: 3a71b42c-66d2-44ad-8a80-668d4f4339ea
   ws-opts:
     headers:
-      HOST: De1.vmess.site.
+      HOST: Nl2.vmess.site.
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-84
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 167.88.61.235
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-85
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 167.88.61.235
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-86
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 167.88.61.235
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-87
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 167.88.61.235
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-88
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 167.88.61.235
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-92
-  network: ws
-  port: 8080
-  server: 172.67.185.79
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-94
-  network: ws
-  port: 8080
-  server: 172.67.199.144
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /
-- alterId: 64
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-95
-  network: tcp
-  port: 41911
-  server: 107.148.192.149
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 7|德国1
@@ -3185,6 +3080,19 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国5|@ripaojiedian
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  sni: prispy.koreanbbq.link
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
