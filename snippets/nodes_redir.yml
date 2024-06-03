@@ -74,18 +74,22 @@ proxies:
       host: uk.moss.network
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
-  cipher: none
-  name: 1|_NL_->_GI_
+  cipher: auto
+  country: NL
+  h2-opts: {}
+  http-opts: {}
+  name: 1,6|-https://t.me/MrXbin-118
   network: ws
   port: 80
   server: 188.114.97.3
+  servername: De1.vmess.site.
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
   ws-opts:
     headers:
-      host: De1.vmess.site.
+      HOST: De1.vmess.site.
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
