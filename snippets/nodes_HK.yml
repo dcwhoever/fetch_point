@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港 环球全域电讯
+  name: 16|🇭🇰HK-210.3.159.224-0931
   network: ws
   port: 12909
   server: 210.3.159.224
@@ -29,19 +29,6 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国5|@ripaojiedian
-  password: TNDSJfNv
-  port: 4787
-  server: 36.151.195.48
-  skip-cert-verify: true
-  sni: prispy.koreanbbq.link
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 33aefd89-3285-4347-9083-6249711f02e9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
