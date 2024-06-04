@@ -1,23 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港 11
-  network: ws
-  port: 12909
-  server: 210.3.159.224
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 210.3.159.224
-    path: /
-- alterId: 0
-  cipher: auto
   name: 16|HongKong Aliyun HK
   network: ws
-  port: 2052
+  port: '2052'
   server: web.com
   servername: ''
   tls: false
@@ -43,6 +29,19 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国5|@ripaojiedian
+  password: gkviEOYc
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  sni: gobchang.koreanbbq.link
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
