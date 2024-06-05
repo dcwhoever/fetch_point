@@ -1,10 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰_HK_香港
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 3,6|-https://t.me/MrXbin-248
   network: ws
   port: 12909
   server: 210.3.159.224
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
