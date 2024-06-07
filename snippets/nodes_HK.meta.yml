@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|[VMess] 🇭🇰 香港 环球全域电讯
+  name: 16|🇭🇰HK-210.3.159.224-0767
   network: ws
   port: 12909
   server: 210.3.159.224
@@ -11,7 +11,7 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
-      Host: ''
+      Host: 210.3.159.224
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -37,18 +37,6 @@ proxies:
   server: rk2.izoizoizo.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇻🇳 越南|@ripaojiedian
-  password: gkviEOYc
-  port: 40998
-  server: 529y.6bp4susm-97imynr-vn02.my777999.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 33aefd89-3285-4347-9083-6249711f02e9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
