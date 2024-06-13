@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|HK62 2.0MB/s
+  name: 16|香港 025
   network: ws
-  port: '28681'
-  server: 47.242.22.171
-  servername: ''
-  tls: false
+  port: 443
+  server: hk1.connectnaif.xyz
+  servername: aa.com
+  tls: true
   type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  uuid: 08beb12a-069b-47d9-976a-f05ee597aeeb
   ws-opts:
     headers:
-      Host: ''
+      Host: hk1.connectnaif.xyz
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
