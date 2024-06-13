@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|HK_youtube@资源分享师_105
-  network: ws
-  port: 443
-  server: hk1.connectnaif.xyz
-  servername: aa.com
-  tls: true
-  type: vmess
-  uuid: 8843edd6-2719-4188-9e6a-71aae01c7120
-  ws-opts:
-    headers:
-      Host: hk1.connectnaif.xyz
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -46,18 +32,6 @@ proxies:
     headers:
       Host: hkapper.a1t.top
     path: /itdog?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国5|@ripaojiedian
-  password: gkviEOYc
-  port: 50611
-  server: 183.232.139.22
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 3a988367-5daa-4beb-be62-aaba3e79534a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
