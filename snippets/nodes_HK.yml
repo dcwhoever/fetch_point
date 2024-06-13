@@ -49,6 +49,18 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 18|🇺🇸 美国5|@ripaojiedian
+  password: gkviEOYc
+  port: 50611
+  server: 183.232.139.22
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 3a988367-5daa-4beb-be62-aaba3e79534a
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 18,19|香港5|@ripaojiedian
   network: ws
   port: '16632'
@@ -88,3 +100,13 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 19|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
