@@ -1,30 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|_US__1
-  network: ws
-  port: 8080
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-  ws-opts:
-    headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- name: 1|_US__2
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.23.123.22
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - grpc-opts:
     grpc-service-name: grpc
-  name: 1|_US__3
+  name: 1|_US__1
   network: grpc
   password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
   port: 2087
@@ -33,29 +10,58 @@ proxies:
   sni: us1.trojanvpn.de
   type: trojan
   udp: true
-- name: 1|_US__4
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.22.237.121
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
+- grpc-opts:
+    grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
+  name: 1|_US__2
+  network: grpc
+  password: f91f38bb-72d5-4f3e-8311-1788986293f5
+  port: 443
+  server: 104.21.43.13
+  skip-cert-verify: true
+  sni: iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpnc.iran-mehr14.ir
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|_US__5
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '1,6,14,16|🇺🇸_US_美国 #23'
+  network: tcp
+  port: 2083
+  server: kz-v2ray.ipracevpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b32504f9-c51c-4aa0-b1ff-1316ce82033b
+- alterId: 0
+  cipher: auto
+  name: 1|_US__4
   network: ws
-  port: 2095
-  server: russia.com
+  port: 8080
+  server: 104.26.9.22
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
-      host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
+      host: dual-nothing-prep-exit.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 1|_US__5
+  network: ws
+  port: 8880
+  server: 104.19.21.24
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      host: funk-england-indirect-gospel.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - grpc-opts:
     grpc-service-name: 443trojan
   name: 1|_US__6
@@ -69,60 +75,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|_US__7
-  network: ws
-  port: 80
-  server: 104.21.69.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9b485f57-c54b-40d0-bee7-13cee16f1e42
-  ws-opts:
-    headers:
-      host: De2.vmess.site.
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸_US_美国
-  network: ws
-  port: 8080
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-  ws-opts:
-    headers:
-      Host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: '3|🇺🇸_US_美国 #1'
-  network: ws
-  port: 2095
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-  ws-opts:
-    headers:
-      Host: sssub.v2.001.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 3,16|VPN招代理电报联系@litata2022
-  network: ws
-  port: 80
-  server: 104.21.69.44
-  tls: false
-  type: vmess
-  uuid: 9b485f57-c54b-40d0-bee7-13cee16f1e42
-  ws-opts:
-    headers:
-      Host: De2.vmess.site.
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '8,9|🇺🇸_US_美国 #16'
+  name: '8,9|🇺🇸_US_美国 #13'
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -135,7 +88,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #31'
+  name: '8,20|🇺🇸_US_美国 #28'
   network: ws
   port: 2095
   server: russia.com
@@ -148,7 +101,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #5'
+  name: '8|🇺🇸_US_美国 #2'
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
@@ -159,7 +112,7 @@ proxies:
     path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #21'
+  name: '8,9|🇺🇸_US_美国 #18'
   network: ws
   port: 2052
   server: 104.21.82.39
@@ -172,7 +125,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #22'
+  name: '8,9|🇺🇸_US_美国 #19'
   network: ws
   port: 2052
   server: mahilu.site
@@ -185,7 +138,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,20|🇺🇸_US_美国 #27'
+  name: '8,9,20|🇺🇸_US_美国 #24'
   network: ws
   port: 8080
   server: fbi.gov
@@ -198,7 +151,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #9'
+  name: '8|🇺🇸_US_美国 #6'
   network: ws
   port: 2086
   server: cfcdn1.sanfencdn9.com
@@ -211,7 +164,7 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #19'
+  name: '8,9|🇺🇸_US_美国 #16'
   network: ws
   port: 8080
   server: 162.159.134.23
@@ -224,7 +177,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #30'
+  name: '8,20|🇺🇸_US_美国 #27'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -237,7 +190,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #23'
+  name: '8,9|🇺🇸_US_美国 #20'
   network: ws
   port: 8880
   server: russia.com
@@ -250,7 +203,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '8|🇺🇸_US_美国 #13'
+  name: '8|🇺🇸_US_美国 #10'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -263,7 +216,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #14'
+  name: '9|🇺🇸_US_美国 #11'
   network: ws
   port: 80
   server: 172.67.116.48
@@ -276,7 +229,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #17'
+  name: '9|🇺🇸_US_美国 #14'
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -289,7 +242,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #20'
+  name: '9|🇺🇸_US_美国 #17'
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -302,7 +255,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #24'
+  name: '9|🇺🇸_US_美国 #21'
   network: ws
   port: 443
   server: hms082.gwdef.sbs
@@ -315,7 +268,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国 #25'
+  name: '9|🇺🇸_US_美国 #22'
   network: ws
   port: 80
   server: 104.21.234.52
@@ -328,21 +281,71 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|美国3|@ripaojiedian
+  name: 14|美国 CloudFlare节点
   network: ws
   port: '8080'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
+  server: 172.67.185.64
   tls: false
   type: vmess
-  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,15|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #2'
+  network: ws
+  port: '2095'
+  server: Tgju.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
+  ws-opts:
+    headers:
+      Host: Yakuza.unique69.com
+    path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #3'
+  network: ws
+  port: 80
+  server: 172.67.144.19
+  tls: false
+  type: vmess
+  uuid: 6808508f-c51c-4888-8370-d49e78a7f64e
+  ws-opts:
+    headers:
+      Host: kr1-amazonwebservices.tjycdn.online
+    path: /centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #4'
+  network: ws
+  port: '2095'
+  server: 104.26.14.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
+  ws-opts:
+    headers:
+      Host: Yakuza.unique69.com
+    path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 美国CloudFla...
@@ -356,61 +359,6 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
-- alterId: 0
-  cipher: auto
-  name: 14,16|🇺🇸 美国 CloudFlare节点 4
-  network: ws
-  port: 8080
-  server: 104.19.47.186
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #3'
-  network: ws
-  port: 8080
-  server: 104.19.47.153
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '14,16|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 2052
-  server: www.speedtest.net
-  tls: false
-  type: vmess
-  uuid: cd5b9129-90cf-48ce-b00b-979f1c8681ce
-  ws-opts:
-    headers:
-      Host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.
-    path: /@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #5'
-  network: ws
-  port: 8880
-  server: 104.19.21.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: funk-england-indirect-gospel.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
   name: '14,15|github.com/freefq - 美国CloudFla... #1'
@@ -439,19 +387,6 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 14,15|github.com/freefq - 美国Fastly全球...
-  network: ws
-  port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - alterId: 0
   cipher: auto
   name: '14,15|github.com/freefq - 美国CloudFla... #3'
@@ -518,7 +453,7 @@ proxies:
   uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8
 - alterId: 0
   cipher: auto
-  name: '16|美国 CloudFlare节点 #6'
+  name: '16|美国 CloudFlare节点 #5'
   network: ws
   port: 80
   server: speed.cloudflare.com
@@ -555,30 +490,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '16|🇺🇸_US_美国 #26'
-  network: tcp
-  port: 2083
-  server: kz-v2ray.ipracevpn.com
-  tls: true
-  type: vmess
-  uuid: b32504f9-c51c-4aa0-b1ff-1316ce82033b
-- alterId: 64
-  cipher: auto
-  name: 16|[VMess] 🇺🇸 美国 056
-  network: ws
-  port: 37004
-  server: 38.38.169.231
-  servername: www.84576005.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/181721272114
-- alterId: 0
-  cipher: auto
-  name: '16|美国 CloudFlare节点 #7'
+  name: '16|美国 CloudFlare节点 #6'
   network: ws
   port: 2052
   server: lol.ps
@@ -628,7 +540,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: none
-  name: '16|美国 CloudFlare节点 #8'
+  name: '16|美国 CloudFlare节点 #7'
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -652,6 +564,20 @@ proxies:
   uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121
 - alterId: 0
   cipher: auto
+  name: 16|🇺🇸 美国 CloudFlare节点 4
+  network: ws
+  port: 8080
+  server: 104.19.47.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 16|🇺🇸US-192.3.150.233-8653
   network: ws
   port: 8443
@@ -664,20 +590,6 @@ proxies:
     headers:
       Host: ''
     path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  name: 16|🇺🇸US-148.135.40.190-0160
-  network: ws
-  port: 8080
-  server: 148.135.40.190
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9808413-8b12-42ea-86ff-a0af6727a0e8
-  ws-opts:
-    headers:
-      Host: 148.135.40.190
-    path: /index?ed=2560
 - alterId: 64
   cipher: auto
   name: 16|US169 N/A/s
@@ -753,6 +665,48 @@ proxies:
     headers:
       Host: worker-mute-bar-1719.nifotok993.workers.dev
     path: /afrhms16v.bestxray.buzz/linkws
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.248
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|美国2|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3c5046b4-1a9c-427c-8a55-e355846a9e4a
+  ws-opts:
+    headers:
+      Host: us5PhAx6xsj.fzbqfrse.xyz
+    path: /video/f8ZKTGaGoC/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|美国3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: www.udemy.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9ec8e28-691a-465a-8d08-9ec3206fdb83
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇺🇸 美国R|@ripaojiedian
@@ -763,7 +717,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '20|🇺🇸_US_美国 #32'
+  name: '20|🇺🇸_US_美国 #29'
   network: ws
   port: 2095
   server: 104.26.4.57
