@@ -26,7 +26,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-175
+  name: 1,6|-https://t.me/MrXbin-145
   network: tcp
   port: 2083
   server: kz-v2ray.ipracevpn.com
@@ -664,6 +664,14 @@ proxies:
     headers:
       Host: ''
     path: /8cda48b3
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.248
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
