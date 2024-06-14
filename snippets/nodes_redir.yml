@@ -34,39 +34,31 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-150
+  name: 1|_US_->_AT_
   network: ws
   port: 80
   server: 172.67.193.67
-  servername: gulasch.online
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
   ws-opts:
     headers:
-      HOST: gulasch.online
+      host: gulasch.online
     path: /
 - alterId: 0
   cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-151
+  name: 1|_US_->_DE__3
   network: ws
   port: 2095
   server: zula.ir
-  servername: Yakuza.unique69.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3e540874-0730-452a-8b2e-e719b5d34470
   ws-opts:
     headers:
-      HOST: Yakuza.unique69.com
+      host: Yakuza.unique69.com
     path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
 - cipher: chacha20-ietf-poly1305
   name: 1|_CN_->_DE_
