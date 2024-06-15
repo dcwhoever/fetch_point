@@ -57,21 +57,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,6|-https://t.me/MrXbin-141
+  name: 1|_US_->_AT_
   network: ws
   port: 80
   server: 172.67.193.67
-  servername: gulasch.online
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
   ws-opts:
     headers:
-      HOST: gulasch.online
+      host: gulasch.online
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 1|_CN_->_DE_
@@ -146,7 +142,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #30'
+  name: '8,20|🇺🇸_US_美国 #29'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -185,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,20|🇺🇸_US_美国 #29'
+  name: '8,9,20|🇺🇸_US_美国 #28'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
