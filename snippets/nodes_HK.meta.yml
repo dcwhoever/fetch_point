@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|香港 019
-  network: tcp
-  port: 49879
-  server: 206.237.31.203
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2aa1a094-8320-4567-b833-c0b4934eb7e2
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -77,3 +67,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 4fbc3eea-9b2d-4296-bf65-d9bfa0802958
+- alterId: 64
+  cipher: auto
+  name: 19|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
