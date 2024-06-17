@@ -96,19 +96,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|l日本-2
-  network: ws
-  port: '2052'
-  server: yx2.gyyun.top
-  tls: false
-  type: vmess
-  uuid: 56a9b039-eca8-40de-9b71-9b7cff56ecea
-  ws-opts:
-    headers:
-      Host: lrb1.gyyun.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 16|🇯🇵日本-01|1.0x
   network: ws
   port: '2052'
@@ -126,5 +113,13 @@ proxies:
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.202.40.133
   tfo: false
   type: ss
