@@ -68,22 +68,19 @@ proxies:
   server: 172.67.114.125
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 21949
-  server: sui.forlive.live
-  skip-cert-verify: false
+  name: 18|🇺🇸 美国5|@ripaojiedian
+  password: RmdXQRXg
+  port: 27119
+  server: 223.113.54.154
+  skip-cert-verify: true
+  sni: aixunx168.top
   tfo: false
   tls: false
-  type: vmess
-  uuid: 98f068ea-cd44-4a66-9cd4-710fb40ffcce
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇭🇰 香港R|@ripaojiedian
