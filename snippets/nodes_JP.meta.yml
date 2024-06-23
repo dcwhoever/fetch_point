@@ -1,47 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|JP6 伊里户结女
-  network: tcp
-  port: '23234'
-  server: jp6.mmmmmmmmmm.cfd
-  tls: false
-  type: vmess
-  uuid: 8391af38-2bc3-4514-ad16-44b5fcc5cbcf
-- alterId: 0
-  cipher: auto
-  name: 16|公测|日本 04 1x
+  name: 16|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
   network: ws
-  port: '2052'
-  server: baobaojichang.bbjc.xyz
-  tls: false
+  port: '443'
+  server: jp-full.privateip.net
+  tls: true
   type: vmess
-  uuid: c3572b9c-db66-4656-91b2-853750a422ef
+  uuid: 2be26164-bbb5-47bf-8990-bb5e985f4083
   ws-opts:
     headers:
-      Host: riben.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 16|公测|日本 03 1x
-  network: ws
-  port: '8880'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: c3572b9c-db66-4656-91b2-853750a422ef
-  ws-opts:
-    headers:
-      Host: riben.mojc.xyz
-    path: /?ed=2048
+      Host: ''
+    path: /RACEVPN
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|日本2|@ripaojiedian
+  name: 18|🇯🇵 日本2|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: cfcdn3.sanfencdn9.com
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -59,3 +36,31 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
+  ws-opts:
+    headers:
+      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
+    path: /video/X37qXHip
+- alterId: 0
+  cipher: auto
+  name: 19|日本4|@ripaojiedian
+  network: ws
+  port: '46011'
+  server: mmjp11.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
