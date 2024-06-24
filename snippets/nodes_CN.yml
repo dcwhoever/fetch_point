@@ -11,15 +11,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 14|广东省 移动
-  network: tcp
-  port: '31778'
-  server: 183.240.235.166
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: '14|广东省 移动 #1'
   network: tcp
   port: '54002'
@@ -71,3 +62,13 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 16|[VMess] 🇨🇳 广东省广州市 移动 3
+  network: tcp
+  port: 54965
+  server: 120.232.153.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
