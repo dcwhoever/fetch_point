@@ -12,22 +12,19 @@ proxies:
     headers:
       Host: pqxg1.gyyun.top
     path: /?ed=2048
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: a4.wagaga.online
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 172.67.114.125
+  name: 18|🇺🇸 美国5|@ripaojiedian
+  password: RmdXQRXg
+  port: 27119
+  server: 223.113.54.154
+  skip-cert-verify: true
+  sni: aixunx168.top
   tfo: false
-  type: ss
+  tls: false
+  type: trojan
+  uuid: 46dc80bd-4883-4021-8c37-f3c6d6c46a34
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇭🇰 香港R|@ripaojiedian
@@ -46,6 +43,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 3880784d-b3c1-483a-ac90-cc6633d7d4a3
+- alterId: 64
+  cipher: auto
+  name: 19|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 19|香港3|@ripaojiedian
