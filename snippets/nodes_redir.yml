@@ -19,7 +19,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1,3|🇺🇸_US_美国->🇩🇪_DE_德国
+  name: 1|_US_->_DE_
   network: ws
   port: 443
   server: hdfy1sub1.achaemenidempireofpersia.uk
@@ -27,10 +27,29 @@ proxies:
   tls: true
   type: vmess
   uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+- alterId: 0
+  cipher: auto
+  name: 3|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '8,20|🇺🇸_US_美国 #29'
+  name: '3|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '8,20|🇺🇸_US_美国 #36'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -69,7 +88,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,9,20|🇺🇸_US_美国 #28'
+  name: '8,9,20|🇺🇸_US_美国 #35'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -82,7 +101,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '8,9|🇺🇸_US_美国 #18'
+  name: '8,9|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -95,10 +114,11 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  name: '9,14,20|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 104.21.8.157
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -108,7 +128,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '9,20|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
+  name: '9,14,20|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -119,3 +139,12 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🇮🇷_IR_伊朗->🇩🇪_DE_德国
+  network: tcp
+  port: 36078
+  server: 31.40.4.240
+  tls: false
+  type: vmess
+  uuid: 6d1baeb4-7bc0-43a8-d48d-79394b3bed1e
