@@ -91,7 +91,8 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 1,18|🇺🇸 美国4|@ripaojiedian
+  country: US
+  name: 1,6,18|🇺🇸 美国4|@ripaojiedian
   password: RmdXQRXg
   port: 45365
   server: 223.113.54.154
@@ -100,6 +101,7 @@ proxies:
   tfo: false
   tls: false
   type: trojan
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 1|_KR_->_US_
   network: ws
