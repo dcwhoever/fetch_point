@@ -1,13 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|p香港-3
+  network: ws
+  port: '8880'
+  server: yx3.gyyun.top
+  tls: false
+  type: vmess
+  uuid: 1087ecd6-69a3-4379-beee-87406099bbc6
+  ws-opts:
+    headers:
+      Host: pqxg1.gyyun.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 16|p香港-2
   network: ws
   port: '8880'
   server: yx2.gyyun.top
   tls: false
   type: vmess
-  uuid: 688d2ee3-aedd-447a-9eb8-182a89ad7c83
+  uuid: 1087ecd6-69a3-4379-beee-87406099bbc6
   ws-opts:
     headers:
       Host: pqxg1.gyyun.top
@@ -52,6 +65,16 @@ proxies:
   network: tcp
   port: '51193'
   server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 19|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
   servername: ''
   tls: false
   type: vmess
