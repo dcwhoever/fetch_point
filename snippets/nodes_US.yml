@@ -10,7 +10,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: JP
+  country: US
   name: 1,6,18|🇺🇸 美国4|@ripaojiedian
   password: RmdXQRXg
   port: 20344
@@ -647,6 +647,14 @@ proxies:
     headers:
       Host: 155.138.242.207
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国2|@ripaojiedian
+  password: 56INZqMWGt0o8Rv4
+  port: 1026
+  server: 195.88.25.214
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '20|🇺🇸_US_美国 #28'
