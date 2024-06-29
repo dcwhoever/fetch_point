@@ -1,7 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  country: US
-  name: 1,6|-https://t.me/MrXbin-189
+  name: 1|_US__1
   password: mMTy1P
   port: 20002
   server: 38.99.82.85
@@ -87,6 +86,17 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: '8|🇺🇸_US_美国 #4'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 - alterId: 0
   cipher: auto
   name: '8,9|🇺🇸_US_美国 #20'
@@ -356,6 +366,19 @@ proxies:
     headers:
       Host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.
     path: /@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80
+- alterId: 64
+  cipher: auto
+  name: 14|美国 华盛顿Cogent通信公司
+  network: ws
+  port: '38001'
+  server: 38.33.34.17
+  tls: true
+  type: vmess
+  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/150907203104
 - alterId: 0
   cipher: auto
   name: 14,16|🇺🇸 美国 CloudFlare节点
@@ -877,6 +900,14 @@ proxies:
   password: 56INZqMWGt0o8Rv4
   port: 1026
   server: 195.88.25.214
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国6|@ripaojiedian
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 67.220.85.74
   tfo: false
   type: ss
 - alterId: 0
