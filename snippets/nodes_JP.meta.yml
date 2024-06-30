@@ -34,16 +34,6 @@ proxies:
   uuid: 3827a5c8-c031-46cf-848d-e890d0ead803
 - alterId: 0
   cipher: auto
-  name: 16|PRO 日本A 2x
-  network: tcp
-  port: 3301
-  server: pro01.dns2024.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4b804301-23ce-378f-87df-af85f73c611f
-- alterId: 0
-  cipher: auto
   name: 16|日本98 CDN隧道 1.5x
   network: tcp
   port: 61005
@@ -82,6 +72,14 @@ proxies:
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.39.227.28
   tfo: false
   type: ss
 - alterId: 0

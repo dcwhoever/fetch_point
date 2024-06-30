@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14,16|🇸🇬 新加坡 Linode数据中心
+  name: 16|🇸🇬 新加坡 Linode数据中心
   network: tcp
   port: 2083
   server: sg2-v2ray.ipracevpn.com
@@ -62,6 +62,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇸🇬 狮城特殊|@ripaojiedian
