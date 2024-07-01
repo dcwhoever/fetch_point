@@ -29,6 +29,14 @@ proxies:
   tls: true
   type: vmess
   uuid: 0eb76650-5dda-4466-a142-b2097b93c50a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
