@@ -13,16 +13,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16,19|香港2|@ripaojiedian
-  network: tcp
-  port: '23870'
-  server: 156.251.217.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e32a0d3-8ee7-4542-a4fc-a8dfeefac923
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -51,7 +41,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  uuid: d22e082c-3742-421f-aabd-2511eec9148c
   ws-opts:
     headers:
       Host: zifstzamhk1.yofnhkfc.xyz
@@ -64,3 +54,13 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|香港5|@ripaojiedian
+  network: tcp
+  port: '45201'
+  server: 120.233.42.203
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cf7d0dea-d2ac-4af2-b8ee-b42c6750503b
