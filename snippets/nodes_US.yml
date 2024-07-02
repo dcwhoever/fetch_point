@@ -665,6 +665,20 @@ proxies:
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
+  name: 16|美国-5.07MB/s
+  network: ws
+  port: 9306
+  server: 23.105.220.235
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 33e3f07a-b82b-4629-bd6a-e720da213afd
+  ws-opts:
+    headers:
+      Host: vms-us-v6.412500.space
+    path: /yezhu
+- alterId: 0
+  cipher: auto
   name: 16|🇺🇸US-45.145.73.239-1806
   network: ws
   port: 443
