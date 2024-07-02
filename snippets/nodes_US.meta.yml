@@ -241,6 +241,18 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 14|美国 加利福尼亚州洛杉矶市SharkTech数据中心
+  network: ws
+  port: 30000
+  server: 107.167.20.178
+  servername: www.15314695.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 美国CloudFla...
