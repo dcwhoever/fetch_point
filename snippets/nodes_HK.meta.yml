@@ -29,6 +29,17 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港2|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: 6f41b24.microsoft.com
+  password: Fhbe0z
+  port: 11810
+  protocol: auth_aes128_sha1
+  protocol-param: 24:SpYUtPeJYhRk4FWC
+  server: 120.232.240.46
+  type: ssr
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇭🇰 香港R|@ripaojiedian
@@ -37,23 +48,3 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|香港2|@ripaojiedian
-  network: tcp
-  port: '23870'
-  server: 156.251.217.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e32a0d3-8ee7-4542-a4fc-a8dfeefac923
-- alterId: 0
-  cipher: auto
-  name: 19|香港5|@ripaojiedian
-  network: tcp
-  port: '45201'
-  server: 120.233.42.203
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cf7d0dea-d2ac-4af2-b8ee-b42c6750503b
