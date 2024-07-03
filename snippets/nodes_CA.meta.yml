@@ -90,6 +90,15 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 16|CA_youtube@资源分享师_18
+  network: tcp
+  port: 443
+  server: ca-v2ray.ipracevpn.com
+  tls: true
+  type: vmess
+  uuid: 1b3d460b-91cc-46f9-909d-73823128ee0a
+- alterId: 0
+  cipher: auto
   name: 16|加拿大 038
   network: ws
   port: 80
