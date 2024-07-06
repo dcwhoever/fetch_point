@@ -15,14 +15,6 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港|@ripaojiedian
-  password: 6743AB87-5912-4E9B-8AED-667F4B0EC14B
-  port: 18021
-  server: hk05-auto-console.suya.ink
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇭🇰 香港R|@ripaojiedian
@@ -33,6 +25,16 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
+  name: 19|香港|@ripaojiedian
+  network: tcp
+  port: '45602'
+  server: 183.240.235.170
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: 19|香港2|@ripaojiedian
   network: tcp
   port: '31778'
@@ -41,3 +43,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 19|香港5|@ripaojiedian
+  network: tcp
+  port: '45972'
+  server: 120.232.153.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd

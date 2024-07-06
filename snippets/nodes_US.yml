@@ -45,7 +45,7 @@ proxies:
   ws-opts: {}
 - cipher: aes-256-cfb
   country: KR
-  name: 1,6|-https://t.me/MrXbin-114
+  name: 1,6|-https://t.me/MrXbin-91
   password: amazonskr05
   port: 443
   server: 3.39.227.28
@@ -698,14 +698,11 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|美国2|@ripaojiedian
+  name: '14|美国 CloudFlare节点 #20'
   network: ws
   port: '8880'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
@@ -1752,3 +1749,20 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|美国2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  ws-opts:
+    headers:
+      Host: us2jdgv5GC7.fzbqfrse.xyz
+    path: /video/DDC4btA8wc/
