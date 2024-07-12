@@ -94,8 +94,7 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  country: KR
-  name: 1,6|-https://t.me/MrXbin-111
+  name: 1|_US__5
   password: amazonskr05
   port: 443
   server: 3.39.227.28
@@ -528,68 +527,6 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-128-gcm
-  name: 6|-https://t.me/MrXbin-6
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.79
-  type: ss
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-21
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13234
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-24
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-27
-  network: tcp
-  port: 20006
-  server: kr01.aikunapp.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7aca895e-9734-4784-9437-ce6420d45968
-- cipher: aes-256-cfb
-  country: US
-  name: 6|-https://t.me/MrXbin-112
-  password: amazonskr05
-  port: 443
-  server: 43.201.254.211
-  type: ss
-- cipher: aes-256-cfb
-  country: US
-  name: 6|-https://t.me/MrXbin-113
-  password: amazonskr05
-  port: 443
-  server: 47.129.0.210
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 6|-https://t.me/MrXbin-114
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.248
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: US
-  name: 6|-https://t.me/MrXbin-115
-  password: mMTy1P
-  port: 20002
-  server: 38.99.82.85
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
