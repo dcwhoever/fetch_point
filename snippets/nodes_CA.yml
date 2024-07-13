@@ -66,6 +66,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 16|加拿大 039
+  network: ws
+  port: 2086
+  server: 104.19.45.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 16|🇨🇦CA-158.51.121.36-3595
   network: ws
   port: 443
@@ -78,20 +92,6 @@ proxies:
     headers:
       Host: ''
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 049
-  network: ws
-  port: 2086
-  server: 104.19.45.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 16|加拿大 264
@@ -189,20 +189,6 @@ proxies:
   ws-opts:
     headers:
       Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 16|加拿大 278
-  network: ws
-  port: 2086
-  server: 104.18.57.111
-  servername: ip11.freegradely.xyz
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
