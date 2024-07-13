@@ -1,9 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港 013
+  name: 16|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.4...
+  network: tcp
+  port: '20143'
+  server: 91.149.236.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6785594d-31c8-48ff-c7ad-9f99c9483bf0
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21...
   network: ws
-  port: 12909
+  port: '12909'
   server: 210.0.158.219
   servername: 19.lwdh.us
   tls: true
@@ -12,7 +22,7 @@ proxies:
   ws-opts:
     headers:
       Host: 19.lwdh.us
-    path: /
+    path: ''
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian

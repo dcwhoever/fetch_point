@@ -13,6 +13,51 @@ proxies:
     headers:
       Host: ''
     path: /bb
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-NA 🇯🇵 JP-212.50.254.55...
+  network: ws
+  port: '56893'
+  server: 212.50.254.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a59a60b-526e-4378-f9cb-3485e688aa9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
+  network: ws
+  port: '41597'
+  server: 183.181.36.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,18,19|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c712c725-149f-414a-a684-1e17d137fe4f
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇯🇵 日本R|@ripaojiedian
