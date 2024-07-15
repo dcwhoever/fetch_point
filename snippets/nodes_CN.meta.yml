@@ -82,16 +82,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '14|广东省广州市 移动 #5'
-  network: tcp
-  port: '45020'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 广东省移动 7
@@ -108,10 +98,11 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 16|CN_youtube@资源分享师_96
+  name: 16|Youtube顺丰资源  CN66
   network: tcp
-  port: 63004
+  port: '63097'
   server: in06.dns2024.org
+  servername: ''
   tls: false
   type: vmess
   uuid: 6cf559be-8e10-3c59-ad8c-7345fa164ab8
