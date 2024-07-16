@@ -526,20 +526,6 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 1
-  cipher: auto
-  client-fingerprint: chrome
-  name: 6,18|🇺🇸 美国4|@ripaojiedian
-  password: MfqALmAJ
-  port: 40081
-  server: 183.232.139.24
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: d4b889ad-dd2e-39ee-ba1a-05821751bb3a
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -1715,6 +1701,19 @@ proxies:
   server: 123.88.148.9
   tfo: false
   type: ss
+- alterId: 1
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国4|@ripaojiedian
+  password: MfqALmAJ
+  port: 40081
+  server: 183.232.139.24
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: d4b889ad-dd2e-39ee-ba1a-05821751bb3a
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
