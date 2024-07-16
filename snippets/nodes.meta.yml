@@ -528,20 +528,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 6,18|🇺🇸 美国3|@ripaojiedian
-  password: GsKYmYOE
-  port: 19358
-  server: bvip.hongxingdl.vip
-  skip-cert-verify: false
-  sni: 421421.xyz
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b8b99a7a-c4a5-4ccd-ad36-8a66067d123d
-- alterId: 0
-  cipher: auto
   name: 9|🇱🇺_LU_卢森堡
   network: http
   port: 3389
@@ -2463,6 +2449,18 @@ proxies:
   server: 123.88.148.9
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国3|@ripaojiedian
+  password: GsKYmYOE
+  port: 19358
+  server: bvip.hongxingdl.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b8b99a7a-c4a5-4ccd-ad36-8a66067d123d
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
