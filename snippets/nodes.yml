@@ -527,6 +527,18 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - alterId: 0
+  cipher: none
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-8
+  network: ws
+  port: 8080
+  server: 95.164.44.140
+  type: vmess
+  uuid: 28f8d51a-0e75-4fc3-a36e-03bf4e4d0910
+  ws-opts:
+    path: /vmess
+- alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
   network: http
