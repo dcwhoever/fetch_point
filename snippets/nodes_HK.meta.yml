@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 14|香港 特别行政区
-  network: tcp
-  port: 19901
-  server: xg.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: f7b831ca-a674-4474-b543-5705f344023e
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -24,19 +15,6 @@ proxies:
   server: 172.67.141.111
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国4|@ripaojiedian
-  password: MfqALmAJ
-  port: 40081
-  server: 183.232.139.24
-  skip-cert-verify: true
-  sni: cooker.homeofbrave.net
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 2afa1ad2-990e-4711-8cd0-34085115ec22
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港3|@ripaojiedian
