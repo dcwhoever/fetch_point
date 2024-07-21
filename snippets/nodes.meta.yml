@@ -534,15 +534,18 @@ proxies:
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-9
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13229
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 6,18|🇺🇸 美国4|@ripaojiedian
+  password: MfqALmAJ
+  port: 40081
+  server: 183.232.139.24
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -2292,18 +2295,6 @@ proxies:
   server: kis7as.9sjd2dkesl2.shop
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国4|@ripaojiedian
-  password: MfqALmAJ
-  port: 40081
-  server: 183.232.139.24
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
