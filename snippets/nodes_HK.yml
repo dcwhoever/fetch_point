@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 14,19|香港5|@ripaojiedian
-  network: tcp
-  port: '20003'
-  server: shdxus.aikunapp.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a45201e7-7a4a-41ad-b7e1-8cbac19234ef
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -66,3 +56,13 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|香港5|@ripaojiedian
+  network: tcp
+  port: '20003'
+  server: shdxus.aikunapp.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a45201e7-7a4a-41ad-b7e1-8cbac19234ef
