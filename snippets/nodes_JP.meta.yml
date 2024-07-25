@@ -16,12 +16,12 @@ proxies:
     headers:
       Host: jp-a-mugua.weibo-cdn.best
     path: /
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇯🇵 日本3|@ripaojiedian
-  password: WcilR7WG
-  port: 33334
-  server: hna.lightssocks.com
+  password: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
+  port: 19529
+  server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
 - alterId: 0

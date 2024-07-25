@@ -18,11 +18,24 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港|@ripaojiedian
-  password: b0549224-831d-4cba-bab9-94fdc6a1327e
+  password: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
   port: 39301
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国4|@ripaojiedian
+  password: MfqALmAJ
+  port: 40081
+  server: 183.232.139.24
+  skip-cert-verify: false
+  sni: tubular.wireshop.net
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
