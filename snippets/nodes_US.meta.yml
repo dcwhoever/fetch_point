@@ -408,6 +408,33 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 14,19|美国2|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 120.232.153.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,18,19|美国3|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: mugen11.6bnw.top
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
+  ws-opts:
+    headers:
+      Host: buyvmus2.6bnw.top
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
