@@ -526,14 +526,38 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-5
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13545
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: tata12.cdn.node.a.tddns-ounk.com
+  type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-6
+  name: 6|-https://t.me/MrXbin-7
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-11
+  network: ws
+  port: 80
+  server: 206.238.236.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
