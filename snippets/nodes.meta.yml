@@ -530,15 +530,6 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-2
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13620
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: hfa1.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-3
   obfs: tls1.2_ticket_auth
@@ -548,31 +539,13 @@ proxies:
   server: us-am3.eqnode.net
   type: ssr
 - cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-4
+  name: 6|-https://t.me/MrXbin-5
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13302
+  port: 13501
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-8
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13229
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-9
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13494
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  server: tata12.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 0
   cipher: auto
