@@ -527,13 +527,29 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-4
+  name: 6|-https://t.me/MrXbin-1
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-8
+  network: ws
+  port: 80
+  server: 95.164.44.140
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 7e7325be-5c04-400a-9f11-e7f51c9cb1a9
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
