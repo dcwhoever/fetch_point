@@ -527,47 +527,47 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-3
+  name: 6|-https://t.me/MrXbin-2
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13171
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-4
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13185
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-6
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13301
+  port: 13303
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
   server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-3
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13628
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: bb29cs.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-5
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
   type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-13
+  name: 6|-https://t.me/MrXbin-11
   network: ws
-  port: 12910
-  server: 22.lwdh.us
+  port: 80
+  server: 95.164.44.140
   skip-cert-verify: true
-  tls: true
   type: vmess
   udp: true
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: 7e7325be-5c04-400a-9f11-e7f51c9cb1a9
   ws-opts:
-    path: /
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
