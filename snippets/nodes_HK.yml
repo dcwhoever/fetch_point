@@ -11,14 +11,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|香港2|@ripaojiedian
+  name: 14|10,11|香港2|@ripaojiedian
   network: ws
   port: '2052'
   server: 22.6bnw.top
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
@@ -28,14 +25,11 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|香港3|@ripaojiedian
+  name: 14|10,11|香港3|@ripaojiedian
   network: ws
   port: '2052'
   server: 33.6bnw.top
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
@@ -53,3 +47,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港2|@ripaojiedian
+  password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8
+  port: 36993
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 18|🇭🇰 香港6|@ripaojiedian
+  password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8
+  port: 29527
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 19|香港7|@ripaojiedian
+  network: tcp
+  port: '51000'
+  server: iepl2.airtcp.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
