@@ -9,19 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 14|10|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 5106
-  server: ovhsg.v4.ddnsjifeng.xyz
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: ovhsg.v4.ddnsjifeng.xyz
-    path: /
 - alterId: 64
   cipher: auto
   name: 14,19|香港5|@ripaojiedian
@@ -34,55 +21,30 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|10,11|香港7|@ripaojiedian
+  client-fingerprint: chrome
+  name: 14,18|🇭🇰 香港6|@ripaojiedian
   network: ws
-  port: '10001'
-  server: 62.72.163.54
-  servername: ''
+  port: 5101
+  server: v1.cdn.ddnschiyun.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 9cb567a0-0cd8-4ef2-819d-c9fa40095414
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
   ws-opts:
     headers:
-      Host: ''
+      Host: v1.cdn.ddnschiyun.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|10|🇭🇰 香港8|@ripaojiedian
+  name: 14,19|香港6|@ripaojiedian
   network: ws
-  port: 5108
-  server: ovhsg.v4.ddnsjifeng.xyz
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: ovhsg.v4.ddnsjifeng.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|11|香港3|@ripaojiedian
-  network: ws
-  port: '5106'
-  server: ovhsg.v4.ddnsjifeng.xyz
+  port: '5101'
+  server: v1.cdn.ddnschiyun.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|11|香港8|@ripaojiedian
-  network: ws
-  port: '5108'
-  server: ovhsg.v4.ddnsjifeng.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
   ws-opts:
     headers:
       Host: ''
@@ -103,33 +65,3 @@ proxies:
   server: gg01.6bnw.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  port: 5101
-  server: v1.cdn.ddnschiyun.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|香港6|@ripaojiedian
-  network: ws
-  port: '5101'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
