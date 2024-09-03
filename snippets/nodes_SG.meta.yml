@@ -5,33 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|10|🇸🇬 新加坡|@ripaojiedian
-  network: ws
-  port: 5503
-  server: v1.cdn.ddnschiyun.xyz
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|11|新加坡|@ripaojiedian
-  network: ws
-  port: '5503'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇸🇬 新加坡|@ripaojiedian

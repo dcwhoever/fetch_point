@@ -1,30 +1,14 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 14|10|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 5606
-  server: ovhsg.v4.ddnsjifeng.xyz
+  cipher: none
+  name: 14,19|日本3|@ripaojiedian
+  network: tcp
+  port: '42048'
+  server: 45.77.128.224
+  servername: ''
   tls: false
   type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ovhsg.v4.ddnsjifeng.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|10|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 5603
-  server: v1.cdn.ddnschiyun.xyz
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
+  uuid: 61177f92-95e5-424d-b07c-38d3d1ef9675
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -42,34 +26,6 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
-- alterId: 0
-  cipher: auto
-  name: 14|11|日本2|@ripaojiedian
-  network: ws
-  port: '5606'
-  server: ovhsg.v4.ddnsjifeng.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|11|日本3|@ripaojiedian
-  network: ws
-  port: '5603'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇯🇵 日本|@ripaojiedian
@@ -94,13 +50,3 @@ proxies:
   server: 43.201.112.173
   tfo: false
   type: ss
-- alterId: 0
-  cipher: none
-  name: 19|日本3|@ripaojiedian
-  network: tcp
-  port: '42048'
-  server: 45.77.128.224
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 61177f92-95e5-424d-b07c-38d3d1ef9675
