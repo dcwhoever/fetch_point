@@ -527,159 +527,80 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-25
-  password: amazonskr05
-  port: 443
-  server: 35.93.123.44
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-26
-  password: amazonskr05
-  port: 443
-  server: 35.162.162.122
-  type: ss
-- cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-27
   password: amazonskr05
   port: 443
-  server: 34.223.226.135
+  server: 13.125.235.208
   type: ss
 - cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-31
   password: amazonskr05
   port: 443
+  server: 54.238.155.217
+  type: ss
+- cipher: aes-256-cfb
+  name: 6|-https://t.me/MrXbin-44
+  password: amazonskr05
+  port: 443
   server: 54.212.54.38
   type: ss
 - cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-43
+  name: 6|-https://t.me/MrXbin-46
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 107.155.57.51
   type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-45
+  name: 6|-https://t.me/MrXbin-49
   password: amazonskr05
   port: 443
-  server: 35.87.4.77
+  server: 35.93.123.44
   type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-62
+  name: 6|-https://t.me/MrXbin-51
   password: amazonskr05
   port: 443
-  server: 43.201.112.173
+  server: 35.162.162.122
   type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-71
+  name: 6|-https://t.me/MrXbin-58
   password: amazonskr05
   port: 443
-  server: 54.238.155.217
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-78
-  password: amazonskr05
-  port: 443
-  server: 43.203.242.24
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-79
-  password: amazonskr05
-  port: 443
-  server: 13.212.110.92
+  server: 34.223.226.135
   type: ss
 - cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-81
+  name: 6|-https://t.me/MrXbin-61
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13448
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-83
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13233
+  port: 13226
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
   server: xrbsy1.cdn.node.a.tddns-ounk.com
   type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-85
+  name: 6|-https://t.me/MrXbin-65
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-86
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13229
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-87
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13262
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-88
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13227
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-90
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13488
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-100
+  name: 6,14|0|-https://t.me/MrXbin-91
   network: ws
   port: 2086
-  server: malaysia.com
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-63
-  network: ws
-  port: 2086
-  server: 172.64.175.213
+  server: 23.227.38.6
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
     headers:
-      Host: ip2.1457230.xyz
+      Host: ip006.dtku47.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -702,10 +623,10 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-82
+  name: 6,14|0|-https://t.me/MrXbin-89
   network: ws
   port: 2086
-  server: 172.64.198.249
+  server: singapore.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -713,7 +634,7 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: ip1.1457230.xyz
+      Host: ip1.1789034.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -723,6 +644,23 @@ proxies:
   network: ws
   port: 2086
   server: 172.64.166.28
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6,14|0|-https://t.me/MrXbin-63
+  network: ws
+  port: 2086
+  server: 172.64.175.213
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -753,18 +691,18 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-91
+  name: 6,14|0|-https://t.me/MrXbin-82
   network: ws
   port: 2086
-  server: 23.227.38.6
+  server: 172.64.198.249
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: ip006.dtku47.xyz
+      Host: ip1.1457230.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -783,6 +721,21 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-108
+  network: ws
+  port: 80
+  server: 206.238.236.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -1567,19 +1520,6 @@ proxies:
     headers:
       Host: www.72368635.xyz
     path: /path/191019072927
-- alterId: 0
-  cipher: auto
-  name: 14|0|-https://t.me/MrXbin-89
-  network: ws
-  port: 2086
-  server: singapore.com
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 14|2|d*********g.com_0
