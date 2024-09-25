@@ -1,4 +1,24 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 14,19|香港4|@ripaojiedian
+  network: tcp
+  port: '51194'
+  server: 38.147.189.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11f686f6-77fb-4ba0-a7c2-70c5f11ca804
+- alterId: 0
+  cipher: auto
+  name: 14,19|香港7|@ripaojiedian
+  network: tcp
+  port: '44801'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a98edd9d-1e4f-4e12-9c54-6c3814b49aba
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 18|🇭🇰 香港|@ripaojiedian
@@ -51,23 +71,3 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|香港4|@ripaojiedian
-  network: tcp
-  port: '51194'
-  server: 38.147.189.7
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11f686f6-77fb-4ba0-a7c2-70c5f11ca804
-- alterId: 0
-  cipher: auto
-  name: 19|香港7|@ripaojiedian
-  network: tcp
-  port: '44801'
-  server: ambxxic01hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a98edd9d-1e4f-4e12-9c54-6c3814b49aba
