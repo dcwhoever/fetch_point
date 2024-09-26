@@ -526,113 +526,78 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-35
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13183
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 95.174.71.29
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 23.247.137.165
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 54.64.148.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-10
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 43.207.207.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6|-https://t.me/MrXbin-18
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 95.174.71.28
+  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-39
+  name: 6|-https://t.me/MrXbin-26
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-30
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13316
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: lld9k6.cdn.node.a.tddns-ounk.com
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-111
-  network: ws
-  port: 2086
-  server: 172.64.167.5
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-91
-  network: ws
-  port: 2086
-  server: 23.227.38.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-87
-  network: ws
-  port: 2086
-  server: 172.64.198.249
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-75
-  network: ws
-  port: 2086
-  server: 172.64.166.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-103
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|-https://t.me/MrXbin-117
+  name: 6,14|0|-https://t.me/MrXbin-65
   network: ws
   port: 2086
   server: 172.64.166.28
@@ -649,17 +614,106 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-94
+  name: 6,14|0|-https://t.me/MrXbin-55
   network: ws
-  port: 80
-  server: 206.238.236.36
+  port: 2086
+  server: 172.64.166.22
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /gwdef.sbs/linkws
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-41
+  network: ws
+  port: 2086
+  server: japan.com
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6,14|0|-https://t.me/MrXbin-66
+  network: ws
+  port: 2086
+  server: 172.64.175.213
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6,14|0|-https://t.me/MrXbin-68
+  network: ws
+  port: 2086
+  server: 172.64.167.5
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6,14|0|-https://t.me/MrXbin-43
+  network: ws
+  port: 2086
+  server: 23.227.38.3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 6,14,18,19|美国|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: 172.64.198.249
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1457230.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 9|🇱🇺_LU_卢森堡
@@ -898,181 +952,15 @@ proxies:
 - alterId: 64
   cipher: auto
   name: 12|Github搜索TrojanLinks
-  network: ws
-  port: 443
-  server: 178.175.132.84
-  tls: true
+  network: tcp
+  port: '50095'
+  server: 120.232.153.37
+  tls: false
   type: vmess
-  uuid: 7e4219ae-8bf1-4f79-902b-4f259c64533d
-  ws-opts:
-    headers:
-      Host: www.10507558.xyz
-    path: /path/191019072927
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: '12|Github搜索TrojanLinks #1'
-  network: ws
-  port: 443
-  server: 46.29.219.45
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.86232222.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #2'
-  network: tcp
-  port: '50002'
-  server: 47.104.186.133
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #3'
-  network: tcp
-  port: '50002'
-  server: 47.92.152.169
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #4'
-  network: ws
-  port: '49994'
-  server: 104.233.243.84
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.38067490.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #5'
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #6'
-  network: ws
-  port: '30001'
-  server: 23.108.100.101
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.98799545.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #7'
-  network: tcp
-  port: '50002'
-  server: 112.132.215.12
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #8'
-  network: tcp
-  port: '59003'
-  server: 183.236.51.36
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #9'
-  network: ws
-  port: 443
-  server: 71.19.248.159
-  tls: true
-  type: vmess
-  uuid: 3d173f0a-138b-4baf-9ec6-4848243e0a12
-  ws-opts:
-    headers:
-      Host: www.67070810.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #10'
-  network: ws
-  port: '30000'
-  server: 152.89.160.10
-  tls: true
-  type: vmess
-  uuid: 57170ff0-7180-4664-8f61-8debdda345f7
-  ws-opts:
-    headers:
-      Host: www.35261357.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #11'
-  network: ws
-  port: '41000'
-  server: 156.249.18.93
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.25449627.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #12'
-  network: ws
-  port: 443
-  server: 185.128.26.67
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59394222.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #13'
-  network: ws
-  port: '30000'
-  server: 41.215.242.91
-  tls: true
-  type: vmess
-  uuid: ee442f43-b07a-419d-bd27-2d3456393abc
-  ws-opts:
-    headers:
-      Host: www.94841604.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #14'
-  network: ws
-  port: 443
-  server: 217.138.197.174
-  tls: true
-  type: vmess
-  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
-  ws-opts:
-    headers:
-      Host: www.16035964.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #15'
   network: ws
   port: '30000'
   server: 185.108.128.59
@@ -1085,246 +973,16 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '12|Github搜索TrojanLinks #16'
-  network: ws
-  port: '30001'
-  server: 185.173.94.1
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.33189064.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #17'
-  network: ws
-  port: '30001'
-  server: 170.178.179.187
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.15314695.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #18'
-  network: ws
-  port: 443
-  server: 91.132.197.3
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.61927169.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #19'
-  network: ws
-  port: 443
-  server: 27.124.8.239
-  tls: true
-  type: vmess
-  uuid: 9e338965-6a07-4a5f-ad97-d57f4a6e6fd3
-  ws-opts:
-    headers:
-      Host: www.71174417.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #20'
+  name: '12|Github搜索TrojanLinks #2'
   network: tcp
   port: '50002'
-  server: 47.116.173.76
+  server: 47.92.152.169
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '12|Github搜索TrojanLinks #21'
-  network: ws
-  port: '48885'
-  server: 134.122.135.59
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.44317374.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #22'
-  network: ws
-  port: '30000'
-  server: 119.59.98.41
-  tls: true
-  type: vmess
-  uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d
-  ws-opts:
-    headers:
-      Host: www.71199889.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #23'
-  network: ws
-  port: 443
-  server: 37.120.236.252
-  tls: true
-  type: vmess
-  uuid: ed162daa-ee20-44ed-830f-b522c501387a
-  ws-opts:
-    headers:
-      Host: www.68077080.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #24'
-  network: ws
-  port: '48003'
-  server: 103.72.5.50
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.78164983.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #25'
-  network: ws
-  port: '30001'
-  server: 89.163.247.25
-  tls: true
-  type: vmess
-  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
-  ws-opts:
-    headers:
-      Host: www.78791485.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #26'
-  network: ws
-  port: '31002'
-  server: 37.120.209.123
-  tls: true
-  type: vmess
-  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
-  ws-opts:
-    headers:
-      Host: www.60013746.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #27'
-  network: ws
-  port: '30000'
-  server: 85.206.165.33
-  tls: true
-  type: vmess
-  uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75
-  ws-opts:
-    headers:
-      Host: www.83322971.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #28'
-  network: tcp
-  port: '50002'
-  server: 114.55.132.202
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #29'
-  network: ws
-  port: '30003'
-  server: 144.48.32.14
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.32011779.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #30'
-  network: ws
-  port: '30001'
-  server: 23.225.125.67
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.79402662.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #31'
-  network: ws
-  port: '30000'
-  server: 185.169.64.30
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.77435157.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #32'
-  network: ws
-  port: 443
-  server: 37.120.142.252
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.62943914.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #33'
-  network: ws
-  port: '30001'
-  server: 104.37.215.67
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.71579168.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #34'
-  network: ws
-  port: 443
-  server: 23.109.136.77
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.32032544.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #35'
+  name: '12|Github搜索TrojanLinks #3'
   network: ws
   port: '37002'
   server: 38.33.19.92
@@ -1337,81 +995,33 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '12|Github搜索TrojanLinks #36'
+  name: '12|Github搜索TrojanLinks #4'
+  network: ws
+  port: 443
+  server: 170.178.168.83
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.58168276.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #5'
   network: ws
   port: '30001'
-  server: 83.142.225.57
-  tls: true
-  type: vmess
-  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
-  ws-opts:
-    headers:
-      Host: www.93259997.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #37'
-  network: ws
-  port: 443
-  server: 148.135.47.52
+  server: 185.173.94.1
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.91978809.xyz
+      Host: www.33189064.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '12|Github搜索TrojanLinks #38'
-  network: ws
-  port: '30000'
-  server: 185.236.203.69
-  tls: true
-  type: vmess
-  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
-  ws-opts:
-    headers:
-      Host: www.43701204.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #39'
-  network: ws
-  port: 443
-  server: 107.148.0.160
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.82170330.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #40'
-  network: ws
-  port: 443
-  server: 27.124.12.109
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.24560267.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #41'
-  network: tcp
-  port: '41490'
-  server: 183.236.48.161
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '12|Github搜索TrojanLinks #42'
+  name: '12|Github搜索TrojanLinks #6'
   network: ws
   port: 443
   server: 194.15.196.172
@@ -1424,16 +1034,461 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '12|Github搜索TrojanLinks #43'
+  name: '12|Github搜索TrojanLinks #7'
+  network: ws
+  port: 443
+  server: 91.132.197.3
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.61927169.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #8'
+  network: ws
+  port: '30000'
+  server: 185.169.64.30
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.77435157.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #9'
+  network: ws
+  port: '30003'
+  server: 144.48.32.14
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32011779.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #10'
+  network: ws
+  port: 443
+  server: 71.19.248.159
+  tls: true
+  type: vmess
+  uuid: 3d173f0a-138b-4baf-9ec6-4848243e0a12
+  ws-opts:
+    headers:
+      Host: www.67070810.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #11'
+  network: ws
+  port: '30000'
+  server: 185.236.203.69
+  tls: true
+  type: vmess
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
+  ws-opts:
+    headers:
+      Host: www.43701204.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #12'
+  network: ws
+  port: '49997'
+  server: 107.148.255.236
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.27806377.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #13'
+  network: ws
+  port: 443
+  server: 27.124.8.239
+  tls: true
+  type: vmess
+  uuid: 9e338965-6a07-4a5f-ad97-d57f4a6e6fd3
+  ws-opts:
+    headers:
+      Host: www.71174417.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #14'
+  network: ws
+  port: 443
+  server: 185.128.26.67
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59394222.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #15'
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #16'
+  network: tcp
+  port: '50002'
+  server: 114.55.132.202
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #17'
+  network: tcp
+  port: '59003'
+  server: 183.236.51.36
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #18'
+  network: ws
+  port: '30000'
+  server: 119.59.98.41
+  tls: true
+  type: vmess
+  uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d
+  ws-opts:
+    headers:
+      Host: www.71199889.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #19'
+  network: ws
+  port: '30000'
+  server: 103.199.103.50
+  tls: true
+  type: vmess
+  uuid: 0146245b-0704-489a-91e5-7ae527f82e1a
+  ws-opts:
+    headers:
+      Host: www.40232916.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #20'
+  network: ws
+  port: '31002'
+  server: 37.120.209.123
+  tls: true
+  type: vmess
+  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
+  ws-opts:
+    headers:
+      Host: www.60013746.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #21'
+  network: ws
+  port: 443
+  server: 37.120.142.252
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.62943914.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #22'
+  network: ws
+  port: '30000'
+  server: 152.89.160.10
+  tls: true
+  type: vmess
+  uuid: 57170ff0-7180-4664-8f61-8debdda345f7
+  ws-opts:
+    headers:
+      Host: www.35261357.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #23'
+  network: tcp
+  port: '50002'
+  server: 47.104.186.133
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #24'
+  network: ws
+  port: '30001'
+  server: 134.122.184.63
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.36224588.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #25'
+  network: ws
+  port: 443
+  server: 37.120.236.252
+  tls: true
+  type: vmess
+  uuid: ed162daa-ee20-44ed-830f-b522c501387a
+  ws-opts:
+    headers:
+      Host: www.68077080.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #26'
+  network: ws
+  port: '31003'
+  server: 142.171.79.70
+  tls: true
+  type: vmess
+  uuid: 7681a72f-5201-4aa8-b531-f297aa7ce3ea
+  ws-opts:
+    headers:
+      Host: www.88921440.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #27'
+  network: ws
+  port: '36000'
+  server: 23.225.244.75
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72170246.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #28'
+  network: ws
+  port: '41000'
+  server: 156.249.18.93
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.25449627.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #29'
+  network: ws
+  port: 443
+  server: 23.109.136.77
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32032544.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #30'
+  network: ws
+  port: 443
+  server: 217.138.197.174
+  tls: true
+  type: vmess
+  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
+  ws-opts:
+    headers:
+      Host: www.16035964.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #31'
+  network: ws
+  port: '30000'
+  server: 41.215.242.91
+  tls: true
+  type: vmess
+  uuid: ee442f43-b07a-419d-bd27-2d3456393abc
+  ws-opts:
+    headers:
+      Host: www.94841604.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #32'
+  network: ws
+  port: 443
+  server: 118.107.244.80
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.90980549.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #33'
+  network: ws
+  port: 443
+  server: 46.29.219.45
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86232222.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #34'
+  network: ws
+  port: '30001'
+  server: 23.108.100.101
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.98799545.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #35'
+  network: ws
+  port: '30005'
+  server: 103.72.5.168
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86972765.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: 12,14,19|美国5|@ripaojiedian
   network: tcp
   port: '58831'
   server: 120.232.153.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #37'
+  network: ws
+  port: '30001'
+  server: 89.163.247.25
+  tls: true
+  type: vmess
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  ws-opts:
+    headers:
+      Host: www.78791485.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #38'
+  network: ws
+  port: '30000'
+  server: 85.206.165.33
+  tls: true
+  type: vmess
+  uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75
+  ws-opts:
+    headers:
+      Host: www.83322971.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #39'
+  network: ws
+  port: 443
+  server: 178.175.132.84
+  tls: true
+  type: vmess
+  uuid: 7e4219ae-8bf1-4f79-902b-4f259c64533d
+  ws-opts:
+    headers:
+      Host: www.10507558.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #40'
+  network: ws
+  port: '30003'
+  server: 104.233.170.150
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42703225.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #41'
+  network: tcp
+  port: '50002'
+  server: 47.116.173.76
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #42'
+  network: ws
+  port: '30001'
+  server: 83.142.225.57
+  tls: true
+  type: vmess
+  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
+  ws-opts:
+    headers:
+      Host: www.93259997.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '12|Github搜索TrojanLinks #43'
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|0|-https://t.me/MrXbin-97
+  name: 14|0|-https://t.me/MrXbin-64
   network: ws
   port: 2086
   server: malaysia.com
@@ -1446,17 +1501,17 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 14|0|-https://t.me/MrXbin-104
+  name: 14|0|-https://t.me/MrXbin-82
   network: ws
-  port: 2086
-  server: ip.sb
+  port: 80
+  server: 206.238.236.36
   tls: false
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
   ws-opts:
     headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
+      Host: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
 - alterId: 0
   cipher: auto
   name: 14|2|d*********g.com_0
@@ -1637,24 +1692,19 @@ proxies:
   uuid: 11f686f6-77fb-4ba0-a7c2-70c5f11ca804
 - alterId: 0
   cipher: auto
-  name: 14,19|香港7|@ripaojiedian
+  name: 14|13|🇭🇰 香港7|@ripaojiedian
   network: tcp
-  port: '44801'
+  port: 44801
   server: ambxxic01hk.dorabbb.top
-  servername: ''
   tls: false
   type: vmess
   uuid: a98edd9d-1e4f-4e12-9c54-6c3814b49aba
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|台湾|@ripaojiedian
+  name: 14|13|🇹🇼 台湾|@ripaojiedian
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 20c2af39-b0ef-498e-ac2f-6d8861e8b798
@@ -1664,14 +1714,10 @@ proxies:
     path: /video/WNMicnDh
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|日本|@ripaojiedian
+  name: 14|13|🇯🇵 日本|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 20c2af39-b0ef-498e-ac2f-6d8861e8b798
@@ -1681,14 +1727,10 @@ proxies:
     path: /video/qTjvEqix
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|日本2|@ripaojiedian
+  name: 14|13|🇯🇵 日本2|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: 45.78.59.6
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 41d1b1e2-51e8-4510-8dcf-2b4721d352ea
@@ -1698,11 +1740,10 @@ proxies:
     path: /mttsax
 - alterId: 0
   cipher: auto
-  name: 14,19|韩国|@ripaojiedian
+  name: 14|13|🇰🇷 韩国|@ripaojiedian
   network: tcp
-  port: '48279'
+  port: 48279
   server: 45.94.68.193
-  servername: ''
   tls: false
   type: vmess
   uuid: 34a8ac77-4f20-4635-9334-565e48011cd1
@@ -1735,14 +1776,10 @@ proxies:
   uuid: dccf6c2c-1daa-4000-bc2d-2c716c77bb1c
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|美国4|@ripaojiedian
+  name: 14|13|🇺🇸 美国4|@ripaojiedian
   network: ws
-  port: '2095'
+  port: 2095
   server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 20c2af39-b0ef-498e-ac2f-6d8861e8b798
@@ -1750,6 +1787,90 @@ proxies:
     headers:
       Host: us82pRzxDMb.fzbqfrse.xyz
     path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  name: 14,19|香港|@ripaojiedian
+  network: tcp
+  port: '22201'
+  server: 149.104.15.209
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f022200b-43e0-4e41-8e89-df369cf1d93b
+- alterId: 0
+  cipher: auto
+  name: 14,19|香港2|@ripaojiedian
+  network: tcp
+  port: '44806'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be263eac-a624-452b-89da-bb25190676fc
+- alterId: 64
+  cipher: auto
+  name: 14,19|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.237.79.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 14,19|日本2|@ripaojiedian
+  network: tcp
+  port: '50577'
+  server: 45.159.50.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e5d19b57-2fb4-49c0-a141-a716572e1656
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,18,19|日本4|@ripaojiedian
+  network: ws
+  port: '48888'
+  server: 134.122.135.89
+  servername: www.79102825.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.79102825.xyz
+    path: /path/351212081517
+- alterId: 0
+  cipher: auto
+  name: 14,19|韩国|@ripaojiedian
+  network: tcp
+  port: '59449'
+  server: 45.141.136.224
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: decd4069-dd5f-414d-8c2c-cf0f9da6fa72
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,18,19|美国4|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 592d0884-c322-43a0-abbd-f3e421e420f5
+  ws-opts:
+    headers:
+      Host: zqWukzdtjp1.wzjwkqya.xyz
+    path: /video/RPKZwKFW
 - alterId: 0
   cipher: auto
   name: '14|16|d*********g.com_2 #3'
@@ -1884,50 +2005,19 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港|@ripaojiedian
-  password: f9c1b10b-379d-4e69-b8fa-fb925df2b8e2
-  port: 59096
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港2|@ripaojiedian
-  password: f9c1b10b-379d-4e69-b8fa-fb925df2b8e2
-  port: 18528
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港3|@ripaojiedian
-  password: f9c1b10b-379d-4e69-b8fa-fb925df2b8e2
-  port: 41370
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇺🇸 美国3|@ripaojiedian
-  password: wwTIozXY
-  port: 14802
-  server: 38.76.151.235
+  name: 18|🇺🇸 美国6|@ripaojiedian
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13019
+  server: naiu-us.05vr9nyqg5.download
   skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
-  type: vmess
-  uuid: dccf6c2c-1daa-4000-bc2d-2c716c77bb1c
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 18|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.36.90.194
-  tfo: false
-  type: ss
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 18|🇭🇰 香港R|@ripaojiedian
@@ -1936,20 +2026,25 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  name: 18|🇯🇵 日本|@ripaojiedian
+  network: ws
+  password: moist
+  port: 1443
+  server: 140.238.56.153
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 18|🇺🇸 美国|@ripaojiedian
-  password: P7LkJ9FgD4sW
-  port: 4923
-  server: 46.30.188.174
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国5|@ripaojiedian
-  password: P7LkJ9FgD4sW
-  port: 4923
-  server: 142.202.190.110
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.78.116.186
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1957,15 +2052,7 @@ proxies:
   name: 18|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.254.211
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 35.166.208.40
+  server: 3.38.212.89
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1973,6 +2060,6 @@ proxies:
   name: 18|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 35.77.104.14
+  server: 35.94.112.17
   tfo: false
   type: ss
