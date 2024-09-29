@@ -1,21 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|香港5|@ripaojiedian
-  network: ws
-  port: '16301'
-  server: 220.246.57.32
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -37,6 +20,23 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|香港5|@ripaojiedian
+  network: ws
+  port: '16301'
+  server: 220.246.57.32
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|香港|@ripaojiedian
