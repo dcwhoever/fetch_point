@@ -498,14 +498,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18,19|台湾2|@ripaojiedian
+  name: '14|美国 CloudFlare节点 #7'
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 423caa0c-0542-4326-92e1-18769b6608e7
@@ -608,18 +604,27 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20017
-  server: hk5.mhw7e2.online
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|美国2|@ripaojiedian
+  name: 18,19|美国|@ripaojiedian
+  network: ws
+  port: '46010'
+  server: 223.244.26.216
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18,19|美国3|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -628,18 +633,16 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
+  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
   ws-opts:
     headers:
-      Host: us2htbepeox.inivtrak.xyz
-    path: /video/yGbumWFW/
-- alterId: 0
-  cipher: auto
-  name: 19|美国3|@ripaojiedian
-  network: tcp
-  port: '14802'
-  server: 38.76.151.235
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dccf6c2c-1daa-4000-bc2d-2c716c77bb1c
+      Host: us2FchmwQky.inivtrak.xyz
+    path: /video/BgpiHrui/
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国4|@ripaojiedian
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 23.157.40.85
+  tfo: false
+  type: ss
