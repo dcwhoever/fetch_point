@@ -5,21 +5,16 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 18|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.235.88
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 19|新加坡2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 18,19|新加坡2|@ripaojiedian
   network: ws
   port: '80'
   server: 3L6E2.c6tu5uwk9.buzz
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
@@ -27,3 +22,11 @@ proxies:
     headers:
       Host: sg02.knt6y4bjx.buzz
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 18|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.222.81
+  tfo: false
+  type: ss

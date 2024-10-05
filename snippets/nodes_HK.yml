@@ -2,39 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 80
-  server: yfg4l.c6tu5uwk9.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: hk01.industriouseileen.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国2|@ripaojiedian
-  password: 0b0387b8-5258-386b-8744-dcacb2320d94
-  port: 2000
-  server: 183.232.159.2
-  skip-cert-verify: true
-  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: cea93c7c-7f4c-43b2-a31b-e1ee8e5b19bf
-- alterId: 0
-  cipher: auto
-  name: 19|香港|@ripaojiedian
+  name: 18,19|香港|@ripaojiedian
   network: ws
   port: '46001'
   server: 223.244.26.216
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
@@ -44,11 +18,14 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
-  name: 19|香港2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 18,19|香港2|@ripaojiedian
   network: ws
   port: '48886'
   server: 134.122.135.158
   servername: www.26741191.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -58,11 +35,14 @@ proxies:
     path: /path/351212081517
 - alterId: 64
   cipher: auto
-  name: 19|香港4|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
+  client-fingerprint: chrome
+  name: 18|🇩🇪 德国|@ripaojiedian
+  password: '!!str 3672449442956713984'
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  sni: caring-iguana.sunbeam921.monster
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
