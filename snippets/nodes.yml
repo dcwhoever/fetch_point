@@ -527,7 +527,7 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-33
+  name: 6|-https://t.me/MrXbin-42
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -535,22 +535,13 @@ proxies:
   server: us-am3.eqnode.net
   type: ssr
 - cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-35
+  name: 6|-https://t.me/MrXbin-46
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13621
+  port: 13630
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
-  server: hfa1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-36
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13622
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: hfa1.cdn.node.a.tddns-ounk.com
+  server: bb29cs.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -1507,11 +1498,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|香港|@ripaojiedian
+  name: 18|🇭🇰 香港|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: yfg4l.c6tu5uwk9.buzz
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1537,11 +1527,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|台湾|@ripaojiedian
+  name: 18|🇹🇼 台湾|@ripaojiedian
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1562,9 +1551,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|日本6|@ripaojiedian
+  name: 18|🇯🇵 日本6|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: mncsdmeujptest.wzjwkqya.xyz
   servername: mncsdmeujptest.wzjwkqya.xyz
   skip-cert-verify: false
@@ -1587,7 +1576,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|美国|@ripaojiedian
+  name: 18,19|美国2|@ripaojiedian
   network: ws
   port: '46010'
   server: 223.244.26.216
@@ -1596,7 +1585,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
   ws-opts:
     headers:
       Host: ''
@@ -1635,24 +1624,32 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|香港2|@ripaojiedian
-  network: tcp
-  port: '10701'
-  server: 38.147.188.88
+  name: 19|香港|@ripaojiedian
+  network: ws
+  port: '46001'
+  server: 223.244.26.216
   servername: ''
   tls: false
   type: vmess
-  uuid: b76ca9b0-d763-4231-a2ac-c1da3af9e3bd
-- alterId: 0
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 64
   cipher: auto
-  name: 19|香港3|@ripaojiedian
-  network: tcp
-  port: '11667'
-  server: 38.147.188.139
-  servername: ''
-  tls: false
+  name: 19|香港2|@ripaojiedian
+  network: ws
+  port: '48886'
+  server: 134.122.135.158
+  servername: www.26741191.xyz
+  tls: true
   type: vmess
-  uuid: e099546a-4aef-4481-84e9-d0c951f226c1
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.26741191.xyz
+    path: /path/351212081517
 - alterId: 64
   cipher: auto
   name: 19|香港4|@ripaojiedian
@@ -1667,9 +1664,71 @@ proxies:
   cipher: auto
   name: 19|日本|@ripaojiedian
   network: tcp
-  port: '43652'
-  server: 45.159.51.46
+  port: '31184'
+  server: 45.159.50.80
   servername: ''
   tls: false
   type: vmess
-  uuid: cea93c7c-7f4c-43b2-a31b-e1ee8e5b19bf
+  uuid: 1852247b-8284-43d6-b0c7-d687464333a6
+- alterId: 0
+  cipher: auto
+  name: 19|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: kz3bw.c6tu5uwk9.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  ws-opts:
+    headers:
+      Host: jp02.knt6y4bjx.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|日本6|@ripaojiedian
+  network: ws
+  port: '12000'
+  server: 172.234.86.166
+  servername: 172.234.86.166
+  tls: true
+  type: vmess
+  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
+  ws-opts:
+    headers:
+      Host: 172.234.86.166
+    path: /FhmYLiiu
+- alterId: 0
+  cipher: auto
+  name: 19|韩国3|@ripaojiedian
+  network: tcp
+  port: '40546'
+  server: 45.94.68.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 181cd551-ebfd-43fa-b3b6-01dd949f4013
+- alterId: 0
+  cipher: auto
+  name: 19|新加坡2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 3L6E2.c6tu5uwk9.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  ws-opts:
+    headers:
+      Host: sg02.knt6y4bjx.buzz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 19|德国|@ripaojiedian
+  network: tcp
+  port: '43526'
+  server: 120.232.153.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
