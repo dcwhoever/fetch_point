@@ -7,6 +7,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 14|新加坡 Amazon数据中心
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: dorthrmxrr4tu.cloudfront.net
+  tls: true
+  type: vmess
+  uuid: 9daafd9d-38a7-4fff-9b8a-890bf048f295
+  ws-opts:
+    headers:
+      Host: dorthrmxrr4tu.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 18,19|新加坡|@ripaojiedian
   network: ws
