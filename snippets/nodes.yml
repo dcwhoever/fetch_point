@@ -536,55 +536,11 @@ proxies:
   port: 2377
   server: 18.176.215.63
   type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-3
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-41
-  network: ws
-  port: 443
-  server: hkcft01.xqc.best
-  servername: dorthrmxrr4tu.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 328c1541-3f5b-4c32-9752-dec3d842214a
-  ws-opts:
-    headers:
-      Host: dorthrmxrr4tu.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-35
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d35zr4wmrh6j55.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: af8f416e-d277-49e3-8b6c-905b7596e31f
-  ws-opts:
-    headers:
-      Host: d35zr4wmrh6j55.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-39
+  name: 6|-https://t.me/MrXbin-36
   network: ws
   port: 30003
   server: shouer2112.12123.org
@@ -602,25 +558,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-54
-  network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  servername: d1ob06rbz99iki.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d7d6ffcd-b915-4de2-ace9-d0cce38ae26c
-  ws-opts:
-    headers:
-      Host: d1ob06rbz99iki.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-58
+  name: 6|-https://t.me/MrXbin-44
   network: ws
   port: 30003
   server: xjpx6.12123.org
@@ -629,7 +567,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 6a427709-57ff-4b7e-891c-db58138c4945
+  uuid: ff4fbe7d-7381-411a-9c5f-4d17c35ff0c7
   ws-opts:
     headers:
       Host: www.baidu.com
