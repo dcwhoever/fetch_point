@@ -484,6 +484,19 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 14|美国 麻省理工学院
+  network: ws
+  port: 443
+  server: jpcft01.xqc.best
+  tls: true
+  type: vmess
+  uuid: 70387357-82fa-4a2f-a9ad-3edb1e0071da
+  ws-opts:
+    headers:
+      Host: d263c0bqn07wlj.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
   name: '14|美国 CloudFlare节点 #7'
   network: ws
   port: 2095
