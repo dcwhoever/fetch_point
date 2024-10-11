@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 19|台湾|@ripaojiedian
+  network: ws
+  port: '17544'
+  server: jp.gensh.top
+  servername: g5.gensh.top
+  tls: true
+  type: vmess
+  uuid: 5db5337e-99ba-4662-86f4-07b926239136
+  ws-opts:
+    headers:
+      Host: ys.mihoyo.com
+    path: /ccwinfcjccjjdccccckc

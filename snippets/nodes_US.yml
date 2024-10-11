@@ -476,9 +476,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|美国|@ripaojiedian
+  name: 18|🇺🇸 美国|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: 50.116.1.158
   servername: 50.116.1.158
   skip-cert-verify: false
@@ -490,6 +490,20 @@ proxies:
     headers:
       Host: 50.116.1.158
     path: /LtteaUsf
+- alterId: 0
+  cipher: auto
+  name: 19|美国|@ripaojiedian
+  network: ws
+  port: '80'
+  server: strw4.c6tu5uwk9.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  ws-opts:
+    headers:
+      Host: us04.1761d77fead15f193490a0f11b83f3a4.buzz
+    path: /
 - alterId: 64
   cipher: auto
   name: 19|美国2|@ripaojiedian
@@ -500,3 +514,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 19|美国3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 173.230.153.192
+  servername: 173.230.153.192
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 173.230.153.192
+    path: /JyKvcGEV
