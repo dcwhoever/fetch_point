@@ -527,12 +527,30 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-8
+  name: 6|-https://t.me/MrXbin-5
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
+  type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-8
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13229
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-9
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13451
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 0
   cipher: auto
