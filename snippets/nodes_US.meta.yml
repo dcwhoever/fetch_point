@@ -501,26 +501,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 18,19|美国2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: ddd.zcr07.cloudns.biz
-  servername: ddd.zcr07.cloudns.biz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: 19|美国|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 50004.baidu-cdn.top
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: ddd.zcr07.cloudns.biz
-    path: /hms19.best-tizi.top:443/linkws
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国3|@ripaojiedian
-  password: 5cp9Z3iWnJZ2
-  port: 443
-  server: 205.134.180.150
-  tfo: false
-  type: ss
+  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
