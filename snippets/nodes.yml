@@ -526,16 +526,8 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 6,18|🇬🇧 英国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.198
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-24
+  name: 6|-https://t.me/MrXbin-14
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -546,24 +538,41 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: '6,14|美国 Fastly全球Anycast节点 #2'
+  name: 6|-https://t.me/MrXbin-42
   network: ws
-  port: 80
-  server: plex.com
+  port: 2095
+  server: 172.64.167.5
   skip-cert-verify: true
-  tls: false
   type: vmess
   udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-49
+  network: ws
+  port: 443
+  server: speedtest.net
+  servername: mehrjavan.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-52
+  name: 6|-https://t.me/MrXbin-51
   network: ws
   port: 443
   server: 23.157.88.6
@@ -580,31 +589,11 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-59
-  network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-60
+  name: 6|-https://t.me/MrXbin-52
   network: ws
   port: 2082
-  server: 172.64.166.22
-  skip-cert-verify: true
+  server: ip.sb
   type: vmess
-  udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
@@ -614,10 +603,10 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6,14|美国 Fastly全球Anycast节点
+  name: '6,14|美国 Fastly全球Anycast节点 #2'
   network: ws
   port: 80
-  server: 151.101.2.133
+  server: plex.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -648,16 +637,19 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-63
+  name: 6,14|美国 Fastly全球Anycast节点
   network: ws
-  port: 2095
-  server: 172.64.167.8
+  port: 80
+  server: 151.101.2.133
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  udp: true
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
   ws-opts:
     headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
+      Host: gerMAnyISvP.iR
+    path: /racevpn
 - alterId: 64
   cipher: auto
   name: 12|Github搜索TrojanLinks
@@ -1779,6 +1771,14 @@ proxies:
   password: amazonskr05
   port: 443
   server: 43.207.113.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 18|🇬🇧 英国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.198
   tfo: false
   type: ss
 - cipher: aes-256-cfb
