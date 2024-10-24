@@ -530,29 +530,10 @@ proxies:
   name: 6|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
-  server: 47.128.240.40
-  type: ss
-- cipher: aes-128-gcm
-  name: 6|-https://t.me/MrXbin-8
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-10
-  password: lTJ1q8DFg
-  port: 20088
-  server: 67.220.72.41
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-21
-  password: amazonskr05
-  port: 443
   server: 52.43.127.109
   type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-32
+  name: 6|-https://t.me/MrXbin-18
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -563,56 +544,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: '6,14|美国 Fastly全球Anycast节点 #1'
-  network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-58
-  network: ws
-  port: 443
-  server: 57.129.24.141
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-68
-  network: ws
-  port: 80
-  server: 151.101.2.133
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-69
+  name: 6|-https://t.me/MrXbin-45
   network: ws
   port: 80
   server: 151.101.130.133
@@ -624,11 +556,45 @@ proxies:
     headers:
       Host: gerMAnyISvP.iR
     path: /racevpn
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-53
+  network: ws
+  port: 443
+  server: 57.129.24.124
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aveiror.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-59
+  network: ws
+  port: 2082
+  server: 172.64.166.28
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-70
+  name: 6|-https://t.me/MrXbin-62
   network: ws
   port: 443
   server: 23.157.88.6
@@ -641,22 +607,6 @@ proxies:
     headers:
       Host: 23.157.88.6
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-74
-  network: ws
-  port: 2095
-  server: 172.64.167.5
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
-    path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 12|Github搜索TrojanLinks
@@ -1621,6 +1571,19 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: '14|美国 Fastly全球Anycast节点 #1'
+  network: ws
+  port: 443
+  server: speedtest.net
+  tls: true
+  type: vmess
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
   name: 15|github.com/freefq - 印度  2
   network: ws
   port: 443
@@ -1743,9 +1706,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|香港2|@ripaojiedian
+  name: 18|🇭🇰 香港2|@ripaojiedian
   network: ws
-  port: '36000'
+  port: 36000
   server: 223.26.61.135
   servername: www.89070185.xyz
   skip-cert-verify: false
@@ -1760,9 +1723,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|香港7|@ripaojiedian
+  name: 18|🇭🇰 香港7|@ripaojiedian
   network: ws
-  port: '30000'
+  port: 30000
   server: 27.124.10.146
   servername: www.60443882.xyz
   skip-cert-verify: false
@@ -1793,9 +1756,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|韩国2|@ripaojiedian
+  name: 18|🇰🇷 韩国2|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: 104.37.215.79
   servername: www.77992842.xyz
   skip-cert-verify: false
@@ -1858,9 +1821,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 18,19|越南2|@ripaojiedian
+  name: 18|🇻🇳 越南2|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: 27.124.19.151
   servername: www.71410844.xyz
   skip-cert-verify: false
@@ -1872,26 +1835,26 @@ proxies:
     headers:
       Host: www.71410844.xyz
     path: /path/011410073331
-- alterId: 64
+- alterId: 0
   cipher: auto
   name: 19|香港|@ripaojiedian
   network: tcp
-  port: '45020'
-  server: 183.236.51.23
+  port: '30251'
+  server: 1.65.205.116
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
 - alterId: 0
   cipher: auto
   name: 19|香港3|@ripaojiedian
   network: tcp
-  port: '43310'
-  server: 38.147.189.161
+  port: '44826'
+  server: ambxxid02hk.dorabbb.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 1703a6a6-4f1c-47fc-a0e3-9d4d6d43cc60
+  uuid: 5c0126d0-0435-4024-8656-c93b7a9591e9
 - alterId: 0
   cipher: auto
   name: 19|香港4|@ripaojiedian
@@ -1924,16 +1887,6 @@ proxies:
   uuid: 01c2c827-e55e-4a81-83aa-85c0a17dfc96
 - alterId: 0
   cipher: auto
-  name: 19|日本2|@ripaojiedian
-  network: tcp
-  port: '56916'
-  server: 45.159.50.165
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: edcc6b8f-bcf5-4d2a-9026-c58967fb2b5d
-- alterId: 0
-  cipher: auto
   name: 19|韩国|@ripaojiedian
   network: tcp
   port: '40166'
@@ -1942,36 +1895,6 @@ proxies:
   tls: false
   type: vmess
   uuid: c061522e-67dd-43b7-bd84-20ef3c954c35
-- alterId: 0
-  cipher: auto
-  name: 19|韩国3|@ripaojiedian
-  network: tcp
-  port: '35008'
-  server: tanz-kr.01byx31qzn.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 548ff3c1-d8c8-3110-a65a-fb55573380c7
-- alterId: 0
-  cipher: auto
-  name: 19|美国|@ripaojiedian
-  network: tcp
-  port: '9025'
-  server: select-us.0000000000.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac59a7cd-11af-3e35-a098-b785688ec627
-- alterId: 0
-  cipher: auto
-  name: 19|美国2|@ripaojiedian
-  network: tcp
-  port: '49118'
-  server: 45.91.82.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 73b7e8c8-a9a0-4649-b50f-cee5330af5ae
 - alterId: 64
   cipher: auto
   name: 19|德国|@ripaojiedian
@@ -1982,3 +1905,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 19|德国2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 151.101.2.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  ws-opts:
+    headers:
+      Host: gerMAnyISvP.iR
+    path: /racevpn
