@@ -753,11 +753,11 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇺🇸 美国|@ripaojiedian
-  password: 0f2dc2f1-4556-4a36-bbb1-f13a23ad73f3
-  port: 31650
-  server: gdcub.yunnode.win
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
   tfo: false
   type: ss
