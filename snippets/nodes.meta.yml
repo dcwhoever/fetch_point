@@ -526,38 +526,14 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-1
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 69.50.95.218
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-2
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 69.50.95.218
-  type: ss
-- cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-3
-  password: amazonskr05
-  port: 443
-  server: 47.128.240.40
-  type: ss
 - cipher: rc4-md5
-  name: 6|-https://t.me/MrXbin-4
+  name: 6|-https://t.me/MrXbin-1
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 107.155.57.51
   type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-5
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 69.50.95.218
-  type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-6
+  name: 6|-https://t.me/MrXbin-7
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -568,14 +544,18 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-18
-  network: tcp
-  port: 64016
-  server: in06.my1188.org
-  servername: us01.wechat-cdn-us01.one
-  skip-cert-verify: true
+  name: 6|-https://t.me/MrXbin-27
+  network: ws
+  port: 2095
+  server: 172.64.167.10
+  servername: ip10.6016725.xyz
   type: vmess
-  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip10.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -583,87 +563,7 @@ proxies:
   name: 6|-https://t.me/MrXbin-28
   network: ws
   port: 2095
-  server: 172.64.175.88
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip9.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-32
-  network: ws
-  port: 2082
-  server: 172.64.166.8
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-34
-  network: ws
-  port: 2082
-  server: 172.64.166.22
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-36
-  network: ws
-  port: 2082
-  server: 172.64.166.12
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-37
-  network: ws
-  port: 2082
-  server: 172.64.167.19
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-40
-  network: ws
-  port: 2095
-  server: 172.64.198.249
+  server: 172.64.194.76
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
@@ -674,10 +574,10 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-42
+  name: 6|-https://t.me/MrXbin-33
   network: ws
   port: 2082
-  server: 172.64.167.22
+  server: skk.moe
   servername: ip18.6929198.xyz
   type: vmess
   udp: true
@@ -690,23 +590,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-43
-  network: ws
-  port: 2082
-  server: 172.64.167.44
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-46
+  name: 6|-https://t.me/MrXbin-34
   network: ws
   port: 2095
   server: 172.64.166.8
@@ -722,38 +606,26 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-48
-  network: ws
-  port: 2095
-  server: 172.64.167.19
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-49
-  network: ws
-  port: 2095
-  server: 172.64.167.8
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-50
+  name: 6|-https://t.me/MrXbin-35
   network: ws
   port: 2082
-  server: 172.64.175.213
+  server: 172.64.167.44
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-37
+  network: ws
+  port: 2082
+  server: 172.64.167.29
   servername: ip18.6929198.xyz
   type: vmess
   udp: true
@@ -761,6 +633,22 @@ proxies:
   ws-opts:
     headers:
       Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 6|-https://t.me/MrXbin-38
+  network: ws
+  port: 2082
+  server: 172.64.167.8
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
