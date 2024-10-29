@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|香港 Leaseweb数据中心
-  network: tcp
-  port: 14247
-  server: 103.75.117.78
-  tls: false
-  type: vmess
-  uuid: 56d6f1a9-b26a-4f9b-a95a-ff59de60ee51
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 18,19|香港|@ripaojiedian
   network: ws
@@ -25,19 +16,6 @@ proxies:
     headers:
       Host: z3.fragranceninja.com
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 18|🇩🇪 德国2|@ripaojiedian
-  password: 5b4becce-5739-483f-97ec-68b81a855d68
-  port: 33288
-  server: 183.236.48.166
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 18|🇭🇰 香港4|@ripaojiedian
