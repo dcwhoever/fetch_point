@@ -526,54 +526,70 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   name: 6|-https://t.me/MrXbin-1
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+- cipher: aes-128-gcm
+  name: 6|-https://t.me/MrXbin-2
   password: shadowsocks
   port: 443
   server: 156.146.38.168
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 6,18|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.131
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   name: 6|-https://t.me/MrXbin-3
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.134.94.168
-  type: ss
-- cipher: aes-256-gcm
-  name: 6|-https://t.me/MrXbin-5
   password: faBAoD54k87UJG7
   port: 2376
   server: 38.75.136.117
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 6|-https://t.me/MrXbin-7
-  password: 1RWwXhwfAB5gAEozU4G2Pg
+  name: 6|-https://t.me/MrXbin-4
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 45.87.175.188
+  server: 45.87.175.164
   type: ss
+- cipher: aes-256-gcm
+  name: 6|-https://t.me/MrXbin-5
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.134.94.168
+  type: ss
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-13
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13302
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-19
+  name: 6|-https://t.me/MrXbin-14
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- cipher: rc4-md5
+  name: 6|-https://t.me/MrXbin-23
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13621
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: hfa1.cdn.node.a.tddns-ounk.com
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-22
+  name: 6|-https://t.me/MrXbin-25
   network: ws
   port: 2095
-  server: 172.64.167.8
+  server: 172.64.167.15
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
@@ -584,99 +600,17 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-31
+  name: 6|-https://t.me/MrXbin-26
   network: ws
-  port: 2095
+  port: 2082
   server: 172.64.198.249
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|--34
-  network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  skip-cert-verify: true
-  tls: true
+  servername: ip18.6929198.xyz
   type: vmess
   udp: true
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-34
-  network: ws
-  port: 2095
-  server: 172.64.194.76
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|--32
-  network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  servername: m003.mmzhk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
-  ws-opts:
-    headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6,14|0|--27
-  network: ws
-  port: 8080
-  server: n002.kovmk.website
-  servername: n002.kovmk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
-  ws-opts:
-    headers:
-      Host: daohang.kovmk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 6|-https://t.me/MrXbin-43
-  network: ws
-  port: 2095
-  server: 172.64.166.2
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
+      Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
@@ -1229,6 +1163,48 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
+  name: 14|0|--27
+  network: ws
+  port: 8080
+  server: n002.kovmk.website
+  servername: n002.kovmk.website
+  tls: true
+  type: vmess
+  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
+  ws-opts:
+    headers:
+      Host: daohang.kovmk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 14|0|--32
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  servername: m003.mmzhk.website
+  tls: true
+  type: vmess
+  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
+  ws-opts:
+    headers:
+      Host: daohang.mmzhk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 14|0|--34
+  network: ws
+  port: 443
+  server: speedtest.net
+  servername: mehrjavan.ir
+  tls: true
+  type: vmess
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
   name: '14|3,4,5|d*********g.com_0 #2'
   network: ws
   port: 8443
@@ -1564,6 +1540,14 @@ proxies:
   password: 62403b40-ee4c-4946-98b7-43ef0b9cb12d
   port: 11002
   server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 18|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.131
   tfo: false
   type: ss
 - cipher: aes-256-gcm
