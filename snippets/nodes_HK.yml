@@ -11,16 +11,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 14,19|香港3|@ripaojiedian
-  network: tcp
-  port: '48009'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 14,19|香港4|@ripaojiedian
   network: tcp
   port: '50037'
@@ -67,6 +57,19 @@ proxies:
   server: 183.240.255.75
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 18|🇻🇳 越南|@ripaojiedian
+  password: 40ea99d6-b2f2-4a00-8f61-c8d8fdaa25b9
+  port: 443
+  server: vn1.myviefast.viefast.net
+  skip-cert-verify: false
+  sni: kdlsupport.zendesk.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 18|🇭🇰 香港6|@ripaojiedian
