@@ -313,27 +313,11 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.131
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 18|🇺🇸 美国2|@ripaojiedian
   password: asd123456
   port: 8388
   server: 137.175.113.192
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 18|🇺🇸 美国3|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
   tfo: false
   type: ss
